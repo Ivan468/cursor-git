@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 2</title>
+</head>
+<body>
+    <h1>Homework 2</h1>
+    <table border="1">
+        <tr>
+            <th>Ім'я</th>
+            <th>Прізвище</th>
+            <th>Телефон</th>
+            <th>Email</th>
+            
+        </tr>
+        <tr>
+            <td>Михайло</td>
+            <td>Лазарів</td>
+            <td>+38 099 193 58 15</td>
+            <td>lasar@gmail.com</td>
+            
+        </tr>
+        <tr>
+            <td>Андрій</td>
+            <td>Косовий</td>
+            <td>+38 099 667 58 15</td>
+            <td>Moskov213a@gmail.com</td>
+            
+        </tr>
+        <tr>
+            <td>Сергій</td>
+            <td>Цуркан</td>
+            <td>+38 099 445 58 15</td>
+            <td>Curkan23@gmail.com</td>
+            
+        </tr>
+        <tr>
+            <td>Марія</td>
+            <td>Собко</td>
+            <td>+38 099 333 58 15</td>
+            <td>marSob@gmail.com</td>
+            
+        </tr>
+    </table><br>
+    <input type="Введіть ваше і'м'я" placeholder="Введіть ваше і'м'я" name="" id=""><br><br>
+    <input type="Введіть ваше прізвище" placeholder="Введіть ваше прізвище" name="" id=""><br><br>
+   <b> Яка ваша стать</b><br>
+   <div>
+    <input type="radio" id="contactChoice1"
+     name="contact" value="Чоловіча">
+    <label for="contactChoice1">Чоловіча</label>
+    <br>
+    <input type="radio" id="contactChoice2"
+     name="contact" value="Жіноча">
+    <label for="contactChoice2">Жіноча</label>    
+    <br>
+    <textarea name="comment" placeholder="Напишіть своє запитання сюди" cols="40" rows="3"></textarea>
+  </div>
+  
+    
+     
+    <select>
+        <option label="Виберіть місто" value="1" selected>Виберіть місто</option>
+        <option>Львів</option>
+        <!-- <option disabled>Горішні плавні</option> -->
+        <option>Київ</option>
+        <option>Житомир</option>
+        <option>Ростов на Дону</option>
+    </select><br>
+    <br>Вибір мови<br>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <input type="checkbox" name="skill" value="male"> Украънська <br>
+<input type="checkbox" name="skill" value="female"> Русский <br>
+<input type="checkbox" name="skill" value="other"> English    <br> 
+
+<script>
+    $(document).ready(function(){
+        $('input:checkbox').click(function() {
+            $('input:checkbox').not(this).prop('checked', false);
+        });
+    });
+    </script> 
+    <input type="submit" value="Відправити">
+ 
+</body>
+<footer><!-- Company contact</footer> -->
+</html>
