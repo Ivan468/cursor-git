@@ -44,22 +44,20 @@
             
         </tr>
     </table><br>
-    <input type="Введіть ваше і'м'я" placeholder="Введіть ваше і'м'я" name="" id=""><br><br>
-    <input type="Введіть ваше прізвище" placeholder="Введіть ваше прізвище" name="" id=""><br><br>
-   <b> Яка ваша стать</b><br>
-   <div>
-    <input type="radio" id="contactChoice1"
+    <label > <input  type="Firstname" placeholder="Введіть ваше і'м'я" name="" id=""></label>
+    <p> <label ><label class="language"><input type="Lastname" placeholder="Введіть ваше прізвище" name="" id=""></label>
+        <p><b> Яка ваша стать</b>
+      <div>
+           <input type="radio" id="contactChoice1"
      name="contact" value="Чоловіча">
     <label for="contactChoice1">Чоловіча</label>
-    <br>
+    <p>
     <input type="radio" id="contactChoice2"
      name="contact" value="Жіноча">
     <label for="contactChoice2">Жіноча</label>    
-    <br>
-    <textarea name="comment" placeholder="Напишіть своє запитання сюди" cols="40" rows="3"></textarea>
-  </div>
-  
-    
+    <p>
+        <form><textarea name="comment" placeholder="Напишіть своє запитання сюди" cols="40" rows="3"></textarea></form>
+  </div>   
      
     <select>
         <option label="Виберіть місто" value="1" selected>Виберіть місто</option>
@@ -68,12 +66,13 @@
         <option>Київ</option>
         <option>Житомир</option>
         <option>Ростов на Дону</option>
-    </select><br>
-    <br>Вибір мови<br>
+    </select><p>
+    <br>Вибір мови<p>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <input type="checkbox" name="skill" value="male"> Українська <br>
-<input type="checkbox" name="skill" value="female"> Русский <br>
-<input type="checkbox" name="skill" value="other"> English    <br> 
+   
+    <label class="language"><input type="checkbox" name="skill" value="Українська"> Українська </label>
+    <label class="language"><input type="checkbox" name="skill" value="Русский"> Русский </label>
+    <label class="language"><input type="checkbox" name="skill" value="English"> English</label>
 
 <script>
     $(document).ready(function(){
