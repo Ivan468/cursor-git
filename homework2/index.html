@@ -6,38 +6,51 @@
     <title>Homework 2</title>
 </head>
 <style>
-    
-    body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; color: lavender;
-    position: center; font-size: 15px} 
-    canvas{ display: block;  } 
-    #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #232741;  background-repeat: no-repeat; background-size: 20%; background-position: 50% 50%; } 
-    .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } 
-    .js-count-particles{ font-size: 1.1em; } #stats, 
-    .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } 
-    .count-particles{ border-radius: 0 0 3px 3px; }
-
-    h1 {color: lavender; }
-
-    #center {height: 100px;
+#center {height: 100px; 
   width: 100px;
   position: absolute;
   left: 50%;
   right: -50%;
-  margin-left: -50px;
-  margin-right: -50px;
-  }
-
-  table {
-    align-items: stretch;
-  flex-direction: row;
+  margin-left: -150px;
+  margin-right: -50px;  }
+ 
+  .table1 {width: 100px;
+  margin: auto;
+  border: 2px ;
 }
-text {
-    font-size: 19px;
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  background: white;
+  max-width: 70%;
+  width: 70%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th {
+  font-weight: normal;
+  color: #039;
+  border-bottom: 2px solid #6678b1;
+  padding: 10px 8px;
+}
+td { border: 1px solid grey;
+  color: #669;
+  padding: 9px 8px;
+  transition: .3s linear;
+}
+tr:hover td {color: #6699ff;}
+#text {
+    font-size: 25px;
+}
+body {
+height: 200px;
+background: linear-gradient(45deg, #EECFBA, #C5DDE8);
 }
 </style> 
-<body > <div id="particles-js"> <div id= "center">
-    <h1><nobr>Homework 2</nobr></h1>
-    <table border="1" >
+<body >  
+    <h1 align="center"><nobr>Homework 2</nobr></h1>
+    <table class="table1">
         <tr nowrap>
             <th >Ім'я</th>
             <th>Прізвище</th>
@@ -73,24 +86,20 @@ text {
             <td>marSob@gmail.com</td>
             
         </tr>
-    </table>
-    <form> 
-    <label>
-        <p> <input  type="Firstname" placeholder="Введіть ваше і'м'я" name="" id=""></label>
-    <p> <label ><label class="language"><input type="Lastname" placeholder="Введіть ваше прізвище" name="" id=""></label>
-        <p><b> Яка ваша стать</b>
-      <div>
-           <input type="radio" id="contactChoice1"
-     name="contact" value="Чоловіча">
-    <label for="contactChoice1">Чоловіча</label>
+    </table><div id="center"> 
+    <form action="autocomplete"> 
+        <p> <label> <input  type="Firstname" placeholder="Введіть ваше ім'я" name="" id="text"></label>
+    <p> <label ><label class="language"><input type="Lastname" placeholder="Введіть ваше прізвище" name="" id="text"></label>
+        <p><b><nobr> Яка ваша стать</nobr></b>
+            <p> <input type="radio" id="contactChoice1"  name="contact" value="Чоловіча">
+                  <label for="contactChoice1">Чоловіча</label>
     <p>
     <input type="radio" id="contactChoice2"
      name="contact" value="Жіноча">
     <label for="contactChoice2">Жіноча</label>    
     <p> 
         <textarea name="comment" placeholder="Напишіть своє запитання сюди" cols="24" rows="3"></textarea>
-  </div>
-  
+    
     <select>
         <option label="Виберіть місто" value="1" disabled selected >Виберіть місто</option>
         <option>Львів</option>
@@ -104,11 +113,9 @@ text {
         <p><label class="language"><input type="checkbox" name="skill" value="Українська"> Українська </label>
         <p><label class="language"><input type="checkbox" name="skill" value="Русский"> Русский </label>
         <p><label class="language"><input type="checkbox" name="skill" value="English"> English</label>
-        <p><input type="submit" value="Відправити">
+        <p><input type="button" value="Відправити">
        </div>
-    </form>
-    </div></div><!-- particles.js container --> <!-- stats - count particles -->  <span class="js-count-particles">--</span> particles  <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> 
-<script>particlesJS("particles-js", {"particles":{"number":{"value":160,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":1,"random":true,"anim":{"enable":true,"speed":1,"opacity_min":0,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":4,"size_min":0.3,"sync":false}},"line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":1,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":600}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"bubble"},"onclick":{"enable":true,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":250,"size":0,"duration":2,"opacity":0,"speed":3},"repulse":{"distance":400,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;</script>
-</body>
+    </form></div>
+   </body>
 <footer><!-- Company contact--></footer> 
 </html>
