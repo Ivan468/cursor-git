@@ -45,8 +45,25 @@ body {
 }
 
 .boxin {
-  width: 110px;
-  padding: 0px;
+  width: 150px;
+  background-color: #444444;
+  background-image: url("./search.png");
+  background-size: 15px;
+  background-position: left 5% center;
+  background-repeat: no-repeat;
+  padding: 5px 5px 5px 25px;
+  border: 1px solid #868686;
+  border-radius: 5px;
+  outline: none;
+  color: #6b6b6b;
+}
+
+.thwidth {
+  width: 50%;
+}
+
+.boxin::placeholder {
+  color: #6b6b6b;
 }
 
 .right {
@@ -54,9 +71,6 @@ body {
   padding: 12px 10px;
 }
 
-.inwidth {
-  width: 100;
-}
 .image {
   width: 15px;
   margin-right: 5px;
