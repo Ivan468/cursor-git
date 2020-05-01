@@ -1,0 +1,39 @@
+.tablestyle {
+  width: 796px;
+  height: 189px;
+  background: #2c2c2c;
+  border: 1px solid #4d4d4d;
+  border-radius: 5px;
+  margin: center;
+  margin-bottom: 40px;
+  border-spacing: 0;
+}
+
+.center {
+  justify-content: center;
+  margin: auto;
+}
+
+th {
+  border-bottom: 1px solid #4d4d4d;
+  text-align: left;
+  color: aliceblue;
+  padding: 12px 10px;
+}
+
+td {
+  color: rgb(180, 187, 194);
+}
+.tcenter {
+  text-align: center;
+}
+
+body {
+  background: #2c2c2c;
+}
+
+.table_col {
+  border-bottom: 1px solid rgb(180, 187, 194);
+
+  padding: 12px 10px;
+}
