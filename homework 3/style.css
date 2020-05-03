@@ -1,5 +1,5 @@
 .tablestyle {
-  width: 796px;
+  width: 40vw;
   height: 189px;
   background: #2c2c2c;
   border: 1px solid #4d4d4d;
@@ -40,12 +40,16 @@ body {
   padding: 12px 10px;
 }
 
+tbody tr:hover {
+  background-color:  rgb(49, 49, 49);
+}
+
 .las_col {
   padding: 12px 10px;
 }
 
 .boxin {
-  width: 150px;
+  width: 6vw;
   background-color: #444444;
   background-image: url("./search.png");
   background-size: 15px;
