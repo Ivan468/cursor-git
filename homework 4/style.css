@@ -82,10 +82,9 @@ html {
 }
 
 .bottom_item_menu:hover {
-  background-color:rgba(255, 255, 255, 1) ;
+  background-color: rgba(255, 255, 255, 1);
   color: #ed4c5c;
   transition: linear 0.5s;
-   
 }
 
 .lang {
@@ -205,6 +204,7 @@ h3 {
   margin: 0 auto;
   box-sizing: border-box;
   color: #ed4c5c;
+  cursor: pointer;
 }
 
 .button_log_in {
