@@ -134,7 +134,7 @@ h3 {
   /* or 36px */
 
   text-align: center;
-
+margin-top: 39px;
   color: #ffffff;
 }
 
@@ -155,6 +155,14 @@ h3 {
   margin: 0 auto;
   margin-top: 39px;
 }
+
+.button_box_log{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
 
 .button_signUp {
   width: 160px;
