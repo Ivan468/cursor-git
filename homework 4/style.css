@@ -1,0 +1,14 @@
+.body_beckground {
+ 
+
+}
+ 
+.bg_html {
+    background-image: url(./image/background_image.png);
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+   
+}
+
+.navbar {
+    margin-top: 7px;
+}
