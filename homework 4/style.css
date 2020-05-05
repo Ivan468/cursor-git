@@ -58,8 +58,34 @@ html {
   height: 22px;
 }
 
-.item_menu {
-  margin: 10px;
+/*.item_menu {
+    margin: 10px;  
+  padding: 10px; 
+}*/
+
+.bottom_item_menu {
+  font-family: Lato;
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  padding: 21px;
+  background-color: rgba(213, 32, 71, 0);
+  border: 0px;
+
+  cursor: pointer;
+}
+
+.bottom_item_menu:hover {
+  background-color:rgba(255, 255, 255, 1) ;
+  color: #ed4c5c;
+  transition: linear 0.5s;
+   
 }
 
 .lang {
@@ -134,7 +160,7 @@ h3 {
   /* or 36px */
 
   text-align: center;
-margin-top: 39px;
+  margin-top: 39px;
   color: #ffffff;
 }
 
@@ -156,13 +182,13 @@ margin-top: 39px;
   margin-top: 39px;
 }
 
-.button_box_log{
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    margin: 0 auto;
-    margin-top: 60px;
-  }
+.button_box_log {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 60px;
+}
 
 .button_signUp {
   width: 160px;
@@ -195,6 +221,23 @@ margin-top: 39px;
   font-size: 14px;
   text-transform: uppercase;
   background: rgba(255, 255, 255, 0);
+  cursor: pointer;
 
   color: #ffffff;
+}
+
+.button_log_in:hover {
+  background-color: #fff;
+  color: #ed4c5c;
+  transition: linear 0.5s;
+}
+
+.button_signUp:hover {
+  background-color: rgba(230, 26, 26, 0.518);
+  color: #fff;
+  transition: linear 0.5s;
+}
+
+.bold {
+  font-weight: bold;
 }
