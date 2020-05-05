@@ -1,48 +1,192 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
 html {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .body_beckground {
-
-    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
-    width: 100vw;
-    height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(213, 32, 71, 0.8) 0%,
+    rgba(238, 61, 27, 0.8) 100%
+  );
+  width: 100vw;
+  height: 100vh;
 }
- 
+
 .bg_html {
-    background-image: url(./image/background_image.png);
-    background-size: cover;
-    
-     
+  background-image: url(./image/background_image.png);
+  background-size: cover;
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
-    padding-top: 17px;
-    width: 100vw;
-height: 100px;
+  display: flex;
+  align-items: center;
+  padding-top: 17px;
+  width: 100vw;
+  height: 100px;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    margin-left: 170px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
 }
 .name_logo {
-    margin-left: 10px;
-    font-family: 'Lato'; 
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
+  margin-left: 10px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
 
-display: flex;
-align-items: center;
-text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
 
-color: #FFFFFF;
+  color: #ffffff;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  color: #ffffff;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  height: 22px;
+}
+
+.item_menu {
+  margin: 10px;
+}
+
+.lang {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  color: #ffffff;
+  height: 22px;
+  margin-right: 10px;
+}
+
+.lang_name {
+  padding-left: 7px;
+  padding-right: 12px;
+}
+
+.log_in {
+  border: white 1px solid;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  width: 100px;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 6px;
+
+  color: white;
+}
+
+.log_wrapper {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-left: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.name_comp {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.name_comp_text {
+  text-align: center;
+
+  margin: 0 auto;
+  margin-top: 140px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 86px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+h3 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.text_h3 {
+  margin-top: 39px;
+  text-align: center;
+  width: 540px;
+  height: 124px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.button_box {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 39px;
+}
+
+.button_signUp {
+  width: 160px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #ffffff;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  box-sizing: border-box;
+  color: #ed4c5c;
+}
+
+.button_log_in {
+  width: 100px;
+  height: 40px;
+
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 6px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0);
+
+  color: #ffffff;
 }
