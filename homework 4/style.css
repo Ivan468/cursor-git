@@ -1,14 +1,48 @@
-.body_beckground {
- 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+.body_beckground {
+
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+    width: 100vw;
+    height: 100vh;
 }
  
 .bg_html {
     background-image: url(./image/background_image.png);
-    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
-   
+    background-size: cover;
+    
+     
 }
 
 .navbar {
-    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    padding-top: 17px;
+    width: 100vw;
+height: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 170px;
+}
+.name_logo {
+    margin-left: 10px;
+    font-family: 'Lato'; 
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
 }
