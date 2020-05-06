@@ -82,14 +82,7 @@ html {
 }
 
 .bottom_item_menu:hover {
-   
-  
-     
-    background: rgba(255,255,255,0.3);
-    
-    transition: all 2s ease;
-   
-  border-bottom: 2px solid rgba(255, 255, 255, 1);;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
 }
 
 .lang {
@@ -235,7 +228,6 @@ h3 {
   background-color: #fff;
   color: #ed4c5c;
   transition: linear 0.5s;
-  
 }
 
 .button_signUp:hover {
