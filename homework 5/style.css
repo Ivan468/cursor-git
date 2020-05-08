@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
 header {
-  height: 500px;
+  min-height: 500px;
   background: #ed4c5c;
   display: flow-root;
+  padding-bottom: 20px;
 }
 
 .wrapper {
@@ -155,8 +156,9 @@ header {
   border: 1px solid #333333;
   box-sizing: border-box;
   border-radius: 6px;
-  padding: 20px;
+  padding: 15px;
   padding-left: 31px;
+  padding-right: 30px;
 }
 .button_sum {
   width: 160px;
@@ -269,4 +271,14 @@ a {
 .icons_social {
   margin: 5px;
   margin-top: 0;
+}
+.copy {
+  margin-top: 141px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #101010;
 }
