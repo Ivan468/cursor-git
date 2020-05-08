@@ -7,17 +7,16 @@ header {
 }
 
 .wrapper {
-  display: block;
+  display: inline-block;
 }
 
 .text_header {
-  margin-left: 11.45%;
-  margin-right: 11.45%;
-  margin-top: 8.47%;
-  margin-bottom: 12.7%;
+  margin-left: 176px;
+  margin-right: 176px;
+  margin-top: 4.47%;
 
+  display: flow-root;
   border: 1px solid green;
-  display: inline-block;
 }
 
 .logo {
@@ -46,6 +45,8 @@ header {
 
 .icons {
   margin-top: 47px;
+  align-items: center;
+  display: flex;
 }
 
 .icon_item {
@@ -53,6 +54,139 @@ header {
   margin-top: 0;
 }
 
+#marg_img {
+  margin-left: 0;
+}
+
 .image_area {
-    display: flex;
+  width: 533px;
+  height: 311px;
+  float: right;
+  border: 1px solid goldenrod;
+  position: relative;
+}
+
+.image_1 {
+  position: absolute;
+}
+
+.image_p1 {
+  z-index: 9999;
+  left: 45px;
+}
+
+.image_p2 {
+  z-index: 9998;
+  left: 148px;
+  top: 20px;
+}
+.image_p3 {
+  z-index: 9997;
+
+  top: 20px;
+}
+/*contact styles */
+.contact {
+  height: 500px;
+  display: flex;
+}
+/* Left Text */
+.left_text {
+  position: relative;
+  width: 445px;
+  height: 160px;
+  left: 176px;
+  top: 117px;
+  border: 1px solid green;
+}
+
+/* Contact */
+
+.contact_h2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 65px;
+  color: #000000;
+}
+
+.txt_contact {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* or 20px */
+
+  text-align: justify;
+
+  color: #000000;
+}
+
+/* Right Field */
+
+.right_fied {
+  position: relative;
+  width: 540px;
+  height: 305px;
+  left: 735px;
+  top: 117px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.input_name {
+  width: 255px;
+  height: 60px;
+  border: 1px solid #333333;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 20px;
+  padding-left: 31px;
+  
+}
+
+.inp_phone {
+  width: 540px;
+  height: 60px;
+  border: 1px solid #333333;
+box-sizing: border-box;
+border-radius: 6px;
+padding: 20px;
+  padding-left: 31px;
+}
+.button_sum {
+  width: 160px;
+height: 50px;
+ 
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+background: #ED4C5C;
+border: 1.5px solid #ED4C5C;
+box-sizing: border-box;
+border-radius: 6px;
+}
+
+.inp_text_col {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: rgba(19, 39, 67, 0.5);
 }
