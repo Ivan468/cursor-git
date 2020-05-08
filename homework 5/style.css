@@ -16,7 +16,6 @@ header {
   margin-top: 4.47%;
 
   display: flow-root;
-  border: 1px solid green;
 }
 
 .logo {
@@ -62,7 +61,7 @@ header {
   width: 533px;
   height: 311px;
   float: right;
-  border: 1px solid goldenrod;
+
   position: relative;
 }
 
@@ -89,6 +88,7 @@ header {
 .contact {
   height: 500px;
   display: flex;
+  justify-content: space-between;
 }
 /* Left Text */
 .left_text {
@@ -97,7 +97,6 @@ header {
   height: 160px;
   left: 176px;
   top: 117px;
-  border: 1px solid green;
 }
 
 /* Contact */
@@ -131,9 +130,10 @@ header {
   position: relative;
   width: 540px;
   height: 305px;
-  left: 735px;
-  top: 117px;
-  border: 1px solid black;
+
+  margin-top: 117px;
+  margin-right: 176px;
+
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -147,38 +147,42 @@ header {
   border-radius: 6px;
   padding: 20px;
   padding-left: 31px;
-  
 }
 
 .inp_phone {
   width: 540px;
   height: 60px;
   border: 1px solid #333333;
-box-sizing: border-box;
-border-radius: 6px;
-padding: 20px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 20px;
   padding-left: 31px;
 }
 .button_sum {
   width: 160px;
-height: 50px;
- 
+  height: 50px;
 
-font-family: Lato;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
 
-text-transform: uppercase;
+  text-transform: uppercase;
 
-color: #FFFFFF;
+  color: #ffffff;
 
-background: #ED4C5C;
-border: 1.5px solid #ED4C5C;
-box-sizing: border-box;
-border-radius: 6px;
+  background: #ed4c5c;
+  border: 1.5px solid #ed4c5c;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.button_sum:hover {
+  background-color: #fff;
+  color: #ed4c5c;
+  transition: linear 0.5s;
 }
 
 .inp_text_col {
@@ -189,4 +193,80 @@ border-radius: 6px;
   line-height: 19px;
 
   color: rgba(19, 39, 67, 0.5);
+}
+
+.footer {
+  height: 435px;
+  background: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 166px;
+  padding-right: 166px;
+}
+
+.footer_inf {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  margin-top: 85px;
+
+  color: #101010;
+}
+
+address {
+  height: 54px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  /* or 18px */
+  color: #101010;
+  margin-top: 33px;
+}
+
+a {
+  width: 254px;
+  height: 114px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 160%;
+  /* or 19px */
+
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+.email {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #101010;
+  margin-top: 11px;
+}
+
+.marg_href {
+  margin-top: 33px;
+}
+
+.social_hr {
+  width: auto;
+}
+
+.icons_hr {
+  margin-top: 23px;
+}
+.icons_social {
+  margin: 5px;
+  margin-top: 0;
 }
