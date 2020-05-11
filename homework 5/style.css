@@ -54,10 +54,6 @@ header {
   margin-top: 0;
 }
 
-#marg_img {
-  margin-left: 0;
-}
-
 .image_area {
   width: 533px;
   height: 311px;
@@ -197,7 +193,7 @@ header {
   color: rgba(19, 39, 67, 0.5);
 }
 
-.footer {
+.footer_st {
   height: 435px;
   background: #fafafa;
   display: flex;
@@ -281,4 +277,8 @@ a {
   line-height: 14px;
 
   color: #101010;
+}
+
+.marg_img {
+  margin-left: 0;
 }
