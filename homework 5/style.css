@@ -3,20 +3,20 @@
 header {
   min-height: 500px;
   background: #ed4c5c;
-  display: flow-root;
-  padding-bottom: 20px;
+  display: flex;
+  padding: 20px;
 }
 
 .wrapper {
-  display: inline-block;
+  padding: 20px;
 }
 
 .text_header {
-  margin-left: 176px;
-  margin-right: 176px;
-  margin-top: 4.47%;
-
-  display: flow-root;
+  justify-content: space-around;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -83,17 +83,15 @@ header {
 }
 /*contact styles */
 .contact {
-  height: 500px;
+  min-height: 500px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 /* Left Text */
 .left_text {
-  position: relative;
-  width: 445px;
-  height: 160px;
-  left: 176px;
-  top: 117px;
+  margin: auto;
 }
 
 /* Contact */
@@ -119,17 +117,17 @@ header {
   text-align: justify;
 
   color: #000000;
+  padding-bottom: 20px;
+  padding-right: 10px;
 }
 
 /* Right Field */
 
 .right_fied {
-  position: relative;
   width: 540px;
   height: 305px;
 
-  margin-top: 117px;
-  margin-right: 176px;
+  margin: auto;
 
   display: flex;
   justify-content: space-between;
@@ -194,12 +192,11 @@ header {
 }
 
 .st_foot {
-  height: 435px;
+  min-height: 435px;
   background: #fafafa;
   display: flex;
-  justify-content: space-between;
-  padding-left: 166px;
-  padding-right: 166px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .inf_foot {
@@ -269,16 +266,22 @@ a {
   margin-top: 0;
 }
 .copy {
-  margin-top: 141px;
+  width: 100vw;
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
-
+  display: block;
   color: #101010;
+  align-self: flex-end;
+  margin: 20px 20px;
 }
 
 .marg_img {
   margin-left: 0;
+}
+
+.marg_foo {
+  margin: 0px 10px;
 }
