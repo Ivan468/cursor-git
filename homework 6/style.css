@@ -218,6 +218,7 @@ h5 {
   font-size: 24px;
   line-height: 130%;
   color: #212353;
+  margin-bottom: 40px;
 }
 
 .par_st {
@@ -250,7 +251,7 @@ h5 {
   /* or 26px */
 
   /* 1 */
-  margin: 20px 0px;
+  
   color: #4b5d68;
 }
 
@@ -271,13 +272,17 @@ h5 {
   letter-spacing: 0.005em;
   background: 0px;
   /* 2 */
-  min-height: 50px;
+  min-height: 20px;
   min-width: 125px;
   color: #212353;
-
+  margin: 36px 0px;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
   padding-left: 0px;
+}
+
+.arrow_center {
+  display: flex;
 }
