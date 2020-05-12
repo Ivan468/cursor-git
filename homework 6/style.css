@@ -521,4 +521,36 @@ address {
   /* or 29px */
   letter-spacing: 0.01em;
   color: #212353;
+  margin-top: 15px;
+}
+
+.chat {
+  position: fixed;
+
+  background-image: url(./images/chat.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  bottom: 50px;
+  right: 50px;
+  width: 55px;
+  height: 55px;
+  text-decoration: none;
+  border-radius: 50%;
+   
+  opacity: 0.2;
+}
+.chat:hover {
+  position: fixed;
+
+  background-image: url(./images/chat.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  bottom: 50px;
+  right: 50px;
+  width: 55px;
+  height: 55px;
+  text-decoration: none;
+  border-radius: 50%;
+  transition:  0.8s;
+  opacity: 1;
 }
