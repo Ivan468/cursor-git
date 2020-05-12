@@ -56,6 +56,7 @@ html {
   font-size: 16px;
   line-height: 160%;
   padding: 10px 20px;
+  display: block;
 }
 
 /* .navb_item:hover {
@@ -125,7 +126,6 @@ html {
 
 header {
   margin: 1% 5%;
-  
 }
 
 a {
@@ -191,7 +191,7 @@ p {
 
 .conteiner_3 {
   max-width: 1136.85px;
- 
+
   margin: 0 auto;
   align-items: center;
   display: flex;
@@ -222,8 +222,8 @@ h5 {
 }
 
 .par_st {
-    max-width: 584px;
-    text-align: center;
+  max-width: 584px;
+  text-align: center;
 }
 
 .no_wrap_item {
@@ -231,7 +231,7 @@ h5 {
   flex-wrap: nowrap;
   flex-basis: 538px;
   min-width: 520.85px;
-  
+
   justify-content: space-evenly;
   margin-bottom: 132px;
 }
@@ -251,14 +251,14 @@ h5 {
   /* or 26px */
 
   /* 1 */
-  
+
   color: #4b5d68;
 }
 
 .image_cont {
   margin: 10px;
   display: flex;
-    align-items: center;
+  align-items: center;
 }
 
 .btn_arrow {
