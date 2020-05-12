@@ -148,13 +148,14 @@ a {
 .conteiner_2 {
   display: flex;
   max-width: 1117px;
- 
+
   margin: 0 auto;
   align-items: center;
   background: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-bottom: 150px;
 }
 
 h4 {
@@ -164,7 +165,7 @@ h4 {
   font-size: 40px;
   line-height: 130%;
   /* or 52px */
-margin-bottom: 40px;
+  margin-bottom: 40px;
   display: flex;
   align-items: center;
 
@@ -172,20 +173,111 @@ margin-bottom: 40px;
 }
 
 .conteiner_2_txt {
-   max-width:  474px;
-  
+  max-width: 474px;
 }
 
 p {
-    font-family: AvenirNextCyr-Regular;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 160%;
-/* or 29px */
+  font-family: AvenirNextCyr-Regular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
 
+  /* 1 */
 
-/* 1 */
+  color: #4b5d68;
+}
 
-color: #4B5D68;
+.conteiner_3 {
+  max-width: 1136.85px;
+ 
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.features {
+  text-align: center;
+}
+
+.four_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  justify-content: center;
+}
+
+h5 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  color: #212353;
+}
+
+.par_st {
+    max-width: 584px;
+    text-align: center;
+}
+
+.no_wrap_item {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-basis: 538px;
+  min-width: 520.85px;
+  
+  justify-content: space-evenly;
+  margin-bottom: 132px;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 220px;
+}
+
+.wrap_text {
+  font-family: AvenirNextCyr-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  /* 1 */
+  margin: 20px 0px;
+  color: #4b5d68;
+}
+
+.image_cont {
+  margin: 10px;
+  display: flex;
+    align-items: center;
+}
+
+.btn_arrow {
+  font-family: AvenirNextCyr-Regular;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+  border: 0px;
+  letter-spacing: 0.005em;
+  background: 0px;
+  /* 2 */
+  min-height: 50px;
+  min-width: 125px;
+  color: #212353;
+
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0px;
 }
