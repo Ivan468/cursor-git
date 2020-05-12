@@ -118,12 +118,12 @@ a {
 }
 
 .image1_1 {
-  position: absolute;
+  background-image: url(./images/image1_1.svg);
+  z-index: -20;
+  background-repeat: no-repeat;
 
-  left: 40%;
-  top: 50%;
-
-  z-index: 1;
+  background-position: right;
+  background-size: contain;
 }
 
 .txt_relat {
