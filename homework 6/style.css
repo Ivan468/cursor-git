@@ -28,6 +28,7 @@ h3 {
   max-width: 380px;
   margin-bottom: 50px;
   z-index: 998;
+  background: #ffffffad;
 }
 
 html {
@@ -38,12 +39,14 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .navbar {
   display: flex;
   flex-grow: 1;
   justify-content: space-around;
+  margin-bottom: 4px;
 }
 
 .navb_item {
@@ -52,7 +55,19 @@ html {
   font-weight: 500;
   font-size: 16px;
   line-height: 160%;
-  padding: 5px;
+  padding: 10px;
+}
+
+/* .navb_item:hover {
+    border-bottom: 2px solid #F063B8;
+    box-sizing: border-box;
+  } */
+
+.navb_item:hover {
+  background: #f063b8;
+  transition: 0.8s;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
 }
 
 .recvest {
@@ -128,4 +143,48 @@ a {
 
 .txt_relat {
   position: relative;
+}
+
+.conteiner_2 {
+  display: flex;
+  max-width: 1117px;
+  max-height: 560px;
+  margin: 0 auto;
+  align-items: center;
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  justify-content: space-evenly;
+}
+
+h4 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  /* or 52px */
+
+  display: flex;
+  align-items: center;
+
+  color: #212353;
+}
+
+.conteiner_2_txt {
+   max-width:  474px;
+  
+}
+
+p {
+    font-family: AvenirNextCyr-Regular;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+
+/* 1 */
+
+color: #4B5D68;
 }
