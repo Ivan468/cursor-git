@@ -119,12 +119,12 @@ html {
   font-weight: 800;
   font-size: 18px;
   line-height: 160%;
-
+  margin-bottom: 100px;
   color: #ffffff;
 }
 
 header {
-  margin: 3% 5%;
+  margin: 1% 5%;
   min-height: 820px;
 }
 
@@ -148,12 +148,13 @@ a {
 .conteiner_2 {
   display: flex;
   max-width: 1117px;
-  max-height: 560px;
+ 
   margin: 0 auto;
   align-items: center;
   background: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 h4 {
@@ -163,7 +164,7 @@ h4 {
   font-size: 40px;
   line-height: 130%;
   /* or 52px */
-
+margin-bottom: 40px;
   display: flex;
   align-items: center;
 
