@@ -169,7 +169,7 @@ a {
 
   background-position-x: right;
   background-position-y: bottom;
-   
+
   background-size: auto;
 }
 
@@ -414,7 +414,7 @@ h2 {
 }
 .foot_try {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 150px;
@@ -441,7 +441,7 @@ h2 {
 
 .foot_contact {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -474,7 +474,6 @@ h2 {
   /* margin: 30px 50px; */
 }
 
-
 .foot_menu {
   position: relative;
 
@@ -496,7 +495,6 @@ h2 {
 .foot_menu:focus:after {
   width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
 }
-
 
 .fot_ad_1 {
   margin-top: 67px;
@@ -563,7 +561,7 @@ address {
   height: 55px;
   text-decoration: none;
   border-radius: 50%;
-   
+
   opacity: 0.2;
 }
 .chat:hover {
@@ -578,10 +576,14 @@ address {
   height: 55px;
   text-decoration: none;
   border-radius: 50%;
-  transition:  0.8s;
+  transition: 0.8s;
   opacity: 1;
 }
 
 .href_fut:hover {
   color: #f063b8;
+}
+footer {
+  margin: auto;
+  max-width: 1120px;
 }
