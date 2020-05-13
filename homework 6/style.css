@@ -154,7 +154,8 @@ html {
 }
 
 header {
-  margin: 1% 5%;
+  margin: 50px auto 100px;
+  max-width: 1248px;
 }
 
 a {
@@ -166,8 +167,10 @@ a {
   z-index: -20;
   background-repeat: no-repeat;
 
-  background-position: right;
-  background-size: contain;
+  background-position-x: right;
+  background-position-y: bottom;
+   
+  background-size: auto;
 }
 
 .txt_relat {
@@ -471,6 +474,30 @@ h2 {
   /* margin: 30px 50px; */
 }
 
+
+.foot_menu {
+  position: relative;
+
+  cursor: pointer;
+  line-height: 2; /*висота*/
+}
+.foot_menu:after {
+  display: block;
+  position: absolute;
+  left: 0; /*направлення */
+  width: 0; /*довжина лінії до наведення мишки*/
+  height: 2px; /*ширина лінії*/
+  background-color: #9c69e2;
+  content: "";
+  transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+
+.foot_menu:hover:after,
+.foot_menu:focus:after {
+  width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+
 .fot_ad_1 {
   margin-top: 67px;
   max-width: 335px;
@@ -553,4 +580,8 @@ address {
   border-radius: 50%;
   transition:  0.8s;
   opacity: 1;
+}
+
+.href_fut:hover {
+  color: #f063b8;
 }
