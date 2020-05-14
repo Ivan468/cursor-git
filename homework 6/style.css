@@ -185,7 +185,8 @@ a {
   background-position-x: right;
   background-position-y: bottom;
 
-  background-size: auto;
+  background-size: 55vw;
+  width: 78vw;
 }
 
 .txt_relat {
@@ -611,8 +612,8 @@ address {
   background-image: url(./images/chat.svg);
   background-repeat: no-repeat;
   background-position: center;
-  bottom: 50px;
-  right: 50px;
+  bottom: 6vh;
+  right: 6vw;
   width: 55px;
   height: 55px;
   text-decoration: none;
@@ -626,8 +627,7 @@ address {
   background-image: url(./images/chat.svg);
   background-repeat: no-repeat;
   background-position: center;
-  bottom: 50px;
-  right: 50px;
+   
   width: 55px;
   height: 55px;
   text-decoration: none;
