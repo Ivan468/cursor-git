@@ -313,6 +313,11 @@ h5 {
   align-items: center;
   justify-content: space-between;
   padding-left: 0px;
+
+  background-image: url(./images/arrow_low.svg );
+  background-position: 95px;
+  background-size: 25px;
+  background-repeat: no-repeat;
 }
 
 .arrow_center {
