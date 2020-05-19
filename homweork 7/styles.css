@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.wrapper_main {
+  display: flex;
+  flex-wrap: wrap;
+}
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  min-height: 900px;
+}
+
+.menu {
+  width: 132px;
+  height: 852px;
+  margin: 30px;
+  align-items: center;
+  justify-content: space-between;
+  /* Black */
+
+  background: #000000;
+  border-radius: 24px;
+  font-family: "Baloo Bhai 2", cursive;
+
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.menu_items {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 50%;
+}
+
+.logo {
+  font-family: "Baloo Bhai 2";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 102px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.exit {
+  margin-top: 150%;
+  margin-bottom: 40%;
+}
+
+h1 {
+  font-family: "Baloo Bhai 2";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 57px;
+
+  /* Black */
+
+  color: #000000;
+}
+
+h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Black */
+
+  color: #000000;
+}
+
+h4 {
+    font-family: "Baloo Bhai 2";
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height */
+
+
+/* Black */
+
+color: #000000;
+}
+
+.header_cont {
+  min-width: 675px;
+   
+
+}
+.header {
+  height: 160px;
+  background-color: lavender;
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+  background: #F5F5F7;
+border-radius: 14px;
+margin: 20px 0px;
+}
+
+.illustration_box {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.flag_icon {
+    padding: 16px; 
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.my_curse {
+  min-height: 80px;
+  background: #f5f5f7;
+  border-radius: 14px;
+  display: flex;
+  padding: 9px;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.button_cont {
+    font-family: "Roboto";
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 15px;
+margin: 0px 13px;
+color: #FFFFFF;
+
+width: 120px;
+height: 40px;
+/* Black */
+
+background: #000000;
+border-radius: 8px;
+}
+
+.autor {
+    font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+
+/* Black */
+
+color: #000000;
+}
+
+.progres {
+    width: 40px;
+height: 40px;
+background-image: url(./images/Ellipse_progress.svg);
+background-size: cover;
+background-repeat: no-repeat;
+
+font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.arrow_curse {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-basis: 22%;
+}
+
+.my_curse_no_wrapper {
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+
+.arrow {
+    width: 40px;
+height: 40px;
+ 
+/* Black */
+
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 100px;
+background-image: url(./images/arrow_left.svg);
+background-position: center;
+background-repeat: no-repeat;
+margin: 8px;
+
+}
+
+.right {
+    transform: rotate(-180deg);
+    margin-right: 0px;
+}
+
