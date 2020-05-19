@@ -3,6 +3,7 @@
 .wrapper_main {
   display: flex;
   flex-wrap: wrap;
+  flex-grow: 1;
 }
 body {
   max-width: 1440px;
@@ -10,11 +11,14 @@ body {
   display: flex;
   min-height: 900px;
 }
+html {
+  margin: 2vh 2vw;
+}
 
 .menu {
   width: 132px;
   height: 852px;
-  margin: 30px;
+  /* margin: 2vw; */
   align-items: center;
   justify-content: space-between;
   /* Black */
@@ -26,6 +30,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  box-shadow: 1px 20px 60px 0px #00000080;
 }
 
 .menu_items {
@@ -78,23 +83,20 @@ h3 {
 }
 
 h4 {
-    font-family: "Baloo Bhai 2";
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height */
+  font-family: "Baloo Bhai 2";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height */
 
+  /* Black */
 
-/* Black */
-
-color: #000000;
+  color: #000000;
 }
 
 .header_cont {
-  min-width: 675px;
-   
-
+  max-width: 620px;
 }
 .header {
   height: 160px;
@@ -102,21 +104,25 @@ color: #000000;
   display: flex;
   align-items: center;
   padding: 0px 30px;
-  background: #F5F5F7;
-border-radius: 14px;
-margin: 20px 0px;
+  background: #f5f5f7;
+  border-radius: 14px;
+  margin: 20px 0px;
 }
 
 .illustration_box {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
+  flex-grow: 1;
+  position: relative;
+  bottom: 14px;
+  left: 16%;
 }
 
 .flag_icon {
-    padding: 16px; 
-    background: #FFFFFF;
-    border-radius: 12px;
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 12px;
+  width: 64px;
+  height: 64px;
+  text-align: center;
 }
 .my_curse {
   min-height: 80px;
@@ -127,84 +133,252 @@ margin: 20px 0px;
   align-items: center;
   justify-content: space-between;
   flex-grow: 1;
+  margin: 16px 0px;
 }
 .button_cont {
-    font-family: "Roboto";
-font-style: normal;
-font-weight: bold;
-font-size: 13px;
-line-height: 15px;
-margin: 0px 13px;
-color: #FFFFFF;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  margin: 0px 13px;
+  color: #ffffff;
 
-width: 120px;
-height: 40px;
-/* Black */
+  width: 120px;
+  height: 40px;
+  /* Black */
 
-background: #000000;
-border-radius: 8px;
+  background: #000000;
+  border-radius: 8px;
 }
 
 .autor {
-    font-family: "Roboto";
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
 
-/* Black */
+  /* Black */
 
-color: #000000;
+  color: #000000;
 }
 
 .progres {
-    width: 40px;
-height: 40px;
-background-image: url(./images/Ellipse_progress.svg);
-background-size: cover;
-background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  background-image: url(./images/Ellipse_progress.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 
-font-family: "Roboto";
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 15px;
-display: flex;
-align-items: center;
-justify-content: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .arrow_curse {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    flex-basis: 22%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  
 }
 
 .my_curse_no_wrapper {
-    display: flex;
-    justify-content: space-between;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.no_wrap {
+  flex-grow: 1;
+  max-width: 620px;
 }
 
 .arrow {
-    width: 40px;
-height: 40px;
- 
-/* Black */
+  width: 40px;
+  height: 40px;
 
-border: 2px solid #000000;
-box-sizing: border-box;
-border-radius: 100px;
-background-image: url(./images/arrow_left.svg);
-background-position: center;
-background-repeat: no-repeat;
-margin: 8px;
+  /* Black */
 
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 100px;
+  background-image: url(./images/arrow_left.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0px 17px 0px 26px;
 }
 
 .right {
-    transform: rotate(-180deg);
-    margin-right: 0px;
+  transform: rotate(-180deg);
+  margin: 0px;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grow {
+  flex-grow: 1;
+}
+.courses {
+  font-family: "Baloo Bhai 2";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height */
+
+  /* Black */
+
+  color: #000000;
+  opacity: 1;
+}
+.courses_h2 {
+  font-family: "Baloo Bhai 2";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 38px;
+
+  /* Black */
+
+  color: #000000;
+}
+.curs_hov {
+  font-family: "Baloo Bhai 2";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height */
+  color: #000000;
+  opacity: 0.3;
+}
+
+/*  COURSES ITEM    */
+.flyme_ico {
+  margin: 0px 7.8px;
+}
+.icon_curs {
+  display: flex;
+  align-items: center;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.input {
+  background: #f5f5f7;
+  border-radius: 8px;
+  width: 280px;
+  height: 40px;
+  border: 0px solid #333333;
+
+  background-image: url(./images/searsh.svg);
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: center;
+  padding: 5px 10px 5px 38px;
+}
+.nonfication {
+  width: 30.63px;
+  height: 27px;
+  margin-right: 20px;
+}
+.photo_and_nonf_box {
+  width: 106px;
+  align-items: center;
+}
+
+.numb_nonfic {
+  position: relative;
+  right: -16px;
+  top: -36px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+
+  width: 18px;
+  height: 18px;
+  background: #f45b5b;
+  border-radius: 50%;
+  border: 2px solid white;
+  /* or 220% */
+
+  color: #ffffff;
+}
+
+.photo_profile {
+  width: 55.19px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.header_cont_3 {
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+  margin: 2vw;
+}
+.container_3 {
+  flex-grow: 1;
+  padding: 10px;
+  margin: 10px;
+  max-width: 474px;
+}
+
+.curse_status {
+  width: 208px;
+  height: 96.33px;
+  left: 920.22px;
+  top: 118.92px;
+
+  margin: 20px 0px;
+  background: #f5f5f7;
+  border-radius: 14px;
+  padding: 25px 35px 18px 35px;
+}
+
+.big_num {
+  /* BIG NUMBERS */
+
+  font-family: "Baloo Bhai 2";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  margin-right: 14px;
+
+  /* identical to box height */
+
+  /* Black */
+
+  color: #000000;
+}
+.progres_curse {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  /* Black */
+
+  color: #000000;
+}
