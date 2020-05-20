@@ -4,6 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
+  justify-content: space-evenly;
 }
 body {
   max-width: 1440px;
@@ -336,7 +337,7 @@ main {
 }
 .container_3 {
   flex-grow: 1;
-  padding: 10px;
+  padding: 17px;
   margin: 10px;
   max-width: 474px;
 }
@@ -379,4 +380,42 @@ main {
   /* Black */
 
   color: #000000;
+}
+
+.graph {
+  margin: 20px 0px 40px 0px;
+}
+
+.lern_even_more {
+  background: #F5F5F7;
+border-radius: 14px;
+  width: 440px;
+height: 193px;
+ padding: 24px 24px 15px 24px;
+
+ justify-content: space-evenly;
+}
+
+h2 {
+  font-family: "Baloo Bhai 2";
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 38px;
+}
+
+.last_box {
+  align-items: center;
+}
+
+.last_box_h3 {
+  margin: 10px 0px;
+}
+
+.last_button {
+  justify-items: start;
+  margin: 0px;
+}
+.last_images {
+  text-align: center;
 }
