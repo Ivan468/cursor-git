@@ -1,0 +1,56 @@
+@media (max-width: 480px) {
+  h1 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    display: flex;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 86px;
+    margin-bottom: 30px;
+  }
+
+  h6 {
+   max-width: 320px;
+    height: 70px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+margin: 0px auto 50px;
+    /* #4F4F4F */
+
+    color: #4f4f4f;
+  }
+
+  header {
+    background-image: none;
+
+    display: flex;
+  }
+
+  .logo {
+    margin: 0 auto;
+    width: 99px;
+    height: 32px;
+  }
+
+  .google_play_and_apple_story {
+    max-width: 350px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .wraper_header {
+     
+    margin: 1.389vw;
+  }
+}

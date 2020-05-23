@@ -1,0 +1,18 @@
+@media (max-width: 1000px) {
+  
+  
+    header {
+        background-image: url(./img/phone_img.png);
+        background-repeat: no-repeat;
+        background-size: 500px;
+        background-position: right;
+        background-position-y: top;
+        min-height: 46.181vw;
+        display: flex;
+      }
+
+      h1 {
+          background-color: rgba(245, 245, 245, 0.658);
+      }
+      
+  }
