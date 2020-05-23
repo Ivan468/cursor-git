@@ -87,7 +87,7 @@ button:active {
 }
 
 button::before {
-  width: 200px;
+   width: 30%;
   height: 10px;
 
   border-top: 2px solid #c4c4c4;
@@ -100,7 +100,7 @@ button::before {
 }
 
 button::after {
-  width: 200px;
+  width: 30%;
   height: 10px;
   content: "";
   display: inline-block;
@@ -136,7 +136,7 @@ html {
 
 @media (max-width: 822px) {
   button::before {
-    width: 50px;
+    width: 10%;
     height: 10px;
 
     border-top: 2px solid #c4c4c4;
@@ -153,7 +153,7 @@ html {
   }
 
   button::after {
-    width: 50px;
+    width: 10%;
     height: 10px;
     content: "";
     display: inline-block;

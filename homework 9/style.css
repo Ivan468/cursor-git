@@ -74,7 +74,7 @@ h6 {
 }
 .img_block {
   flex-basis: 50%;
-  
+
   min-width: 650px;
 
   background-image: url(./img/Ronaldu.png);
@@ -165,28 +165,27 @@ p {
   z-index: 4;
   border-radius: 4px;
   font-family: Lato;
-font-style: normal;
-font-weight: bold;
-font-size: 16.7833px;
-line-height: 22px;
-background: #FFFFFF;
-color: #4F4F4F;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16.7833px;
+  line-height: 22px;
+  background: #ffffff;
+  color: #4f4f4f;
 }
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .wrap {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-
 .center {
-    align-items: center;
+  align-items: center;
 }
 
 .scrennshot_2 {
-    position: relative;
+  position: relative;
   width: 360px;
   height: 218.06px;
   left: 269px;
@@ -195,39 +194,97 @@ color: #4F4F4F;
 }
 
 .text_screnshot_1 {
-    font-family: Lato;
-font-style: normal;
-font-weight: bold;
-font-size: 16.7833px;
-line-height: 22px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16.7833px;
+  line-height: 22px;
 
-color: #4F4F4F;
+  color: #4f4f4f;
 }
 
 .txt_scrn_1 {
-    padding: 26px 26px 16px 16px;
-    min-width: 50%;
+  padding: 26px 26px 16px 16px;
+  min-width: 50%;
 }
 .logo_football {
-    height: 83px;
-margin: auto 0;}
+  height: 83px;
+  margin: auto 0;
+}
 
 .footer_scr_1 {
-    height: 40.27px;
-    width: 100%;
-    align-self: flex-end;
+  height: 40.27px;
+  width: 100%;
+  align-self: flex-end;
 
-    background: #EEEEEE;
-    font-family: Lato;
-font-style: normal;
-font-weight: normal;
-font-size: 18.8812px;
-line-height: 15px;
-background-image: url(./img/btn_scrn_1.png);
-background-repeat: no-repeat;
-background-size: 34px;
-background-position: right;
-background-position-x: 310px;
-color: #4F4F4F;
-padding: 13px 26px 11px 16px;
+  background: #eeeeee;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.8812px;
+  line-height: 15px;
+  background-image: url(./img/btn_scrn_1.png);
+  background-repeat: no-repeat;
+  background-size: 34px;
+  background-position: right;
+  background-position-x: 310px;
+  color: #4f4f4f;
+  padding: 13px 26px 11px 16px;
 }
+
+/*  BLOCK 3           */
+.txt_block_2 {
+  margin: 15.069vw 10px 171px 11.25vw;
+}
+
+.learn_more_block_2 {
+  margin-top: 54px;
+}
+
+.block_3 {
+  background-image: url(./img/fon_block2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+.telephone {
+  display: flex;
+  max-height: 80%;
+}
+.tel_block {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  /* margin: 0 auto; */
+  flex-grow: 1;
+}
+.bell {
+  position: relative;
+  z-index: 2;
+  width: 91px;
+  height: 91px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0px 3.13793px 15.6897px rgba(0, 0, 0, 0.25),
+    0px 2.51034px 6.27586px rgba(51, 51, 51, 0.1);
+    left: 50px;
+    top: 53px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.tel_img {
+    position: relative;
+    right: 64px;
+ }
+ .tel_ico {
+    position: relative;
+    left: -131px;
+    top: 382px;
+    display: inline-flex;
+    justify-content: center;
+
+ }
+
+

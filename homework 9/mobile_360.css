@@ -88,6 +88,7 @@
   .scrennshot_1 {
     position: relative;
     width: 247px;
+    margin: 0;
     height: 149.06px;
     left: 20px;
     top: 50px;
@@ -154,5 +155,24 @@
         rgba(255, 255, 255, 0) 67.14%
       ),
       rgba(255, 255, 255, 0.5);
+  }
+
+  /*  BLOCK 3           */
+
+
+  .block_3 {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+  }
+  .tel_block {
+    background-image: url(./img/fon_block2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: -730px;
   }
 }
