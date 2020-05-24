@@ -1,6 +1,6 @@
 @media (max-width: 1000px) {
   header {
-    background-image: url(./img/phone_img.png);
+    background-image: url(./img/phone_1000px.png);
     background-repeat: no-repeat;
     background-size: 500px;
     background-position: right;
@@ -12,7 +12,10 @@
   h1 {
     background-color: rgba(245, 245, 245, 0.658);
   }
-
+  .blur {
+    backdrop-filter: blur(9px);
+    background-color: rgba(243, 246, 249, 0);
+  }
   .block_2 {
     display: flex;
     background-color: #ffffff;
@@ -122,6 +125,12 @@
     height: 100%;
     width: 100%;
   }
+  .telephone {
+    height: 565px;
+    display: flex;
+    overflow: hidden;
+    /* max-height: 80%; */
+  }
   .tel_block {
     background-image: url(./img/fon_block2.svg);
     background-repeat: no-repeat;
@@ -130,4 +139,28 @@
     width: 100%;
     background-position: -500px;
   }
+  /* BLOCK 4       */
+  div.block_4 > div > div > img {
+    display: block;
+    margin: auto;
+    filter: brightness(0.2);
+  }
+  .p_block_4::before {
+    display: none;
+    content: "•";
+  }
+
+  .h2_block_4 {
+    color: #333333;
+  }
+
+  .block_4_flex {
+    background-image: none;
+    background-color: #fafafa;
+    color: #333333;
+  }
+  .p_block_4 {
+    color: #4f4f4f;
+  }
+    /*  BLOCK 5    */
 }

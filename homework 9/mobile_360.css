@@ -284,4 +284,15 @@
   .tel_svs_ico {
     display: none;
   }
+
+  /* BLOCK 4       */
+  .block_4_flex {
+    margin: 0 auto;
+   padding: 5px;
+}
+
+.block_4 {
+  grid-gap: 50px 5px;
+}
+  /*  BLOCK 5    */
 }
