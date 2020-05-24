@@ -13,8 +13,6 @@
     margin-bottom: 30px;
   }
 
-  
-
   h6 {
     max-width: 320px;
     height: 70px;
@@ -68,7 +66,6 @@
     order: 1;
     margin: 54px 0px 22px 0px;
     padding: 0px 20px;
-    
   }
   h5 {
     text-align: center;
@@ -158,7 +155,11 @@
   }
 
   /*  BLOCK 3           */
-
+  .text_block {
+    order: 1;
+    margin: 54px 0px 0px 0px;
+    padding: 0px 20px;
+  }
 
   .block_3 {
     background-image: none;
@@ -173,6 +174,114 @@
     background-size: cover;
     height: 100%;
     width: 100%;
-    background-position: -730px;
+    background-position: -644px;
+  }
+  .btn_learn_more {
+    margin: 22px auto 0px auto;
+    width: 100%;
+  }
+  .bell {
+    position: relative;
+    z-index: 2;
+    min-width: 71.2px;
+    height: 71.2px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0px 3.13793px 15.6897px rgba(0, 0, 0, 0.25),
+      0px 2.51034px 6.27586px rgba(51, 51, 51, 0.1);
+    left: -240px;
+    top: 104px;
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  .telephone {
+    height: 565px;
+    display: flex;
+    overflow: hidden;
+    /* max-height: 80%; */
+  }
+
+  .tel_img {
+    width: auto;
+    height: 482px;
+    position: relative;
+    right: -19px;
+    top: 60px;
+  }
+
+  .tel_ico {
+    position: relative;
+    left: -116px;
+    top: 360px;
+    display: inline-flex;
+    justify-content: center;
+    background-image: url(./img/shopping_cart-24px.svg);
+    background-repeat: no-repeat;
+    background-size: 34px;
+    background-position: center;
+    width: 71.85px;
+    height: 71.81px;
+  }
+  .tel_ico::before {
+    content: "7";
+    width: 18px;
+    height: 18px;
+    position: relative;
+    background: #40b756;
+    border: 0.990764px solid #3db657;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    top: 12px;
+    left: 10px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.8892px;
+    line-height: 19px;
+
+    align-items: center;
+
+    color: #ffffff;
+  }
+  .bell_1::after {
+    content: "7";
+    width: 18px;
+    height: 18px;
+    position: relative;
+    background: #00adee;
+    border: 0.990764px solid #00adee;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    top: 12px;
+    left: 10px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.8892px;
+    line-height: 19px;
+
+    align-items: center;
+
+    color: #ffffff;
+  }
+
+  .bell_1 {
+    background-image: url(./img/bel.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+  }
+
+  .bel_hidden {
+    display: none;
+  }
+
+  .tel_svs_ico {
+    display: none;
   }
 }
