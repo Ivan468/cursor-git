@@ -21,7 +21,7 @@ header {
   background-size: 993px;
   background-position: right;
   background-position-y: top;
-  min-height: 46.181vw;
+  min-height: 665px;
   display: flex;
 }
 
@@ -335,6 +335,16 @@ p {
   width: 10px;
 }
 /*  BLOCK 5    */
+.block_5 {
+  display: flex;
+  width: 100%;
+  min-height: 431px;
+  flex-wrap: wrap;
+  background: #FFFFFF;
+  /* overflow: hidden; */
+}
+
+
 
 /*  BLOCK 6    */
 .block_6 {
