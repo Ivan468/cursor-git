@@ -163,4 +163,48 @@
     color: #4f4f4f;
   }
     /*  BLOCK 5    */
+
+
+ /*  BLOCK 6   */
+    .block_6 {
+      display: flex;
+      width: 100%;
+      min-height: 278px;
+      flex-wrap: wrap;
+      background: #fafafa;
+      
+    }
+    .h2_block_6 {
+      font-size: 28px;
+    }
+
+    .flex_block_6{
+padding: 0px 20px;
+    }
+/*  BLOCK 7  */
+    .block_7 {
+      display: flex;
+      
+    flex-direction: column-reverse;
+    }
+
+    .block_7_text {
+       
+      padding: 0px;
+      min-width: 491px;
+  }
+  .block_7_text {
+    flex-basis: 50%;
+    padding: 20px;
+    min-width: 10px;
+  }
+
+  .block_7_img {
+    flex-grow: 1;
+    max-width: 100%;
+    /* flex-basis: 50%; */
+     
+    /* height: 483px; */
+    /* min-height: 261px; */
+}
 }
