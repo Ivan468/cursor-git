@@ -346,5 +346,71 @@
   width: 100%;
     height: auto;
 }
+/*  footer  */
 
+footer {
+  font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+padding: 20px;
+/* #FFFFFF */
+
+color: #FFFFFF;
+  max-width: 1440px;
+  height: 210px;
+ display: flex;
+ align-items: center;
+margin: 0 auto;
+  /* Brand Colour */
+
+  background: #00adee;
+}
+.footer_wrap {
+  /* flex-grow: 1; */
+  display: flex;
+  max-width: 1115px;
+  /* margin: 0 auto; */
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
+  align-items: normal;
+  flex-direction: column;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  width:  109px;
+  height: 25px;  align-items: center;
+  order: 2;
+  margin: 11px 0px 34px 0px;
+}
+
+.footer_ico {
+  display: flex;
+  justify-content: space-between;
+  max-width: 375px;  align-items: center;
+  margin-bottom: 5px;
+  order: 5;
+}
+a:link {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.logo_fot {
+  margin: 0;
+  width: 99px;
+  height: 32px;
+}
+
+.transform {
+  transform: translate(10px, 10px);
+}
 }
