@@ -17,7 +17,7 @@
 }
 /* Arrows */
 .slick-prev_1 {
-    top: 36%;
+    top: 24%;
     font-size: 0;
     line-height: 0;
     left: -28px;
@@ -43,6 +43,14 @@
     border: none;
     outline: none;
     background: transparent;
+
+    
+}
+
+@media (max-width: 480px) {
+    .slick-prev_1 {
+        display: none;
+    }
 }
 .slick-next
 {
@@ -50,7 +58,7 @@
     line-height: 0;
 
     position: absolute;
-    top: 50%;
+    top: 35%;
 
     display: block;
 
