@@ -25,6 +25,17 @@ header {
   display: flex;
 }
 
+.shelsea_img {
+  position: relative;
+  left: 94px;
+  top: -88px;
+}
+
+.arsenal_img {
+  position: relative;
+    left: 32px;
+}
+
 h1 {
   font-family: "Lato";
   font-style: normal;
