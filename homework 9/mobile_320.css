@@ -87,7 +87,7 @@
     }
 
     .block_4_flex {
-       margin: 0 auto;
+      margin: 0 auto;
       padding: 0px;
   }
   /*  BLOCK 5    */
@@ -95,6 +95,18 @@
   /*  BLOCK 6    */
    
 
-  
+  .footer_ico {
+    display: flex;
+    justify-content: space-between;
+    max-width: 375px;
+    align-items: center;
+    margin-bottom: 5px;
+    order: 5;
+    flex-wrap: wrap;
+}
+
+.footer_ico > div  {
+  margin-right: 10px;
+}
   }
   

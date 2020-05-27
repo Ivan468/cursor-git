@@ -160,6 +160,20 @@
     margin: auto;
     filter: brightness(0.2);
   }
+
+  .elips {
+   display: none;
+}
+   
+div.block_4 > div > div > svg {
+    display: block;
+    margin: auto;
+    
+}
+div.block_4 > div > div > svg > path {
+  fill: #00ADEE;
+}
+
   .p_block_4::before {
     display: none;
     content: "•";
