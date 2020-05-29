@@ -17,6 +17,10 @@
 
 .inp_inst::placeholder {
     text-align: center;
+    background-image: url(./img/search.svg);
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: 70px;
 }
 
 .inp_inst::after {
@@ -28,4 +32,111 @@
     background-position: center;
     background-size: cover;
 
-} 
+}
+
+ 
+
+.cont_img {
+    overflow: hidden;
+    height: 154px;
+    width: 154px;
+    padding: 0px;
+    
+}
+.wrap_img_ins {
+    padding: 29px 90px 100px 85px;
+}
+
+.fl_basis {
+    flex-basis: 100%;
+}
+p {
+    font-family: Helvetica;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 21px;
+
+/* identical to box height */
+
+
+
+color: #262626;
+}
+
+.post_and-foll {
+    margin-right: 40px;
+}
+.btn_foolow {
+    width: 97px;
+height: 29px;
+text-align: center;
+padding: 0px 5px;
+}
+
+.btn_foolow_down{
+    width: 33px;
+    height: 29px;
+text-align: center;
+padding: 0px 5px;
+font-size: 8px;
+}
+
+.btn_foolow_cr{
+    width: 50px;
+    height: 29px;
+text-align: center;
+padding: 0px 5px;
+}
+
+
+.name_inst {
+    font-family: Helvetica ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+    margin-top: 21px;
+    
+    
+    color: #262626;
+    
+}
+
+a {
+    
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 21px;
+
+
+color: #1c4f96;
+}
+
+.stories {
+    padding-bottom: 55px;
+}
+
+.stor_photo {
+    overflow:hidden;
+    height: 79px;
+    width: 79px;
+    
+}
+
+.name_story {
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+
+    font-weight: bold;
+}
+
