@@ -1,0 +1,31 @@
+.background {
+    background-color: lightblue;
+}
+
+.header {
+    height: 50px;
+}
+
+.meno_item_ins {
+    max-width: 191px;
+     
+}
+
+.inp_inst {
+    max-height: 29px;
+}
+
+.inp_inst::placeholder {
+    text-align: center;
+}
+
+.inp_inst::after {
+    content: "";
+    height: 9px;
+    width: 9px;
+    background-image: url(./img/search.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+} 
