@@ -30,12 +30,14 @@ header {
   left: 94px;
   top: -88px;
   height:100%;
+  width: auto;
 }
 
 .arsenal_img {
   position: relative;
     left: 32px;
     height:100%;
+    width: auto;
 }
 
 .width {
