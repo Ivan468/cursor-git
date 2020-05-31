@@ -154,6 +154,50 @@
     width: 100%;
     background-position: -500px;
   }
+
+  .inp_3_block {
+   height: 33.8px;
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+    width: 20%;
+    justify-content: center;
+    background: #eeeeee;
+  
+  }
+
+  .slider_1:before {
+    position: absolute;
+    content: "";
+    height: 17px;
+    width: 17px;
+    right: 14px;
+    bottom: -2px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.slider_1 {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #979797;
+  outline: none;
+  margin: 13px auto 10px auto;
+  transition: .5s;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 27px;
+  height: 34px;
+}
   /* BLOCK 4       */
   div.block_4 > div > div > img {
     display: block;
