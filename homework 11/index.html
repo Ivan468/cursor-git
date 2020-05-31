@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homework 11</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div></div>
+      <div class="bal_wrap">
+        <ul class="bals">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="shadows">
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+      </div>
+      <!-- animation 2 -->
+      <!-- <div class="anim_2">
+        <div class="arr">
+          <div class="top_ar"></div>
+          <div class="top_ar1"></div>
+        </div>
+        <div class="arr_mid">
+          <div class="mid_ar"></div>
+          <div class="mid_ar1"></div>
+        </div>
+        <div class="arr_down">
+          <div class="down_ar1"></div>
+          <div class="down_ar"></div>
+        </div>
+      </div> -->
+      <div id="nav-container">
+        <div class="toggle-icon">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </main>
+    <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <footer><a href="../index.html">Home</a></footer>
+  </body>
+  <script>
+    $(".toggle-icon").click(function () {
+      $("#nav-container").toggleClass("pushed");
+    });
+  </script>
+</html>

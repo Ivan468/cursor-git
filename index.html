@@ -1,13 +1,15 @@
-<! DOCTYPE html>
-<html>
-  <body>
-    <meta charset="utf-8" />
-    <h1>Homework</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <style>
       h1 {
         font-size: 40px;
         font-family: "Monaco", "Courier", monospace;
         color: #618ad2;
+        grid-area: head;
       }
       .mat {
         margin-bottom: 7px;
@@ -15,74 +17,110 @@
       .one {
         width: 186px;
       }
+
+      body {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 20px;
+        grid-template:
+          "head head head "
+          "main  main main"
+          "foot  foot foot";
+      }
+
+      main {
+   
+        grid-area: main;
+        display: grid;
+        gap: 10px;
+
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-auto-flow: column;
+      }
+
+      footer {
+        background-color: red;
+        grid-area: foot;
+      }
     </style>
-    <div class="mat">
+  </head>
+  <body>
+    <h1>Homework</h1>
+    <main>
+      <div class="mat">
+        <button
+          onclick="window.location.href ='./materials';"
+          title="Materials"
+          class="one"
+        >
+          Materials
+        </button>
+      </div>
+
       <button
-        onclick="window.location.href ='./materials';"
-        title="Materials"
-        class="one"
+        onclick="window.location.href = './homework1/';"
+        title="git, Git pages, git Hub"
       >
-        Materials
+        Homework 1
       </button>
-    </div>
+      <button onclick="window.location.href = './homework2/';" title="html">
+        Homework 2
+      </button>
+      <button onclick="window.location.href = './homework 3/';" title="CSS">
+        Homework 3
+      </button>
+      <button
+        onclick="window.location.href = './homework 4/';"
+        title="Робота з макетами"
+      >
+        Homework 4
+      </button>
+      <button
+        onclick="window.location.href = './homework 5/';"
+        title=" Блочна верстка"
+      >
+        Homework 5
+      </button>
 
-    <button
-      onclick="window.location.href = './homework1/';"
-      title="git, Git pages, git Hub"
-    >
-      Homework 1
-    </button>
-    <button onclick="window.location.href = './homework2/';" title="html">
-      Homework 2
-    </button>
-    <button onclick="window.location.href = './homework 3/';" title="CSS">
-      Homework 3
-    </button>
-    <button
-      onclick="window.location.href = './homework 4/';"
-      title="Робота з макетами"
-    >
-      Homework 4
-    </button>
-    <button
-      onclick="window.location.href = './homework 5/';"
-      title=" Блочна верстка"
-    >
-      Homework 5
-    </button>
+      <button
+        onclick="window.location.href = './homework 6/';"
+        title=" Flex and grid"
+      >
+        Homework 6
+      </button>
+      <button
+        onclick="window.location.href = './homework 7/';"
+        title=" псевдоелементи, трансформації CSS3"
+      >
+        Homework 7
+      </button>
 
-    <button
-      onclick="window.location.href = './homework 6/';"
-      title=" Flex and grid"
-    >
-      Homework 6
-    </button>
-    <button
-      onclick="window.location.href = './homework 7/';"
-      title=" псевдоелементи, трансформації CSS3"
-    >
-      Homework 7
-    </button>
+      <button
+        onclick="window.location.href = './homework 8/';"
+        title=" псевдокласи"
+      >
+        Homework 8
+      </button>
 
-    <button
-      onclick="window.location.href = './homework 8/';"
-      title=" псевдокласи"
-    >
-      Homework 8
-    </button>
-
-    <button
-      onclick="window.location.href = './homework 9/';"
-      title=" Responsive WEB Design"
-    >
-      Homework 9
-    </button>
-    <button
-    onclick="window.location.href = './homework 10/';"
-    title=" Frameworks"
-  >
-    Frameworks 10
-  </button>
-
+      <button
+        onclick="window.location.href = './homework 9/';"
+        title=" Responsive WEB Design"
+      >
+        Homework 9
+      </button>
+      <button
+        onclick="window.location.href = './homework 10/';"
+        title=" Frameworks"
+      >
+        Homework 10</button
+      ><button
+        onclick="window.location.href = './homework 11/';"
+        title=" Animation"
+      >
+        Homework 11
+      </button>
+    </main>
   </body>
 </html>
