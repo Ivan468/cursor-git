@@ -29,11 +29,17 @@ header {
   position: relative;
   left: 94px;
   top: -88px;
+  height:100%;
 }
 
 .arsenal_img {
   position: relative;
     left: 32px;
+    height:100%;
+}
+
+.width {
+  width: 100%;
 }
 
 h1 {
@@ -417,6 +423,8 @@ input:checked + .slider_1:before {
 .tel_img {
   position: relative;
   right: -99px;
+  width: auto;
+  height: 613px;
 }
 .tel_ico {
   position: relative;
