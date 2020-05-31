@@ -1,142 +1,158 @@
 .background {
-    background-color: lightblue;
+  background-color: lightblue;
 }
 
 .header {
-    height: 50px;
+  height: 50px;
 }
 
 .meno_item_ins {
-    max-width: 191px;
-     
+  max-width: 191px;
 }
 
 .inp_inst {
-    max-height: 29px;
+  max-height: 29px;
 }
 
 .inp_inst::placeholder {
-    text-align: center;
-    background-image: url(./img/search.svg);
-    background-size: 10px;
-    background-repeat: no-repeat;
-    background-position: 70px;
+  text-align: center;
+  background-image: url(./img/search.svg);
+  background-size: 10px;
+  background-repeat: no-repeat;
+  background-position: 70px;
 }
 
 .inp_inst::after {
-    content: "";
-    height: 9px;
-    width: 9px;
-    background-image: url(./img/search.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
+  content: "";
+  height: 9px;
+  width: 9px;
+  background-image: url(./img/search.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-
- 
 
 .cont_img {
-    overflow: hidden;
-    height: 154px;
-    width: 154px;
-    padding: 0px;
-    
+  overflow: hidden;
+  height: 154px;
+  width: 154px;
+  padding: 0px;
 }
 .wrap_img_ins {
-    padding: 29px 90px 100px 85px;
+  padding: 29px 5vw 100px 7vw;
 }
 
 .fl_basis {
-    flex-basis: 100%;
+  flex-basis: 100%;
 }
 p {
-    font-family: Helvetica;
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 21px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
 
-/* identical to box height */
+  /* identical to box height */
 
-
-
-color: #262626;
+  color: #262626;
 }
 
 .post_and-foll {
-    margin-right: 40px;
+  margin-right: 40px;
 }
 .btn_foolow {
-    width: 97px;
-height: 29px;
-text-align: center;
-padding: 0px 5px;
+  width: 97px;
+  height: 29px;
+  text-align: center;
+  padding: 0px 5px;
 }
 
-.btn_foolow_down{
-    width: 33px;
-    height: 29px;
-text-align: center;
-padding: 0px 5px;
-font-size: 8px;
+.btn_foolow_down {
+  width: 33px;
+  height: 29px;
+  text-align: center;
+  padding: 0px 5px;
+  font-size: 8px;
 }
 
-.btn_foolow_cr{
-    width: 50px;
-    height: 29px;
-text-align: center;
-padding: 0px 5px;
+.btn_foolow_cr {
+  width: 50px;
+  height: 29px;
+  text-align: center;
+  padding: 0px 5px;
 }
-
 
 .name_inst {
-    font-family: Helvetica ;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 21px;
-    /* identical to box height */
-    margin-top: 21px;
-    
-    
-    color: #262626;
-    
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 21px;
+  /* identical to box height */
+  margin-top: 21px;
+
+  color: #262626;
 }
 
 a {
-    
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
 
-font-family: Helvetica;
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 21px;
-
-
-color: #1c4f96;
+  color: #1c4f96;
 }
 
 .stories {
-    padding-bottom: 55px;
+  padding-bottom: 55px;
 }
 
 .stor_photo {
-    overflow:hidden;
-    height: 79px;
-    width: 79px;
-    
+  overflow: hidden;
+  height: 79px;
+  width: 79px;
 }
 
 .name_story {
-    cursor: pointer;
-    display: block;
-    overflow: hidden;
-    text-align: center;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    width: 100%;
+  cursor: pointer;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
 
-    font-weight: bold;
+  font-weight: bold;
 }
 
+@media (max-width: 800px) {
+  .head_mob {
+    flex-direction: column;
+    height: 158px;
+  }
+
+  .m_mob {
+      margin: 10px auto;
+  }
+
+  .grid_stories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    gap: 10px;
+    margin-top: 20px; 
+    justify-items: center;}
+
+    .mr-5 {
+        margin-right: 0px!important ;
+    }
+
+    .header_grid_inst {
+        display: grid!important;
+    }
+    .wrap_img_ins {
+        padding: 5vw;
+    }
+  
+}
