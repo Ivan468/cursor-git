@@ -289,6 +289,61 @@ p {
   top: 53px;
   display: inline-flex;
   justify-content: center;
+  cursor: pointer;
+}
+
+.bell_1:after {
+  content: "7";
+  width: 22px;
+  height: 22px;
+  position: relative;
+  background: #00adee;
+  border: 0.990764px solid #00adee;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  top: 21px;
+  left: -7px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.0621px;
+  line-height: 22px;
+
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.tel_ico:after {
+  content: "7";
+  width: 22px;
+  height: 22px;
+  position: relative;
+  background: #00adee;
+  border: 0.990764px solid #00adee;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  top: 17px;
+  left: -12px;
+  
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.0621px;
+  line-height: 22px;
+
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.bell > img{
+  position: relative;
+  left: 11px;
 }
 
 .tel_img {
@@ -398,12 +453,14 @@ div.flex_block_6 > div + div {
   margin-left: 15px;
 }
 
-div.flex_block_6 > div > img {
+div.flex_block_6 > div > a > img {
   justify-items: center;
   align-items: center;
   width: 100%;
   height: auto;
 }
+
+
 
 .elips {
   position: relative;

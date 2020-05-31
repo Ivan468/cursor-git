@@ -270,6 +270,10 @@
     color: #ffffff;
   }
 
+  .tel_ico:after {
+    display: none;
+  }
+
   .bell_1 {
     background-image: url(./img/bel.svg);
     background-repeat: no-repeat;
