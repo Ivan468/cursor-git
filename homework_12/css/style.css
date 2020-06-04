@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap");
+/* ==== BLOCK 1 === navigation
+=======================*/
+nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 66px;
+  /* or 132% */
+  letter-spacing: 1px;
+  /* Colour/Main/Blue/900 */
+  color: #091133;
+}
+
+.head_block {
+  max-width: 1440px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0px 10px;
+  flex-wrap: wrap;
+}
+
+a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #505f98;
+}
+
+.wrapper_head {
+  min-height: 1161px;
+  background-image: url(../img/background_1.svg);
+  background-position-x: right;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+.nav_item {
+  display: flex;
+  flex-grow: 1;
+  max-width: 245px;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+  /* identical to box height, or 146% */
+  /* Colour/Logo/Primary */
+  color: #37447e;
+}
+
+.btn_nav_box {
+  padding: 0px;
+}
+
+.btn_nav {
+  min-height: 26px;
+  min-width: 170px;
+  background: #111b47;
+  border-radius: 2px;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+  transition: 0.8s;
+  text-align: center;
+  cursor: pointer;
+  /* Colour/Secondary/White 100 (general) */
+  color: #ffffff;
+}
+
+.btn_nav:active {
+  opacity: 0.5;
+}
+
+.btn_nav:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
+
+.block_1 {
+  width: 100%;
+}
+
+.block_1_wr {
+  max-width: 316px;
+  max-width: 540px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 15.125vw;
+  row-gap: 20px;
+}
+
+p {
+  /* Regular 18 */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  /* Colour/Main/Blue/500 */
+  color: #505F98;
+}
+
+/*# sourceMappingURL=style.css.map */
