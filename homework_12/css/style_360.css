@@ -1,0 +1,19 @@
+@media (max-width: 736px) {
+
+    .block_2__img {
+        flex-basis: 100%;}
+        .wrapper_head {
+            min-height: 500px;
+            background-image: none
+        }
+
+        .main__container {
+            max-width: 1440px;
+            display: flex;
+            margin: 0 auto;
+            padding: 0px 10px;
+            flex-wrap: wrap;
+            min-height: 742px;
+          
+        }
+    }
