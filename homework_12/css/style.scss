@@ -311,7 +311,7 @@ p {
   background-position: center;
 }
 
-// block 6
+// block 6 ==//
 .block_6 {
   height: 1034px;
   overflow: hidden;
@@ -370,12 +370,11 @@ p {
   height: 216px;
   position: relative;
   bottom: 466px;
-  
+
   display: flex;
   flex-wrap: wrap;
 }
-.foot_wrap {
-}
+
 .regular {
   font-family: Roboto;
   font-style: normal;
@@ -418,7 +417,7 @@ p {
   height: 50px;
   justify-content: space-between;
   align-items: center;
-  
+  flex-wrap: wrap;
 }
 
 .foot_container2__ref {
@@ -429,16 +428,19 @@ p {
 
 .foot_container2__social {
   display: grid;
-  grid-template-columns:16px 16px 16px 16px 16px;
+  grid-template-columns: 16px 16px 16px 16px 16px;
   grid-auto-flow: row;
   gap: 30px;
 }
 
-.foot_container2__social>img {
+.foot_container2__social > img {
   cursor: pointer;
-
 }
-.foot_container2__ref>a {
+.foot_container2__ref > a {
   cursor: pointer;
-
+}
+hr {
+  max-width: 1110px;
+  width: 100%;
+  color: #cdd1d4;
 }

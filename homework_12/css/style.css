@@ -410,6 +410,7 @@ p {
   height: 50px;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .foot_container2__ref {
@@ -431,6 +432,12 @@ p {
 
 .foot_container2__ref > a {
   cursor: pointer;
+}
+
+hr {
+  max-width: 1110px;
+  width: 100%;
+  color: #CDD1D4;
 }
 
 /*# sourceMappingURL=style.css.map */
