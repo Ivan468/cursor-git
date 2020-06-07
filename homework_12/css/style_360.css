@@ -16,4 +16,13 @@
             min-height: 742px;
           
         }
+
+        .row-direct {
+            flex-direction: row-reverse;
+        }
+
+        .block_2__txt {
+             
+            order: 2;
+        }
     }

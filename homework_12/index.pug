@@ -4,6 +4,7 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         link(rel="stylesheet", href="./css/reset.css")
+        link(rel="stylesheet", href="./css/normalize.css")
         link(rel="stylesheet", href="./css/style.css")
         link(rel="stylesheet", href="./css/style_360.css")
         title Document
@@ -20,7 +21,8 @@ html(lang="en")
                             li 
                                 a(href="http://fb.com") Home
                     .logo
-                        h1.logo Landie
+                        h1.logo
+                            a(href='../index.html').logo Landie 
                     .btn_nav_box
                         button.btn_nav Buy Now
                 .block_1
@@ -33,11 +35,73 @@ html(lang="en")
                                         //- block 2 ========//
             main.main__container
                 .block_2
-                     .block_2__txt
+                    .block_2__txt
                         h2.block_2__txt--h2   Light, Fast & Powerful                     
                         p.block_2__txt--p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia nostrum ut reiciendis illo tempore amet commodi voluptatibus, eum eaque sequi pariatur provident similique iste voluptatem quas rerum dolorem praesentium est.
                         .block_2__txt--items
+                            .block_2__txt--items1 
+                                .block_2__txt--items1-img
+                                    img(src="./img/icon_block_2.svg", alt="")
+                                .block_2__title Title Goes Here
+                                p.block_2__title-paragraph Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  
+                            .block_2__txt--items1
+                                .block_2__txt--items1-img
+                                    img(src="./img/icon_block_2.svg", alt="")
+                                .block_2__title Title Goes Here
+                                p.block_2__title-paragraph Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  
+                    .block_2__img
+                .block_3.row-direct
+                    .block_3__img--bg
+                    .block_2__txt
+                        h2.block_2__txt--h2   Light, Fast & Powerful                     
+                        p.block_2__txt--p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia nostrum ut reiciendis illo tempore amet commodi voluptatibus, eum eaque sequi pariatur provident similique iste voluptatem quas rerum dolorem praesentium est.
+                                        //- BLOCK 4//
+                .block_3.row-direct
+                    .block_4__img--bg
+                    .block_2__txt
+                        h2.block_2__txt--h2   Light, Fast & Powerful                     
+                        p.block_2__txt--p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia nostrum ut reiciendis illo tempore amet commodi voluptatibus, eum eaque sequi pariatur provident similique iste voluptatem quas rerum dolorem praesentium est.    
+                                         //- BLOCK 5
+                .block_3.row-direct
+                    .block_5__img--bg
+                    .block_2__txt
+                        h2.block_2__txt--h2   Light, Fast & Powerful                     
+                        p.block_2__txt--p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia nostrum ut reiciendis illo tempore amet commodi voluptatibus, eum eaque sequi pariatur provident similique iste voluptatem quas rerum dolorem praesentium est.
+                        button.btn_nav  Purchase Now
+            .block_6
+                .svg_bg
+                    .block_2__txt.block6_flex
+                        .block6_flex__element1
+                            h2.block_2__txt--h2.center.block6_flex__h2  Light, Fast & Powerful                     
+                            p.block_2__txt--p.center.bg__none Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia nostrum ut reiciendis illo tempore amet commodi voluptatibus, eum eaque sequi pariatur provident similique iste voluptatem quas rerum dolorem praesentium est.
+                        .block6_flex__element2
+                            h1 $40
+                            p.block_2__txt--p.center.bg__none UI Design Kit
+                        .block6_flex__element3
+                            p.block6_flex__element3--paragraph See, One price. Simple.
+                            button.btn_nav.center  Purchase Now
+                .footer 
+                    
+                    .foot_container
+                        p.block6_flex__element3--paragraph.regular ©2020 Yourcompany
+                        h1.logo
+                            a(href='../index.html').logo Landie
+                        button.foot_btn  Purchase Now
+                    .foot_container2
+                        .foot_container2__ref
+                            a(href='../index.html') Home
+                            a(href='../index.html') About
+                            a(href='../index.html') Contact
+                        .foot_container2__social
+                            a(href='../index.html')
+                                img(src="./img/fb.svg", alt="")
+                            a(href='../index.html')
+                                img(src="./img/tw.svg", alt="")
+                            a(href='../index.html')
+                                img(src="./img/Youtube.svg", alt="")
+                            a(href='../index.html')
+                                img(src="./img/ln.svg", alt="")
+                            a(href='../index.html')
+                                img(src="./img/Instagram.svg", alt="")
 
-                     .block_2__img
-
-            
+                        
