@@ -471,7 +471,7 @@ button {
 }
 
 .reviews .review-author {
-  display: block;
+  display: inline-block;
   text-align: right;
   margin: 10px 0 auto 0;
   vertical-align: top;
