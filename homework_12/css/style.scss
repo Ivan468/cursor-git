@@ -1,3 +1,5 @@
+$align_cent: center;
+$dis_flex:flex;
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap");
 
 /* ==== BLOCK 1 === navigation
@@ -12,11 +14,11 @@ button:active {
 }
 
 nav {
-  display: flex;
+  display: $dis_flex;
   flex-grow: 1;
   justify-content: space-between;
   height: 60px;
-  align-items: center;
+  align-items: $align_cent;
   flex-wrap: wrap;
 }
 
@@ -35,7 +37,7 @@ h1 {
 
 .head_block {
   max-width: 1440px;
-  display: flex;
+  display: $dis_flex;
   margin: 0 auto;
   padding: 0px 10px;
   flex-wrap: wrap;
@@ -58,7 +60,7 @@ a {
 }
 
 .nav_item {
-  display: flex;
+  display: $dis_flex;
   flex-grow: 1;
   max-width: 245px;
   justify-content: space-between;
@@ -84,7 +86,7 @@ a {
   min-width: 170px;
   background: #111b47;
   border-radius: 2px;
-  text-align: center;
+  text-align: $align_cent;
 
   font-family: Roboto;
   font-style: normal;
@@ -93,7 +95,7 @@ a {
   line-height: 18px;
   /* identical to box height, or 150% */
   transition: 0.8s;
-  text-align: center;
+  text-align: $align_cent;
   cursor: pointer;
   /* Colour/Secondary/White 100 (general) */
   color: #ffffff;
@@ -142,7 +144,7 @@ p {
 
 .block__1-btn {
   max-width: 408px;
-  display: flex;
+  display: $dis_flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 69px;
@@ -158,7 +160,7 @@ p {
   line-height: 26px;
   /* identical to box height, or 162% */
 
-  text-align: center;
+  text-align: $align_cent;
 
   /* Colour/Secondary/White 100 (general) */
   border: 2px solid #091133;
@@ -180,7 +182,7 @@ p {
   line-height: 26px;
   /* identical to box height, or 162% */
 
-  text-align: center;
+  text-align: $align_cent;
 
   /* Colour/Main/Blue/900 */
 
@@ -189,7 +191,7 @@ p {
 
 .main__container {
   max-width: 1440px;
-  display: flex;
+  display: $dis_flex;
   margin: 0 auto;
   padding: 0px 10px;
   flex-wrap: wrap;
@@ -198,9 +200,9 @@ p {
 }
 
 .block_2 {
-  display: flex;
+  display: $dis_flex;
   flex-grow: 1;
-  align-items: center;
+  align-items: $align_cent;
   flex-wrap: wrap;
   flex-basis: 100%;
   justify-content: space-between;
@@ -215,7 +217,7 @@ p {
   background-image: url(../img/bg_block_2.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: $align_cent;
 }
 .block_2__txt--h2 {
   font-family: Roboto;
@@ -278,9 +280,9 @@ p {
   =================== */
 
 .block_3 {
-  display: flex;
+  display: $dis_flex;
   flex-grow: 1;
-  align-items: center;
+  align-items: $align_cent;
   flex-wrap: wrap;
   flex-basis: 100%;
   justify-content: space-between;
@@ -291,7 +293,7 @@ p {
   background-image: url(../img/block_2.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: $align_cent;
 }
 .block_4__img--bg {
   flex-basis: 480px;
@@ -299,7 +301,7 @@ p {
   background-image: url(../img/block_3.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: $align_cent;
 }
 
 .block_5__img--bg {
@@ -308,7 +310,7 @@ p {
   background-image: url(../img/block_4.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: $align_cent;
 }
 
 // block 6 ==//
@@ -324,18 +326,18 @@ p {
   height: 100%;
   background-image: url(../img/Rectangle1.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: $align_cent;
   background-size: cover;
   margin-bottom: 250px;
   padding-bottom: 200px;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
+  display: $dis_flex;
+  align-content: $align_cent;
+  justify-content: $align_cent;
+  align-items: $align_cent;
 }
 
 .center {
-  text-align: center;
+  text-align: $align_cent;
   margin: 0 auto;
 }
 
@@ -343,8 +345,8 @@ p {
   background: none;
 }
 .block6_flex {
-  align-items: center;
-  display: flex;
+  align-items: $align_cent;
+  display: $dis_flex;
   flex-direction: column;
   min-height: 600px;
   justify-content: space-around;
@@ -356,7 +358,7 @@ p {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  text-align: center;
+  text-align: $align_cent;
   color: #5d6970;
   background: none;
   margin-bottom: 9px;
@@ -371,7 +373,7 @@ p {
   position: relative;
   bottom: 466px;
 
-  display: flex;
+  display: $dis_flex;
   flex-wrap: wrap;
 }
 
@@ -386,12 +388,12 @@ p {
 }
 
 .foot_container {
-  display: flex;
+  display: $dis_flex;
   flex-basis: 1110px;
   margin: 0 auto;
   height: 50px;
   justify-content: space-between;
-  align-items: center;
+  align-items: $align_cent;
   margin-top: 60px;
 }
 .foot_btn {
@@ -400,23 +402,23 @@ p {
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
-  text-align: center;
+  text-align: $align_cent;
   color: #ffffff;
   background: #111b47;
   border-radius: 2px;
   width: 109px;
   height: 26px;
   cursor: pointer;
-  text-align: center;
+  text-align: $align_cent;
   transition: 0.8s;
 }
 .foot_container2 {
-  display: flex;
+  display: $dis_flex;
   flex-basis: 1110px;
   margin: 0 auto;
   height: 50px;
   justify-content: space-between;
-  align-items: center;
+  align-items: $align_cent;
   flex-wrap: wrap;
 }
 
@@ -431,13 +433,14 @@ p {
   grid-template-columns: 16px 16px 16px 16px 16px;
   grid-auto-flow: row;
   gap: 30px;
-}
 
-.foot_container2__social > img {
-  cursor: pointer;
-}
-.foot_container2__ref > a {
-  cursor: pointer;
+  img {
+    cursor: pointer;
+  }
+
+  a {
+    cursor: pointer;
+  }
 }
 hr {
   max-width: 1110px;

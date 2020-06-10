@@ -425,12 +425,10 @@ p {
   grid-auto-flow: row;
   gap: 30px;
 }
-
-.foot_container2__social > img {
+.foot_container2__social img {
   cursor: pointer;
 }
-
-.foot_container2__ref > a {
+.foot_container2__social a {
   cursor: pointer;
 }
 
