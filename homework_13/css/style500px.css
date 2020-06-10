@@ -64,6 +64,10 @@
       width: auto;
       text-align: center;
     }
+    .h2 {
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
     .btn-order.centred {
       margin: 0 auto;
       display: block;
