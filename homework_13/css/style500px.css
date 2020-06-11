@@ -4,7 +4,8 @@
       font-family: HelveticaNeueBold;
       text-transform: uppercase;
       letter-spacing: 0.05em;
-      line-height: 24px;
+      line-height: 32px;
+      
     }
     body {
       font-family: HelveticaNeueLight;
@@ -25,6 +26,18 @@
       display: flex;
       flex-direction: column;
     }
+    header {
+      height:80px;
+      background-color:#ffdc00;
+      display: flex;
+     }
+     header .logo {
+      float:left;
+      height:49px;
+      width:auto;
+      margin-top:12px
+     }
+          
     .reasons .reason {
       text-align: center;
       display: inline-block;
@@ -84,6 +97,33 @@
       height: 100% !important;
       width: auto !important;
     }
-   
+    .video {
+      margin-top:30px;
+      display: none;
+     }
+     .delivery .left-block {
+       margin-right:0px; 
+
+     }
+     .delivery .left-block,
+.delivery .right-block {
+ float:none;
+  width:auto;
+  vertical-align:top;
+ display:inline-block
+}
+.about .description.double {
+  width:100%;
+ }
+  
+ 
+ .main-screen .description {
+  font-size: 16px;
+  margin-top: 35px;
+  line-height: 27px;
+  font-family: HelveticaNeueThin;
+  letter-spacing: .08em;
+}  
+          
   }
   
