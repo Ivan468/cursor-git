@@ -116,7 +116,10 @@
   width:100%;
  }
   
- 
+ .reviews {
+  position: relative;
+  min-height: 661px;
+}
  .main-screen .description {
   font-size: 16px;
   margin-top: 35px;
