@@ -1,0 +1,32 @@
+{
+  "folders": [
+	{
+		"path": "F:\\project"
+	},
+	{
+		"path": "F:\\js"
+	},
+	{
+		"path": "F:\\React\\hw1r"
+	},
+	{
+		"path": "F:\\React\\react8"
+	},
+	{
+		"path": "F:\\React\\reactapp"
+	},
+	{
+		"path": "F:\\React\\typescr"
+	},
+	{
+		"path": "F:\\viart"
+	},
+	{
+		"path": "F:\\React\\reactfilmap"
+	}
+],
+  "settings": {
+    "px-to-vw.viewportWidth": 1440,
+    "liveServer.settings.multiRootWorkspaceName": "project"
+  }
+}
