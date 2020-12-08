@@ -7,8 +7,7 @@
   src: url("./fonts/SeymourOne-Regular.ttf"); /* Путь к файлу со шрифтом */
 }
 html {
-    background: white;
-    
+  background: white;
 }
 body {
   max-width: 375px;
@@ -22,7 +21,6 @@ header {
   justify-content: space-around;
   align-items: center;
   background: #64affc;
- 
 }
 .logo-block {
   height: 37px;
@@ -60,13 +58,12 @@ h1 {
   line-height: 21px;
 }
 
-
 .header-btn:active {
-    transform: translateY(2px);
-    -webkit-transform: translateY(2px);
-    -moz-transform: translateY(2px);
-    -ms-transform: translateY(2px);
-    -o-transform: translateY(2px);
+  transform: translateY(2px);
+  -webkit-transform: translateY(2px);
+  -moz-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  -o-transform: translateY(2px);
 }
 
 .block-game {
@@ -81,7 +78,7 @@ h1 {
   -moz-border-radius: 20px 20px 20px 20px;
   -ms-border-radius: 20px 20px 20px 20px;
   -o-border-radius: 20px 20px 20px 20px;
-  
+
   margin-bottom: 2px;
   display: flex;
   align-items: flex-end;
@@ -130,15 +127,23 @@ h1 {
   margin-bottom: 16px;
 }
 
-.bg-1{
-    background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%), url(https://multiplayergameserver.com/files/04ca3863ec60d3670388042a22f4cb03-314x226.jpg);
-    background-size: cover;
+.bg-1 {
+  background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
+    url(https://multiplayergameserver.com/files/04ca3863ec60d3670388042a22f4cb03-314x226.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .bg-2 {
-    background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%), url(  https://multiplayergameserver.com/files/9fd9bd8be192384b9a8c441f28ede0ff-314x226.jpg);
-    background-size: cover;
+  background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
+    url(https://multiplayergameserver.com/files/9fd9bd8be192384b9a8c441f28ede0ff-314x226.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  
+}
+
+
+footer{
+  height: 21px;
+width: 100%;
+background: #4D2BD6;
 }
