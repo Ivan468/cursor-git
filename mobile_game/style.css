@@ -32,7 +32,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 11px;
 }
 h1 {
   font-family: "Seymour One";
@@ -58,13 +57,19 @@ h1 {
   line-height: 21px;
 }
 
-.header-btn:active {
+.header-btn:active,  .footer-btn:active {
   transform: translateY(2px);
   -webkit-transform: translateY(2px);
   -moz-transform: translateY(2px);
   -ms-transform: translateY(2px);
   -o-transform: translateY(2px);
 }
+
+.header-btn:hover,  .footer-btn:hover {
+  cursor: pointer;
+}
+
+
 
 .block-game {
   background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
@@ -100,6 +105,7 @@ h1 {
 .category-game-block-wrapper {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 11px;
   justify-content: space-around;
 }
 .star-block-wrapper > img {
@@ -129,21 +135,68 @@ h1 {
 
 .bg-1 {
   background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
-    url(https://multiplayergameserver.com/files/04ca3863ec60d3670388042a22f4cb03-314x226.jpg);
+    url(./img/game_5.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .bg-2 {
   background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
-    url(https://multiplayergameserver.com/files/9fd9bd8be192384b9a8c441f28ede0ff-314x226.jpg);
+    url(./img/game_4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-3 {
+  background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
+    url(./img/game_1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.bg-4 {
+  background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
+    url(./img/game_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-footer{
+.bg-5 {
+  background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
+    url(./img/game_3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-hr {
   height: 21px;
-width: 100%;
-background: #4D2BD6;
+  width: 100%;
+  background: #4d2bd6;
+}
+
+footer {
+  height: 239px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btn-foot-wrap {
+  width: 147px;
+}
+
+.footer-btn {
+  width: 145px;
+  height: 36px;
+  background: #93fa3f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin-bottom: 17px;
+  border: 0;
+  font-family: Seymour One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
 }
