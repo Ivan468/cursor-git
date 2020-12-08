@@ -6,10 +6,15 @@
   font-family: Seymour One; /* Имя шрифта */
   src: url("./fonts/SeymourOne-Regular.ttf"); /* Путь к файлу со шрифтом */
 }
+html {
+    background: white;
+    
+}
 body {
   max-width: 375px;
   margin: auto;
   background: #3439e3;
+  padding-top: 20px;
 }
 header {
   height: 53px;
@@ -17,7 +22,7 @@ header {
   justify-content: space-around;
   align-items: center;
   background: #64affc;
-  margin-top: 20px;
+ 
 }
 .logo-block {
   height: 37px;
@@ -53,6 +58,15 @@ h1 {
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
+}
+
+
+.header-btn:active {
+    transform: translateY(2px);
+    -webkit-transform: translateY(2px);
+    -moz-transform: translateY(2px);
+    -ms-transform: translateY(2px);
+    -o-transform: translateY(2px);
 }
 
 .block-game {
@@ -114,4 +128,17 @@ h1 {
   width: 78%;
   margin: 0 auto;
   margin-bottom: 16px;
+}
+
+.bg-1{
+    background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%), url(https://multiplayergameserver.com/files/04ca3863ec60d3670388042a22f4cb03-314x226.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-2 {
+    background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%), url(  https://multiplayergameserver.com/files/9fd9bd8be192384b9a8c441f28ede0ff-314x226.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+  
 }
