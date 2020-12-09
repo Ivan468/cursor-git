@@ -31,7 +31,7 @@ header {
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 h1 {
   font-family: "Seymour One";
@@ -62,6 +62,32 @@ h1 {
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
+
+  color: #000000;
+}
+
+.more-btn {
+  width: 82px;
+  height: 24px;
+  border: 0px solid #3439e3;
+  box-sizing: border-box;
+  /* Shadow2 */
+  text-align: start;
+  padding: 0px 10px;
+  background: 52px/ 17px url(./img/Arrow\ 1.svg), #93fa3f;
+  background-repeat: no-repeat;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+
+  font-family: Sarpanch;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
   color: #000000;
 }
