@@ -11,7 +11,7 @@ html {
   background: white;
 }
 body {
-  max-width: 375px;
+  max-width: 1024px;
   margin: auto;
   background: #3439e3;
 }
@@ -112,6 +112,7 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   width: 156px;
+  margin: auto;
   height: 111px;
   border-radius: 20px 20px 20px 20px;
   -webkit-border-radius: 20px 20px 20px 20px;
@@ -125,6 +126,10 @@ h1 {
   color: white;
   justify-content: center;
   filter: drop-shadow(4px -3px 0px #51ef61);
+}
+.block-game-wrapper{
+  margin: 0 5px;
+  flex-basis: 210px;
 }
 
 .reating-block {
@@ -165,7 +170,7 @@ h1 {
   line-height: 15px;
   letter-spacing: -0.015em;
   color: #ffffff;
-  width: 78%;
+  width: 55%;
   margin: 0 auto;
   margin-bottom: 16px;
 }
