@@ -132,6 +132,11 @@ h1 {
   margin: 0 auto;
   margin-bottom: 16px;
 }
+.name-game a {
+  color: white;
+text-decoration: none;
+}
+
 
 .bg-1 {
   background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
@@ -204,6 +209,7 @@ footer {
   height: 239px;
   display: flex;
   align-items: center;
+  background: center/ 145% no-repeat url(./img/bg/head-bg.jpg);
   text-align: center;
   flex-wrap: wrap;
   justify-content: center;
