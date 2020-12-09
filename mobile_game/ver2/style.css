@@ -1,10 +1,10 @@
 @font-face {
-  font-family: Sansita One; /* Имя шрифта */
-  src: url("./fonts/SansitaOne.ttf"); /* Путь к файлу со шрифтом */
+  font-family: Sansita One;  
+  src: url("./fonts/SansitaOne.ttf");  
 }
 @font-face {
-  font-family: Seymour One; /* Имя шрифта */
-  src: url("./fonts/SeymourOne-Regular.ttf"); /* Путь к файлу со шрифтом */
+  font-family: Seymour One;  
+  src: url("./fonts/SeymourOne-Regular.ttf"); 
 }
 html {
   background: white;
@@ -13,14 +13,14 @@ body {
   max-width: 375px;
   margin: auto;
   background: #3439e3;
-  padding-top: 20px;
+   
 }
 header {
-  height: 53px;
+  height: 77px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #64affc;
+  background: center/ cover no-repeat url(./img/bg/head-bg.jpg);
 }
 .logo-block {
   height: 37px;
