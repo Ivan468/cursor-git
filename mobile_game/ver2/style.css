@@ -106,7 +106,7 @@ h1 {
 }
 
 .header-btn:hover,
-.footer-btn:hover,
+
 .more-btn:hover {
   cursor: pointer;
 }
@@ -289,18 +289,22 @@ footer {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
   margin-bottom: 17px;
-  border: 0;
   font-family: Seymour One;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
+  position: relative;
   line-height: 23px;
-  color: #000000;
+  color: #93fa3f;
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
+  border: none;
+  outline: none;
+    cursor: pointer;
+    z-index: 0;
 }
 
 .header-btn:hover {
@@ -310,9 +314,54 @@ footer {
   background: 52px/ 17px no-repeat url(./img/Arrow\ 1.svg), #70c72a;
 }
 
-.footer-btn:hover{
-  background: #70c72a;
-}
+
 button:focus {
   outline: -webkit-focus-ring-color auto 0px;
+}
+
+.footer-btn:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.footer-btn:active {
+  color: #000
+}
+
+.footer-btn:active:after {
+  background: transparent;
+}
+
+.footer-btn:hover:before {
+  opacity: 1;
+}
+
+.footer-btn:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
 }
