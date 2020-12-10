@@ -154,7 +154,7 @@ h1 {
   justify-content: space-around;
 }
 .star-block-wrapper > img {
-  margin-right: 6px;
+  margin-right: 5px;
 }
 .heart-block {
   display: flex;
@@ -312,4 +312,7 @@ footer {
 
 .footer-btn:hover{
   background: #70c72a;
+}
+button:focus {
+  outline: -webkit-focus-ring-color auto 0px;
 }
