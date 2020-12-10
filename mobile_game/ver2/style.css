@@ -1,10 +1,12 @@
 @font-face {
   font-family: Sansita One;
   src: url("./fonts/SansitaOne.ttf");
+  font-display: swap
 }
 @font-face {
   font-family: Seymour One;
   src: url("./fonts/SeymourOne-Regular.ttf");
+  font-display: swap
 }
 
 html {
