@@ -22,7 +22,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: center/ cover no-repeat url(./img/bg/head-bg.jpg);
+  background: center/ cover no-repeat url(./img/bg/head-bg.webp);
 }
 .logo-block {
   height: 37px;
@@ -113,7 +113,7 @@ h1 {
 
 .block-game {
   background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
-    url("./img/game12.jpg");
+    url("./img/game12.webp");
   background-size: cover;
   background-repeat: no-repeat;
   width: 156px;
@@ -186,46 +186,46 @@ h1 {
 
 .bg-1 {
   background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
-    url(./img/game_1.jpg);
+    url(./img/game_1.webp);
 }
 
 .bg-2 {
   background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
-    url(./img/game_2.jpg);
+    url(./img/game_2.webp);
 }
 .bg-3 {
   background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
-    url(./img/game_3.jpg);
+    url(./img/game_3.webp);
 }
 
 .bg-4 {
   background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
-    url(./img/game_4.jpg);
+    url(./img/game_4.webp);
 }
 
 .bg-5 {
   background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
-    url(./img/game_5.jpg);
+    url(./img/game_5.webp);
 }
 .bg-6 {
   background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
-    url(./img/game_6.jpg);
+    url(./img/game_6.webp);
 }
 .bg-7 {
   background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
-    url(./img/game_7.jpg);
+    url(./img/game_7.webp);
 }
 .bg-8 {
   background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
-    url(./img/game_8.jpg);
+    url(./img/game_8.webp);
 }
 .bg-9 {
   background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
-    url(./img/game_9.jpg);
+    url(./img/game_9.webp);
 }
 .bg-10 {
   background: linear-gradient(180deg, rgba(26, 27, 29, 0) 55.73%, #1a1b1d 100%),
-    url(./img/game10.jpg);
+    url(./img/game10.webp);
 }
 
 .bg-1,
@@ -244,23 +244,23 @@ h1 {
 }
 
 .bg-wr-1 {
-  background: center / cover no-repeat url(./img/bg/bg.jpg);
+  background: center / cover no-repeat url(./img/bg/bg.webp);
 }
 
 .bg-wr-2 {
-  background: center / cover no-repeat url(./img/bg/bg1.jpg);
+  background: center / cover no-repeat url(./img/bg/bg1.webp);
 }
 
 .bg-wr-3 {
-  background: center / cover no-repeat url(./img/bg/bg2.jpg);
+  background: center / cover no-repeat url(./img/bg/bg2.webp);
 }
 
 .bg-wr-4 {
-  background: center / cover no-repeat url(./img/bg/bg4-big.jpg);
+  background: center / cover no-repeat url(./img/bg/bg4-big.webp);
 }
 
 .bg-wr-5 {
-  background: center / cover no-repeat url(./img/bg/bg4.jpg);
+  background: center / cover no-repeat url(./img/bg/bg4.webp);
 }
 
 .footer-hr {
@@ -273,7 +273,7 @@ footer {
   height: 239px;
   display: flex;
   align-items: center;
-  background: center/ 145% no-repeat url(./img/bg/head-bg.jpg);
+  background: center/ 145% no-repeat url(./img/bg/head-bg.webp);
   text-align: center;
   flex-wrap: wrap;
   justify-content: center;
