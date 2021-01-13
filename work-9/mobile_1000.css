@@ -1,6 +1,6 @@
 @media (max-width: 1000px) {
   header {
-    background-image: url(./img/phone_1000px.png);
+    background-image: url(./img/phone_1000px.webp);
     background-repeat: no-repeat;
     background-size: 500px;
     background-position: right;
@@ -100,7 +100,7 @@
   }
   .img_block {
     min-width: 80%;
-    background-image: url(./img/Ronaldu.png);
+    background-image: url(./img/Ronaldu.webp);
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
