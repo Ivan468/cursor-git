@@ -413,6 +413,7 @@ input:checked + .slider_1:before {
 .bell > img {
   position: relative;
   left: 11px;
+  max-width: 53px;
 }
 
 .tel_img {
