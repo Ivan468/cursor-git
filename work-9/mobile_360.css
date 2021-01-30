@@ -1,12 +1,11 @@
 @media (max-width: 480px) {
   h1 {
-    font-family: Lato;
+    font-family: Lato, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
     line-height: 40px;
     display: flex;
-
     text-align: center;
     letter-spacing: 0.03em;
     margin-top: 86px;
@@ -17,7 +16,7 @@
     max-width: 320px;
     height: 70px;
 
-    font-family: Lato;
+    font-family: Lato, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -51,7 +50,7 @@
   }
   .wraper_header {
     margin: 20px;
-}
+  }
 
   .block_2 {
     display: flex;
@@ -91,7 +90,7 @@
     top: 50px;
     z-index: 4;
     border-radius: 4px;
-    font-family: Lato;
+    font-family: Lato, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16.7833px;
@@ -103,7 +102,7 @@
   .txt_scrn_1 {
     padding: 10px;
     min-width: 50%;
-    font-family: Lato;
+    font-family: Lato, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 11.5188px;
@@ -131,7 +130,7 @@
   }
 
   .footer_scr_1 {
-    font-family: Lato;
+    font-family: Lato, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12.9587px;
@@ -236,7 +235,7 @@
     top: 12px;
     left: 10px;
 
-    font-family: Montserrat;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 11.8892px;
@@ -259,7 +258,7 @@
     top: 12px;
     left: 10px;
 
-    font-family: Montserrat;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 11.8892px;
@@ -293,7 +292,7 @@
   .block_4_flex {
     margin: 0 auto;
     padding: 24px 24px 69px 24px;
-}
+  }
 
   .block_4 {
     grid-gap: 50px 5px;
@@ -358,7 +357,7 @@
   /*  footer  */
 
   footer {
-    font-family: Lato;
+    font-family: Lato, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
