@@ -1,0 +1,122 @@
+@media screen and (max-width: 400px) {
+.tel_img {
+    position: relative;
+    right: -39px;
+    width: auto;
+    
+}
+.tel_svs_ico, .bel_hidden {
+    display: block;
+}
+
+.bell {
+    position: relative;
+    z-index: 2;
+    min-width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0px 3.13793px 15.6897px rgb(0 0 0 / 25%), 0px 2.51034px 6.27586px rgb(51 51 51 / 10%);
+    left: -212px;
+    top: 119px;
+    display: inline-flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.tel_ico {
+    position: relative;
+ left: -95px;
+    top: 363px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.tel_block {
+    background-image: url(./img/fon_block2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: -620px;
+}
+
+.footer_wrap {
+    flex-grow: 1;
+    display: flex;
+    max-width: 1115px;
+    margin: 0 auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 11px;
+}
+
+.footer_ico {
+    display: flex;
+    justify-content: space-between;
+    max-width: 375px;
+    align-items: center;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.flex_block_6 {
+    padding: 0px;
+    gap: 15px;
+    justify-content: center;
+}
+.bell_1::after {
+    content: "7";
+    width: 18px;
+    height: 18px;
+    position: relative;
+    background: #00adee;
+    border: 0.990764px solid #00adee;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    top: 5px;
+    left: 4px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.8892px;
+    line-height: 19px;
+    align-items: center;
+    color: #ffffff;
+}
+
+.tel_ico > img {
+    position: relative;
+    left: -7px;
+    max-width: 53px;
+}
+
+.bell_1 > img {
+    position: relative;
+    left: 10px;
+    max-width: 41px;
+}
+
+.tel_ico::before {
+    content: "7";
+    width: 24px;
+    height: 18px;
+    position: relative;
+    background: #40b756;
+    border: 0.990764px solid #3db657;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    top: 3px;
+    left: 56px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.8892px;
+    line-height: 19px;
+    align-items: center;
+    color: #ffffff;
+}
+}

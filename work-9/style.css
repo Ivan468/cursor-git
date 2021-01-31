@@ -82,7 +82,7 @@ h6 {
 
 .google_play_and_apple_story {
   max-width: 350px;
-
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -507,7 +507,8 @@ input:checked + .slider_1:before {
 
 .flex_block_6 {
   display: flex;
-
+  padding: 15px;
+  gap: 10px;
   justify-content: space-between;
   max-width: 1100px;
   flex-wrap: wrap;
@@ -612,12 +613,14 @@ footer {
 }
 .footer_wrap {
   flex-grow: 1;
+  padding: 15px;
   display: flex;
   max-width: 1115px;
   margin: 0 auto;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
+  gap: 15px;
 }
 
 .social {
@@ -634,6 +637,7 @@ footer {
   max-width: 375px;
   align-items: center;
   flex-grow: 1;
+  gap: 15px;
 }
 a:link {
   color: inherit;
