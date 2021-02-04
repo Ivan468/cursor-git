@@ -18,7 +18,7 @@
       .one {
         width: 186px;
       }
-      body {
+      .works-block {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -42,8 +42,10 @@
         grid-area: foot;
       }
     </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="works-block">
     <h1>Works Ivan Petrushchack</h1>
     <main>
       <div class="mat">
@@ -59,77 +61,117 @@
       <button
         onclick="window.location.href = './work-1/';"
         title="git, Git pages, git Hub"
+        class="custom-btn btn-1"
       >
-        Homework 1
+        Work 1
       </button>
-      <button onclick="window.location.href = './work-2/';" title="html">
-        Homework 2
+      <button
+        onclick="window.location.href = './work-2/';"
+        title="html"
+        class="custom-btn btn-2"
+      >
+        Work 2
       </button>
-      <button onclick="window.location.href = './homework 3/';" title="CSS">
-        Homework 3
+      <button
+        onclick="window.location.href = './homework 3/';"
+        title="CSS"
+        class="custom-btn btn-3"
+      >
+        Work 3
       </button>
       <button
         onclick="window.location.href = './homework 4/';"
         title="Робота з макетами"
+        class="custom-btn btn-4"
       >
-        Homework 4
+        Work 4
       </button>
       <button
         onclick="window.location.href = './homework 5/';"
         title=" Блочна верстка"
+        class="custom-btn btn-5"
       >
-        Homework 5
+        Work 5
       </button>
 
       <button
         onclick="window.location.href = './homework 6/';"
         title=" Flex and grid"
+        class="custom-btn btn-6"
       >
-        Homework 6
+        Work 6
       </button>
       <button
         onclick="window.location.href = './homework 7/';"
         title=" псевдоелементи, трансформації CSS3"
+        class="custom-btn btn-7"
       >
-        Homework 7
+        Work 7
       </button>
 
       <button
         onclick="window.location.href = './homework 8/';"
         title=" псевдокласи"
+        class="custom-btn btn-8"
       >
-        Homework 8
+        Work 8
       </button>
 
       <button
         onclick="window.location.href = './work-9/';"
         title=" Responsive WEB Design"
+        class="custom-btn btn-9"
       >
-        work 9
+        Work 9
       </button>
       <button
         onclick="window.location.href = './homework 10/';"
+        class="custom-btn btn-10"
         title=" Frameworks"
       >
-        Homework 10</button
+        Work 10</button
       ><button
         onclick="window.location.href = './homework 11/';"
+        class="custom-btn btn-11 dot"
         title=" Animation"
       >
-        Homework 11
+        Work 11
       </button>
-      <button onclick="window.location.href = './homework_12/';" title=" Sass">
-        Homework 12
+      <button
+        onclick="window.location.href = './homework_12/';"
+        title="Sass"
+        class="custom-btn btn-12"
+      >
+        <span>Work 12</span><span>See it</span>
       </button>
       <button
         onclick="window.location.href = './homework_13/';"
         title=" Оптимизация итогового проекта"
+        class="custom-btn btn-13"
       >
-        Homework 13
+        Work 13
       </button>
+      <div>
+        <!-- <button
+          onclick="window.location.href = './mobile_game/ver1/';"
+          title=" "
+          class="custom-btn btn-14"
+        >
+         Mob game ver 1
+        </button> -->
+        <button
+          onclick="window.location.href = './mobile_game/ver2/';"
+          title=" Оптимизация итогового проекта"
+          class="custom-btn btn-15"
+        >
+          Mob game
+        </button>
+      </div>
     </main>
-    <h2>Job task</h2>
-    <a href="./mobile_game/ver1/index.html"> Mobile game Ver-1</a>
-    <a href="./mobile_game/ver2/index.html"> Mobile game ver-2</a>
+    </div>
+    <h3>Other links</h3>
+ <li><a href="./mobile_game/ver1/index.html"> Mobile game Ver-1</a></li>   
+   <li><a href="https://ivan468.github.io/JS/">JS work</a></li> 
+   <li><a href="https://ivan468.github.io/hw1react/">React test</a></li>
   </body>
 </html>
