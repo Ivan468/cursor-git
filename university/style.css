@@ -1,0 +1,5 @@
+body {
+  min-width: 1920px;
+  min-height: 1080px;
+  background: radial-gradient(21.75% 39.35% at 50% 50%, rgba(68, 188, 255, 0.06) 0%, rgba(68, 188, 255, 0) 100%), url(./image/icon.svg), #112054;
+}
