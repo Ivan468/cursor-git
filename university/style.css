@@ -179,7 +179,7 @@ main {
   /* identical to box height, or 157% */
   color: #ffffff;
 }
-.circle-text > div>span {
+.circle-text > div > span {
   font-size: 30px;
   font-weight: 500;
 }
@@ -213,7 +213,7 @@ main {
   display: none;
 }
 .circle-text.costs::before {
- content: "";
+  content: "";
   width: 15px;
   height: 15px;
   background: center/ contain no-repeat url(./image/circle/Down-triangle.svg);
@@ -222,4 +222,25 @@ main {
   top: 2px;
   left: 57px;
 }
-
+.raiting-block {
+  position: absolute;
+  top: 79px;
+  right: 52px;
+  width: 279px;
+  height: 368px;
+}
+.circle-text.raiting-text {
+  left: 108px;
+  top: 111px;
+}
+.circle-text.raiting-text > div {
+  text-align: center;
+  width: 79px;
+}
+.circle-text.raiting-text::after {
+  background: center/ contain no-repeat url(./image/circle/Star.svg);
+  width: 20px;
+  height: 20px;
+  left: -12px;
+  top: 15px;
+}
