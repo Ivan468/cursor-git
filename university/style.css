@@ -206,8 +206,8 @@ main {
   left: 73px;
 }
 .circle-text.costs {
-  top: 199px;
-  left: 40px;
+  top: 207px;
+  left: 44px;
 }
 .costs::after {
   display: none;
@@ -243,4 +243,65 @@ main {
   height: 20px;
   left: -12px;
   top: 15px;
+}
+.publication-block {
+  position: absolute;
+  bottom: 33px;
+  left: 52px;
+  width: 279px;
+  height: 368px;
+}
+.bottom-block {
+  position: absolute;
+  bottom: 53px;
+  left: 290px;
+  width: 232px;
+  height: 147px;
+}
+.worker-block {
+  position: absolute;
+  bottom: 59px;
+  right: 36px;
+  width: 297px;
+  height: 339px;
+}
+
+.text-block {
+  font-size: 30px;
+  text-align: center;
+  left: 27px;
+  top: 15px;
+}
+
+.text-block > div {
+  font-size: 30px;
+  text-align: center;
+  width: 97px;
+}
+
+.text-block > p {
+  width: 97px;
+  height: 32px;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  /* or 160% */
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #1d5a96;
+}
+.text-block::after {
+  display: none;
+}
+
+.mid-text-circle {
+  left: 75px;
+  top: 119px;
+}
+.bottom-text-circle {
+  left: 148px;
+  top: 192px;
 }
