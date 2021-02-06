@@ -1,0 +1,11 @@
+.polygon-animate {
+  position: absolute;
+  animation: animat 8s infinite;
+  z-index: 0;
+}
+
+@keyframes animat {
+  0%   { opacity: 0; }
+  50% { opacity: 0.1; }
+   100%   { opacity: 0; }
+}

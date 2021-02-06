@@ -29,14 +29,24 @@ input.search {
   background: transparent;
   transition: border-color 0.2s;
 }
-.search::placeholder {
+input.search::placeholder {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  color: #ffffff;
+  color: #fff!important;
 }
+.search::-moz-placeholder {
+opacity: 1;
+ font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff!important;
+}
+
 .search-button {
   width: 35px;
   height: 35px;
@@ -79,4 +89,20 @@ body {
 }
 footer {
   flex-shrink: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+ gap: 20px;
+ padding: 20px;
+}
+/* CIRCLE */
+.circle-block {
+  height: 814px;
+  width: 804px;
+  background: center/ 442px no-repeat url(./image/circle/circle-bg-small.svg) ,
+   center/ 644px no-repeat url(./image/circle/circle-bg.svg)
+ ;
+
 }
