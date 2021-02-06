@@ -138,7 +138,8 @@ main {
   left: 289px;
   top: 62px;
   padding: 50px;
-  background: center/ contain no-repeat url(./image/circle/button-filialls.svg);
+  background: center 40px/ 11px no-repeat url(./image/circle/Polygon-filials.svg),
+    center / contain no-repeat url(./image/circle/button-filialls.svg);
   border: none;
   font-family: Oswald;
   font-style: normal;
