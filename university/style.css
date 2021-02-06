@@ -154,9 +154,44 @@ main {
 
   color: #44bcff;
 }
-.budget{
+.budget {
   position: absolute;
   width: 311px;
-height: 351px;
+  height: 351px;
+  top: 58px;
+  left: 31px;
+}
+.circle-text {
+  width: 156px;
+  height: 77px;
+  position: absolute;
+  top: 92px;
+  left: 102px;
+ 
+}
+.circle-text > div {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 63px;
+  /* identical to box height, or 157% */
 
+  text-align: center;
+
+  color: #ffffff;
+}
+.circle-text > p {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  text-align: left;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #1d5a96;
 }
