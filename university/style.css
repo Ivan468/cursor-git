@@ -168,19 +168,20 @@ main {
   height: 77px;
   position: absolute;
   top: 92px;
-  left: 102px;
+  left: 118px;
 }
 .circle-text > div {
   font-family: Oswald;
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
-  line-height: 63px;
+  line-height: 47px;
   /* identical to box height, or 157% */
-
-  text-align: center;
-
   color: #ffffff;
+}
+.circle-text > div>span {
+  font-size: 30px;
+  font-weight: 500;
 }
 .circle-text > p {
   font-family: Oswald;
@@ -201,6 +202,24 @@ main {
   background: center/ contain no-repeat url(./image/circle/Up-triangle.svg);
   display: inline-block;
   position: absolute;
-  top: 2px;
-  left: 81px;
+  top: 0px;
+  left: 73px;
 }
+.circle-text.costs {
+  top: 199px;
+  left: 40px;
+}
+.costs::after {
+  display: none;
+}
+.circle-text.costs::before {
+ content: "";
+  width: 15px;
+  height: 15px;
+  background: center/ contain no-repeat url(./image/circle/Down-triangle.svg);
+  display: inline-block;
+  position: absolute;
+  top: 2px;
+  left: 57px;
+}
+
