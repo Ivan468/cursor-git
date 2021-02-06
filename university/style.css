@@ -35,16 +35,16 @@ input.search::placeholder {
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  color: #fff!important;
+  color: #fff !important;
 }
 .search::-moz-placeholder {
-opacity: 1;
- font-family: Montserrat;
+  opacity: 1;
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  color: #ffffff!important;
+  color: #ffffff !important;
 }
 
 .search-button {
@@ -94,15 +94,28 @@ footer {
 main {
   display: flex;
   flex-wrap: wrap;
- gap: 20px;
- padding: 20px;
+  gap: 20px;
+  padding: 20px;
+}
+/* main */
+.left-block, .right-block {
+width: 490px;
 }
 /* CIRCLE */
 .circle-block {
   height: 814px;
   width: 804px;
-  background: center/ 442px no-repeat url(./image/circle/circle-bg-small.svg) ,
-   center/ 644px no-repeat url(./image/circle/circle-bg.svg)
- ;
-
+  background: center/ 442px no-repeat url(./image/circle/circle-bg-small.svg),
+    center/ 644px no-repeat url(./image/circle/circle-bg.svg);
+    position: relative;
+}
+.cyrcle-rotate {
+  
+  position: absolute;
+ 
+ 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 537px;
 }

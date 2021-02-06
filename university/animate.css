@@ -9,3 +9,13 @@
   50% { opacity: 0.1; }
    100%   { opacity: 0; }
 }
+
+
+.st0  {
+  fill: none;
+  stroke:  #0B1B51;
+  stroke-width: 62;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 12.1947, 12.1947, 12.1947, 12.1947, 12.1947, 12.1947;
+}
+
