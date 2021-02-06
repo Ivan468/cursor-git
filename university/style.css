@@ -1,5 +1,5 @@
 body {
-  min-width: 1920px;
+  /* min-width: 1920px; */
 
   background: radial-gradient(
       21.75% 39.35% at 50% 50%,
@@ -79,6 +79,7 @@ footer {
 html,
 body {
   height: 100%;
+  /* overflow-x: hidden; */
 }
 body {
   display: flex;
@@ -96,6 +97,7 @@ main {
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
+  justify-content: space-evenly;
 }
 /* main */
 .left-block,
@@ -131,7 +133,7 @@ main {
   transform: translate(-50%, -50%);
 }
 
-.btn-test {
+.btn-filials {
   position: absolute;
   width: 225px;
   height: 137px;
@@ -151,8 +153,8 @@ main {
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-
   color: #44bcff;
+  outline: none;
 }
 .budget {
   position: absolute;
@@ -167,7 +169,6 @@ main {
   position: absolute;
   top: 92px;
   left: 102px;
- 
 }
 .circle-text > div {
   font-family: Oswald;
@@ -188,10 +189,18 @@ main {
   font-size: 14px;
   line-height: 20px;
   /* identical to box height, or 143% */
-
   text-align: left;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-
   color: #1d5a96;
+}
+.circle-text::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: center/ contain no-repeat url(./image/circle/Up-triangle.svg);
+  display: inline-block;
+  position: absolute;
+  top: 2px;
+  left: 81px;
 }
