@@ -17,10 +17,13 @@ form {
   align-items: center;
 }
 input.search {
+  font-family: Montserrat;
   width: calc(100% - 55px);
   border: 0;
   outline: 0;
-  font-size: 1.3rem;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
   color: #fff;
   padding: 7px 0;
   background: transparent;
@@ -30,12 +33,9 @@ input.search {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
   padding-left: 30px;
-  
-  /* identical to box height, or 167% */
-
   color: #ffffff;
 }
 .search-button {
@@ -65,10 +65,10 @@ footer {
   background: center 43px / 100% no-repeat url(./image/footer.svg);
 }
 .logo {
-  
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 body {
