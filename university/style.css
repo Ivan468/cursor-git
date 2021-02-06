@@ -293,9 +293,6 @@ main {
   text-transform: uppercase;
   color: #1d5a96;
 }
-.text-block::after {
-  display: none;
-}
 
 .mid-text-circle {
   left: 75px;
@@ -304,4 +301,65 @@ main {
 .bottom-text-circle {
   left: 148px;
   top: 192px;
+}
+.circle-text.bottom-text-studetns {
+  width: 107px;
+  height: 100px;
+  top: 30px;
+  left: 61px;
+}
+.circle-text.bottom-text-studetns > div {
+  width: 107px;
+  text-align: center;
+}
+.circle-text.bottom-text-studetns > p {
+  width: 107px;
+  text-align: center;
+}
+.circle-text.bottom-text-studetns::after,
+.text-block::after,
+.worker-block .circle-text.worker-text.mid::after {
+  display: none;
+}
+.circle-text.worker-text {
+  top: 20px;
+  left: 169px;
+  height: 100px;
+  text-align: center;
+  width: 98px;
+}
+.circle-text.worker-text > p {
+  text-align: center;
+}
+.worker-block .circle-text.worker-text.mid {
+  top: 157px;
+  left: 74px;
+}
+
+.worker-block .circle-text.worker-text.mid::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: center/ contain no-repeat url(./image/circle/Down-triangle.svg);
+  display: inline-block;
+  position: absolute;
+  top: 27px;
+  left: 65px;
+}
+.circle-text.text-block.peocent-left {
+  left: 163px;
+  width: 47px;
+  top: 10px;
+}
+.circle-text.text-block.peocent-left > div {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 20px;
+  width: 47px;
+  color: #44bcff;
+}
+.circle-text.text-block.peocent-left > p {
+  width: 47px;
 }
