@@ -98,8 +98,9 @@ main {
   padding: 20px;
 }
 /* main */
-.left-block, .right-block {
-width: 490px;
+.left-block,
+.right-block {
+  width: 490px;
 }
 /* CIRCLE */
 .circle-block {
@@ -107,15 +108,28 @@ width: 490px;
   width: 804px;
   background: center/ 442px no-repeat url(./image/circle/circle-bg-small.svg),
     center/ 644px no-repeat url(./image/circle/circle-bg.svg);
-    position: relative;
+  position: relative;
 }
 .cyrcle-rotate {
-  
   position: absolute;
- 
- 
+
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 537px;
 }
+.extramural {
+ position: absolute;
+ top: 407px;
+ left: 492px;
+}
+
+.sum-student {
+ position: absolute;
+ text-align: ;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+

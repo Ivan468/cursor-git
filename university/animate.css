@@ -5,17 +5,54 @@
 }
 
 @keyframes animat {
-  0%   { opacity: 0; }
-  50% { opacity: 0.1; }
-   100%   { opacity: 0; }
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
-
-.st0  {
+.st0 {
   fill: none;
-  stroke:  #0B1B51;
+  stroke: #0b1b51;
   stroke-width: 62;
   stroke-miterlimit: 10;
   stroke-dasharray: 12.1947, 12.1947, 12.1947, 12.1947, 12.1947, 12.1947;
 }
 
+/* Sppedometer */
+
+.speedometer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 84px;
+  left: 212px;
+  width: 269px;
+}
+
+.speedometer svg {
+  width: calc(75vh * 327 / 205.4);
+  height: 75vh;
+}
+
+.speedometer path {
+  fill: #0B1B51;
+}
+
+.needle {
+  position: absolute;
+  display: none;
+  height: 0vh;
+  bottom: 35vh;
+  left: calc(50% - 4.5vh);
+  width: 2vh;
+  background: rgba(255, 255, 255, 0.233);
+  transform-origin: bottom center;
+  transform: rotate(0deg);
+}
