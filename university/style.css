@@ -4,3 +4,22 @@ body {
   background: radial-gradient(21.75% 39.35% at 50% 50%, rgba(68, 188, 255, 0.06) 0%, rgba(68, 188, 255, 0) 100%), url(./image/bg.png), #112054;
   background-size: contain;
 }
+
+input.search {
+
+ border-top: 1px solid rgba(33, 202, 255, 0.2);
+
+width:200.5px;
+
+
+}
+
+.search-wrap {
+  margin: 0 auto;
+    width: 976.5px;
+height: 68.5px;
+background-image: url(./image/search-bg.svg);
+display: flex;
+justify-content: center;
+align-items: center;
+}
