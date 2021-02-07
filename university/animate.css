@@ -82,10 +82,10 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 69px;
+  top: 139px;
   height: 500px;
-  left: 212px;
-  width: 269px;
+  left: 213px;
+  width: 375px;
 }
 
 .speedometer svg {

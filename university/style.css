@@ -127,11 +127,7 @@ main {
   transform: translate(-50%, -50%);
   width: 537px;
 }
-.extramural {
-  position: absolute;
-  top: 407px;
-  left: 492px;
-}
+
 
 .sum-student {
   position: absolute;
