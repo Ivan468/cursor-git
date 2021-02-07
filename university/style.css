@@ -105,6 +105,9 @@ main {
 .left-block,
 .right-block {
   width: 490px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 /* CIRCLE */
 .circle-block {
@@ -383,6 +386,8 @@ main {
   display: flex;
   flex-direction: column;
   gap: 13px;
+  z-index: 1;
+  position: relative;
 }
 
 .left-block .head-retancle {
@@ -413,6 +418,7 @@ main {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-top: 2px;
 }
 
 .left-block .finance-text {
@@ -429,8 +435,7 @@ main {
   position: relative;
   width: 356.75px;
   height: 198px;
-  background: center / contain no-repeat
-    url(./image/retancle-left/bg-small.svg);
+  background: center / contain no-repeat url(./image/retancle-left/bg-small.svg);
 }
 
 .rotate-left {
@@ -446,11 +451,8 @@ main {
 }
 
 .retancle-one-graph .retalncle {
-  /* position: absolute; */
   height: 22px;
   width: 99px;
-  /* left: 35px;
-  top: 94px; */
   background: linear-gradient(
     270deg,
     #44bcff 0%,
@@ -466,31 +468,16 @@ main {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #ffffff;
-  /* transform: rotate(-90deg); */
-  /* position: absolute;
-  top: 38px;
-  left: -60px; */
 }
 .retancle-one-graph .tulskiy-un {
   height: 22px;
   width: 156px;
-  /* left: 75px;
-  top: 37px; */
 }
-/* .retancle-one-graph .tulskiy-un > p {
-  top: 121px;
-  left: -32px;
-} */
+
 .retancle-one-graph .volgradskiy-un {
   height: 22px;
   width: 129px;
-  /* left: 118px;
-  top: 64px; */
 }
-/* .retancle-one-graph .volgradskiy-un > p {
-  top: 82px;
-  left: -48px;
-} */
 .retancle-one-graph .sevastopolskiy-un {
   height: 22px;
   width: 73px;
@@ -504,17 +491,40 @@ main {
   width: 129px;
 }
 /* bottom retancle - left */
-
-.retancle-one.bottom .retancle-one-graph{
-  display: flex;
-
-
+.retancle-one.bottom {
+  padding: 30px 34px 34px 34px;
+  z-index: 1;
+  align-self: end;
 }
-.retancle-one.bottom .retancle-one-graph .column{
+.retancle-one.bottom .retancle-one-graph {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+  background: none;
+}
+.retancle-one.bottom .retancle-one-graph .column {
   display: flex;
   flex-direction: column;
+  gap: 12px;
 }
-.retancle-one.bottom .retancle-one-graph .column.center{
- width: 133px;
- height: 117px;
+.retancle-one.bottom .retancle-one-graph .column.center svg {
+  overflow: visible;
+}
+.retancle-one.bottom .retancle-one-graph .column.center {
+  width: 164px;
+  height: 176px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.retancle-one.bottom .finanse-cash > div {
+  font-size: 22px;
+}
+.retancle-one.bottom .finanse-cash > p {
+  font-size: 9px;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #1d5a96;
+  max-width: 69px;
 }
