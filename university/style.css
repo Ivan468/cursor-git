@@ -377,14 +377,17 @@ main {
 .left-block .retancle-one {
   width: 413px;
   height: 335.5px;
-padding: 30px 27px 40px 30px;
+  padding: 30px 27px 40px 30px;
   background: center / contain no-repeat
     url(./image/retancle-left/bg-retancle-left-top.svg);
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
 }
 
 .left-block .head-retancle {
   display: flex;
-  gap: 20px;
+  gap: 24px;
 }
 
 .left-block .finanse-cash {
@@ -413,6 +416,7 @@ padding: 30px 27px 40px 30px;
 }
 
 .left-block .finance-text {
+  flex-grow: 1;
   font-family: Oswald;
   font-style: normal;
   font-weight: normal;
@@ -421,4 +425,38 @@ padding: 30px 27px 40px 30px;
   /* identical to box height, or 111% */
   letter-spacing: 0.05em;
   color: #ffffff;
+}
+.retancle-one-graph {
+  position: relative;
+  width: 356.75px;
+  height: 198px;
+  background: center / contain no-repeat
+    url(./image/retancle-left/bg-small-retancle-left-top.svg);
+}
+.retancle-one-graph .retalncle-sevastopol {
+  position: absolute;
+  width: 22px;
+  height: 99px;
+  left: 35px;
+  top: 94px;
+
+  background: linear-gradient(
+    180deg,
+    #44bcff 0%,
+    rgba(68, 188, 255, 0.15) 100%
+  );
+}
+.retancle-one-graph .retalncle-sevastopol > p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 7.7px;
+  line-height: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 38px;
+  left: -60px;
 }
