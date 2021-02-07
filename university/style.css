@@ -422,7 +422,6 @@ main {
   font-weight: normal;
   font-size: 18px;
   line-height: 20px;
-  /* identical to box height, or 111% */
   letter-spacing: 0.05em;
   color: #ffffff;
 }
@@ -431,22 +430,34 @@ main {
   width: 356.75px;
   height: 198px;
   background: center / contain no-repeat
-    url(./image/retancle-left/bg-small-retancle-left-top.svg);
+    url(./image/retancle-left/bg-small.svg);
 }
-.retancle-one-graph .retalncle-sevastopol {
-  position: absolute;
-  width: 22px;
-  height: 99px;
-  left: 35px;
-  top: 94px;
 
+.rotate-left {
+  display: flex;
+  flex-direction: column;
+  transform: rotate(-90deg);
+  height: 356.75px;
+  width: 198px;
+  position: absolute;
+  top: -84px;
+  left: 98px;
+  gap: 23px;
+}
+
+.retancle-one-graph .retalncle {
+  /* position: absolute; */
+  height: 22px;
+  width: 99px;
+  /* left: 35px;
+  top: 94px; */
   background: linear-gradient(
-    180deg,
+    270deg,
     #44bcff 0%,
     rgba(68, 188, 255, 0.15) 100%
   );
 }
-.retancle-one-graph .retalncle-sevastopol > p {
+.retancle-one-graph .rotate-left > div > p {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -455,8 +466,55 @@ main {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #ffffff;
-  transform: rotate(-90deg);
-  position: absolute;
+  /* transform: rotate(-90deg); */
+  /* position: absolute;
   top: 38px;
-  left: -60px;
+  left: -60px; */
+}
+.retancle-one-graph .tulskiy-un {
+  height: 22px;
+  width: 156px;
+  /* left: 75px;
+  top: 37px; */
+}
+/* .retancle-one-graph .tulskiy-un > p {
+  top: 121px;
+  left: -32px;
+} */
+.retancle-one-graph .volgradskiy-un {
+  height: 22px;
+  width: 129px;
+  /* left: 118px;
+  top: 64px; */
+}
+/* .retancle-one-graph .volgradskiy-un > p {
+  top: 82px;
+  left: -48px;
+} */
+.retancle-one-graph .sevastopolskiy-un {
+  height: 22px;
+  width: 73px;
+}
+.retancle-one-graph .tulskiy-un-two {
+  height: 22px;
+  width: 156px;
+}
+.retancle-one-graph .sevastopolskiy-un-two {
+  height: 22px;
+  width: 129px;
+}
+/* bottom retancle - left */
+
+.retancle-one.bottom .retancle-one-graph{
+  display: flex;
+
+
+}
+.retancle-one.bottom .retancle-one-graph .column{
+  display: flex;
+  flex-direction: column;
+}
+.retancle-one.bottom .retancle-one-graph .column.center{
+ width: 133px;
+ height: 117px;
 }
