@@ -63,6 +63,8 @@ input.search::placeholder {
   display: flex;
   padding: 20px 200px 10px 117px;
   align-items: center;
+  position: relative;
+z-index: 1;
 }
 
 footer {
@@ -136,6 +138,29 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.sum-student > div{
+  width: 157px;
+height: 63px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 70px;
+line-height: 63px;
+text-align: center;
+color: #FFFFFF;
+}
+.sum-student > p {
+font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-top: 19px;
 }
 
 .btn-filials {
