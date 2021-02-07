@@ -1,6 +1,6 @@
 body {
   /* min-width: 1920px; */
-
+  min-width: 1900px;
   background: radial-gradient(
       21.75% 39.35% at 50% 50%,
       rgba(68, 188, 255, 0.06) 0%,
@@ -98,6 +98,7 @@ main {
   gap: 20px;
   padding: 20px;
   justify-content: space-evenly;
+  max-width: 1910px;
 }
 /* main */
 .left-block,
