@@ -99,6 +99,7 @@ main {
   padding: 20px;
   justify-content: space-evenly;
   max-width: 1910px;
+  margin: 0 auto;
 }
 /* main */
 .left-block,
@@ -362,7 +363,7 @@ main {
   width: 47px;
   color: #44bcff;
 }
-.circle-text.text-block.peocent-left > p, 
+.circle-text.text-block.peocent-left > p,
 .circle-text.text-block.peocent-right > p {
   width: 47px;
 }
@@ -370,4 +371,54 @@ main {
   left: 486px;
   width: 47px;
   top: -65px;
+}
+/* LEFT BAR  -----------*/
+
+.left-block .retancle-one {
+  width: 413px;
+  height: 335.5px;
+padding: 30px 27px 40px 30px;
+  background: center / contain no-repeat
+    url(./image/retancle-left/bg-retancle-left-top.svg);
+}
+
+.left-block .head-retancle {
+  display: flex;
+  gap: 20px;
+}
+
+.left-block .finanse-cash {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-block .finanse-cash > div {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #44bcff;
+}
+
+.left-block .finanse-cash > p {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.left-block .finance-text {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+  letter-spacing: 0.05em;
+  color: #ffffff;
 }
