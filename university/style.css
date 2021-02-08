@@ -64,7 +64,7 @@ input.search::placeholder {
   padding: 20px 200px 10px 117px;
   align-items: center;
   position: relative;
-z-index: 1;
+  z-index: 1;
 }
 
 footer {
@@ -128,35 +128,34 @@ main {
   width: 537px;
 }
 
-
 .sum-student {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.sum-student > div{
+.sum-student > div {
   width: 157px;
-height: 63px;
-font-family: Oswald;
-font-style: normal;
-font-weight: 500;
-font-size: 70px;
-line-height: 63px;
-text-align: center;
-color: #FFFFFF;
+  height: 63px;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 63px;
+  text-align: center;
+  color: #ffffff;
 }
 .sum-student > p {
-font-family: Oswald;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-letter-spacing: 0.1em;
-text-transform: uppercase;
-color: #FFFFFF;
-margin-top: 19px;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 19px;
 }
 
 .btn-filials {
@@ -523,7 +522,8 @@ margin-top: 19px;
   justify-content: space-between;
   background: none;
 }
-.retancle-one.bottom .retancle-one-graph .column {
+.retancle-one.bottom .retancle-one-graph .column,
+.left-block.right .retancle-one-graph .column {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -548,4 +548,110 @@ margin-top: 19px;
   text-transform: uppercase;
   color: #1d5a96;
   max-width: 69px;
+}
+/* RIGHRT BLOCK */
+
+.left-block.right .bottom .retancle-one-graph {
+  background: center / contain no-repeat url(./image/retancle-left/bg-small.svg);
+}
+.left-block.right .retancle-one.right .retancle-one-graph {
+  display: flex;
+  background: none;
+}
+
+.left-block.right .retancle-one.right .globus {
+  width: 181.46px;
+  height: 181.67px;
+  background: center / contain no-repeat url(./image/retangle-right/globus.webp);
+}
+.left-block.right .retancle-one.right .text-globus {
+  flex-grow: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 11px;
+}
+
+.left-block.right .retancle-one.right .globus > svg:nth-child(1) {
+  position: absolute;
+  left: 153px;
+  top: 21px;
+}
+.left-block.right .retancle-one.right .globus > svg:nth-child(2) {
+  position: absolute;
+left: 156px;
+top: 84px;
+}
+.left-block.right .retancle-one.right .globus > svg:nth-child(3) {
+  position: absolute;
+  left: 153px;
+  top: 150px;
+}
+.left-block.right .right {
+  width: 413px;
+  height: 286.5px;
+  padding: 30px 27px 40px 30px;
+  background: center / contain no-repeat
+    url(./image/retangle-right/right-top-bg.svg);
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  z-index: 1;
+  position: relative;
+}
+
+.left-block.right .finanse-cash > p {
+  font-size: 9px;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #1d5a96;
+  max-width: 69px;
+}
+.left-block.right .finanse-cash > div {
+  font-size: 22px;
+}
+.left-block.right .retancle-one-graph .column {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 88px;
+  padding-left: 31px;
+}
+.left-block.right .text-globus .column .finanse-cash {
+  position: relative;
+}
+
+.left-block.right .retancle-one-graph .column .finanse-cash .one::before {
+  width: 12px;
+  height: 12px;
+  background: center/ contain no-repeat
+    url(./image/retangle-right/circle-one.svg);
+  /* top: 27px;
+  left: 65px; */
+}
+.left-block.right .retancle-one-graph .column .finanse-cash .two::before {
+  width: 12px;
+  height: 12px;
+  background: center/ contain no-repeat
+    url(./image/retangle-right/circle-two.svg);
+  /* top: 27px;
+  left: 65px; */
+}
+.left-block.right .retancle-one-graph .column .finanse-cash .three::before {
+  width: 12px;
+  height: 12px;
+  background: center/ contain no-repeat
+    url(./image/retangle-right/circle-three.svg);
+  /* top: 27px;
+  left: 65px; */
+}
+
+.left-block.right .retancle-one-graph .column .finanse-cash > div::before {
+  content: "";
+  position: absolute;
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: -22px;
 }
