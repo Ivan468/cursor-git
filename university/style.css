@@ -772,6 +772,9 @@ div.graph-block:nth-child(3) > div:nth-child(2) {
   padding: 30px 18px 18px 30px;
   justify-content: space-between;
   gap: 10px;
+  position: absolute;
+
+  left: 263px;
 }
 .stats-block {
   display: flex;
@@ -781,7 +784,7 @@ div.graph-block:nth-child(3) > div:nth-child(2) {
   display: flex;
   flex-direction: column;
   width: 100px;
-   gap: 5px;
+  gap: 5px;
 }
 div.bottom-block-stats-wrapper
   div.bottom-block-stats
@@ -794,4 +797,37 @@ div.bottom-block-stats-wrapper
   font-size: 22px;
   line-height: 20px;
   color: #44bcff;
+}
+.button-down {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  padding: 29px 29px 15px 41px;
+}
+.left-wrapper {
+  display: flex;
+  position: absolute;
+  left: 1003px;
+}
+
+.left--down-button {
+  width: 187.5px;
+  height: 64.5px;
+  background: center/ contain no-repeat
+    url(./image/bottom-block/left-bg-button.svg);
+}
+.right--down-button {
+  width: 202.5px;
+  height: 64.5px;
+  background: center/ contain no-repeat
+    url(./image/bottom-block/right-bg-button.svg);
+  position: absolute;
+  left: 174px;
 }
