@@ -579,8 +579,8 @@ main {
 }
 .left-block.right .retancle-one.right .globus > svg:nth-child(2) {
   position: absolute;
-left: 156px;
-top: 84px;
+  left: 156px;
+  top: 84px;
 }
 .left-block.right .retancle-one.right .globus > svg:nth-child(3) {
   position: absolute;
@@ -654,4 +654,94 @@ top: 84px;
   position: absolute;
   top: 4px;
   left: -22px;
+}
+/* Bottom retangle */
+
+.retancle-one.bottom.right-bottom .retancle-one-graph {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.retancle-one.bottom.right-bottom
+  .retancle-one-graph.right-bottom
+  .graph-block
+  > p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.retancle-one.bottom.right-bottom
+  .retancle-one-graph.right-bottom
+  .graph-block
+  > div {
+  height: 6px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 20px;
+  text-align: right;
+  color: #35aaba;
+  position: relative;
+}
+
+.retancle-one.bottom.right-bottom
+  .retancle-one-graph.right-bottom
+  .graph-block {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+div.graph-block > .graph-col-1 {
+  background: calc(100% - 10px) 0px no-repeat
+    url(./image/retangle-right/bg-retangle.svg);
+  width: 263px;
+  height: 6px;
+}
+
+.retancle-one.bottom.right-bottom
+  .retancle-one-graph.right-bottom
+  .graph-block > .graph-col-2 {
+  background: calc(100% - 10px) 0px no-repeat
+    url(./image/retangle-right/bg-retangle-red.svg);
+  width: 50px;
+  height: 6px;
+  color: #C36A6A;
+}
+
+.retancle-one.bottom.right-bottom
+  .retancle-one-graph.right-bottom
+  .graph-block {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+div.left-block.right
+  div.retancle-one.bottom.right-bottom
+  div.retancle-one-graph.right-bottom
+  div.graph-block
+  div.graph-col-1
+  span,
+div.left-block.right
+  div.retancle-one.bottom.right-bottom
+  div.retancle-one-graph.right-bottom
+  div.graph-block
+  div.graph-col-2
+  span {
+  position: absolute;
+  right: -7px;
+  top: -6px;
+}
+div.graph-block:nth-child(2) > div:nth-child(2) {
+  width: 163px;
+}
+div.graph-block:nth-child(3) > div:nth-child(2) {
+  width: 200px;
 }
