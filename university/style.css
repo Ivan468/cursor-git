@@ -441,7 +441,8 @@ main {
   margin-top: 2px;
 }
 
-.left-block .finance-text {
+.left-block .finance-text,
+.bottom-block-stats > h3:nth-child(1) {
   flex-grow: 1;
   font-family: Oswald;
   font-style: normal;
@@ -541,13 +542,21 @@ main {
 .retancle-one.bottom .finanse-cash > div {
   font-size: 22px;
 }
-.retancle-one.bottom .finanse-cash > p {
+.retancle-one.bottom .finanse-cash > p,
+div.bottom-block-stats-wrapper
+  div.bottom-block-stats
+  div.stats-block
+  div.graph-text
+  p {
   font-size: 9px;
   line-height: 14px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #1d5a96;
   max-width: 69px;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
 }
 /* RIGHRT BLOCK */
 
@@ -708,12 +717,13 @@ div.graph-block > .graph-col-1 {
 
 .retancle-one.bottom.right-bottom
   .retancle-one-graph.right-bottom
-  .graph-block > .graph-col-2 {
+  .graph-block
+  > .graph-col-2 {
   background: calc(100% - 10px) 0px no-repeat
     url(./image/retangle-right/bg-retangle-red.svg);
   width: 50px;
   height: 6px;
-  color: #C36A6A;
+  color: #c36a6a;
 }
 
 .retancle-one.bottom.right-bottom
@@ -744,4 +754,44 @@ div.graph-block:nth-child(2) > div:nth-child(2) {
 }
 div.graph-block:nth-child(3) > div:nth-child(2) {
   width: 200px;
+}
+/* BoTTom BLOCK */
+.bottom-block-stats-wrapper {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.bottom-block-stats {
+  display: flex;
+  width: 643px;
+  height: 118.5px;
+  background: center/ contain no-repeat url(./image/bottom-block/bg-bottom.svg);
+  padding: 30px 18px 18px 30px;
+  justify-content: space-between;
+  gap: 10px;
+}
+.stats-block {
+  display: flex;
+  gap: 12px;
+}
+.graph-text {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+   gap: 5px;
+}
+div.bottom-block-stats-wrapper
+  div.bottom-block-stats
+  div.stats-block
+  div.graph-text
+  div {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 20px;
+  color: #44bcff;
 }
