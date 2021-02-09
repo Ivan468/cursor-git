@@ -180,6 +180,7 @@ main {
   text-transform: uppercase;
   color: #44bcff;
   outline: none;
+  transition: 1s;
 }
 .budget {
   position: absolute;
@@ -187,6 +188,8 @@ main {
   height: 351px;
   top: 58px;
   left: 31px;
+  transition: 1s;
+  transform-box: view-box;
 }
 .circle-text {
   width: 156px;
@@ -253,6 +256,7 @@ main {
   right: 52px;
   width: 279px;
   height: 368px;
+  transition: 1s;
 }
 .circle-text.raiting-text {
   left: 108px;

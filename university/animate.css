@@ -129,3 +129,16 @@
     transform: rotate(360deg);
   }
 }
+/* OTHER */
+
+.budget:hover {
+  transform: translate(-15px, -15px) scale(1.1);
+}
+
+.raiting-block:hover {
+  transform: translate(15px, -15px) scale(1.1);
+}
+
+.btn-filials:hover {
+transform: translate(0px, -15px) scale(1.1);
+}
