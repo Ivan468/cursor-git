@@ -1,0 +1,17 @@
+#myearth {
+	width: 250px;
+	height: 250px;
+	overflow: hidden;
+	
+	opacity: 0;
+	transition: opacity 1.5s ease-in;
+}
+
+#myearth.earth-ready {
+	opacity: 1;
+}
+
+#myearth::before {
+	content: none;
+}
+
