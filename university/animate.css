@@ -371,34 +371,20 @@
 } 
 @keyframes circleblock {
   from {
-     transform: translate(-15px, -15px) scale(1.1);
+     transform: translate(0px, 0px) scale(1);
   }
     to {
-       transform: translate(0px, 0px) scale(1);
+       transform: translate(4px, 3px) scale(0.95);
     }
 }
 
-@keyframes circleblock-left {
-  from {
-     transform: translate(15px, -15px) scale(1.1);
-  }
-    to {
-       transform: translate(0px, 0px) scale(1);
-    }
-}
+
 @keyframes circleblock-bottom {
     from {
-     transform: translate(15px, 15px) scale(1.1);
+     transform: translate(0px, 0px) scale(1);
   }
     to {
-       transform: translate(0px, 0px) scale(1);
+       transform: translate(0px, -3px) scale(0.95);
     }
 }
-@keyframes circleblock-bottom-left {
-    from {
-     transform: translate(-15px, 15px) scale(1.1);
-  }
-    to {
-       transform: translate(0px, 0px) scale(1);
-    }
-}
+
