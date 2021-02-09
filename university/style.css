@@ -189,6 +189,7 @@ left: 216px;
   left: 31px;
   transition: 1s;
   transform-box: view-box;
+  animation: circleblock 1s ease-in-out 1s 1 direction fill-mode;
 }
 .circle-text {
   width: 156px;
@@ -476,11 +477,11 @@ left: 216px;
 
 .retancle-one-graph .retalncle {
   height: 22px;
-  transition: width 2s, background .2s;
+  transition: width 4s, background .4s;
    animation-name: sevastopl-un;
   clear: both;
   animation-iteration-count: infinite;
-  animation-direction: normal;
+  animation-direction: reverse;
     animation-duration: 8s;
     animation-delay: 1s;
     width: 0px;
@@ -506,7 +507,7 @@ left: 216px;
    animation-name: tulskiy-un;
   clear: both;
   animation-iteration-count: infinite;
-  animation-direction: normal;
+  animation-direction: reverse;
     animation-duration: 10s;
     animation-delay: 1.1s;
     width: 0px;
@@ -518,7 +519,7 @@ left: 216px;
    animation-name: volgradskiy-un;
   clear: both;
   animation-iteration-count: infinite;
-  animation-direction: normal;
+  animation-direction: reverse;
     animation-duration: 9s;
  animation-delay: 1.5s;
     width: 0px;
@@ -526,17 +527,17 @@ left: 216px;
 .retancle-one-graph .sevastopolskiy-un {
   height: 22px;
   width: 0px;
-   animation: sevastopol-un-two 11s ease 1.8s infinite normal none;
+   animation: sevastopol-un-two 11s ease 1.8s infinite reverse none;
 }
 .retancle-one-graph .tulskiy-un-two {
   height: 22px;
    width: 0px;
-   animation: tylskiy-two 10s ease 2.2s infinite normal none;
+   animation: tylskiy-two 10s ease 2.2s infinite reverse none;
 }
 .retancle-one-graph .sevastopolskiy-un-two {
   height: 22px;
   width: 0px;
-   animation: sevastopolskiy-two 8s ease 2.5s infinite normal none;
+   animation: sevastopolskiy-two 8s ease 2.5s infinite reverse none;
 }
 /* bottom retancle - left */
 .retancle-one.bottom {

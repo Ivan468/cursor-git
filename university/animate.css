@@ -91,10 +91,12 @@
 .speedometer svg {
   width: calc(75vh * 327 / 205.4);
   height: 75vh;
+  
 }
 
 .speedometer path {
-  fill: #0b1b51;
+  /* fill: #0b1b51; */
+  fill: transparent;
 }
 
 .needle {
