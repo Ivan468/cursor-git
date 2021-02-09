@@ -463,7 +463,7 @@ main {
 }
 .retancle-one-graph {
   position: relative;
-  width: 356.75px;
+  width: 325.75px;
   height: 198px;
   background: center / contain no-repeat url(./image/retancle-left/bg-small.svg);
 }
@@ -632,8 +632,8 @@ div.bottom-block-stats-wrapper
 }
 .left-block.right .retancle-one.right .globus > svg:nth-child(3) {
   position: absolute;
-  left: 153px;
-  top: 150px;
+  left: 154px;
+  top: 148px;
 }
 .left-block.right .right {
   width: 413px;
