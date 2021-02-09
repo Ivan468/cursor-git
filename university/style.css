@@ -189,7 +189,8 @@ left: 216px;
   left: 31px;
   transition: 1s;
   transform-box: view-box;
-  animation: circleblock 1s ease-in-out 1s 1 direction fill-mode;
+  animation: circleblock 1s ease-in-out 1s 1 normal forwards;
+ transform: translate(-15px, -15px) scale(1.1);
 }
 .circle-text {
   width: 156px;
@@ -257,6 +258,8 @@ left: 216px;
   width: 279px;
   height: 368px;
   transition: 1s;
+  animation: circleblock-left 1s ease-in-out 2s 1 normal forwards;
+ transform: translate(15px, -15px) scale(1.1);
 }
 .circle-text.raiting-text {
   left: 108px;

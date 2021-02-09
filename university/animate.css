@@ -134,18 +134,7 @@
 }
 
 /* GLOBE ANIMATION */
-
 /* OTHER */
-
-.budget:hover {
-  transform: translate(-15px, -15px) scale(1.1);
-  z-index: 4;
-}
-
-.raiting-block:hover {
-  transform: translate(15px, -15px) scale(1.1);
-  z-index: 4;
-}
 
 .btn-filials:hover {
   transform: translate(0px, -15px) scale(1.04);
@@ -380,3 +369,20 @@
         width: 63%;
     }
 } 
+@keyframes circleblock {
+  from {
+     transform: translate(-15px, -15px) scale(1.1);
+  }
+    to {
+       transform: translate(0px, 0px) scale(1);
+    }
+}
+
+@keyframes circleblock-left {
+  from {
+     transform: translate(15px, -15px) scale(1.1);
+  }
+    to {
+       transform: translate(0px, 0px) scale(1);
+    }
+}
