@@ -112,7 +112,8 @@
 /* .column.center .transform{
    transform: translate(-50%, -50%);
 } */
-.column.center .animatio-spin {
+.column.center .animatio-spin,
+.cyrcle-rotate {
   transform-origin: center;
   animation-name: spin;
   animation-duration: 6s;
@@ -129,16 +130,251 @@
     transform: rotate(360deg);
   }
 }
+
+/* GLOBE ANIMATION */
+
 /* OTHER */
 
 .budget:hover {
   transform: translate(-15px, -15px) scale(1.1);
+  z-index: 4;
 }
 
 .raiting-block:hover {
   transform: translate(15px, -15px) scale(1.1);
+  z-index: 4;
 }
 
 .btn-filials:hover {
-transform: translate(0px, -15px) scale(1.1);
+  transform: translate(0px, -15px) scale(1.04);
+  z-index: 4;
 }
+
+@keyframes tulskiy-un {
+  0% {
+    width: 0px;
+  }
+  10% {
+    width: 156px;
+  }
+  12% {
+    width: 140px;
+  }
+  50% {
+    width: 150px;
+  }
+  60% {
+    width: 155px;
+  }
+  65% {
+    width: 145px;
+  }
+  85% {
+    width: 155px;
+  }
+  85% {
+    width: 155px;
+  }
+}
+@keyframes volgradskiy-un {
+  0% {
+    width: 0px;
+  }
+  15% {
+    width: 129px;
+  }
+  16% {
+    width: 110px;
+  }
+  34% {
+    width: 120px;
+  }
+  50% {
+    width: 135px;
+  }
+  45% {
+    width: 125px;
+  }
+  65% {
+    width: 135px;
+  }
+  85% {
+    width: 129px;
+  }
+}
+@keyframes sevastopl-un {
+   0% {
+    width: 0px;
+  }
+  15% {
+    width: 129px;
+  }
+  16% {
+    width: 110px;
+  }
+  34% {
+    width: 120px;
+  }
+  50% {
+    width: 135px;
+  }
+  45% {
+    width: 125px;
+  }
+  65% {
+    width: 135px;
+  }
+  85% {
+    width: 129px;
+  }
+}
+
+@keyframes sevastopol-un-two {
+    0.0%{
+    }
+    10.9%{
+        width: 73px;
+    }
+    21.7%{
+        width: 85px;
+    }
+    31.1%{
+        width: 74px;
+    }
+    45.2%{
+        width: 80px;
+    }
+    54.3%{
+        width: 75px;
+    }
+    60.4%{
+        width: 65px;
+    }
+    69.1%{
+        width: 88px;
+    }
+    76.4%{
+        width: 75px;
+    }
+    85.2%{
+        width: 88px;
+    }
+    93.5%{
+        width: 75px;
+    }
+}
+ @keyframes tylskiy-two {
+    0.0%{
+        width: 0px;
+    }
+    17.3%{
+        width: 140px;
+    }
+    22.6%{
+        width: 155px;
+    }
+    29.8%{
+        width: 145px;
+    }
+    41.2%{
+        width: 135px;
+    }
+    52.9%{
+        width: 145px;
+    }
+    61.8%{
+        width: 155px;
+    }
+    7.9%{
+        width: 156px;
+    }
+    71.8%{
+        width: 165px;
+    }
+    77.1%{
+        width: 130px;
+    }
+    85.6%{
+        width: 145px;
+    }
+    92.9%{
+        width: 148px;
+    }
+} 
+ @keyframes sevastopolskiy-two {
+    0.0%{
+        width: 0px;
+    }
+    15.3%{
+        width: 129px;
+    }
+    18.6%{
+        width: 135px;
+    }
+    35.8%{
+        width: 125px;
+    }
+    45.2%{
+        width: 139px;
+    }
+    55.9%{
+        width: 105px;
+    }
+    65.8%{
+        width: 135px;
+    }
+    7.9%{
+        width: 120px;
+    }
+    75.8%{
+        width: 125px;
+    }
+    79.1%{
+        width: 135px;
+    }
+    81.6%{
+        width: 130px;
+    }
+    95.9%{
+        width: 135px;
+    }
+} 
+
+@keyframes sevastopol-two {
+    0.0%{
+        width: 0px;
+    }
+    15.3%{
+        width: 70%;
+    }
+    18.6%{
+        width: 65%;
+    }
+    35.8%{
+        width: 75%;
+    }
+    45.2%{
+        width: 70%;
+    }
+    55.9%{
+        width: 75%;
+    }
+    65.8%{
+        width: 60%;
+    }
+    7.9%{
+        width: 70%;
+    }
+    75.8%{
+        width: 75%;
+    }
+    79.1%{
+        width: 65%;
+    }
+    81.6%{
+        width: 58%;
+    }
+    95.9%{
+        width: 63%;
+    }
+} 
