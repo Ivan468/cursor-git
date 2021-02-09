@@ -623,8 +623,8 @@ div.bottom-block-stats-wrapper
 
 .left-block.right .retancle-one.right .globus > svg:nth-child(1) {
   position: absolute;
-  left: 153px;
-  top: 21px;
+  left: 151px;
+top: 22px;
 }
 .left-block.right .retancle-one.right .globus > svg:nth-child(2) {
   position: absolute;
@@ -663,10 +663,16 @@ div.bottom-block-stats-wrapper
 .left-block.right .retancle-one-graph .column {
   display: flex;
   flex-direction: column;
-  gap: 14px;
   width: 88px;
   padding-left: 31px;
 }
+
+div.right:nth-child(1) > div:nth-child(2) {
+ width: 328px;
+ padding: 2px 6px 0px 0px;
+}
+
+
 .left-block.right .text-globus .column .finanse-cash {
   position: relative;
 }
