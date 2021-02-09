@@ -97,10 +97,9 @@ footer {
 main {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
   padding: 20px;
   justify-content: space-evenly;
-  max-width: 1910px;
+  max-width: 1790px;
   margin: 0 auto;
 }
 /* main */
@@ -111,7 +110,7 @@ main {
   flex-direction: column;
   justify-content: space-around;
   position: relative;
-  left: 27px;
+   
 }
 /* CIRCLE */
 .circle-block {
@@ -427,6 +426,7 @@ main {
 .left-block .finanse-cash {
   display: flex;
   flex-direction: column;
+  margin-bottom: 12px;
 }
 
 .left-block .finanse-cash > div {
@@ -561,7 +561,7 @@ main {
 .left-block.right .retancle-one-graph .column {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  
 }
 .retancle-one.bottom .retancle-one-graph .column.center svg {
   overflow: visible;
@@ -708,6 +708,7 @@ div.bottom-block-stats-wrapper
 
 .retancle-one.bottom.right-bottom .retancle-one-graph {
   margin-top: 18px;
+  padding-left: 7px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -724,6 +725,7 @@ div.bottom-block-stats-wrapper
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #ffffff;
+   margin-bottom: 6px;
 }
 .retancle-one.bottom.right-bottom
   .retancle-one-graph.right-bottom
@@ -738,6 +740,7 @@ div.bottom-block-stats-wrapper
   text-align: right;
   color: #35aaba;
   position: relative;
+  margin-bottom: 6px;
 }
 
 .retancle-one.bottom.right-bottom
@@ -745,7 +748,7 @@ div.bottom-block-stats-wrapper
   .graph-block {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  
 }
 
 div.graph-block > .graph-col-1 {
@@ -772,7 +775,6 @@ div.graph-block > .graph-col-1 {
   .graph-block {
   display: flex;
   flex-direction: column;
-  gap: 6px;
 }
 div.left-block.right
   div.retancle-one.bottom.right-bottom
@@ -964,14 +966,13 @@ div.bottom-block-stats-wrapper
 }
 .arrow-block > img:nth-child(3) {
   position: absolute;
-  width: 158px;
-  height: 53px;
-  left: 520px;
-  top: 706px;
+ 
+  left: 522px;
+  top: 704px;
 }
 div.left-block:nth-child(3) {
   position: relative;
-  left: -26px;
+   
   width: 445px;
 }
 
