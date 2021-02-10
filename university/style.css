@@ -549,7 +549,7 @@ main {
 .retancle-one.bottom {
   padding: 30px 34px 34px 34px;
   z-index: 1;
-  align-self: end;
+ align-self: flex-end;
 }
 .retancle-one.bottom .retancle-one-graph {
   display: flex;
