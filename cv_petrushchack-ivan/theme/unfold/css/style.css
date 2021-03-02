@@ -67,6 +67,7 @@ a, a:hover {
 @media (max-width: 991.98px) {
   .unslate_co--site-inner {
     margin-bottom: auto !important;
+    overflow: hidden;
   }
 }
 
@@ -1628,6 +1629,7 @@ figure.dotted-bg:before {
   position: relative;
   opacity: 0;
   display: none;
+ 
 }
 
 .unslate_co--close-portfolio {
@@ -1729,6 +1731,7 @@ figure.dotted-bg:before {
   text-align: center;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.5);
+   z-index: 5;
 }
 
 .unslate_co--footer a {
