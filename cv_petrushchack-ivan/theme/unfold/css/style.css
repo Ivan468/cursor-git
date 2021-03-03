@@ -87,6 +87,7 @@ a, a:hover {
   .unslate_co--footer {
     height: auto !important;
     position: relative !important;
+     z-index: 5;
   }
 }
 
@@ -1731,7 +1732,7 @@ figure.dotted-bg:before {
   text-align: center;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.5);
-   z-index: 5;
+  
 }
 
 .unslate_co--footer a {
