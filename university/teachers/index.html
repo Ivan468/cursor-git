@@ -18,8 +18,8 @@
     .wrapper {
       width: 100%;
     }
-    .main-block {
-      width: 1170px;
+   .main-block {
+      max-width: 1170px;
       height: 286px;
       margin: 100px auto;
     }
@@ -27,26 +27,53 @@
       width: 537px;
        padding: 36px 0px;
       display: flex;
+      position: relative;
+    z-index: 1;
+    }
+    .setka {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;z-index: 0;
+      width: 1170px;
+      height: auto;
     }
     .line-one {
-      background: center/cover no-repeat url(./img/director-bg.png), white;
+     background:   white;
       display: flex;
+      position: relative;
       justify-content: center;
       margin-bottom: 20px;
-      width: 1170px;
+      max-width: 1170px;
       height: 286px;
       align-items: center;
+      margin: 20px auto;
+      overflow: hidden;
+    }
+    .teacher .setka-teash {
+      position: absolute;
+       bottom: 0;
+      right:  0;
+       z-index: 0;
+      width: 291px;
+      height: auto;
+      opacity: 0.5;
+      
     }
     .teacher {
-      width: 370px;
-      height: 360px;
-      background: right bottom/291px 276px no-repeat url(./img/teacher-bg.png),
-        white;
+      width: 100%;max-width: 370px;
+      height: 360px;z-index: 1;
+     position: relative;
+      background-color:   white;
       display: flex;
       flex-direction: column;
       justify-content: center;
       margin-bottom: 20px;
-      align-items: center;
+      align-items: center; padding:0 10px;
+      
+    }
+    .zero {
+      opacity: 0;
     }
     .text-rector {
       display: flex;
@@ -57,9 +84,10 @@
       width: 182px;
       height: auto;
     }
-    .line-two,
+   .line-two,
     .line-three {
       display: flex;
+      justify-content: center;
     }
     .margin-cen {
       margin: 0 30px;
@@ -114,6 +142,10 @@
         width: auto;
         height: auto;
       }
+      .zero {
+      opacity: 0;
+      display: none;
+    }
 
       .line-one {
         width: auto;
@@ -146,6 +178,7 @@
     <div class="wrapper">
       <div class="main-block">
         <div class="line-one">
+          <img class="setka" src="./img/director-bg.png" alt="">
           <div class="rector-wrap">
             <div>
               <img
@@ -163,16 +196,19 @@
         </div>
         <div class="line-two">
           <div class="teacher">
+            <img  class="setka-teash" src="./img/teacher-bg.png" alt="">
             <img src="./img/ekimova.png" alt="" />
             <h2>Екимова Ксения Валерьевна</h2>
             <h3>Проректор, д.э.н., профессор.</h3>
           </div>
           <div class="teacher margin-cen">
+             <img class="setka-teash"  src="./img/teacher-bg.png" alt="">
             <img src="./img/malkar.png" alt="" />
             <h2>Малкарова Светлана Магометовна</h2>
             <h3>Проректор, к.с.н.</h3>
           </div>
           <div class="teacher">
+             <img  class="setka-teash"  src="./img/teacher-bg.png" alt="">
             <img src="./img/nachevs.png" alt="" />
             <h2>Начевский Михаил Владимирович</h2>
             <h3>Директор Центра развития цифровой экосистемы</h3>
@@ -180,14 +216,19 @@
         </div>
         <div class="line-three">
           <div class="teacher">
+            <img class="setka-teash"  src="./img/teacher-bg.png" alt="">
             <img src="./img/stulov.png" alt="" />
             <h2>Сутулов Михаил Вячеславович</h2>
             <h3>Инженер Центра развития цифровой экосистемы</h3>
           </div>
           <div class="teacher margin-cen">
+            <img class="setka-teash"  src="./img/teacher-bg.png" alt="">
             <img src="./img/koal.png" alt="" />
             <h2>Ковалев Сергей Юрьевич</h2>
             <h3>Главный специалист Центра развития цифровой экосистемы</h3>
+          </div>
+          <div class="teacher zero">
+
           </div>
         </div>
       </div>
