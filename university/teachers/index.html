@@ -25,7 +25,7 @@
     }
     .rector-wrap {
       width: 537px;
-      height: 214px;
+       padding: 36px 0px;
       display: flex;
     }
     .line-one {
@@ -40,7 +40,8 @@
     .teacher {
       width: 370px;
       height: 360px;
-      background: right bottom/291px 276px no-repeat url(./img/teacher-bg.png), white;
+      background: right bottom/291px 276px no-repeat url(./img/teacher-bg.png),
+        white;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -48,10 +49,10 @@
       align-items: center;
     }
     .text-rector {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
     .teacher img {
       width: 182px;
       height: auto;
@@ -63,10 +64,11 @@
     .margin-cen {
       margin: 0 30px;
     }
-    .teacher h2, .teacher h3{
-        max-width: 265px;
-        text-align: center;
-        margin-bottom: 0;
+    .teacher h2,
+    .teacher h3 {
+      max-width: 265px;
+      text-align: center;
+      margin-bottom: 0;
     }
     h2 {
       font-family: Montserrat;
@@ -86,40 +88,58 @@
 
       color: #000000;
     }
-    @media screen and (max-width: 360px) {
+   @media screen and (max-width: 991px) {
       
-/* Вбудований #1 | file:///F:/project/university/teachers/index.html */
+/* Вбудований #0 | file:///F:/project/university/teachers/index.html */
 
-.main-block {
-    width: auto;  
-   height: auto;  
+.teacher {
+  /* width: 370px; */
+  width: 272px;
 }
 
 .line-one {
-   width: auto;  
-   height: auto;  
-  height: max-content;
+  /* width: 1170px; */
+  width: 100%;
 }
 
-.rector-wrap {
-  height: 364px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.main-block {
+  /* width: 1170px; */
+  width: 90%;
 }
 
-.line-two, .line-three {
-  flex-wrap: wrap;
-}
+    }
+    
+    @media screen and (max-width: 767px) {
+      .main-block {
+        width: auto;
+        height: auto;
+      }
 
-.text-rector {
-  text-align: center;
-}
+      .line-one {
+        width: auto;
+        height: auto;
+        height: max-content;
+      }
 
-.teacher {
-  margin: 15px 30px;
-}
+      .rector-wrap {
+   
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
 
+      .line-two,
+      .line-three {
+        flex-wrap: wrap;
+      }
+
+      .text-rector {
+        text-align: center;
+      }
+
+      .teacher {
+        margin: 15px auto;
+      }
     }
   </style>
   <body>
