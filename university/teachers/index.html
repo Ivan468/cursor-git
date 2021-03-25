@@ -47,6 +47,11 @@
       margin-bottom: 20px;
       align-items: center;
     }
+    .text-rector {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
     .teacher img {
       width: 182px;
       height: auto;
@@ -80,6 +85,41 @@
       line-height: 23px;
 
       color: #000000;
+    }
+    @media screen and (max-width: 360px) {
+      
+/* Вбудований #1 | file:///F:/project/university/teachers/index.html */
+
+.main-block {
+    width: auto;  
+   height: auto;  
+}
+
+.line-one {
+   width: auto;  
+   height: auto;  
+  height: max-content;
+}
+
+.rector-wrap {
+  height: 364px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.line-two, .line-three {
+  flex-wrap: wrap;
+}
+
+.text-rector {
+  text-align: center;
+}
+
+.teacher {
+  margin: 15px 30px;
+}
+
     }
   </style>
   <body>
