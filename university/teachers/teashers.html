@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teasher</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    body {
+      background: #e5e5e5;
+    }
+    .wrapper {
+      width: 100%;
+    }
+    .main-block {
+      width: 1170px;
+      height: 286px;
+      margin: 100px auto;
+    }
+    .rector-wrap {
+      width: 537px;
+      height: 214px;
+      display: flex;
+    }
+    .line-one {
+      background: center/cover no-repeat url(./img/director-bg.png), white;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      width: 1170px;
+      height: 286px;
+      align-items: center;
+    }
+    .teacher {
+      width: 370px;
+      height: 360px;
+      background: right bottom/291px 276px no-repeat url(./img/teacher-bg.png), white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 20px;
+      align-items: center;
+    }
+    .teacher img {
+      width: 182px;
+      height: auto;
+    }
+    .line-two,
+    .line-three {
+      display: flex;
+    }
+    .margin-cen {
+      margin: 0 30px;
+    }
+    .teacher h2, .teacher h3{
+        max-width: 265px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    h2 {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 26px;
+      text-transform: uppercase;
+      color: #000000;
+      font-size: 16px;
+    }
+    h3 {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 23px;
+
+      color: #000000;
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <div class="main-block">
+        <div class="line-one">
+          <div class="rector-wrap">
+            <div>
+              <img
+                src="./img/lobanov-img.png"
+                alt=""
+                width="214px;"
+                height="auto"
+              />
+            </div>
+            <div class="text-rector">
+              <h2>Лобанов Иван Васильевич</h2>
+              <h3>Ректор РЭУ им. Г.В. Плеханова</h3>
+            </div>
+          </div>
+        </div>
+        <div class="line-two">
+          <div class="teacher">
+            <img src="./img/ekimova.png" alt="" />
+            <h2>Екимова Ксения Валерьевна</h2>
+            <h3>Проректор, д.э.н., профессор.</h3>
+          </div>
+          <div class="teacher margin-cen">
+            <img src="./img/malkar.png" alt="" />
+            <h2>Малкарова Светлана Магометовна</h2>
+            <h3>Проректор, к.с.н.</h3>
+          </div>
+          <div class="teacher">
+            <img src="./img/nachevs.png" alt="" />
+            <h2>Начевский Михаил Владимирович</h2>
+            <h3>Директор Центра развития цифровой экосистемы</h3>
+          </div>
+        </div>
+        <div class="line-three">
+          <div class="teacher">
+            <img src="./img/stulov.png" alt="" />
+            <h2>Сутулов Михаил Вячеславович</h2>
+            <h3>Инженер Центра развития цифровой экосистемы</h3>
+          </div>
+          <div class="teacher margin-cen">
+            <img src="./img/koal.png" alt="" />
+            <h2>Ковалев Сергей Юрьевич</h2>
+            <h3>Главный специалист Центра развития цифровой экосистемы</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
