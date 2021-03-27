@@ -74,8 +74,11 @@ ul#top-menu {
   position: absolute;
   background: none;
   border: none;
-  bottom: 0.4125rem;
-  left: 1.125rem;
+  bottom: 1.0125rem;
+  left: 2.125rem;
+}
+.search-widget form input[type="text"] {
+  border: none;
 }
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
@@ -84,6 +87,9 @@ textarea::-webkit-input-placeholder {
   color: rgb(0, 5, 85);
   line-height: 1.2;
   text-align: left;
+}
+input.ui-autocomplete-input {
+  height: 62px;
 }
 .contcact-block__contact-btn {
   font-size: 22px;
@@ -186,14 +192,68 @@ span.cart-products-count {
   text-transform: uppercase;
   line-height: 1.2;
   text-align: left;
+  margin-bottom: auto;
 }
 .ressuranse-block h4 {
   font-size: 20px;
+  text-align: left;font-weight: 500;
   color: rgb(0, 5, 85);
 }
 .img-wrap {
   margin-right: 10px;
 }
+.bordeaux {
+  width: 100%;
+  background: #f4f7fe;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 38px 20px 20px 20px;
+}
+.bordeaux h2 {
+  font-size: 40px;
+
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 27px;
+}
+.bordeaux h3 {
+  font-size: 20px;
+
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+.bordeaux .text-wrap {
+  max-width: 1000px;
+}
+h2.h2.products-section-title.text-uppercase {
+  font-size: 40px;
+
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+  margin: 50px 0px;
+}
+h3 {
+  font-size: 28px;
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.179;
+  text-align: center;
+}
+.featured-products-h3 {
+    margin-bottom: 1.5rem;
+}
+
 /*  */
 @media (min-width: 1200px) {
   .telefone {
@@ -224,6 +284,7 @@ span.cart-products-count {
     line-height: 18px;
     font-size: 12px;
   }
+
   .mobile {
     display: flex;
     justify-content: space-between;
@@ -313,5 +374,14 @@ span.cart-products-count {
     position: relative;
     left: -5.3px;
     height: auto;
+  }
+}
+
+@media (max-width: 360px) {
+  .bordeaux h2 {
+    font-size: 20px;
+  }
+  .bordeaux h3 {
+    font-size: 11px;
   }
 }
