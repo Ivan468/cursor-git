@@ -1,0 +1,13 @@
+#header .header-top .search-widget {
+    float: left;
+}
+
+
+
+
+@media (min-width: 1920px) {
+.container {
+    width: 1700px;
+    max-width: 100%;
+}
+}
