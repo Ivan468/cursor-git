@@ -275,6 +275,10 @@ h3 {
   align-items: center;
   justify-content: center;
 }
+#custom-text img {
+    max-width: 100%;
+    width: 100%;all:initial
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
@@ -286,6 +290,9 @@ h3 {
 .grid-container h3 {
       margin-top: 15px;
   }
+ .blog-img {
+     text-align: center;
+ }
 /*  */
 @media (min-width: 1200px) {
   .telefone {
