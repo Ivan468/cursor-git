@@ -1,8 +1,48 @@
-#header .header-top .search-widget {
-    float: left;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.flex {
+    display: flex;
 }
 
+#header .header-top .search-widget {
+    float: left;
+    width: 80%;
+    margin: 0 auto;
+}
 
+.cart-block {
+    display: flex;
+}
+.ui-autocomplete-input{
+  background-color: rgb(244, 247, 254);
+   border-radius: 20px;
+   
+
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    font-size: 22px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  line-height: 1.2;
+  text-align: left;
+}
+.contcact-block__contact-btn {
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  background: white;
+  border: 2px solid rgb(0, 5, 85);
+  border-radius: 18px;
+  padding: 5px 20px;
+
+  
+}
 
 
 @media (min-width: 1920px) {
