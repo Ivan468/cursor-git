@@ -60,6 +60,9 @@ div#_desktop_top_menu {
 ul#top-menu {
   margin: 0;
 }
+.user-info  span, #_desktop_cart span{
+    margin-top: 8px;
+}
 .cart-block {
   display: flex;
 }
@@ -68,7 +71,7 @@ ul#top-menu {
   border-radius: 20px;
 }
 .search-widget form input[type="text"] {
-  padding: 10px 10px 10px 100px;
+  padding: 10px 10px 10px 100px;border-radius: 100px;
 }
 .search-widget form button[type="submit"] {
   position: absolute;
