@@ -147,6 +147,18 @@ span.cart-products-count {
   justify-content: space-between;
   gap: 8px;
 }
+  .icon-next {
+  background: center/10px no-repeat url(./arrov.png), white;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+.swiper-container {
+  width: 100%;
+  height: 650px;
+}
+
+/*  */
 @media (min-width: 1200px) {
   .telefone {
     font-size: 15px;
@@ -175,5 +187,62 @@ span.cart-products-count {
     height: 26px;
     line-height: 18px;
     font-size: 12px;
+  }
+  .mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #header .header-nav .top-logo {
+    padding: 11px;
+    order: 1;
+  }
+  #header > nav > div > div > div > div.clearfix {
+    display: none;
+  }
+  #menu-icon {
+    order: 4;
+  }
+  #_mobile_user_info {
+    order: 2;
+  }
+  #_mobile_cart {
+    order: 3;
+  }
+  #_mobile_user_info > div > a > img {
+    width: 28px;
+  }
+  #_mobile_cart > div > div > img {
+    width: 32px;
+  }
+  #header .header-nav .user-info {
+    margin-left: 2.5rem;
+    margin-top: 0;
+  }
+  #search_widget > form > button > img {
+    height: 18px;
+  }
+  input.ui-autocomplete-input {
+    height: 40px;
+  }
+  #header .header-top .position-static {
+    position: static;
+    height: auto;
+    display: flex;
+    margin: 5px 5px 20px 5px;
+    align-items: center;
+  }
+  input::-webkit-input-placeholder,
+  textarea::-webkit-input-placeholder {
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(0, 5, 85);
+    line-height: 1.2;
+  }
+  .search-widget form input[type="text"] {
+    padding: 10px 10px 10px 50px;
+  }
+  .search-widget form button[type="submit"] {
+    bottom: 0.6125rem;
   }
 }

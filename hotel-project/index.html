@@ -8,6 +8,13 @@
     <meta name="description" content="Boutique propulsée par PrestaShop" />
     <meta name="keywords" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <link
       rel="icon"
@@ -391,7 +398,12 @@
             <div class="row">
               <div class="hidden-md-up text-sm-center mobile">
                 <div class="float-xs-left" id="menu-icon">
-                   <img src="./index_files/burger-menu.png" alt="menu" width="20px" height="20px">
+                  <img
+                    src="./index_files/burger-menu.png"
+                    alt="menu"
+                    width="20px"
+                    height="20px"
+                  />
                 </div>
                 <div class="float-xs-right" id="_mobile_cart"></div>
                 <div class="float-xs-right" id="_mobile_user_info"></div>
@@ -509,11 +521,11 @@
                 <div class="clearfix"></div>
               </div>
               <div
-                class="col-xl-6 col-md-3 col-sm-6 hidden-sm-down position-static"
+                class="col-xl-6 col-md-6 col-sm-6 hidden-sm-down position-static"
               >
                 <div
                   class="menu js-top-menu position-static hidden-sm-down"
-                  id="_desktop_top_menu"
+                  id="_desktop_top_menu" onclick="drop()"
                 >
                   <ul class="top-menu" id="top-menu" data-depth="0">
                     <li class="category" id="category-23">
@@ -677,133 +689,135 @@
           </div>
         </div>
       </header>
- <div
-                  id="carousel"
-                  data-ride="carousel"
-                  class="carousel slide"
-                  data-interval="5000"
-                  data-wrap="true"
-                  data-pause="hover"
-                  data-touch="true"
-                >
-                  <ol class="carousel-indicators">
-                    <li data-target="#carousel" data-slide-to="0" class=""></li>
-                    <li
-                      data-target="#carousel"
-                      data-slide-to="1"
-                      class="active"
-                    ></li>
-                    <li data-target="#carousel" data-slide-to="2" class=""></li>
-                  </ol>
-                  <ul class="carousel-inner" role="listbox">
-                    <li class="carousel-item" role="option" aria-hidden="false">
-                      <a
-                        href="http://www.prestashop.com/?utm_source=back-office&amp;utm_medium=v17_homeslider&amp;utm_campaign=back-office-FR&amp;utm_content=download"
-                      >
-                        <figure>
-                          <img
-                            src="./index_files/sample-1.jpg"
-                            alt="sample-1"
-                          />
-                          <figcaption class="caption">
-                            <h2 class="display-1 text-uppercase">Sample 1</h2>
-                            <div class="caption-description">
-                              <h3>EXCEPTEUR OCCAECAT</h3>
-                              <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Proin tristique in tortor et
-                                dignissim. Quisque non tempor leo. Maecenas
-                                egestas sem elit
-                              </p>
-                            </div>
-                          </figcaption>
-                        </figure>
-                      </a>
-                    </li>
-                    <li
-                      class="carousel-item active"
-                      role="option"
-                      aria-hidden="true"
-                    >
-                      <a
-                        href="http://www.prestashop.com/?utm_source=back-office&amp;utm_medium=v17_homeslider&amp;utm_campaign=back-office-FR&amp;utm_content=download"
-                      >
-                        <figure>
-                          <img
-                            src="./index_files/sample-2.jpg"
-                            alt="sample-2"
-                          />
-                          <figcaption class="caption">
-                            <h2 class="display-1 text-uppercase">Sample 2</h2>
-                            <div class="caption-description">
-                              <h3>EXCEPTEUR OCCAECAT</h3>
-                              <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Proin tristique in tortor et
-                                dignissim. Quisque non tempor leo. Maecenas
-                                egestas sem elit
-                              </p>
-                            </div>
-                          </figcaption>
-                        </figure>
-                      </a>
-                    </li>
-                    <li class="carousel-item" role="option" aria-hidden="true">
-                      <a
-                        href="http://www.prestashop.com/?utm_source=back-office&amp;utm_medium=v17_homeslider&amp;utm_campaign=back-office-FR&amp;utm_content=download"
-                      >
-                        <figure>
-                          <img
-                            src="./index_files/sample-3.jpg"
-                            alt="sample-3"
-                          />
-                          <figcaption class="caption">
-                            <h2 class="display-1 text-uppercase">Sample 3</h2>
-                            <div class="caption-description">
-                              <h3>EXCEPTEUR OCCAECAT</h3>
-                              <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Proin tristique in tortor et
-                                dignissim. Quisque non tempor leo. Maecenas
-                                egestas sem elit
-                              </p>
-                            </div>
-                          </figcaption>
-                        </figure>
-                      </a>
-                    </li>
-                  </ul>
-                  <div class="direction" aria-label="Boutons du carrousel">
-                    <a
-                      class="left carousel-control"
-                      href="https://preprod.center/sarah-et-mael/#carousel"
-                      role="button"
-                      data-slide="prev"
-                      aria-label="Précédent"
-                    >
-                      <span class="icon-prev hidden-xs" aria-hidden="true">
-                        <i class="material-icons"></i>
-                      </span>
-                    </a>
-                    <a
-                      class="right carousel-control"
-                      href="https://preprod.center/sarah-et-mael/#carousel"
-                      role="button"
-                      data-slide="next"
-                      aria-label="Suivant"
-                    >
-                      <span class="icon-next" aria-hidden="true">
-                        <i class="material-icons"></i>
-                      </span>
-                    </a>
+
+      <!-- <div class="swiper-container">
+ 
+  <div class="swiper-wrapper">
+    
+    <div class="swiper-slide">
+      <img src="./index_files/sample-1.jpg" alt="">
+   
+    </div>
+    <div class="swiper-slide"><img src="./index_files/sample-1.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="./index_files/sample-1.jpg" alt="">
+    </div>
+     
+  </div>
+   
+  <div class="swiper-pagination"></div>
+
+   
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+
+</div>   -->
+      <div
+        id="carousel"
+        data-ride="carousel"
+        class="carousel slide"
+        data-interval="5000"
+        data-wrap="true"
+        data-pause="hover"
+        data-touch="true"
+      >
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class=""></li>
+          <li data-target="#carousel" data-slide-to="1" class="active"></li>
+          <li data-target="#carousel" data-slide-to="2" class=""></li>
+        </ol>
+        <ul class="carousel-inner" role="listbox">
+          <li class="carousel-item" role="option" aria-hidden="false">
+            <a
+              href="http://www.prestashop.com/?utm_source=back-office&amp;utm_medium=v17_homeslider&amp;utm_campaign=back-office-FR&amp;utm_content=download"
+            >
+              <figure>
+                <img src="./index_files/sample-1.jpg" alt="sample-1" />
+                <figcaption class="caption">
+                  <h2 class="display-1 text-uppercase">Sample 1</h2>
+                  <div class="caption-description">
+                    <h3>EXCEPTEUR OCCAECAT</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Proin tristique in tortor et dignissim. Quisque non tempor
+                      leo. Maecenas egestas sem elit
+                    </p>
                   </div>
-                </div>
+                </figcaption>
+              </figure>
+            </a>
+          </li>
+          <li class="carousel-item active" role="option" aria-hidden="true">
+            <a
+              href="http://www.prestashop.com/?utm_source=back-office&amp;utm_medium=v17_homeslider&amp;utm_campaign=back-office-FR&amp;utm_content=download"
+            >
+              <figure>
+                <img src="./index_files/sample-1.jpg" alt="sample-1" />
+                <figcaption class="caption">
+                  <h2 class="display-1 text-uppercase">Sample 2</h2>
+                  <div class="caption-description">
+                    <h3>EXCEPTEUR OCCAECAT</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Proin tristique in tortor et dignissim. Quisque non tempor
+                      leo. Maecenas egestas sem elit
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+          </li>
+          <li class="carousel-item" role="option" aria-hidden="true">
+            <a
+              href="http://www.prestashop.com/?utm_source=back-office&amp;utm_medium=v17_homeslider&amp;utm_campaign=back-office-FR&amp;utm_content=download"
+            >
+              <figure>
+                <img src="./index_files/sample-1.jpg" alt="sample-1" />
+                <figcaption class="caption">
+                  <h2 class="display-1 text-uppercase">Sample 3</h2>
+                  <div class="caption-description">
+                    <h3>EXCEPTEUR OCCAECAT</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Proin tristique in tortor et dignissim. Quisque non tempor
+                      leo. Maecenas egestas sem elit
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+          </li>
+        </ul>
+        <div class="direction" aria-label="Boutons du carrousel">
+          <a
+            class="left carousel-control"
+            href="https://preprod.center/sarah-et-mael/#carousel"
+            role="button"
+            data-slide="prev"
+            aria-label="Précédent"
+          >
+            <span class="icon-prev hidden-xs" aria-hidden="true">
+              <i class="material-icons"></i>
+            </span>
+          </a>
+          <a
+            class="right carousel-control"
+            href="https://preprod.center/sarah-et-mael/#carousel"
+            role="button"
+            data-slide="next"
+            aria-label="Suivant"
+          >
+            <span class="icon-next" aria-hidden="true">
+                
+            </span>
+          </a>
+        </div>
+      </div>
       <aside id="notifications">
         <div class="container"></div>
       </aside>
 
       <section id="wrapper">
-       
         <div class="container">
           <nav data-depth="1" class="breadcrumb hidden-sm-down">
             <ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
@@ -820,9 +834,7 @@
 
           <div id="content-wrapper">
             <section id="main">
-              
               <section id="content" class="page-home">
-                
                 <section class="featured-products clearfix">
                   <h2 class="h2 products-section-title text-uppercase">
                     Produits populaires
@@ -2463,7 +2475,30 @@
       type="text/javascript"
       src="./index_files/custom.js.завантаження"
     ></script>
+    <script>
+      const swiper = new Swiper(".swiper-container", {
+        // Optional parameters
 
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+    </script>
+ 
     <ul
       class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all"
       id="ui-id-1"
