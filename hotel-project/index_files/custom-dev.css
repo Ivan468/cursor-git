@@ -13,12 +13,24 @@
   position: relative;
   align-items: center;
 }
-#_desktop_user_info a > span {
-  font-size: 13px;
+#header .header-nav .blockcart .header {
+  margin-top: 0.125rem;
+  position: relative;
+}
 
+#_desktop_user_info a > span,
+#_desktop_cart div > span.hidden-sm-down.text {
+  font-size: 13px;
   color: rgb(0, 5, 85);
   line-height: 1.2;
   text-align: center;
+}
+.telefone {
+  font-size: 20px;
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
 }
 div#_desktop_top_menu {
   margin: 0 auto;
@@ -93,20 +105,53 @@ span.cart-products-count {
   position: absolute;
   left: 30px;
   top: -10px;
-  width: 30px;
-  height: 30px;
-  color: rgb(0, 5, 85);
+  width: 35px;
+  height: 35px;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  line-height: 30px;
+  line-height: 1.2;
   border-radius: 50%;
   background: #ffd287;
+  font-size: 20px;
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  border-width: 5px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+}
+
+.cart-block {
+  justify-content: space-between;
+  gap: 8px;
+}
+@media (min-width: 1200px) {
+  .telefone {
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 1920px) {
   .container {
     width: 1700px;
     max-width: 100%;
+  }
+}
+@media (max-width: 1919px) {
+  #header div.header-top .cart-block > a > img,
+  .telefone {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  #header .header-nav .blockcart.inactive .cart-products-count {
+    display: block;
+    right: -10px;
+    left: auto;
+    width: 19px;
+    height: 19px;
+    line-height: 19px;
+    font-size: 12px;
   }
 }
