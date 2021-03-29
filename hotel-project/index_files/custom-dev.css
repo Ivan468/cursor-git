@@ -341,8 +341,65 @@ h3 {
   font-weight: bold;
   line-height: 1.2;
   width: 194px;
-
   color: #000555;
+}
+.mypresta_scrollup {
+  width: 60px;
+  height: 60px;
+}
+p.h3.hidden-sm-down,
+p.h4.text-uppercase.block-contact-title {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+input.btn.btn-primary.float-xs-right.hidden-xs-down.cta-btn {
+  text-transform: none;position: absolute;
+    right: 0;
+}
+.footer-row {
+  margin-bottom: 50px;
+}
+.newsletter-wrap {
+  max-width: 650px;
+  margin: 0 auto;
+}
+.block_newsletter,
+.blog-wrapp {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.block_newsletter {
+  background: #f4f7fe;
+}
+.block_newsletter form input[type="email"] {
+  border-radius: 30px;
+  border: 0;
+}
+.newsletter-wrap p {
+  font-size: 20px;
+  max-width: 590px;
+  color: rgb(0, 5, 85);
+  line-height: 1.2;
+  text-align: center;
+}
+#footer {
+  padding-top: 2.5rem;
+  background: #f4f7fe;
+}
+#footer input::-webkit-input-placeholder {
+  font-size: 20px;
+  color: rgb(0, 5, 85);
+}
+
+.block_newsletter .h2,
+.blog-wrapp .h2 {
+  font-size: 40px;
+  text-align: center;
+  margin: 33px 0px 10px 0px;
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  line-height: 1.2;
 }
 .logo-wraper-foot {
   text-align: center;
@@ -358,14 +415,15 @@ h3 {
   margin-bottom: 80px;
 }
 .footer-tel-wrap a {
-  font-size: 20px; font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
   color: rgb(255, 255, 255);
 }
 .footer-tel-wrap .small-text {
   font-size: 16px;
 }
-.footer-tel-wrap img{
-      margin: 5px;
+.footer-tel-wrap img {
+  margin: 5px;
 }
 
 /*  */
@@ -397,6 +455,14 @@ h3 {
     height: 26px;
     line-height: 18px;
     font-size: 12px;
+  }
+  #custom-text img {
+    max-width: 100%;
+    width: auto;
+    all: initial;
+    width: auto;
+    height: 100%;
+    max-height: 50px;
   }
   .header-top .search-widget form input[type="text"] {
     background: #f6f9fe;

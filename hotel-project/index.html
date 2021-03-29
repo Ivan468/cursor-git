@@ -1556,17 +1556,20 @@
                     </div>
                   </div>
                 </div>
-                <div class="container">
-                  <img class="blog-img" src="./index_files/blog.png" alt="" />
-                  <h2>Le blog de sarah & maël</h2>
+                <div class="container blog-wrapp">
+                  <div>
+<img class="blog-img" src="./index_files/blog.png" alt="" />
+                  <h2 class="h2">Le blog de sarah & maël</h2>
+                  </div>
+                  
                 </div>
                 <div
                   id="featured-category-products-block-center"
                   class="featured-products clearfix"
                 >
-                  <h1 class="products-section-title text-uppercase">
+                  <!-- <h1 class="products-section-title text-uppercase">
                     Featured products
-                  </h1>
+                  </h1> -->
                   <div class="products">
                     <div
                       itemprop="itemListElement"
@@ -2163,14 +2166,17 @@
         <div class="container">
           <div class="row">
             <div
-              class="block_newsletter col-lg-8 col-md-12 col-sm-12"
+              class="block_newsletter col-lg-12 col-md-12 col-sm-12"
               id="blockEmailSubscription_displayFooterBefore"
             >
               <div class="row">
-                <p id="block-newsletter-label" class="col-md-5 col-xs-12">
-                  Recevez nos offres spéciales
-                </p>
-                <div class="col-md-7 col-xs-12">
+                <div class="newsletter-wrap">
+                  <img src="./index_files/newsletter.png" alt="" />
+                  <h2 class="h2">newsletter</h2>
+                  <p>
+                    Pour tout connaître de l’actualité de Sarah & Maël,
+                    inscrivez-vous à notre newsletter :
+                  </p>
                   <form
                     action="https://preprod.center/sarah-et-mael/#blockEmailSubscription_displayFooterBefore"
                     method="post"
@@ -2178,10 +2184,10 @@
                     <div class="row">
                       <div class="col-xs-12">
                         <input
-                          class="btn btn-primary float-xs-right hidden-xs-down"
+                          class="btn btn-primary float-xs-right hidden-xs-down cta-btn"
                           name="submitNewsletter"
                           type="submit"
-                          value="S’abonner"
+                          value="Je m’inscris"
                         />
                         <input
                           class="btn btn-primary float-xs-right hidden-sm-up"
@@ -2207,13 +2213,7 @@
                         <input type="hidden" name="action" value="0" />
                         <div class="clearfix"></div>
                       </div>
-                      <div class="col-xs-12">
-                        <p>
-                          Vous pouvez vous désinscrire à tout moment. Vous
-                          trouverez pour cela nos informations de contact dans
-                          les conditions d'utilisation du site.
-                        </p>
-                      </div>
+                    
                     </div>
                   </form>
                 </div>
@@ -2223,28 +2223,36 @@
         </div>
         <div class="footer-container">
           <div class="container">
-            <div class="row">
+            <div class="row footer-row">
               <div class="logo-wraper-foot">
                 <img src="./index_files/logo-footer.png" alt="footer logo" />
               </div>
               <h3 class="h3">Parce que bien dormir n’est pas un luxe !</h3>
             </div>
             <div class="row">
-              <div class="block-contact col-md-4 links wrapper">
+              <div
+                class="block-contact col-md-4 links wrapper"
+                style="padding: 0px 1% 0px 10%"
+              >
                 <div class="hidden-sm-down">
                   <p class="h4 text-uppercase block-contact-title">
                     Informations
                   </p>
                   <button class="cta-btn white-btn">Nous écrire</button>
                   <div style="margin: 20px 40px">ou</div>
-                  <div class="footer-tel-wrap"><div>
-                    <img src="./index_files/tel-white.png" alt="" />
+                  <div class="footer-tel-wrap">
+                    <div>
+                      <img src="./index_files/tel-white.png" alt="" />
+                    </div>
+                    <div>
+                      <a href="tel:0554684080" class="dropdown"
+                        >05 54 68 40 80</a
+                      >
+                      <div class="small-text">
+                        Du lundi au vendredi de 09h00 à 17h00
+                      </div>
+                    </div>
                   </div>
-                  <div>
-                    <a href="tel:0554684080" class="dropdown">05 54 68 40 80</a>
-                    <div class="small-text">Du lundi au vendredi de 09h00 à 17h00</div>
-                  </div></div>
-                  
 
                   <div class="block-social">
                     <ul>
@@ -2296,7 +2304,7 @@
               </div>
               <div class="col-md-8 links">
                 <div class="row">
-                  <div class="col-md-6 wrapper">
+                  <div class="col-md-6 wrapper" style="padding: 0 15%">
                     <p class="h3 hidden-sm-down">Produits</p>
                     <div
                       class="title clearfix hidden-md-up"
@@ -2344,8 +2352,8 @@
                       </li>
                     </ul>
                   </div>
-                  <div class="col-md-6 wrapper">
-                    <p class="h3 hidden-sm-down">Notre société</p>
+                  <div class="col-md-6 wrapper" style="padding: 0 15%">
+                    <p class="h3 hidden-sm-down">mentions légales</p>
                     <div
                       class="title clearfix hidden-md-up"
                       data-target="#footer_sub_menu_73022"
