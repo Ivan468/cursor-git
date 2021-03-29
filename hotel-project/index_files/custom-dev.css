@@ -310,12 +310,24 @@ h3 {
 .footer-container li a {
   color: white;
 }
+.footer-tel-wrap {
+  display: flex;
+}
 .block-social ul li a img {
   max-width: 100%;
   width: auto;
   height: 100%;
 }
+.footer-container li a {
+  font-size: 16px;
+
+  color: rgb(255, 255, 255);
+  line-height: 2.5;
+  text-align: left;
+}
+
 .block-social ul li a {
+  line-height: normal;
   height: 1.5rem;
   text-indent: inherit;
   text-align: center;
@@ -342,6 +354,20 @@ h3 {
   width: 100%;
   height: auto;
 }
+.footer-tel-wrap {
+  margin-bottom: 80px;
+}
+.footer-tel-wrap a {
+  font-size: 20px; font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.footer-tel-wrap .small-text {
+  font-size: 16px;
+}
+.footer-tel-wrap img{
+      margin: 5px;
+}
+
 /*  */
 @media (min-width: 1200px) {
   .telefone {
