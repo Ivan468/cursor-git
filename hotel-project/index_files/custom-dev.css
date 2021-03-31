@@ -49,7 +49,16 @@ div#_desktop_top_menu {
   width: 80%;
   margin: 0 auto;
 }
-
+#header .telefone {
+    color: #232323;
+    display: inline-flex;
+    
+    align-items: center;
+}
+.telefone svg {
+  margin-right: 5px;
+}
+ 
 #header .header-top .position-static {
   position: static;
   height: 71px;
@@ -509,11 +518,6 @@ li.product-flag.discount {
   text-decoration: line-through;
 }
 /*  */
-@media (min-width: 1200px) {
-  .telefone {
-    font-size: 15px;
-  }
-}
 
 @media (min-width: 1920px) {
   .container {
