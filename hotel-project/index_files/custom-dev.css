@@ -419,7 +419,7 @@ input.btn.btn-primary.float-xs-right.hidden-xs-down.cta-btn {
   line-height: 1.2;
   text-align: center;
 }
-.newsletter-wrap svg {
+.newsletter-wrap img {
   position: relative;
   left: -10px;
 }
@@ -481,8 +481,8 @@ div.ressuranse-block div svg {
 .footer-tel-wrap .small-text {
   font-size: 16px;
 }
-.footer-tel-wrap img {
-  margin: 5px;
+.footer-tel-wrap svg {
+  margin: 0 5px 0 0;
 }
 li.product-flag.discount {
   border-radius: 50%;
