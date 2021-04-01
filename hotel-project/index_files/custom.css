@@ -823,12 +823,19 @@ div#block-reassurance p {
   grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
   place-items: center;
   gap: 15px;
-  margin-top: 90px;
+  margin: 90px 0 100px;
 }
-.star-rwap img {
+.feed-back .star-rwap img {
 }
-.grid-wrap-feed-back p {
+.feed-back {
+  padding: 150px 0 10px;
+}
+.feed-back .grid-wrap-feed-back p {
   margin: 20px 0;
+  font-size: 20px;
+
+  color: rgb(0, 5, 85);
+  line-height: 1.2;
 }
 .feed-back-block {
   display: flex;
