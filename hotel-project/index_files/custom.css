@@ -5,9 +5,8 @@
 }
 .carousel-indicators li,
 .block-social ul li svg path,
-#header .top-menu a[data-depth="0"] svg path{
-	
-		transition: all 0.3s ease-in-out;
+#header .top-menu a[data-depth="0"] svg path {
+  transition: all 0.3s ease-in-out;
 }
 
 a,
@@ -20,31 +19,39 @@ a:hover,
 .btn-link,
 .btn-unstyle:focus .expand-more,
 .dropdown:hover .expand-more,
-.dropdown-item:focus, 
+.dropdown-item:focus,
 .dropdown-item:hover,
 .page-my-account #content .links a:hover i,
-.carousel .carousel-control .icon-next:hover i, 
+.carousel .carousel-control .icon-next:hover i,
 .carousel .carousel-control .icon-prev:hover i,
-#products .highlighted-informations .quick-view:hover, .featured-products .highlighted-informations .quick-view:hover, .product-accessories .highlighted-informations .quick-view:hover, .product-miniature .highlighted-informations .quick-view:hover,
+#products .highlighted-informations .quick-view:hover,
+.featured-products .highlighted-informations .quick-view:hover,
+.product-accessories .highlighted-informations .quick-view:hover,
+.product-miniature .highlighted-informations .quick-view:hover,
 .pagination .current a,
 .tabs .nav-tabs .nav-link.active,
 .product-price,
-.block-categories .arrows .arrow-down:hover, .block-categories .arrows .arrow-right:hover,
-.block-categories .collapse-icons .add:hover, .block-categories .collapse-icons .remove:hover,
+.block-categories .arrows .arrow-down:hover,
+.block-categories .arrows .arrow-right:hover,
+.block-categories .collapse-icons .add:hover,
+.block-categories .collapse-icons .remove:hover,
 #blockcart-modal .product-name,
 .account-list a:hover,
-.block_newsletter form button[type=submit] .search:hover,
-.block_newsletter form input[type=text]:focus+button .search,
+.block_newsletter form button[type="submit"] .search:hover,
+.block_newsletter form input[type="text"]:focus + button .search,
 .block-promo .promo-code-button.cancel-promo,
 .cart-grid-body a.label:hover,
 #header .header-nav .user-info a,
 #block-reassurance li .block-reassurance-item,
-.elementor-slick-slider .slick-next, .elementor-slick-slider .slick-prev,
-.elementor-slick-slider .slick-next:before, .elementor-slick-slider .slick-prev:before,
+.elementor-slick-slider .slick-next,
+.elementor-slick-slider .slick-prev,
+.elementor-slick-slider .slick-next:before,
+.elementor-slick-slider .slick-prev:before,
 .carousel.slide .display-1,
 .carousel .carousel-item .caption .caption-description p,
 .carousel .carousel-item .caption .caption-description p span,
-.block-title h2, .block-title p,
+.block-title h2,
+.block-title p,
 .login-popup-title,
 .vss-ui-dialog .close-icon,
 .forgot-pass-account,
@@ -53,14 +60,18 @@ a:hover,
 .back-to-login span,
 .cart-popup-block h3,
 .cart-popup-block .material-icons,
-.block-contact-title, .blockcms-title, .myaccount-title, .myaccount-title a,
+.block-contact-title,
+.blockcms-title,
+.myaccount-title,
+.myaccount-title a,
 .block-contact,
-.block-contact .block-contact-title, .linklist .blockcms-title a,
+.block-contact .block-contact-title,
+.linklist .blockcms-title a,
 .cart-popup-block .close-icon,
 #block-reassurance p,
-.carousel .carousel-inner a.cta-btn{
-	color: #000555;
-	transition: color 0.3s ease-in-out;
+.carousel .carousel-inner a.cta-btn {
+  color: #000555;
+  transition: color 0.3s ease-in-out;
 }
 .flex {
   display: flex;
@@ -190,7 +201,7 @@ input.ui-autocomplete-input {
 #header .header-top a[data-depth="0"] {
   text-transform: none;
   color: rgb(0, 5, 85);
-	padding: 10px 25px;
+  padding: 10px 25px;
 }
 span.cart-products-count {
   position: absolute;
@@ -413,8 +424,8 @@ h3 {
 
 .block-social ul li a {
   line-height: normal;
- height: 38px;
-    width: 38px;
+  height: 38px;
+  width: 38px;
   text-indent: inherit;
   text-align: center;
   vertical-align: baseline;
@@ -540,7 +551,7 @@ div.ressuranse-block div svg {
   font-size: 20px;
   font-weight: bold;
   color: rgb(255, 255, 255);
-	    line-height: 1.3;
+  line-height: 1.3;
 }
 .footer-tel-wrap .small-text {
   font-size: 16px;
@@ -582,8 +593,8 @@ li.product-flag.discount {
   text-decoration: line-through;
 }
 #user-svg {
-    width: 45px;
-    height: auto;
+  width: 45px;
+  height: auto;
 }
 #cart-svg {
   width: 55px;
@@ -592,7 +603,7 @@ li.product-flag.discount {
 /*My code*/
 
 #header .header-top a[data-depth="0"] {
-	padding: 10px 25px;
+  padding: 10px 25px;
 }
 .top-menu .sub-menu ul[data-depth="1"] > li {
   float: none;
@@ -618,160 +629,255 @@ li.product-flag.discount {
   display: block !important;
 }
 .top-menu .sub-menu {
-  box-shadow: 0px 9px 7px 0px rgba(0, 0, 0, .1);
+  box-shadow: 0px 9px 7px 0px rgba(0, 0, 0, 0.1);
 }
 #header .menu > ul > li {
-    position: relative;
+  position: relative;
 }
 
 .top-menu[data-depth="1"] {
-    margin: 30px 15px 10px 15px;
+  margin: 30px 15px 10px 15px;
 }
 .footer-container li a:hover,
 #header .top-menu a[data-depth="0"]:hover,
 #header a:hover {
-    color: #ffd287;
+  color: #ffd287;
 }
-#header .top-menu a[data-depth="0"] svg{
-	margin-left: 5px;
+#header .top-menu a[data-depth="0"] svg {
+  margin-left: 5px;
 }
-#header .top-menu a[data-depth="0"]:hover svg path{
-	stroke:#ffd287 !important;
+#header .top-menu a[data-depth="0"]:hover svg path {
+  stroke: #ffd287 !important;
 }
 
 .contcact-block__contact-btn {
-    margin-left: 37px;
+  margin-left: 37px;
 }
-#_desktop_user_info a > span, #_desktop_cart div > span.hidden-sm-down.text {
-    font-weight: 600;
+#_desktop_user_info a > span,
+#_desktop_cart div > span.hidden-sm-down.text {
+  font-weight: 600;
 }
 span.cart-products-count {
-    line-height: 1.3;
+  line-height: 1.3;
 }
 #header .logo {
-    max-width: 300px;
+  max-width: 300px;
 }
 .footer-tel-wrap svg {
-    margin-right: 10px;
+  margin-right: 10px;
 }
-.ou-footer{
-	margin: 20px 40px;
-	font-weight: 600;
+.ou-footer {
+  margin: 20px 40px;
+  font-weight: 600;
 }
 .block-social ul li:hover,
 .block-social li {
-    background: none;
+  background: none;
 }
-.block-social ul li:hover svg path{
-  fill:#ffd287 !important;
+.block-social ul li:hover svg path {
+  fill: #ffd287 !important;
 }
 .block-social ul li {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 #block-reassurance img {
-    height: 100%;
-    width: auto;
-    max-height: 135px;
-	margin-right: 0;
+  height: 100%;
+  width: auto;
+  max-height: 135px;
+  margin-right: 0;
 }
 #block-reassurance {
-    text-align: center;
-    margin-bottom: 100px;
-
+  text-align: center;
+  margin-bottom: 100px;
 }
 div#block-reassurance h3 {
-    font-weight: 800;
+  font-weight: 800;
 }
 div#block-reassurance p {
-    font-weight: 600;
-	font-size: 20px;
+  font-weight: 600;
+  font-size: 20px;
 }
 .carousel .carousel-item figure {
-     display: block;
+  display: block;
 }
 
 .carousel .carousel-item .caption {
-    position: absolute;
-    bottom: auto;
-    left: 50%;
-    top: 50%;
-    color: #fff;
-    max-width: unset;
-    transform: translate(-50%, -50%);
-	text-align: center;
+  position: absolute;
+  bottom: auto;
+  left: 50%;
+  top: 50%;
+  color: #fff;
+  max-width: unset;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 .carousel .carousel-item .caption .caption-description,
 .carousel .carousel-item .caption .caption-description p,
-.carousel .carousel-item .caption h2{
-	font-size:50px;
-	font-weight: 800;
-	line-height: 1;
-	color:#fff
+.carousel .carousel-item .caption h2 {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 1;
+  color: #fff;
 }
 .carousel .carousel-item .caption .caption-description,
-.carousel .carousel-item .caption .caption-description p{
-	font-size:26px;
-	font-weight: 600;
+.carousel .carousel-item .caption .caption-description p {
+  font-size: 26px;
+  font-weight: 600;
 }
-.carousel .carousel-item .caption .caption-description{
-	margin-top: 20px;
+.carousel .carousel-item .caption .caption-description {
+  margin-top: 20px;
 }
 .carousel .carousel-inner {
-    height: auto;
+  height: auto;
 }
 .carousel .carousel-inner a.cta-btn {
-    position: absolute;
-    z-index: 1;
-    bottom: 100px;
-    left: 50%;
-    transform: translateX(-50%);
-   font-size: 26px;
-	font-weight: 800;
-	text-transform: uppercase;
-	background: #fff;
-	width: auto;
-	padding: 20px 55px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 26px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: #fff;
+  width: auto;
+  padding: 20px 55px;
 }
-.carousel .carousel-inner a.cta-btn:hover{
-	background: #000555;
-	color:#fff;
+.carousel .carousel-inner a.cta-btn:hover {
+  background: #000555;
+  color: #fff;
 }
 .carousel-indicators .active {
-opacity: 1;
-	    background-color: #fff;
-		margin: 5px;
-	width:10px;
-	height:10px;
+  opacity: 1;
+  background-color: #fff;
+  margin: 5px;
+  width: 10px;
+  height: 10px;
 }
-.carousel-indicators li{
-	    background-color: #fff;
-	border:none;
-	opacity: 0.6;
-	margin: 5px;
+.carousel-indicators li {
+  background-color: #fff;
+  border: none;
+  opacity: 0.6;
+  margin: 5px;
 }
-.carousel-indicators li:hover{
-	    background: #ffd287;
+.carousel-indicators li:hover {
+  background: #ffd287;
 }
-.carousel-control .icon-prev, .carousel-control .icon-next,
-.carousel-control .icon-next, .carousel-control .icon-prev {
-    width: 62px;
-    height: 62px;
+.carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .icon-next,
+.carousel-control .icon-prev {
+  width: 62px;
+  height: 62px;
 }
-.carousel .carousel-control .icon-next i, .carousel .carousel-control .icon-prev i {
-    font-size: 46px;
+.carousel .carousel-control .icon-next i,
+.carousel .carousel-control .icon-prev i {
+  font-size: 46px;
 }
 .carousel .carousel-control .icon-prev svg {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 .icon-prev {
-    background: white;
-    width: 62px;
-    height: 62px;
-    border-radius: 50%;
+  background: white;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
 }
 .carousel .carousel-control .icon-prev {
-    left: 4rem;
+  left: 4rem;
 }
+.hppContainerBlockMainDiv {
+  margin-bottom: 80px;
+}
+#products .thumbnail-container .product-thumbnail img,
+.featured-products .thumbnail-container .product-thumbnail img,
+.product-accessories .thumbnail-container .product-thumbnail img,
+.product-miniature .thumbnail-container .product-thumbnail img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+#products .thumbnail-container,
+.featured-products .thumbnail-container,
+.product-accessories .thumbnail-container,
+.product-miniature .thumbnail-container {
+  height: auto;
+  width: auto;
+}
+#products .product-description,
+.featured-products .product-description,
+.product-accessories .product-description,
+.product-miniature .product-description {
+  position: relative;
+  height: auto;
+}
+#products .thumbnail-container .product-thumbnail,
+.featured-products .thumbnail-container .product-thumbnail,
+.product-accessories .thumbnail-container .product-thumbnail,
+.product-miniature .thumbnail-container .product-thumbnail {
+  height: auto;
+}
+/* shange add 19:15  01.04*/
+.grid-wrap-feed-back {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+  place-items: center;
+  gap: 15px;
+  margin-top: 90px;
+}
+.star-rwap img {
+}
+.grid-wrap-feed-back p {
+  margin: 20px 0;
+}
+.feed-back-block {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+.star-rwap {
+  place-content: center;
+  display: grid;
+  grid-template-columns: 27px 27px 27px 27px 27px;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.name-fidback {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 10px;
+}
+.feed-back-block > img {
+  max-width: 125px;
+}
+img.quotes {
+  max-width: 55px;
+  margin-top: 30px;
+}
+.feed-back h1 {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 10px 10px 24px;
+}
+.feed-back .descr-feeed-back {
+  font-size: 20px;
+  margin: 10px 10px 24px;
+  color: rgb(0, 5, 85);
+  line-height: 1.2;
+  text-align: center;
+}
+
 /*  */
 @media (min-width: 1460px) {
   .container {
@@ -800,6 +906,10 @@ opacity: 1;
 }
 
 @media (max-width: 767px) {
+  .grid-wrap-feed-back {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
   .flex-grow-cont {
     display: block;
   }
@@ -952,5 +1062,3 @@ opacity: 1;
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
-
-
