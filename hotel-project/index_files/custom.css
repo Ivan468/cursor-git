@@ -884,6 +884,74 @@ img.quotes {
   line-height: 1.2;
   text-align: center;
 }
+.philosoph-block {
+  padding: 5% 0 0;
+}
+.philosoph-block .text {
+  text-align: center;
+  flex-basis: 50%;
+  background-color: #f6f9fe;
+  padding: 8% 5%;
+}
+.philosoph-block .text img {
+  max-width: 325px;
+  margin: 0 0 100px;
+}
+.philosoph-block .phil-img-wrap {
+  flex-basis: 50%;
+  padding: 5%;
+  background-color: #000555;
+}
+.philosoph-block .text h4 {
+  font-size: 24px;
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.philosoph-block .text p {
+  font-size: 20px;
+  color: rgb(0, 5, 85);
+  line-height: 1.5;
+  text-align: center;
+}
+
+.phil-img {
+  color: white;
+  min-height: 850px;
+  background: center/cover no-repeat url(./phil-img.jpg);
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.phil-img h2 {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: auto;
+}
+.phil-img p {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+}
+.phil-img a {
+  background: white;
+  padding: 24px 20px;
+  border-radius: 50px;
+  max-width: 276px;
+  font-size: 20px;
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 auto;
+}
 
 /*  */
 @media (min-width: 1460px) {
@@ -916,6 +984,9 @@ img.quotes {
   .grid-wrap-feed-back {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .philosoph-block {
+    flex-direction: column;
   }
   .flex-grow-cont {
     display: block;
