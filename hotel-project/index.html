@@ -826,28 +826,6 @@
         </div>
       </header>
 
-      <!-- <div class="swiper-container">
- 
-  <div class="swiper-wrapper">
-    
-    <div class="swiper-slide">
-      <img src="./index_files/sample-1.jpg" alt="">
-   
-    </div>
-    <div class="swiper-slide"><img src="./index_files/sample-1.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="./index_files/sample-1.jpg" alt="">
-    </div>
-     
-  </div>
-   
-  <div class="swiper-pagination"></div>
-
-   
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-
-
-</div>   -->
       <div
         id="carousel"
         data-ride="carousel"
@@ -1693,13 +1671,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="container blog-wrapp">
-                  <div>
-                    <img src="./index_files/blog.png" alt="" />
+                
 
-                    <h2 class="h2">Le blog de sarah & maël</h2>
-                  </div>
-                </div>
                 <div
                   id="featured-category-products-block-center"
                   class="featured-products clearfix"
@@ -2290,6 +2263,78 @@
                       </article>
                     </div>
                   </div>
+                </div>
+                <div class="container news-wrapp">
+                  <div class="header-news">
+                    <img src="./index_files/blog.png" alt="" />
+
+                    <h2 class="h2">Le blog de sarah & maël</h2>
+                  </div>
+                </div>
+                <div class="swiper-container news-sw">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide one">
+                      <img src="./index_files/PHOTO.jpg" alt="" />
+                      <div class="news">
+                        <h3>Le matelas</h3>
+                        <h2>comment choisir son matelas ?</h2>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Fugit tenetur sint neque voluptatem dolore
+                          inventore? Omnis voluptatibus delectus exercitationem,
+                          quaerat quis perspiciatis a obcaecati explicabo in vel
+                          ex earum nisi?
+                        </p>
+                        <div class="autor">
+                          <span>Par Maël,</span> le 04 février 2021
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide two news">
+                      <img src="./index_files/PHOTO_.jpg" alt="" />
+                      <div class="news">
+                        <h3>Le matelas</h3>
+                        <h2 class="small-head-text">
+                          comment choisir son matelas ?
+                        </h2>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Fugit tenetur sint neque voluptatem dolore
+                          inventore? Omnis voluptatibus delectus exercitationem,
+                          quaerat quis perspiciatis a obcaecati explicabo in vel
+                          ex earum nisi?
+                        </p>
+                        <div class="autor">
+                          <span>Par Maël,</span> le 04 février 2021
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide three news">
+                      <img src="./index_files/PHOTO-2.jpg" alt="" />
+                      <div class="news">
+                        <h3>Le matelas</h3>
+                        <h2 class="small-head-text">
+                          comment choisir son matelas ?
+                        </h2>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Fugit tenetur sint neque voluptatem dolore
+                          inventore? Omnis voluptatibus delectus exercitationem,
+                          quaerat quis perspiciatis a obcaecati explicabo in vel
+                          ex earum nisi?
+                        </p>
+                        <div class="autor">
+                          <span>Par Maël,</span> le 04 février 2021
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-pagination"></div>
+
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
                 </div>
               </section>
 
@@ -2943,13 +2988,12 @@
     <script>
       const swiper = new Swiper(".swiper-container", {
         // Optional parameters
-
+        slidesPerView: "auto",
+        // centeredSlides: true,
+        spaceBetween: 25,
         loop: true,
 
         // If we need pagination
-        pagination: {
-          el: ".swiper-pagination",
-        },
 
         // Navigation arrows
         navigation: {

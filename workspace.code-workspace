@@ -1,36 +1,39 @@
 {
   "folders": [
-	{
-		"path": "F:\\project"
-	},
-	{
-		"path": "F:\\js"
-	},
-	{
-		"path": "F:\\React\\hw1r"
-	},
-	{
-		"path": "F:\\React\\react8"
-	},
-	{
-		"path": "F:\\React\\reactapp"
-	},
-	{
-		"path": "F:\\React\\typescr"
-	},
-	{
-		"path": "F:\\viart"
-	},
-	{
-		"path": "F:\\React\\reactfilmap"
-	},
-	{
-		"path": "F:\\heroku"
-	},
-	{
-		"path": "F:\\React\\react-redux-registration-login-example"
-	}
-],
+    {
+      "path": "F:\\project"
+    },
+    {
+      "path": "F:\\js"
+    },
+    {
+      "path": "F:\\React\\hw1r"
+    },
+    {
+      "path": "F:\\React\\react8"
+    },
+    {
+      "path": "F:\\React\\reactapp"
+    },
+    {
+      "path": "F:\\React\\typescr"
+    },
+    {
+      "path": "F:\\viart"
+    },
+    {
+      "path": "F:\\React\\reactfilmap"
+    },
+    {
+      "path": "F:\\heroku"
+    },
+    {
+      "path": "F:\\React\\react-redux-registration-login-example"
+    },
+    {
+      "path": "..\\React\\university"
+    }
+  ],
   "settings": {
     "px-to-vw.viewportWidth": 1440,
     "liveServer.settings.multiRootWorkspaceName": "project"
