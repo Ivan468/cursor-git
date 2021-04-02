@@ -301,6 +301,7 @@ span.cart-products-count {
 .ressuranse-block {
   align-items: center;
   display: flex;
+  justify-content: center;
   min-width: calc(90% / 3);
   padding: 10px;
 }
