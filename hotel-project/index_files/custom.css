@@ -1007,10 +1007,10 @@ img.quotes {
   text-align: left;
   margin-bottom: 35px;
 }
- 
+
 .swiper-container.news-sw .autor {
   text-align: left;
-    color: rgb(0, 5, 85);
+  color: rgb(0, 5, 85);
 }
 .swiper-container.news-sw .autor span {
   font-weight: bold;
@@ -1036,6 +1036,26 @@ img.quotes {
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 26%;
+  width: 65px;
+  height: 65px;
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 25px;
 }
 /*  */
 @media (min-width: 1460px) {
