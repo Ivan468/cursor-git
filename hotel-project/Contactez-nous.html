@@ -10,9 +10,7 @@
       content="Utiliser le formulaire pour nous contacter"
     />
     <meta name="keywords" content="" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <link
       rel="icon"
       type="image/vnd.microsoft.icon"
@@ -909,33 +907,9 @@
             </ol>
           </nav>
 
-          <div id="left-column" class="col-xs-12 col-sm-4 col-md-3">
-            <div class="contact-rich">
-              <h4>Informations</h4>
-              <div class="block">
-                <div class="icon"><i class="material-icons"></i></div>
-                <div class="data">Sarah et mael<br />France</div>
-              </div>
-              <hr />
-              <div class="block">
-                <div class="icon"><i class="material-icons"></i></div>
-                <div class="data">
-                  Appelez-nous :<br />
-                  <a href="tel:05 54 68 40 80">05 54 68 40 80</a>
-                </div>
-              </div>
-              <hr />
-              <div class="block">
-                <div class="icon"><i class="material-icons"></i></div>
-                <div class="data email">Envoyez-nous un e-mail :<br /></div>
-                <a href="mailto:amine@haskn.com">amine@haskn.com</a>
-              </div>
-            </div>
-          </div>
-
           <div
             id="content-wrapper"
-            class="left-column col-xs-12 col-sm-8 col-md-9"
+            class="left-column col-xs-12 col-sm-12 col-md-12"
           >
             <section id="main">
               <section id="content" class="page-content card card-block">
@@ -947,13 +921,15 @@
                   >
                     <section class="form-fields">
                       <div class="form-group row">
-                        <div class="col-md-9 col-md-offset-3">
+                        <div class="col-md-12 col-md-offset-3">
                           <h3>Contactez-nous</h3>
                         </div>
                       </div>
 
                       <div class="form-group row">
-                        <label class="col-md-3 form-control-label">Sujet</label>
+                        <div class="col-md-6 form-control-label">
+                          <input type="text" name="" id="" placeholder="Moon" />
+                        </div>
                         <div class="col-md-6">
                           <select
                             name="id_contact"
@@ -964,70 +940,30 @@
                           </select>
                         </div>
                       </div>
-
                       <div class="form-group row">
-                        <label class="col-md-3 form-control-label"
-                          >Adresse e-mail</label
-                        >
-                        <div class="col-md-6">
+                        <div class="col-md-6 form-control-label">
+                          <input
+                            type="text"
+                            name=""
+                            id=""
+                            placeholder="Moon nom"
+                          />
                           <input
                             class="form-control"
                             name="from"
                             type="email"
                             value=""
-                            placeholder="votre@email.com"
+                            placeholder="Mon adresse e-mail *"
                           />
-                        </div>
-                      </div>
-
-                      <div class="form-group row">
-                        <label class="col-md-3 form-control-label"
-                          >Document joint</label
-                        >
-                        <div class="col-md-6">
                           <input
-                            type="file"
-                            name="fileUpload"
-                            class="filestyle"
-                            data-buttontext="Choisir un fichier"
-                            id="filestyle-0"
-                            tabindex="-1"
-                            style="
-                              position: absolute;
-                              clip: rect(0px, 0px, 0px, 0px);
-                            "
+                            type="text"
+                            name=""
+                            id=""
+                            placeholder="Mon numéro de téléphone"
                           />
-                          <div class="bootstrap-filestyle input-group">
-                            <input
-                              type="text"
-                              class="form-control"
-                              placeholder=""
-                              disabled=""
-                            />
-                            <span
-                              class="group-span-filestyle input-group-btn"
-                              tabindex="0"
-                              ><label for="filestyle-0" class="btn btn-default"
-                                ><span
-                                  class="icon-span-filestyle glyphicon glyphicon-folder-open"
-                                ></span>
-                                <span class="buttonText"
-                                  >Choisir un fichier</span
-                                ></label
-                              ></span
-                            >
-                          </div>
                         </div>
-                        <span class="col-md-3 form-control-comment">
-                          optionnel
-                        </span>
-                      </div>
 
-                      <div class="form-group row">
-                        <label class="col-md-3 form-control-label"
-                          >Message</label
-                        >
-                        <div class="col-md-9">
+                        <div class="col-md-6">
                           <textarea
                             class="form-control"
                             name="message"
@@ -1035,9 +971,7 @@
                             rows="3"
                           ></textarea>
                         </div>
-                      </div>
 
-                      <div class="form-group row">
                         <div class="offset-md-3"></div>
                       </div>
                     </section>
@@ -1048,6 +982,21 @@
                           display: none !important;
                         }
                       </style>
+                      <div>
+                        J'accepte la politique de confidentialité de ce site.
+                      </div>
+                      <input
+                        type="file"
+                        name="fileUpload"
+                        class="filestyle"
+                        data-buttontext="Choisir un fichier"
+                        id="filestyle-0"
+                        tabindex="-1"
+                        style="
+                          position: absolute;
+                          clip: rect(0px, 0px, 0px, 0px);
+                        "
+                      />
                       <input type="text" name="url" value="" />
                       <input
                         type="hidden"
@@ -1058,13 +1007,13 @@
                         class="btn btn-primary"
                         type="submit"
                         name="submitMessage"
-                        value="Envoyer"
+                        value="J’envoie mon message"
                       />
+                      <div>Les champs obligatoires sont indiqués avec *</div>
                     </footer>
                   </form>
                 </section>
               </section>
-
               <footer class="page-footer">
                 <!-- Footer content -->
               </footer>
