@@ -1259,6 +1259,9 @@ section#main section#content.page-content.card.card-block {
 .contact-container {
   background: #f6f9fe;
 }
+.block-social.contact-page-social ul li {
+  background: #edf2fb;
+}
 .form-group.row.midle {
   margin-bottom: 0;
 }
