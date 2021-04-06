@@ -1271,12 +1271,14 @@ input.btn.btn-primary {
   background: #000555;
   color: white;
   font-size: 20px;
-  font-weight: bold;
   line-height: 1.2;
   text-align: center;
+  text-transform: none;
+  font-weight: 500;
 }
 input.form-control,
 .input-group .input-group-btn > .btn {
+  text-transform: none;
   color: #000555;
   background: white;
   text-align: center;
@@ -1285,6 +1287,7 @@ input.form-control,
   border-color: rgb(222, 231, 246);
   border-style: solid;
   border-radius: 28px;
+  font-weight: 500;
 }
 .input-group-btn,
 .input-group-btn > .btn {
@@ -1335,6 +1338,7 @@ input#filestyle-0 {
   margin-bottom: 50px;
 }
 .header-title h3 {
+  text-transform: none;
   font-size: 28px;
   color: rgb(0, 5, 85);
   font-weight: bold;
