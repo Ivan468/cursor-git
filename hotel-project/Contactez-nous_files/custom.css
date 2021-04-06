@@ -1241,16 +1241,16 @@ select.form-control:not([size]):not([multiple]) {
   height: 58px;
   padding: 10px 30px;
   margin-bottom: 20px;
+  width: 100%;
 }
 .form-control.message {
   background-color: rgb(255, 255, 255);
   border-radius: 40px;
   border: none;
-  height: 194px;
+  height: 213px;
   padding: 10px 30px;
   margin-bottom: 8px;
 }
-
 section#main section#content.page-content.card.card-block {
   border: none;
   box-shadow: none;
@@ -1258,6 +1258,7 @@ section#main section#content.page-content.card.card-block {
 }
 .contact-container {
   background: #f6f9fe;
+  padding: 15px;
 }
 .block-social.contact-page-social ul li {
   background: #edf2fb;
@@ -1266,6 +1267,7 @@ section#main section#content.page-content.card.card-block {
   margin-bottom: 0;
 }
 input.btn.btn-primary {
+  max-width: 330px;
   background: #000555;
   color: white;
   font-size: 20px;
@@ -1278,9 +1280,20 @@ input.form-control,
   color: #000555;
   background: white;
   text-align: center;
-  border-radius: 30px;
   font-size: 20px;
+  border-width: 2px;
+  border-color: rgb(222, 231, 246);
+  border-style: solid;
+  border-radius: 28px;
 }
+.input-group-btn,
+.input-group-btn > .btn {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 10;
+}
+
 .form-footer.text-sm-right {
   display: flex;
   flex-direction: column;
@@ -1309,7 +1322,63 @@ textarea::placeholder,
   opacity: 1;
 }
 input#filestyle-0 {
-    display: none;
+  display: none;
+}
+.header-title h2 {
+  font-size: 40px;
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.header-title h3 {
+  font-size: 28px;
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.header-title img {
+  max-width: 210px;
+  margin-bottom: 20px;
+}
+#content-wrapper #main .header-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#wrapper .breadcrumb li a,
+#wrapper .breadcrumb span {
+  font-size: 17px;
+  color: rgb(0, 5, 85);
+  line-height: 1.2;
+  text-align: left;
+}
+#wrapper .breadcrumb li:last-child {
+  font-weight: 900;
+}
+.politique-text {
+  position: relative;
+  font-size: 17px;
+  color: rgb(0, 5, 85);
+  line-height: 1.2;
+  text-align: center;
+}
+.politique-text a {
+  text-decoration: underline;
+}
+.politique-text.pseudo::before {
+  content: " ";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: -21px;
+  top: 3px;
+  border: 5px solid #000555;
+  border-radius: 50%;
 }
 /*  */
 @media (min-width: 1460px) {
