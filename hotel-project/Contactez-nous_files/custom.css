@@ -1312,6 +1312,7 @@ input.form-control,
 }
 section.contact-form .input-group {
   max-width: 390px;
+  margin: 20px 0;
 }
 input::placeholder,
 textarea::placeholder,
@@ -1379,6 +1380,59 @@ input#filestyle-0 {
   top: 3px;
   border: 5px solid #000555;
   border-radius: 50%;
+}
+.nous-apper {
+  display: flex;
+  padding: 80px 0px 70px;
+}
+.nous-apper .block-social ul li {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 10px;
+}
+
+.nous-apper .block-social h3 {
+  max-width: 420px;
+}
+
+.nous-apper-tel > img {
+  max-width: 120px;
+  margin-bottom: 20px;
+}
+.nous-apper > div {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.nous-apper .nous-apper-tel h5 {
+  font-size: 20px;
+  font-weight: normal;
+  color: rgb(0, 5, 85);
+  line-height: 1.2;
+  text-align: center;
+}
+.nous-apper .nous-apper-tel h4 {
+  font-size: 28px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.179;
+  text-align: center;
+}
+.nous-apper-tel {
+  position: relative;
+}
+.nous-apper-tel::after {
+  content: " ";
+  position: absolute;
+  right: 0;
+  top: 50px;
+  height: 143px;
+  width: 2px;
+  background: #e0e8f7;
 }
 /*  */
 @media (min-width: 1460px) {
