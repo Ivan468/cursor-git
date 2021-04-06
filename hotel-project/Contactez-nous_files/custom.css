@@ -1308,7 +1308,9 @@ textarea::placeholder,
   text-align: left;
   opacity: 1;
 }
-
+input#filestyle-0 {
+    display: none;
+}
 /*  */
 @media (min-width: 1460px) {
   .container {
