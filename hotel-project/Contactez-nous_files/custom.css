@@ -1277,6 +1277,7 @@ input.btn.btn-primary {
   font-weight: 500;
 }
 input.form-control,
+.form-group .form-control,
 .input-group .input-group-btn > .btn {
   text-transform: none;
   color: #000555;
@@ -1291,6 +1292,9 @@ input.form-control,
   height: 58px;
   line-height: 1.6;
   padding: 10px 10px 10px 35px;
+}
+.form-footer .form-control:disabled {
+  background: none;
 }
 .input-group .input-group-btn > .btn::after {
   content: url("data:image/svg+xml,%3C!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In --%3E%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='65.6px' height='68.6px' viewBox='0 0 65.6 68.6' style='enable-background:new 0 0 65.6 68.6;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bstroke:%23000000;stroke-width:2;stroke-miterlimit:10;%7D%0A%3C/style%3E%3Cdefs%3E%3C/defs%3E%3Cg%3E%3Cpath class='st0' d='M64.4,25.8c-0.4-0.4-1-0.4-1.4,0L27.2,61.5c-5.5,5.5-14.5,5.5-20.1,0c-5.5-5.5-5.5-14.5,0-20.1c0,0,0,0,0,0 L42.9,5.7c3.6-3.6,9.4-3.6,12.9,0s3.6,9.4,0,12.9L20.1,54.3c-1.7,1.5-4.2,1.4-5.7-0.3c-1.4-1.6-1.4-3.9,0-5.5L50,12.8 c0.4-0.4,0.4-1,0-1.4c-0.4-0.4-1-0.4-1.4,0L12.9,47.1c-2.3,2.5-2.1,6.3,0.3,8.6c2.3,2.1,5.9,2.1,8.2,0L57.2,20 c4.3-4.3,4.3-11.4,0-15.7s-11.4-4.3-15.7,0L5.7,40c-6.3,6.3-6.3,16.6,0,22.9s16.6,6.3,22.9,0c0,0,0,0,0,0l35.7-35.7 C64.7,26.8,64.7,26.2,64.4,25.8L64.4,25.8z'/%3E%3C/g%3E%3C/svg%3E%0A");
