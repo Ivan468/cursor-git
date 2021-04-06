@@ -1243,11 +1243,12 @@ select.form-control:not([size]):not([multiple]) {
   margin-bottom: 20px;
   width: 100%;
 }
-.form-control.message {
+.form-group .form-control.message {
   background-color: rgb(255, 255, 255);
   border-radius: 40px;
   border: none;
-  height: 213px;
+  width: 100%;
+  height: 216px;
   padding: 10px 30px;
   margin-bottom: 8px;
 }
@@ -1665,6 +1666,23 @@ input#filestyle-0 {
 }
 
 @media (max-width: 360px) {
+  input.form-control,
+.form-group .form-control,
+.input-group .input-group-btn > .btn {
+  text-transform: none;
+  color: #000555;
+  background: white;
+  text-align: left;
+  font-size: 20px;
+  border-width: 2px;
+  border-color: rgb(222, 231, 246);
+  border-style: solid;
+  border-radius: 28px;
+  width: auto;
+  height: 58px;
+  line-height: 1.6;
+  padding: 10px 10px 10px 35px;
+}
   .bordeaux h2 {
     font-size: 20px;
   }
