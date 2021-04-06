@@ -1477,7 +1477,34 @@ input#filestyle-0 {
   .philosoph-block {
     flex-direction: column;
   }
-
+  .nous-apper {
+    display: flex;
+    padding: 20px 10px 20px;
+    flex-direction: column;
+  }
+  .nous-apper .block-social ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+  }
+  .contact-form,
+  .contact-container .contact-container {
+    padding: 0;
+  }
+  .politique-text.pseudo::before {
+    content: " ";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 34px;
+    top: 3px;
+    border: 5px solid #000555;
+    border-radius: 50%;
+  }
+  .nous-apper-tel::after {
+    display: none;
+  }
   .flex-grow-cont {
     display: block;
   }
