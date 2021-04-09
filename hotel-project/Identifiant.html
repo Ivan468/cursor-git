@@ -7,6 +7,10 @@
     <title>Identifiant</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="icon"
@@ -953,9 +957,10 @@
                                     pattern=".{5,}"
                                     required=""
                                     placeholder="Mon mot de passe *"
+                                    id="password-field"
                                   />
                                   <span class="input-group-btn">
-                                    <button
+                                    <!-- <button
                                       class="btn"
                                       type="button"
                                       data-action="show-password"
@@ -963,7 +968,14 @@
                                       data-text-hide="Cacher"
                                     >
                                       Montrer
-                                    </button>
+                                    </button> -->
+
+                                    <i
+                                      id="pass-status"
+                                      class="fa fa-eye"
+                                      aria-hidden="true"
+                                      onClick="viewPassword()"
+                                    ></i>
                                   </span>
                                 </div>
                               </div>

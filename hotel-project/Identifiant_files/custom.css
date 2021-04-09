@@ -1287,7 +1287,7 @@ button {
   line-height: 1;
   text-align: center;
 }
-.login-page  h3 {
+.login-page h3 {
   font-size: 28px;
   font-family: "Montserrat";
   color: rgb(0, 5, 85);
@@ -1347,6 +1347,52 @@ input.form-control.js-child-focus.js-visible-password {
 .input-group-btn > .btn {
   position: relative;
   z-index: 10;
+}
+.first-example,
+.second-example,
+.third-example {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 250px;
+  padding: 15px 12px;
+  font-size: 22px;
+}
+.fa {
+  color: #000555;
+  font-size: 27px;
+  margin-left: 8px;
+}
+#validation-txt {
+  color: red;
+  font-size: 18px;
+  width: 300px;
+}
+#password-3 {
+  -webkit-text-security: disc;
+  -moz-text-security: circle;
+  text-security: circle;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+i#pass-status {
+  margin: 14px;
+}
+.btn-primary, .btn-secondary, .btn-tertiary {
+    max-width: 330px;
+    background: #000555;
+    color: white;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: none;
+    font-weight: 500;
+    transition: .3s all;
+    border-radius: 20px;
 }
 /*  */
 @media (min-width: 1460px) {
