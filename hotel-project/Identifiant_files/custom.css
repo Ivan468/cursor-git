@@ -1293,11 +1293,17 @@ button {
   padding-top: 10px;
 }
 .login-page .page-header,
-.faq-page .page-header {
+.faq-page .page-header, .img-center-wrap {
   text-align: center;
 }
 .login-page .login-img-coala {
   max-width: 200px;
+  margin-bottom: 20px;
+}
+.img-center-wrap {
+  padding: 50px 20px 20px;
+}
+.img-center-wrap img {
   margin-bottom: 20px;
 }
 .faq-page .faq-img-coala {
@@ -1306,6 +1312,23 @@ button {
 }
 .faq-page .faq-img {
   max-width: 100px;
+}
+.faq-page .faq-img.car {
+  max-width: 200px;
+}
+.faq-page .faq-img.pay-cart {
+  max-width: 120px;
+}
+.faq-page .faq-img.coala {
+  max-width: 166px;
+}
+.none-border {
+  border: none;
+}
+.btn.btn-primary.faq-btn {
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
 }
 .page-addresses .address,
 .page-authentication #content {
@@ -1438,8 +1461,7 @@ summary {
   margin: 0 auto;
   padding: 20px;
 }
-details{
-   
+details {
 }
 .faq__content p {
   font-size: 14px;
@@ -1457,7 +1479,7 @@ details[open] {
 
 details[open] summary ~ * {
   -webkit-animation: sweep 0.5s ease-in-out;
-          animation: sweep 0.5s ease-in-out;
+  animation: sweep 0.5s ease-in-out;
 }
 @-webkit-keyframes sweep {
   0% {
