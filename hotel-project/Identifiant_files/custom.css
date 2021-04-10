@@ -2,6 +2,7 @@
 
 * {
   font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
 }
 
 .icon-prev,
@@ -1287,7 +1288,7 @@ button {
   line-height: 1;
   text-align: center;
 }
- 
+
 .login-page h3 {
   font-size: 28px;
   font-family: "Montserrat";
@@ -1312,10 +1313,12 @@ button {
   background: #f4f7fe;
   padding-top: 10px;
 }
-.login-page .page-header, .faq-page .page-header  {
+.login-page .page-header,
+.faq-page .page-header {
   text-align: center;
 }
-.login-page .login-img-coala, .faq-page .login-img-coala{
+.login-page .login-img-coala,
+.faq-page .login-img-coala {
   max-width: 200px;
   margin-bottom: 20px;
 }
@@ -1396,7 +1399,7 @@ i#pass-status {
   background: #000555;
   color: white;
   font-size: 20px;
- line-height: 0.5;
+  line-height: 0.5;
   text-align: center;
   text-transform: none;
   font-weight: 500;
@@ -1406,7 +1409,6 @@ i#pass-status {
 }
 .page-customer-account #content .no-account {
   margin-top: 40px;
-
 }
 .forgot-password label {
   font-weight: 500;
@@ -1429,10 +1431,83 @@ i#pass-status {
   width: auto;
   margin-right: 8px;
 }
-.btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary:hover {
   cursor: pointer;
 }
-/*  */
+/* FAQ */
+summary {
+  font-size: 18px;
+
+  color: rgb(0, 5, 85);
+  line-height: 1.667;
+  text-align: left;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  position: relative;
+  padding: 10px 20%;
+}
+.faq__content p {
+  font-size: 14px;
+
+  color: rgb(0, 5, 85);
+  line-height: 1.571;
+  text-align: left;
+}
+
+details[open] summary ~ * {
+  animation: sweep 0.5s ease-in-out;
+}
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-top: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+details > summary::after {
+  position: absolute;
+  content: " ";
+  right: 20%;
+  border: solid #000555;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+details[open] > summary::after {
+  position: absolute;
+  content: " ";
+  right: 20%;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+.faq__content {
+  width: 100%;
+  background: #f6f9fe;
+  padding: 10px 20%;
+  box-sizing: border-box;
+  /* max-width: 1400px; */
+}
+details[open] > summary:first-of-type {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  line-height: 1.667;
+  text-align: left;
+}
 @media (min-width: 1460px) {
   .container {
     width: 1400px;
@@ -1641,6 +1716,23 @@ i#pass-status {
   .swiper-container.news-sw .news img {
     border-radius: 17px;
     max-height: 350px;
+  }
+  summary {
+    padding: 15px;
+  }
+  details > summary::after {
+    position: absolute;
+    content: " ";
+    right: 7%;
+  }
+  details[open] > summary::after{
+    right: 7%;
+  }
+  .faq__content {
+    width: 100%;
+    background: #f6f9fe;
+    padding: 15px;
+    box-sizing: border-box;
   }
 }
 /*
