@@ -285,16 +285,9 @@ span.cart-products-count {
   text-align: center;
   font-size: 18px;
   background: #fff;
-
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
   flex-direction: column;
-
   justify-content: flex-start;
-
   align-items: center;
   width: 100%;
 }
@@ -310,7 +303,6 @@ span.cart-products-count {
 .swiper-slide.news > a {
   width: 100%;
   border-radius: 17px;
-
   overflow: hidden;
 }
 .swiper-container.news-sw .news img {
@@ -1079,20 +1071,6 @@ img.quotes {
 .philosoph-block {
   margin: 5% 0 0;
   background: rgb(246, 249, 254);
-  background: -moz-linear-gradient(
-    left,
-    rgb(246, 249, 254) 0%,
-    rgb(246, 249, 254) 50%,
-    rgb(0, 5, 85) 51%,
-    rgb(0, 5, 85) 100%
-  );
-  background: -webkit-linear-gradient(
-    left,
-    rgb(246, 249, 254) 0%,
-    rgb(246, 249, 254) 50%,
-    rgb(0, 5, 85) 51%,
-    rgb(0, 5, 85) 100%
-  );
   background: linear-gradient(
     to right,
     rgb(246, 249, 254) 0%,
@@ -1279,7 +1257,8 @@ button {
 }
 /* LOGIN PAGE */
 
-.login-page h1 {
+.login-page h1,
+.faq-page h1 {
   font-size: 40px;
   font-family: "Montserrat";
   color: rgb(0, 5, 85);
@@ -1317,10 +1296,16 @@ button {
 .faq-page .page-header {
   text-align: center;
 }
-.login-page .login-img-coala,
-.faq-page .login-img-coala {
+.login-page .login-img-coala {
   max-width: 200px;
   margin-bottom: 20px;
+}
+.faq-page .faq-img-coala {
+  max-width: 136px;
+  margin-bottom: 20px;
+}
+.faq-page .faq-img {
+  max-width: 100px;
 }
 .page-addresses .address,
 .page-authentication #content {
@@ -1439,7 +1424,7 @@ i#pass-status {
 /* FAQ */
 summary {
   font-size: 18px;
-
+  border-bottom: 1px solid rgba(220, 220, 220, 0.719);
   color: rgb(0, 5, 85);
   line-height: 1.667;
   text-align: left;
@@ -1449,7 +1434,12 @@ summary {
   border-radius: 0.25rem;
   cursor: pointer;
   position: relative;
-  padding: 10px 20%;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 20px;
+}
+details{
+   
 }
 .faq__content p {
   font-size: 14px;
@@ -1457,10 +1447,27 @@ summary {
   color: rgb(0, 5, 85);
   line-height: 1.571;
   text-align: left;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+details[open] {
+  background: #f4f7fe;
+  border: none;
 }
 
 details[open] summary ~ * {
-  animation: sweep 0.5s ease-in-out;
+  -webkit-animation: sweep 0.5s ease-in-out;
+          animation: sweep 0.5s ease-in-out;
+}
+@-webkit-keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-top: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
 }
 @keyframes sweep {
   0% {
@@ -1475,7 +1482,8 @@ details[open] summary ~ * {
 details > summary::after {
   position: absolute;
   content: " ";
-  right: 20%;
+  right: 20px;
+  top: 35%;
   border: solid #000555;
   border-width: 0 3px 3px 0;
   display: inline-block;
@@ -1486,7 +1494,8 @@ details > summary::after {
 details[open] > summary::after {
   position: absolute;
   content: " ";
-  right: 20%;
+  right: 20px;
+  top: 50%;
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
 }
@@ -1496,7 +1505,7 @@ details > summary::-webkit-details-marker {
 .faq__content {
   width: 100%;
   background: #f6f9fe;
-  padding: 10px 20%;
+  padding: 20px;
   box-sizing: border-box;
   /* max-width: 1400px; */
 }
@@ -1507,6 +1516,9 @@ details[open] > summary:first-of-type {
   font-weight: bold;
   line-height: 1.667;
   text-align: left;
+  background: #f6f9fe;
+  padding: 20px 20px 0px;
+  border: none;
 }
 @media (min-width: 1460px) {
   .container {
@@ -1543,6 +1555,10 @@ details[open] > summary:first-of-type {
 }
 
 @media (max-width: 767px) {
+  summary,
+  details[open] > summary:first-of-type {
+    padding: 5px 40px 20px 20px;
+  }
   .grid-wrap-feed-back {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -1717,17 +1733,17 @@ details[open] > summary:first-of-type {
     border-radius: 17px;
     max-height: 350px;
   }
-  summary {
+  /* summary {
     padding: 15px;
-  }
+  } */
   details > summary::after {
     position: absolute;
     content: " ";
     right: 7%;
   }
-  details[open] > summary::after{
+  /* details[open] > summary::after {
     right: 7%;
-  }
+  } */
   .faq__content {
     width: 100%;
     background: #f6f9fe;
