@@ -1282,7 +1282,7 @@ button {
   font-size: 40px;
   font-family: "Montserrat";
   color: rgb(0, 5, 85);
-  font-weight: bold;
+  font-weight: 800;
   text-transform: uppercase;
   line-height: 1;
   text-align: center;
@@ -1292,7 +1292,7 @@ button {
   font-size: 28px;
   font-family: "Montserrat";
   color: rgb(0, 5, 85);
-  font-weight: bold;
+  font-weight: 800;
   line-height: 1.2;
   text-align: center;
   text-transform: none;
@@ -1312,10 +1312,10 @@ button {
   background: #f4f7fe;
   padding-top: 10px;
 }
-.login-page .page-header {
+.login-page .page-header, .faq-page .page-header  {
   text-align: center;
 }
-.login-page .login-img-coala {
+.login-page .login-img-coala, .faq-page .login-img-coala{
   max-width: 200px;
   margin-bottom: 20px;
 }
@@ -1335,6 +1335,7 @@ button {
   height: 58px;
   padding: 10px 30px;
   width: 100%;
+  font-weight: 200;
 }
 .new-client-btn {
   display: flex;
