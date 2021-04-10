@@ -10481,3 +10481,5 @@ function viewPassword() {
     passStatus.className = "fa fa-eye";
   }
 }
+// 
+document.getElementById("radio-btn").checked = false;

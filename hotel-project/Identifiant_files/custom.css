@@ -1287,6 +1287,7 @@ button {
   line-height: 1;
   text-align: center;
 }
+ 
 .login-page h3 {
   font-size: 28px;
   font-family: "Montserrat";
@@ -1294,6 +1295,7 @@ button {
   font-weight: bold;
   line-height: 1.2;
   text-align: center;
+  text-transform: none;
 }
 
 #wrapper .breadcrumb li a,
@@ -1322,6 +1324,7 @@ button {
   box-shadow: none;
   background: none;
   border: none;
+  margin-top: 20px;
 }
 .login-page .form-control {
   background-color: rgb(255, 255, 255);
@@ -1331,8 +1334,11 @@ button {
   border: none;
   height: 58px;
   padding: 10px 30px;
-  margin-bottom: 20px;
   width: 100%;
+}
+.new-client-btn {
+  display: flex;
+  margin: 40px auto;
 }
 .input-group.js-parent-focus {
   position: relative;
@@ -1382,17 +1388,48 @@ input[type="number"]::-webkit-outer-spin-button {
 i#pass-status {
   margin: 14px;
 }
-.btn-primary, .btn-secondary, .btn-tertiary {
-    max-width: 330px;
-    background: #000555;
-    color: white;
-    font-size: 20px;
-    line-height: 1.2;
-    text-align: center;
-    text-transform: none;
-    font-weight: 500;
-    transition: .3s all;
-    border-radius: 20px;
+.btn-primary,
+.btn-secondary,
+.btn-tertiary {
+  max-width: 330px;
+  background: #000555;
+  color: white;
+  font-size: 20px;
+ line-height: 0.5;
+  text-align: center;
+  text-transform: none;
+  font-weight: 500;
+  transition: 0.3s all;
+  border-radius: 40px;
+  padding: 1rem 2.25rem;
+}
+.page-customer-account #content .no-account {
+  margin-top: 40px;
+
+}
+.forgot-password label {
+  font-weight: 500;
+  color: #000555;
+  font-size: 16px;
+}
+.no-account a {
+  text-decoration: underline;
+  font-weight: 500;
+}
+.no-account p {
+  margin-top: 40px;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(0, 5, 85);
+  line-height: 1.2;
+  font-weight: 500;
+}
+.radio-inp {
+  width: auto;
+  margin-right: 8px;
+}
+.btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
+  cursor: pointer;
 }
 /*  */
 @media (min-width: 1460px) {
