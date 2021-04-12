@@ -1642,6 +1642,9 @@ section.contact-form .input-group {
   max-width: 390px;
   margin: 20px 0;
 }
+#contact section.contact-form .input-group {
+  overflow: hidden;
+}
 input::placeholder,
 textarea::placeholder,
 .form-control::placeholder {
