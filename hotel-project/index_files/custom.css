@@ -2,7 +2,12 @@
 
 * {
   font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
 }
+
+.icon-prev,
+.icon-next,
+svg path,
 #products .thumbnail-container .product-thumbnail img,
 .featured-products .thumbnail-container .product-thumbnail img,
 .product-accessories .thumbnail-container .product-thumbnail img,
@@ -260,13 +265,13 @@ span.cart-products-count {
   gap: 8px;
 }
 .icon-next {
-  background: center/10px no-repeat url(./arrov.png), white;
+  background: center/10px no-repeat, white;
   width: 65px;
   height: 65px;
   border-radius: 50%;
 }
 .carousel .carousel-control .icon-prev {
-  background: center/10px no-repeat url(./arrov.png), white;
+  background: center/10px no-repeat, white;
   transform: rotate(-180deg);
 }
 .carousel h3 {
@@ -280,29 +285,35 @@ span.cart-products-count {
   text-align: center;
   font-size: 18px;
   background: #fff;
-
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
   flex-direction: column;
-
   justify-content: flex-start;
-
   align-items: center;
   width: 100%;
 }
 
-.swiper-slide.one {
+.swiper-slide.one.news {
   width: 49%;
 }
 
-.swiper-slide.three,
-.swiper-slide.two {
+.swiper-slide.news {
   width: 24%;
+  overflow: hidden;
 }
-
+.swiper-slide.news > a {
+  width: 100%;
+  border-radius: 17px;
+  overflow: hidden;
+}
+.swiper-container.news-sw .news img {
+  transform: translateX(-50%);
+  margin-left: 50%;
+  min-width: 100%;
+  min-height: 517px;
+}
+.swiper-container.news-sw .autor span:last-child {
+  display: none;
+}
 /* .swiper-slide img {
   width: 100%;
   height: auto;
@@ -396,6 +407,11 @@ h3 {
   text-transform: uppercase;
   line-height: 1.179;
   text-align: center;
+  font-weight: 800;
+}
+.faq-img.m-5 {
+  margin-top: 90px;
+  margin-bottom: 10px;
 }
 .featured-products-h3 {
   margin-bottom: 1.5rem;
@@ -513,7 +529,10 @@ h3 {
   background-size: 100% !important;
 }
 .mypresta_scrollup:hover {
-  filter: invert(1);
+  background-color: #000555 !important;
+}
+.mypresta_scrollup:hover svg path {
+  stroke: #fff !important;
 }
 p.h3.hidden-sm-down,
 p.h4.text-uppercase.block-contact-title {
@@ -838,9 +857,7 @@ div#block-reassurance p {
 .carousel .carousel-control .icon-prev i {
   font-size: 46px;
 }
-.carousel .carousel-control .icon-prev svg {
-  transform: rotate(180deg);
-}
+
 .icon-prev {
   background: white;
   width: 62px;
@@ -1210,6 +1227,301 @@ img.quotes {
 #top-menu .sub-menu ul[data-depth="1"] > li a {
   font-weight: 500;
 }
+.mypresta_scrollup {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mypresta_scrollup svg {
+  transform: rotate(-90deg);
+}
+button {
+  outline: none !important;
+}
+.carousel .carousel-control:hover .icon-prev,
+.carousel .carousel-control:hover .icon-next {
+  background: rgb(0, 5, 85);
+}
+.carousel .carousel-control:hover .icon-prev svg path,
+.carousel .carousel-control:hover .icon-next svg path {
+  stroke: #fff !important;
+}
+.swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-next:after,
+.swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='17.5px' style='transform:rotate(180deg)' height='26.5px'%3E%3Cpath fill-rule='evenodd' stroke='rgb(0, 5, 85)' stroke-width='3px' stroke-linecap='butt' stroke-linejoin='miter' fill='none' d='M4.325,2.317 L14.507,12.500 L4.325,22.682 '%3E%3C/path%3E%3C/svg%3E");
+}
+.swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='17.5px'  height='26.5px'%3E%3Cpath fill-rule='evenodd' stroke='rgb(0, 5, 85)' stroke-width='3px' stroke-linecap='butt' stroke-linejoin='miter' fill='none' d='M4.325,2.317 L14.507,12.500 L4.325,22.682 '%3E%3C/path%3E%3C/svg%3E");
+}
+/* LOGIN PAGE */
+
+.login-page h1,
+.faq-page h1 {
+  font-size: 40px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+}
+
+.login-page h3 {
+  font-size: 28px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: none;
+}
+
+#wrapper .breadcrumb li a,
+#wrapper .breadcrumb span {
+  font-size: 17px;
+  color: rgb(0, 5, 85);
+  line-height: 1.2;
+  text-align: left;
+}
+#wrapper .breadcrumb li:last-child {
+  font-weight: 700;
+}
+.login-page {
+  background: #f4f7fe;
+  padding-top: 10px;
+}
+.login-page .page-header,
+.faq-page .page-header, .img-center-wrap {
+  text-align: center;
+}
+.login-page .login-img-coala {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+.img-center-wrap {
+  padding: 50px 20px 20px;
+}
+.img-center-wrap img {
+  margin-bottom: 20px;
+}
+.faq-page .faq-img-coala {
+  max-width: 136px;
+  margin-bottom: 20px;
+}
+.faq-page .faq-img {
+  max-width: 100px;
+}
+.faq-page .faq-img.car {
+  max-width: 200px;
+}
+.faq-page .faq-img.pay-cart {
+  max-width: 120px;
+}
+.faq-page .faq-img.coala {
+  max-width: 166px;
+}
+.none-border {
+  border: none;
+}
+.btn.btn-primary.faq-btn {
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+}
+.page-addresses .address,
+.page-authentication #content {
+  box-shadow: none;
+  background: none;
+  border: none;
+  margin-top: 20px;
+}
+.login-page .form-control {
+  background-color: rgb(255, 255, 255);
+  border-radius: 40px;
+  font-size: 20px;
+  color: #000555;
+  border: none;
+  height: 58px;
+  padding: 10px 30px;
+  width: 100%;
+  font-weight: 200;
+}
+#authentication .login-page .form-control {
+  background-color: rgb(255, 255, 255);
+  border-radius: 40px;
+  font-size: 20px;
+  color: #000555;
+  border: none;
+  height: 58px;
+  padding: 10px 30px;
+  width: 100%;
+  font-weight: 200;
+}
+.new-client-btn {
+  display: flex;
+  margin: 40px auto;
+}
+.input-group.js-parent-focus {
+  position: relative;
+  margin-bottom: 50px;
+}
+input.form-control.js-child-focus.js-visible-password {
+  width: 100%;
+  position: absolute;
+  border-radius: 60px;
+}
+
+.first-example,
+.second-example,
+.third-example {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 250px;
+  padding: 15px 12px;
+  font-size: 22px;
+}
+.fa {
+  color: #000555;
+  font-size: 27px;
+  margin-left: 8px;
+}
+#validation-txt {
+  color: red;
+  font-size: 18px;
+  width: 300px;
+}
+#password-3 {
+  -webkit-text-security: disc;
+  -moz-text-security: circle;
+  text-security: circle;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+i#pass-status {
+  margin: 14px;
+}
+.btn-primary,
+.btn-secondary,
+.btn-tertiary {
+  max-width: 330px;
+  background: #000555;
+  color: white;
+  font-size: 20px;
+  line-height: 0.5;
+  text-align: center;
+  text-transform: none;
+  font-weight: 500;
+  transition: 0.3s all;
+  border-radius: 40px;
+  padding: 1rem 2.25rem;
+}
+.page-customer-account #content .no-account {
+  margin-top: 40px;
+}
+.forgot-password label {
+  font-weight: 500;
+  color: #000555;
+  font-size: 16px;
+}
+.no-account a {
+  text-decoration: underline;
+  font-weight: 500;
+}
+.no-account p {
+  margin-top: 40px;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(0, 5, 85);
+  line-height: 1.2;
+  font-weight: 500;
+}
+.radio-inp {
+  width: auto;
+  margin-right: 8px;
+}
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary:hover {
+  cursor: pointer;
+}
+/* FAQ */
+summary {
+  font-size: 18px;
+  border-bottom: 1px solid rgba(220, 220, 220, 0.719);
+  color: rgb(0, 5, 85);
+  line-height: 1.667;
+  text-align: left;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  position: relative;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 20px;
+}
+details {
+}
+.page-footer-faq {
+  margin: 110px auto 100px;
+}
+.page-footer-faq h3 {
+  margin-bottom: 40px;
+  font-weight: 800;
+}
+.faq__content p {
+  font-size: 14px;
+
+  color: rgb(0, 5, 85);
+  line-height: 1.571;
+  text-align: left;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+details[open] {
+  background: #f4f7fe;
+  border: none;
+}
+
+details[open] summary ~ * {
+  -webkit-animation: sweep 0.5s ease-in-out;
+  animation: sweep 0.5s ease-in-out;
+}
+@-webkit-keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-top: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-top: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+
+/*  */
 .form-control-label {
   padding-top: 0px;
 }
@@ -1258,7 +1570,7 @@ input.btn.btn-primary {
   background: #000555;
   color: white;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 0.5;
   text-align: center;
   text-transform: none;
   font-weight: 500;
@@ -1301,6 +1613,15 @@ right: 30px;
   z-index: 10;
 }
 
+#authentication  .input-group-btn,
+#authentication  .input-group-btn > .btn {
+  position: relative;
+  z-index: 10;
+  left: auto;
+    transform: none;
+  
+}
+
 .form-footer.text-sm-right {
   display: flex;
   flex-direction: column;
@@ -1329,6 +1650,10 @@ textarea::placeholder,
   text-align: left;
   opacity: 1;
 }
+input#filestyle-0 {
+  display: none;
+}
+
 input#filestyle-0 {
   display: none;
 }
@@ -1449,6 +1774,47 @@ input#filestyle-0 {
   background: #e0e8f7;
 }
 /*  */
+details > summary::after {
+  position: absolute;
+  content: " ";
+  right: 20px;
+  top: 35%;
+  border: solid #000555;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+details[open] > summary::after {
+  position: absolute;
+  content: " ";
+  right: 20px;
+  top: 50%;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+.faq__content {
+  width: 100%;
+  background: #f6f9fe;
+  padding: 20px;
+  box-sizing: border-box;
+  /* max-width: 1400px; */
+}
+details[open] > summary:first-of-type {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  line-height: 1.667;
+  text-align: left;
+  background: #f6f9fe;
+  padding: 20px 20px 0px;
+  border: none;
+}
 @media (min-width: 1460px) {
   .container {
     width: 1400px;
@@ -1484,6 +1850,10 @@ input#filestyle-0 {
 }
 
 @media (max-width: 767px) {
+  summary,
+  details[open] > summary:first-of-type {
+    padding: 5px 40px 20px 20px;
+  }
   .grid-wrap-feed-back {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
