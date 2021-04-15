@@ -1837,9 +1837,8 @@ input#filestyle-0 {
   line-height: 1.2;
   text-align: center;
 }
-#legales-page img {
+#legales-page .header-img, #bilan-sommeil .header-img {
   max-width: 124px;
-
 }
 #legales-page h1 {
   margin: 45px auto;
@@ -1857,7 +1856,39 @@ input#filestyle-0 {
   font-weight: 800;
   font-size: 20px;
 }
-/*  */
+/* end Leagales pages */
+/* start bilan sommeil */
+ #bilan-sommeil .container-bilan h5 {
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+#bilan-sommeil .container-bilan .grid-bilan {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 110px;
+   color: #000555;
+   margin-top: 110px;
+ }
+ #bilan-sommeil .grid-bilan h6 {
+   font-size: 26px;
+   font-weight: 800;
+   margin-bottom: 45px;
+   text-align: center;
+
+ }
+ #bilan-sommeil .grid-bilan p {
+       color: #000555; 
+ font-size: 20px;
+  line-height: 32px;
+  text-align: justify;
+  text-align-last: center;
+  }
+/*end bilam sommeil  */
 @media (min-width: 1460px) {
   .container {
     width: 1400px;
@@ -1892,11 +1923,20 @@ input#filestyle-0 {
   }
 }
 
+
 @media (max-width: 767px) {
+/*start bilam sommeil  */
+  #bilan-sommeil .container-bilan .grid-bilan {
+    display: grid;
+    grid-template-columns: 1fr;}
+    .login-page h1, .page-cms-6 h1 {
+      font-size: 20px;
+    }
 	  .grid-wrap-feed-back {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
+  /*end bilam sommeil  */
   .philosoph-block {
     flex-direction: column;
   }
