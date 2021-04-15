@@ -1,0 +1,31 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.js
+ */
+ const swiper = new Swiper(".swiper-container", {
+        // Optional parameters
+        slidesPerView: "auto",
+        // centeredSlides: true,
+        spaceBetween: 25,
+        loop: true,
+
+        // If we need pagination
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+
+$(document).ready(function(){
+	$(document).on('click', '.summary', function () {
+	$(this).parent().toggleClass('open');
+	$(this).parent().find('.faq__content').slideToggle();	
+	});
+});
