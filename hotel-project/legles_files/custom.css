@@ -1867,6 +1867,13 @@ input#filestyle-0 {
   line-height: 1.2;
   text-align: center;
 }
+ #bilan-sommeil .page-header p {
+  font-size: 20px;
+  color: rgb(0, 5, 85);
+  line-height: 1.2;
+  text-align: center;
+}
+ 
 #bilan-sommeil .container-bilan .grid-bilan {
    display: grid;
    grid-template-columns: 1fr 1fr;
