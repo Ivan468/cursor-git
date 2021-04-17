@@ -2076,6 +2076,47 @@ margin-bottom: 20px;
   margin: 170px auto;
   color: #000555;
 }
+.container-article h5 {
+  font-size: 28px;
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  line-height: 1.179;
+  text-align: center;
+}
+.container-article h2  {
+  font-size: 40px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+}
+#article-page .article-desc {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: center;
+}
+#article-page .container-article .article-main-text h3 {
+  font-size: 32px;
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+  text-transform: none;
+}
+#article-page .article-main-text p {
+  font-size: 20px;
+  color: rgb(0, 5, 85);
+  line-height: 1.6;
+  text-align: center;
+  margin: 50px auto;
+}
+
+
 .article-two-img-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -2084,7 +2125,7 @@ margin-bottom: 20px;
   max-width: 1700px;
   margin: 0 auto;
 }
- #article-page .date-article {
+#article-page .date-article {
   font-size: 22px;
   color: rgb(0, 5, 85);
   line-height: 1.5;
@@ -2179,6 +2220,17 @@ margin-bottom: 20px;
   }
 
   /*end bilam sommeil  */
+  /* Article */
+  .article-two-img-grid {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr;}
+    
+  #article-page .article-main-text p {
+      padding: 10px;
+      font-size: 15px;
+    }
+  /*  */
   .philosoph-block {
     flex-direction: column;
   }
