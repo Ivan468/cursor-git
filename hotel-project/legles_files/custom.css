@@ -1897,7 +1897,7 @@ input#filestyle-0 {
   text-align-last: center;
   }
   #bilan-sommeil .philosoph-block.opinion {
-   margin: 0 0 40px;
+   margin: 0 0 90px;
  }
   #bilan-sommeil  .opinion-img {max-width: 140px;
   margin: 10px;
@@ -1914,8 +1914,9 @@ input#filestyle-0 {
   }
     #bilan-sommeil .opinion .phil-img h2 {
     margin-top: 0;
+    margin-bottom: 25px;
   }
-  #bilan-sommeil .step-opinion {margin: 20px 5px 10px; 
+  #bilan-sommeil .step-opinion {margin: 20px 5px 8px; 
   font-size: 21px;  
   color: rgb(0, 5, 85);
   text-transform: uppercase;
