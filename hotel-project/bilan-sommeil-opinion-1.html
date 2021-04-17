@@ -909,28 +909,99 @@
             </ol>
           </nav>
         </div>
+        <div class="philosoph-block flex opinion">
+          <div class="phil-img-wrap">
+            <div class="phil-img">
+              <h2>comment choisir son matelas ?</h2>
+              <p>Trouvez votre matelas idéal grâce à notre bilan sommeil !</p>
+            </div>
+          </div>
+          <div class="text">
+            <img
+              src="./legles_files/opinion-coala.svg"
+              class="opinion-img"
+              alt=""
+            />
+            <div class="step-opinion"><b>6 </b> / 6</div>
+            <h4 class="opinion-header">
+              Le/les utilisateur(s) souffrent-ils d'allergies ?
+            </h4>
+
+            <form name="opinion-question radio-input-container">
+              <div class="radio-input-container">
+                <div class="radio">
+                  <input
+                    class="custom-radio"
+                    type="radio"
+                    id="acariens"
+                    name="question"
+                    value="acariens"
+                  />
+                  <label for="acariens">Acariens</label>
+                </div>
+                <div class="radio">
+                  <input
+                    class="custom-radio"
+                    type="radio"
+                    id="latex"
+                    name="question"
+                    value="Latex"
+                  />
+                  <label for="latex">Latex</label>
+                </div>
+                <div class="radio">
+                  <input
+                    class="custom-radio"
+                    type="radio"
+                    id="autre"
+                    name="question"
+                    value="Autre"
+                  />
+                  <label for="autre">Autre</label>
+                </div>
+                <div class="radio">
+                  <input
+                    class="custom-radio"
+                    type="radio"
+                    id="aucune"
+                    name="question"
+                    value="Aucune"
+                  />
+                  <label for="aucune">Aucune</label>
+                </div>
+                <div class="opinion-btn-block">
+                  <a class="left-btn" href="http://#">Question précédente</a>
+                  <a class="right-btn" href="http://#">Voir les résultats</a>
+                </div>
+              </div>
+            </form>
+            <script>
+              var rad = document.opinion - question.question;
+              var prev = null;
+              for (var i = 0; i < rad.length; i++) {
+                rad[i].addEventListener("change", function () {
+                  prev ? console.log(prev.value) : null;
+                  if (this !== prev) {
+                    prev = this;
+                  }
+                  console.log(this.value);
+                });
+              }
+            </script>
+          </div>
+        </div>
         <div class="container">
           <div id="content-wrapper">
             <section id="main">
               <section id="content" class="page-content page-cms page-cms-6">
-                <div id="main">
-                  <div class="page-header">
-                    <img
-                      class="header-img m-2"
-                      src="https://sarah-et-mael.preprod.center/themes/classic/assets/img/svg/mateo.svg"
-                      alt=""
-                    />
-                    <h1>nos recommandations</h1>
-                    <p class="descryption-header m-3">3 Résultat(s)</p>
-                  </div>
-                </div>
+                <div>
                   <div class="container-bilan">
                     <h5 class="mb-3">
                       Pour choisir son matelas, <br />
                       il faut d’abord connaître ses propres besoins<br />
                       mais aussi quel dormeur(se) vous êtes.
                     </h5>
-                    <div class="grid-bilan ">
+                    <div class="grid-bilan">
                       <div>
                         <h6>Définir son profil</h6>
                         <p>
