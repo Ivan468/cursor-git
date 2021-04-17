@@ -2049,6 +2049,83 @@ margin-bottom: 20px;
   border: 2px solid  rgb(0, 5, 85);
 }
 /*end bilam sommeil  */
+/* Article */
+#article-page .article-main, #article-page .article-main p,  .article-main-text p {
+  text-align: center;
+  color: #000555;
+  margin: 30px 0px ;
+  max-width: 1300px;
+}
+#article-page .container-article {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+#article-page img {
+  max-width: 100%;
+}
+
+#article-page .img-descr {
+  font-size: 17px;
+  color: rgb(0, 5, 85);
+  line-height: 1.941;
+  text-align: center;
+}
+.article-main-text {
+ text-align: center;
+  max-width: 1300px;
+  margin: 170px auto;
+  color: #000555;
+}
+.article-two-img-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 110px;
+  place-items: center;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+ #article-page .date-article {
+  font-size: 22px;
+  color: rgb(0, 5, 85);
+  line-height: 1.5;
+  text-align: center;
+  margin: 20px auto 165px;
+}
+#article-page  .article-share-header {
+  font-size: 28px;
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  margin: 20px auto 50px;
+}
+#article-page  .share-block {
+  display: grid;
+  margin: 0 auto;
+  gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  max-width: 164px;
+  margin: 113px auto 30px;
+}
+#article-page  .share-block > a {
+  border-radius: 15px;
+  background-color: rgba(229, 237, 249, 0.719);
+   display: flex;
+  width: 76px;
+  height: 76px;
+  align-items: center;
+  justify-content: center;
+  padding: 22px;
+}
+#article-page .share-block > a > svg {
+  max-height:60px ;
+  height: 100%;
+}
+#article-page .video-article {
+  width: 100%;
+}
+/* End Article */
 @media (min-width: 1460px) {
   .container {
     width: 1400px;
