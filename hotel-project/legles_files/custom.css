@@ -2096,6 +2096,11 @@ margin-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
+  #bilan-sommeil .opinion-btn-block {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
   /*end bilam sommeil  */
   .philosoph-block {
     flex-direction: column;
