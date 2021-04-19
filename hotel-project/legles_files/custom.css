@@ -2288,6 +2288,8 @@ input#filestyle-0 {
   grid-template-columns: 1fr 1fr;
   max-width: 1700px;
   margin: 0 auto 110px;
+  border-radius: 15px;
+  overflow: hidden;
 }
 #blog-page .grid-blog-block .grid-left-btn {
   background-color: rgb(0, 5, 85);
@@ -2338,8 +2340,10 @@ input#filestyle-0 {
   text-align: center;
   margin: 22px 0 36px;
 }
-#blog-page .grid-blog-block .before-header {
+#blog-page .grid-blog-block .left .before-header {
   font-weight: 700;
+  font-size: 20px;
+  line-height: 1.65;
 }
 /* End Blog */
 @media (min-width: 1460px) {
