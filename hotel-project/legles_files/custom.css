@@ -2311,7 +2311,7 @@ input#filestyle-0 {
 #blog-page .grid-blog-block .left h2 {
   font-size: 40px;
   color: rgb(0, 5, 85);
-  font-weight: bold;
+  font-weight: 800;
   text-transform: uppercase;
   line-height: 1;
   text-align: left;
@@ -2332,11 +2332,14 @@ input#filestyle-0 {
 #blog-page .page-header h1 {
   font-size: 40px;
   color: rgb(0, 5, 85);
-  font-weight: bold;
+  font-weight: 800;
   text-transform: uppercase;
   line-height: 1;
   text-align: center;
   margin: 22px 0 36px;
+}
+#blog-page .grid-blog-block .before-header {
+  font-weight: 700;
 }
 /* End Blog */
 @media (min-width: 1460px) {
