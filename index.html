@@ -31,8 +31,8 @@
         background-attachment: fixed;
         background-size: cover;
       }
-      a:hover {
-        filter: invert(1);
+      footer {
+        padding: 10px;
       }
       .mat {
         margin-bottom: 7px;
@@ -54,14 +54,12 @@
         grid-area: main;
         display: grid;
         gap: 10px;
-
+        overflow-x: hidden;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         grid-auto-flow: row;
       }
-
-      footer {
-        background-color: red;
-        grid-area: foot;
+      ol {
+        overflow-x: hidden;
       }
     </style>
     <link rel="stylesheet" href="style.css" />
@@ -76,6 +74,7 @@
       <li><a href="#">About</a></li>
       <li><a href="./cv_petrushchack-ivan/index.html">Portfolio</a></li>
       <li><a href="#">Contact</a></li>
+      <li> <a href="mailto:pig1995z@gmail.com">Gmail</a> </li>
     </ul>
   </div>
   <body>
@@ -217,28 +216,52 @@
         </button>
       </main>
     </div>
-    <h3>Other links</h3>
-    <ol>
-      <li><a href="./mobile_game/ver1/index.html"> Mobile game Ver-1</a></li>
-      <li><a href="https://ivan468.github.io/JS/">JS work</a></li>
-      <li><a href="https://ivan468.github.io/hw1react/">React test</a></li>
-      <li><a href="./university/index.html">university</a></li>
-    </ol>
+    <footer>
+      <h3>Other links</h3>
+      <ol>
+        <li><a href="./mobile_game/ver1/index.html"> Mobile game Ver-1</a></li>
+        <li><a href="https://ivan468.github.io/JS/">JS work</a></li>
+        <li><a href="https://ivan468.github.io/hw1react/">React test</a></li>
+        <li><a href="./university/index.html">university</a></li>
+      </ol>
 
-    <h3>Hotel project</h3>
-    <ol>
-      <li><a href="./hotel-project/index.html">Hotel</a></li>
-      <li><a href="./hotel-project/Identifiant.html">Identifiant</a></li>
-      <li><a href="./hotel-project/Contactez-nous.html">Contact</a></li>
-      <li><a href="./hotel-project/faq.html">FAQ</a></li>
-      <li><a href="./hotel-project/legles.html">Legales</a></li>
-      <li><a href="./hotel-project/cgv-cgu.html">CGV-CGU</a></li>
-      <li><a href="./hotel-project/bilan-sommeil.html">Bilan sommeil</a></li>
-      <li>
-        <a href="./hotel-project/bilan-sommeil-opinion-1.html">Opinion</a>
-      </li>
-      <li><a href="./hotel-project/article.html">Article</a></li>
-      <li><a href="./hotel-project/blog.html">Blog</a></li>
-    </ol>
+      <h3>Hotel project</h3>
+      <ol>
+        <li><a href="./hotel-project/index.html">Hotel</a></li>
+        <li><a href="./hotel-project/Identifiant.html">Identifiant</a></li>
+        <li><a href="./hotel-project/Contactez-nous.html">Contact</a></li>
+        <li><a href="./hotel-project/faq.html">FAQ</a></li>
+        <li><a href="./hotel-project/legles.html">Legales</a></li>
+        <li><a href="./hotel-project/cgv-cgu.html">CGV-CGU</a></li>
+        <li><a href="./hotel-project/bilan-sommeil.html">Bilan sommeil</a></li>
+        <li>
+          <a href="./hotel-project/bilan-sommeil-opinion-1.html">Opinion</a>
+        </li>
+        <li><a href="./hotel-project/article.html">Article</a></li>
+        <li><a href="./hotel-project/blog.html">Blog</a></li>
+      </ol>
+    </footer>
   </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+    integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    anime({
+      targets: "button",
+      translateX: [100, 0],
+      duration: 1200,
+      opacity: [0, 1],
+      delay: (el, i) => {
+        return 300 + 100 * i;
+      },
+    });
+    anime({
+      targets: "li",
+      translateX: [100, 0],
+       opacity: [0, 1],
+      delay: anime.stagger(100), // increase delay by 100ms for each elements.
+    });
+  </script>
 </html>

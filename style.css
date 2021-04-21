@@ -5,7 +5,12 @@ h1 {
   font-size: 50px;
   font-family: "Cormorant Garamond", serif;
 }
-
+a:hover {
+  filter: invert(1);
+}
+#menu a:hover {
+  background-color: white;
+}
 p {
   font-family: "Lato", sans-serif;
   font-weight: 300;
@@ -824,24 +829,6 @@ button {
   top: 2px;
 }
 
-@keyframes checked-anim {
-  50% {
-    width: 50%;
-    height: 50%;
-    border-radius: 0  0 300px 0;
-  }
-  100% {
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-  }
-}
-@keyframes not-checked-anim {
-  0% {
-    width: 50%;
-    height: 50%;
-  }
-}
 #menu li,
 #menu > li > a {
   margin: 75px 0 -55px 0;
@@ -936,17 +923,42 @@ body {
   background-color: #fff;
   border-bottom-right-radius: 100%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-  animation: not-checked-anim 0.2s both;
+  animation: not-checked-anim 0.2s ease-out both;
   transition: 0.2s;
 }
 #menu-toggle:checked + #trigger + #burger + #menu {
-  animation: checked-anim 1s ease both;
+  animation: checked-anim 0.3s linear both;
   z-index: 44;
 }
-#menu-toggle:checked + #trigger ~ #menu > li, #menu > li > a {
+#menu-toggle:checked + #trigger ~ #menu > li,
+#menu > li > a {
   display: block;
 }
 [type="checkbox"]:not(:checked),
 [type="checkbox"]:checked {
   display: none;
+}
+@keyframes checked-anim {
+  50% {
+    width: 50%;
+    height: 50%;
+    border-radius: 0 0 300px 0;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+}
+@keyframes not-checked-anim {
+  0% {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  main {
+    place-items: center;
+  }
 }
