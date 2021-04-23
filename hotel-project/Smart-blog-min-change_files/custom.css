@@ -2564,18 +2564,97 @@ header.page-header > h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
 }
 .modal-header-title img {
   max-width: 88px;
+  margin-bottom: 10px;
 }
 .modal-body,
-.modal-body p {
+.modal-body p,
+.modal-body label,
+.modal-body .label,
+#blockcart-modal .product-price {
+  font-size: 16px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  line-height: 1.875;
+  font-weight: 500;
+}
+.modal-body .modal-total-label,
+#blockcart-modal .product-price {
+  font-weight: 700;
   font-size: 16px;
   font-family: "Montserrat";
   color: rgb(0, 5, 85);
   line-height: 1.875;
 }
-
+.modal-body h6.h6.product-name {
+  font-weight: 800;
+}
+.close-modal-btn {
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  background: none;
+  border: none;
+  right: 25px;
+  cursor: pointer;
+}
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-radius: 0.5rem;
+  outline: 0;
+  overflow: hidden;
+}
+.modal-border-bottom {
+  border-bottom: 1px solid #e5e6ee;
+}
+.modal-right-block-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.modal-right-block-flex > div {
+  flex: 1;
+}
+#blockcart-modal .cart-content {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.modal-right-block-flex > div:nth-child(2) {
+  margin: 20px 0 20px;
+}
+#blockcart-modal .cart-content .cart-content-btn .btn {
+  height: 45px;
+}
+#blockcart-modal .cart-content .cart-content-btn button {
+  margin-right: 1.3rem;
+  background: white;
+  color: #000555;
+  border: 1px solid #000555;
+}
+.close-modal-btn svg {
+  height: 20px;
+}
+.close-modal-btn:hover svg path {
+  fill: #ffd287;
+}
+#blockcart-modal .cart-content .cart-content-btn button:hover {
+  background: #ffd287;
+  color: white;
+}
 /* end modal */
 @media (min-width: 1460px) {
   .container {

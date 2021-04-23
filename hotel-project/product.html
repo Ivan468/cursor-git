@@ -1146,22 +1146,32 @@
             >
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                  <div class="modal-header">
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-label="Fermer"
-                    >
-                      <span aria-hidden="true"
-                        ><i class="material-icons">X</i></span
-                      >
-                    </button>
-                    <h4 class="modal-title h6 text-sm-center" id="myModalLabel">
-                      <i class="material-icons rtl-no-flip"></i>Produit ajouté
-                      au panier avec succès
-                    </h4>
-                  </div>
+                  <button
+                    type="button"
+                    class="close-modal-btn"
+                    data-dismiss="modal"
+                    aria-label="Fermer"
+                  >
+                    <span aria-hidden="true"
+                      ><i class="material-icons"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          version="1.1"
+                          id="Layer_1"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 492 492"
+                          style="enable-background: new 0 0 492 492"
+                          xml:space="preserve"
+                        >
+                          <g>
+                            <path fill="#000555"
+                              d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872    c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872    c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052    L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116    c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952    c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116    c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"
+                            />
+                          </g></svg></i
+                    ></span>
+                  </button>
                   <div class="modal-body">
                     <div class="row">
                       <div class="col-md-4 divide-right">
@@ -1177,7 +1187,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-md-8">
+                      <div class="col-md-8 modal-right-block-flex">
                         <div class="row">
                           <div class="col-md-12 modal-header-title">
                             <img src="./product_files/modal-cart.svg" alt="" />
@@ -1189,7 +1199,7 @@
                             <h6 class="h6 product-name">
                               Oreiller Fresh Eucalyptus
                             </h6>
-                            <p class="product-price">17,33&nbsp;€</p>
+                            <p class="product-price">17,33 €</p>
 
                             <span>Quantité: <strong>5</strong></span>
                           </div>
@@ -1198,20 +1208,19 @@
                               Il y a 5 articles dans votre panier.
                             </p>
                             <p class="product-total"></p>
+                            <p class="modal-border-bottom">
+                              <span class="label">Sous-total :</span>
+                              <span class="value">86,63 €</span>
+                            </p>
+                            <p class="modal-border-bottom">
+                              <span>Transport :</span>
+                              <span class="value">gratuit </span>
+                            </p>
                             <p>
-                              <span class="label">Sous-total :</span>&nbsp;<span
-                                class="value"
-                                >86,63&nbsp;€</span
+                              <span class="label modal-total-label"
+                                >Total TTC</span
                               >
-                            </p>
-                            <p>
-                              <span>Transport :</span>&nbsp;<span class="value"
-                                >gratuit
-                              </span>
-                            </p>
-                            <p>
-                              <span class="label">Total&nbsp;TTC</span
-                              >&nbsp;<span class="value">86,63&nbsp;€</span>
+                              <span class="value">86,63 €</span>
                             </p>
                           </div>
                         </div>
@@ -1228,8 +1237,8 @@
                               <a
                                 href="//sarah-et-mael.preprod.center/panier?action=show"
                                 class="btn btn-primary"
-                                ><i class="material-icons rtl-no-flip"></i
-                                >Commander</a
+                              >
+                                Commander</a
                               >
                             </div>
                           </div>
