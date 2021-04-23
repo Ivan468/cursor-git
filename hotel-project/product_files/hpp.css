@@ -1,0 +1,139 @@
+.hpp_tabs .tabs {
+    background: none !important;
+    box-shadow: none !important;
+    padding: 0px !important;
+}
+
+.hpp_tabs .tabs .nav-tabs .nav-item {
+    margin-bottom: -3px !important;
+}
+
+.hpp_tabs .tabs .nav-tabs .nav-link {
+    border: none!important;
+    padding: 15px !important;
+    bottom: 0px !important;
+    position: relative !important;
+}
+
+.hpp_tabs .tabs .nav-tabs .nav-link.active {
+    border-bottom: #2fb5d2 3px solid!important;
+}
+
+.hpp_tabs .tabs .nav-tabs {
+    border-bottom: #ccc 3px solid!important;
+}
+
+
+
+.hpp-products {
+    margin-bottom: 20px;
+}
+
+.custom_code_before {
+    margin-bottom: 10px;
+}
+
+.custom_code_before {
+    margin-bottom: 10px;
+}
+
+.products_block_hpp {
+    clear: both;
+}
+
+.hppColumn {
+    text-align: center;
+}
+
+.hppColumn li {
+    width: 100% !important;
+    display: block !important;
+    clear: both;
+    text-align: center;
+}
+
+.hppContainer li {
+    margin-right: 10px;
+    padding: 10px 0;
+    width: 126px;
+    height: 240px
+}
+
+.hppContainer li.last_item_of_line {
+    margin-right: 0;
+}
+
+.hppContainer .s_title_block, .hppContainer h5 {
+    padding-top: 5px;
+    height: 30px;
+    font-size: 12px;
+    color: #222;
+    padding-bottom: 0;
+    font-weight: bold;
+}
+
+.hppContainer .product_image {
+    display: block;
+    position: relative;
+    overflow: hidden
+}
+
+.hppContainer .product_image span.new {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: -30px;
+    padding: 1px 4px;
+    width: 101px;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    background-color: #990000;
+    transform: rotate(45deg); /* Newer browsers */
+}
+
+.hppContainer .product_desc {
+    max-height: 45px;
+}
+
+.hppContainer .product_desc,
+.hppContainer .product_desc a {
+    color: #666
+}
+
+.hppContainer .lnk_more {
+    display: inline;
+    font-weight: bold;
+    font-size: 10px;
+    color: #0088cc;
+}
+
+.hppContainer .price_container {
+    margin-top: 10px;
+    padding: 0;
+}
+
+.hppContainer .price {
+    font-weight: bold;
+    font-size: 14px;
+    color: #990000
+}
+
+.hppContainer li .ajax_add_to_cart_button {
+    display: none;
+}
+
+.hppContainer li span.exclusive {
+    display: none;
+}
+
+@media (max-width:1200px) {
+    .templatemela_hpp img {
+        max-height:246px;
+    }
+}
