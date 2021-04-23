@@ -2564,13 +2564,13 @@ header.page-header > h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
   font-size: 20px;
   font-family: "Montserrat";
   color: rgb(0, 5, 85);
   font-weight: 800;
   line-height: 1.2;
   text-align: center;
+    margin-bottom: 45px;
 }
 .modal-header-title img {
   max-width: 88px;
@@ -2612,29 +2612,25 @@ header.page-header > h1 {
   background-color: #fff;
   background-clip: padding-box;
   border: 0;
-  border-radius: 0.5rem;
+  border-radius: 1.5rem;
   outline: 0;
   overflow: hidden;
 }
 .modal-border-bottom {
   border-bottom: 1px solid #e5e6ee;
 }
-.modal-right-block-flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+#blockcart-modal .modal-body {
+  padding: 3.125rem 60px;
 }
-.modal-right-block-flex > div {
-  flex: 1;
-}
+
 #blockcart-modal .cart-content {
   padding: 0;
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 40px;
 }
-.modal-right-block-flex > div:nth-child(2) {
-  margin: 20px 0 20px;
+.modal-right-block > div:nth-child(2) {
+  margin: 20px 0 0px;
 }
 #blockcart-modal .cart-content .cart-content-btn .btn {
   height: 45px;
