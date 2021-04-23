@@ -2466,8 +2466,8 @@ header.page-header > h1 {
   gap: 20px;
 }
 .grid-blog-block img.imageFeatured {
-  height: 472px;
-  width: auto;
+  max-height: 472px;
+  height: 100%;
   border-radius: 15px;
   overflow: hidden;
 }
@@ -2499,6 +2499,10 @@ header.page-header > h1 {
   text-align: left;
   margin: 30px 0 30px;
 }
+.grid-blog-block .smart-blog-posts-header-area > span {
+  margin-top: 25px;
+  display: block;
+}
 .sdsarticleHeader {
   padding: 0;
 }
@@ -2506,12 +2510,14 @@ header.page-header > h1 {
   font-size: 18px;
   font-family: "Montserrat";
   color: rgb(0, 5, 85);
-   
   line-height: 1.833;
   text-align: left;
 }
+#smartblogcat:nth-child(2) > div:nth-child(1) > div:nth-child(1) .smart-blog-posts-header-area{
+  order: 2;
+}
 
-/*  */
+/* end smart blog  */
 @media (min-width: 1460px) {
   .container {
     width: 1400px;
@@ -2554,7 +2560,6 @@ header.page-header > h1 {
   .philosoph-block {
     flex-direction: column;
   }
-
   .flex-grow-cont {
     display: block;
   }
@@ -2695,6 +2700,22 @@ header.page-header > h1 {
     left: -5.3px;
     height: auto;
   }
+  /* Smart blog-page */
+  .grid-blog-block, #smartblogcat > div:nth-child(1) > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-blog-block img.imageFeatured {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  #smartblogcat > div:nth-child(1) > div:nth-child(1) .smart-blog-posts-header-area {
+    padding: 15px;
+    background: #f6f9fe;
+}
+  /* end Smart blog page */
 }
 
 @media (max-width: 360px) {
