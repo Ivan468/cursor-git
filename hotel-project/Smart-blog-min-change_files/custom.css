@@ -2717,8 +2717,60 @@ header.page-header > h1 {
   text-align: center;
   box-shadow: 0px 10px 15px 0px rgba(0, 5, 85, 0.08);
   padding: 65px 80px 75px;
+  transition: 1s all;
 }
-
+.mon-compte.page-my-account #content .links a span.link-item:hover {
+  transform: scale(1.1);
+  z-index: 10;
+}
+.mon-compte.page-my-account .page-header {
+  margin-top: 25px;
+}
+.mon-compte.page-my-account .page-header .img-mon-compte-wrap img {
+  max-height: 120px;
+}
+.mon-compte.page-my-account .main-links-max-w {
+  max-width: 1260px;
+  margin: 20px auto 160px;
+}
+.mon-compte.page-my-account .ques-header.flex {
+  justify-content: center;
+  align-items: center;
+  margin: 45px 0 45px;
+}
+.mon-compte.page-my-account .ques-header.flex p {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  line-height: 1.2;
+  text-align: center;
+  text-transform: none;
+  margin-bottom: 0;
+}
+.mon-compte.page-my-account .ques-header.flex a {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: none;
+  margin: 0 20px;
+  background-color: #000555;
+  border-radius: 30px;
+  padding: 14px 30px;
+  border: 2px solid #000555;
+}
+.mon-compte.page-my-account .mon-compte-header-descr {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  line-height: 1.2;
+  text-align: center;
+  text-transform: none;
+  max-width: 890px;
+  margin: 50px auto 80px;
+}
 .mon-compte.page-my-account #content .links a span.link-item img {
   max-height: 100px;
 }
@@ -2728,7 +2780,14 @@ header.page-header > h1 {
 .mon-compte #wrapper {
   background: #f6f9fe;
 }
-
+.mon-compte.page-my-account .ques-header.flex a:hover {
+  background: white;
+  color: #000555;
+  border: 2px solid #000555;
+}
+.mon-compte.page-my-account header.page-header > h1 {
+  font-weight: 800;
+}
 /* end Mon compte */
 @media (min-width: 1460px) {
   .container {

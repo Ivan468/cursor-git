@@ -1006,7 +1006,7 @@
                 itemscope=""
                 itemtype="https://schema.org/ListItem"
               >
-                <span itemprop="name">Votre compte</span>
+                <span itemprop="name">Bienvenue, lisa !</span>
                 <meta itemprop="position" content="2" />
               </li>
             </ol>
@@ -1015,7 +1015,21 @@
           <div id="content-wrapper">
             <section id="main">
               <header class="page-header">
-                <h1>Votre compte</h1>
+                <div class="img-mon-compte-wrap">
+                  <img src="./mon-compte_files/coala.svg" alt="" />
+                </div>
+                <h1>bienvenue, lisa !</h1>
+                <div class="ques-header flex">
+                  <p>Vous n’êtes pas <b>Lisa ?</b> </p>
+                  <a href="https://sarah-et-mael.preprod.center/?mylogout=">
+                    Déconnexion
+                  </a>
+                </div>
+                <p class="mon-compte-header-descr">
+                  Visualisez ici vos commandes récentes, gérez vos adresses de
+                  livraison et de facturation et changez votre mot de passe
+                  ainsi que les détails de votre compte.
+                </p>
               </header>
 
               <section id="content" class="page-content">
@@ -1024,7 +1038,7 @@
                 </aside>
 
                 <div class="row">
-                  <div class="links">
+                  <div class="links main-links-max-w">
                     <a
                       class="col-lg-4 col-md-6 col-sm-6 col-xs-12"
                       id="address-link"
@@ -1058,7 +1072,9 @@
                       href="https://sarah-et-mael.preprod.center/avoirs"
                     >
                       <span class="link-item">
-                        <i class="material-icons"></i>
+                        <div class="img-mon-compte-wrap">
+                          <img src="./mon-compte_files/map.svg" alt="" />
+                        </div>
                         Avoirs
                       </span>
                     </a>
@@ -1109,73 +1125,13 @@
                 </div>
               </section>
 
-              <footer class="page-footer">
-                <div class="text-sm-center">
-                  <a href="https://sarah-et-mael.preprod.center/?mylogout=">
-                    Déconnexion
-                  </a>
-                </div>
-              </footer>
+              <footer class="page-footer"></footer>
             </section>
           </div>
         </div>
       </section>
       <footer id="footer">
-        <div class="container">
-          <div class="row">
-            <div
-              class="block_newsletter col-lg-12 col-md-12 col-sm-12"
-              id="blockEmailSubscription_displayFooterBefore"
-            >
-              <div class="row">
-                <div class="newsletter-wrap">
-                  <img src="./mon-compte_files/newslet.svg" alt="news" />
-                  <h2 class="h2">Newsletter</h2>
-                  <p>
-                    Pour tout connaître de l’actualité de Sarah &amp; Maël,
-                    inscrivez-vous à notre newsletter :
-                  </p>
-
-                  <form
-                    action="https://sarah-et-mael.preprod.center/mon-compte#blockEmailSubscription_displayFooterBefore"
-                    method="post"
-                  >
-                    <input
-                      class="btn btn-primary float-xs-right hidden-xs-down cta-btn"
-                      name="submitNewsletter"
-                      type="submit"
-                      value="Je m’inscris"
-                    />
-                    <input
-                      class="btn btn-primary float-xs-right hidden-sm-up cta-btn"
-                      name="submitNewsletter"
-                      type="submit"
-                      value="Je m’inscris"
-                    />
-                    <div class="input-wrapper">
-                      <input
-                        name="email"
-                        type="email"
-                        value=""
-                        placeholder="Mon adresse e-mail"
-                        aria-labelledby="block-newsletter-label"
-                        required=""
-                      />
-                    </div>
-                    <input
-                      type="hidden"
-                      name="blockHookName"
-                      value="displayFooterBefore"
-                    />
-                    <input type="hidden" name="action" value="0" />
-                    <div class="clearfix"></div>
-                  </form>
-                </div>
-                <div class="col-xs-12"></div>
-              </div>
-            </div>
-          </div>
-        </div>
+         
         <div class="footer-container">
           <div class="container">
             <div class="row">
