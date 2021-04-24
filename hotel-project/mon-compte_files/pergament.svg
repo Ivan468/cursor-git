@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icônes" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 445.1 535.3" style="enable-background:new 0 0 445.1 535.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000555;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:#000555;stroke:#000555;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;stroke:#000555;stroke-width:10;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#000555;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill:#DFEFFE;}
+	.st5{fill:none;stroke:#000555;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#000555;stroke-width:10;stroke-miterlimit:10;}
+</style>
+<g>
+	<g>
+		<path class="st0" d="M51.6,458.2V121.5c0-22.5,18.2-40.7,40.7-40.7h254.4h40.7c-22.5,0-40.7,18.2-40.7,40.7v335.7
+			c0,22.8-18.7,41.9-41.5,41.5c-22.1-0.4-39.9-18.5-39.9-40.7H14.6c-2.1,0-3.7,1.8-3.5,3.8c1.9,20.7,19.3,36.8,40.5,36.8h254.4
+			c-22.5,0-40.7-18.2-40.7-40.7L51.6,458.2z"/>
+		<path class="st1" d="M387.4,80.8c22.5,0,40.7,18.2,40.7,40.7h-81.3C346.7,99,364.9,80.8,387.4,80.8"/>
+	</g>
+	<path class="st2" d="M51.6,458.2V121.5c0-22.5,18.2-40.7,40.7-40.7h254.4h40.7c-22.5,0-40.7,18.2-40.7,40.7v335.7
+		c0,22.8-18.7,41.9-41.5,41.5c-22.1-0.4-39.9-18.5-39.9-40.7H14.6c-2.1,0-3.7,1.8-3.5,3.8c1.9,20.7,19.3,36.8,40.5,36.8h254.4
+		c-22.5,0-40.7-18.2-40.7-40.7L51.6,458.2z"/>
+</g>
+<g>
+	<g>
+		<polyline class="st3" points="237.8,278.2 199.2,316.8 160.6,278.2 		"/>
+		<line class="st3" x1="199.2" y1="316.8" x2="199.2" y2="198.9"/>
+	</g>
+	<line class="st3" x1="151.6" y1="347" x2="246.7" y2="347"/>
+</g>
+<g>
+	<path class="st4" d="M306.1,498.7c-22.5,0-40.7-18.2-40.7-40.7H10.9c0,22.5,18.2,40.7,40.7,40.7H306.1"/>
+	<path class="st5" d="M265.4,458H14.6c-2.1,0-3.7,1.8-3.5,3.8c1.9,20.7,19.3,36.8,40.5,36.8"/>
+	<path class="st6" d="M305.3,498.7c-22.1-0.4-39.9-18.5-39.9-40.7H14.6c-2.1,0-3.7,1.8-3.5,3.8c1.9,20.7,19.3,36.8,40.5,36.8h254.4"
+		/>
+</g>
+</svg>
