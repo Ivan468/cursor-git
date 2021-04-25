@@ -30,8 +30,32 @@
       href="theme/unfold/css/vendor/jquery.fancybox.min.css"
     />
     <link rel="stylesheet" href="theme/unfold/css/style.css?v001" />
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-K7W7QH2");
+    </script>
+    <!-- End Google Tag Manager -->
   </head>
   <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-K7W7QH2"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <nav class="unslate_co--site-mobile-menu">
       <div class="close-wrap d-flex">
         <a href="#" class="d-flex ml-auto js-menu-toggle">
@@ -1006,39 +1030,43 @@
     <script src="theme/unfold/js/scripts-dist.js"></script>
     <script src="theme/unfold/js/main.js"></script>
     <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
-  <script>
-  /* paste this line in verbatim */
-  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+    <script>
+      /* paste this line in verbatim */
+      window.formbutton =
+        window.formbutton ||
+        function () {
+          (formbutton.q = formbutton.q || []).push(arguments);
+        };
 
-  /* customize formbutton below*/     
-  formbutton("create", {
-    action: "https://formspree.io/f/xzbybvwp",
-    title: "How can we help?",
-    fields: [
-      { 
-        type: "email", 
-        label: "Email:", 
-        name: "email",
-        required: true,
-        placeholder: "your@email.com"
-      },
-      {
-        type: "textarea",
-        label: "Message:",
-        name: "message",
-        placeholder: "What's on your mind?",
-      },
-      { type: "submit" }      
-    ],
-    styles: {
-      title: {
-        backgroundColor: "gray"
-      },
-      button: {
-        backgroundColor: "gray"
-      }
-    }
-  });
-</script>
+      /* customize formbutton below*/
+      formbutton("create", {
+        action: "https://formspree.io/f/xzbybvwp",
+        title: "How can we help?",
+        fields: [
+          {
+            type: "email",
+            label: "Email:",
+            name: "email",
+            required: true,
+            placeholder: "your@email.com",
+          },
+          {
+            type: "textarea",
+            label: "Message:",
+            name: "message",
+            placeholder: "What's on your mind?",
+          },
+          { type: "submit" },
+        ],
+        styles: {
+          title: {
+            backgroundColor: "gray",
+          },
+          button: {
+            backgroundColor: "gray",
+          },
+        },
+      });
+    </script>
   </body>
 </html>
