@@ -656,9 +656,9 @@
       <div class="container">
         <section id="content">
           <div class="page-header">
-              <div class="img-wrap">
-                <img src="./Commander-en-tant_files/coala-header.svg" alt="">
-              </div>
+            <div class="img-wrap">
+              <img src="./Commander-en-tant_files/coala-header.svg" alt="" />
+            </div>
             <h1 class="step-title h3">
               <span class="step-number">1.</span>
               mes informations personnelles
@@ -732,7 +732,7 @@
                                   />
                                   <span></span>
                                 </span>
-                                M
+                                Monsieur
                               </label>
                               <label class="radio-inline">
                                 <span class="custom-radio">
@@ -743,7 +743,7 @@
                                   />
                                   <span></span>
                                 </span>
-                                Mme
+                                Madame
                               </label>
                             </div>
                           </div>
@@ -755,7 +755,7 @@
                                 name="firstname"
                                 type="text"
                                 value=""
-                                placeholder="Prénom"
+                                placeholder="Mon prénom *"
                                 required=""
                               />
                             </div>
@@ -768,7 +768,7 @@
                                 name="lastname"
                                 type="text"
                                 value=""
-                                placeholder="Nom"
+                                placeholder="Mon nom *"
                                 required=""
                               />
                             </div>
@@ -781,23 +781,11 @@
                                 name="email"
                                 type="email"
                                 value=""
-                                placeholder="E-mail"
+                                placeholder="Mon adresse e-mail *"
                                 required=""
                               />
                             </div>
                           </div>
-
-                          <p>
-                            <span class="font-weight-bold"
-                              >Créez votre compte</span
-                            >
-                            <span class="font-italic">(optionnel)</span>
-                            <br />
-                            <span class="text-muted"
-                              >Et gagnez du temps pour votre prochaine commande
-                              !</span
-                            >
-                          </p>
 
                           <div class="form-group row password">
                             <div class="col-md-12">
@@ -809,7 +797,7 @@
                                   type="password"
                                   value=""
                                   id="password-field"
-                                  placeholder="Mot de passe"
+                                  placeholder="Mon mot de passe *"
                                   pattern=".{5,}"
                                 />
                                 <span class="input-group-btn">
@@ -822,10 +810,47 @@
                                 </span>
                               </div>
                             </div>
+                            <div class="col-md-12">
+                              <div class="input-group js-parent-focus">
+                                <input
+                                  class="form-control js-child-focus js-visible-password"
+                                  name="password"
+                                  title="Au moins 5 caractères"
+                                  type="password"
+                                  value=""
+                                  id="password-confirme"
+                                  placeholder="Je confirme mon mot de passe *"
+                                  pattern=".{5,}"
+                                />
+                                <span class="input-group-btn">
+                                  <i
+                                    id="pass-status"
+                                    class="fa fa-eye"
+                                    aria-hidden="true"
+                                    onclick="viewPassword()"
+                                  ></i>
+                                </span>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="input-group js-parent-focus">
+                                <input
+                                  class="form-control js-child-focus js-visible-password"
+                                  max="2030-04-30"
+                                  min="1900-00-00"
+                                  title="Au moins 5 caractères"
+                                  type="date"
+                                  value=""
+                                  id="date-picker"
+                                  placeholder="Je confirme mon mot de passe *"
+                                />
+                                <span class="input-group-btn"> </span>
+                              </div>
+                            </div>
                           </div>
 
                           <div class="form-group row newsletter">
-                            <div class="col-md-12">
+                            <div class="col-md-12 flex">
                               <span class="custom-checkbox">
                                 <label>
                                   <input
@@ -839,11 +864,29 @@
                                       ></i
                                     ></span
                                   >
-                                  Recevoir notre newsletter<br /><em
-                                    >Vous pouvez vous désinscrire à tout moment.
-                                    Vous trouverez pour cela nos informations de
-                                    contact dans les conditions d'utilisation du
-                                    site.</em
+                                  Recevoir notre newsletter
+                                </label>
+                              </span>
+                            </div>
+
+                            <div class="col-md-12 flex">
+                              <span class="custom-checkbox">
+                                <label>
+                                  <input
+                                    name="jaccepte"
+                                    type="checkbox"
+                                    value="1"
+                                  />
+                                  <span
+                                    ><i
+                                      class="material-icons rtl-no-flip checkbox-checked"
+                                      ></i
+                                    ></span
+                                  >
+                                  J'accepte les conditions générales et la
+                                  <a
+                                    href="https://sarah-et-mael.preprod.center/commande#"
+                                    >politique de confidentialité</a
                                   >
                                 </label>
                               </span>
@@ -853,29 +896,24 @@
 
                         <footer class="form-footer clearfix">
                           <input type="hidden" name="submitCreate" value="1" />
-
                           <button
-                            class="continue btn btn-primary float-xs-right"
+                            class="continue btn btn-primary"
                             name="continue"
                             data-link-action="register-new-customer"
                             type="submit"
                             value="1"
                           >
-                            Continuer
+                            Poursuivre ma commande
                           </button>
                         </footer>
                       </form>
                       <div class="no-account">
                         <p>Les champs obligatoires sont indiqués avec *</p>
                         <p>
-                          Vos données personnelles seront utilisées pour vous
-                          accompagner au cours de votre visite du site web,
-                          gérer l’accès à votre compte, et pour d’autres raisons
-                          décrites dans
-                          <a
-                            href="https://sarah-et-mael.preprod.center/commande#"
-                            >notre politique de confidentialité.</a
-                          >
+                          Conformément aux dispositions de la loi du n°78-17 du
+                          6 janvier 1978, vous disposez d'un droit d'accès, de
+                          rectification et d'opposition sur les données
+                          nominatives vous concernant.
                         </p>
                       </div>
                     </div>

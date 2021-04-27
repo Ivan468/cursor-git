@@ -3827,6 +3827,7 @@ body#checkout section.checkout-step {
   padding-top: 0.5rem;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 ul.nav.nav-inline.my-2 {
   justify-content: center;
@@ -3862,7 +3863,7 @@ ul.nav.nav-inline.my-2 {
   font-size: 28px;
   font-family: "Montserrat";
   color: rgb(188, 204, 231);
-  font-weight: bold;
+  font-weight: 800;
   line-height: 1.2;
   text-align: center;
 }
@@ -3870,13 +3871,100 @@ ul.nav.nav-inline.my-2 {
   font-size: 28px;
   font-family: "Montserrat";
   color: rgb(0, 5, 85);
-  font-weight: bold;
+  font-weight: 800;
   line-height: 1.2;
   text-align: center;
 }
 body#checkout a:hover {
   color: #ffd287;
 }
+.custom-radio {
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid #000555;
+  background: #fff;
+  margin-right: 1.25rem;
+}
+#checkout label.radio-inline {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  line-height: 1.2;
+  text-align: left;
+}
+#customer-form
+  section
+  div.form-group.row.id_gender
+  label.radio-inline:nth-child(1) {
+  margin: 0 35px 0 0;
+}
+#checkout #customer-form input.form-control {
+  width: 100%;
+}
+#checkout .input-group.js-parent-focus {
+  margin-bottom: 1rem;
+}
+#date-picker {
+  position: relative;
+}
+body#checkout .custom-checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+body#checkout .custom-checkbox label {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+body#checkout .custom-checkbox label a {
+  text-decoration: underline;
+}
+
+body#checkout section.checkout-step .content {
+  padding: 0;
+}
+
+body#checkout label {
+  display: inline-block;
+  margin-bottom: 0rem;
+}
+.no-account {
+  text-align: center;
+
+  font-size: 17px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  line-height: 1.2;
+}
+h1.step-title.h3.not-allowed {
+  font-size: 26px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.538;
+  text-align: center;
+}
+body#checkout section.checkout-step.-unreachable .step-title {
+  opacity: 1;
+}
+body#checkout section.checkout-step {
+  border-bottom: 1px solid #c5c8dc;
+}
+/* body#checkout .custom-checkbox span {
+  border-radius: 50%;
+} */
 /*  end commander end tant*/
 @media (min-width: 1460px) {
   .container {
