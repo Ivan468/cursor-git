@@ -17,6 +17,9 @@
       type="image/vnd.microsoft.icon"
       href="https://sarah-et-mael.preprod.center/img/favicon.ico?1617191598"
     />
+    <!-- add font Awesome eye -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!--  -->
     <link
       rel="shortcut icon"
       type="image/x-icon"
@@ -824,10 +827,10 @@
                                 />
                                 <span class="input-group-btn">
                                   <i
-                                    id="pass-status"
+                                    id="pass-status-conf"
                                     class="fa fa-eye"
                                     aria-hidden="true"
-                                    onclick="viewPassword()"
+                                    onclick="viewPasswordConf()"
                                   ></i>
                                 </span>
                               </div>
@@ -1312,7 +1315,36 @@
       type="text/javascript"
       src="./Commander-en-tant_files/custom.js.завантаження"
     ></script>
+    <script>
+      // HIDDEN Password
 
+      function viewPassword() {
+        var passwordInput = document.getElementById("password-field");
+        var passStatus = document.getElementById("pass-status");
+
+        if (passwordInput.type == "password") {
+          passwordInput.type = "text";
+          passStatus.className = "fa fa-eye-slash";
+        } else {
+          passwordInput.type = "password";
+          passStatus.className = "fa fa-eye";
+        }
+      }
+      //
+      function viewPasswordConf() {
+        var passwordInput = document.getElementById("password-confirme");
+        var passStatus = document.getElementById("pass-status-conf");
+
+        if (passwordInput.type == "password") {
+          passwordInput.type = "text";
+          passStatus.className = "fa fa-eye-slash";
+        } else {
+          passwordInput.type = "password";
+          passStatus.className = "fa fa-eye";
+        }
+      }
+       
+    </script>
     <ul
       class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all"
       id="ui-id-1"
