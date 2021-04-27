@@ -1554,7 +1554,8 @@ i#pass-status {
   text-decoration: underline;
   font-weight: 500;
 }
-.no-account p, .no-account {
+.no-account p,
+.no-account {
   margin-top: 35px;
   font-size: 17px;
   font-family: "Montserrat", sans-serif;
@@ -1562,9 +1563,7 @@ i#pass-status {
   line-height: 1.2;
   font-weight: 500;
 }
-.de-moi {
-  margin: 10px 0 35px;
-}
+
 .radio-inp {
   width: auto;
   margin-right: 8px;
@@ -3813,7 +3812,7 @@ button.btn.btn-touchspin.js-touchspin.js-decrease-product-quantity.bootstrap-tou
   margin: 20px 0 75px;
 }
 /* end panier  */
-/* Commander en tant */
+/* Commander en tant + Connexion*/
 .row.commander-row {
   max-width: 1400px;
   margin: 0 auto;
@@ -3978,7 +3977,7 @@ i#pass-status-conf {
 }
 #checkout .cart-grid-right {
   margin-top: 112px;
-  box-shadow: 0;
+  box-shadow: none;
 }
 #checkout-personal-information-step
   .custom-checkbox
@@ -3993,7 +3992,33 @@ i#pass-status-conf {
   cursor: pointer;
   border: 2px solid #000555;
 }
-/*  end commander end tant*/
+.de-moi {
+  margin: 10px 0 35px;
+}
+#checkout .card {
+  border: 0;
+  box-shadow: none;
+  border-radius: 15px;
+}
+.card-block.cart-summary-subtotals-container {
+  padding: 0;
+}
+p.articles {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  line-height: 1.5;
+}
+.cart-summary-line.cart-summary-subtotals .value {
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(0, 5, 85);
+    font-weight: bold;
+    line-height: 1.667;
+    text-align: right;
+}
+/*  end commander en tant + connexion*/
 @media (min-width: 1460px) {
   .container {
     width: 1400px;
