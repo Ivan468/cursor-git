@@ -3617,7 +3617,7 @@ button.btn.btn-touchspin.js-touchspin.js-decrease-product-quantity.bootstrap-tou
   margin-top: 30px;
 }
 .product-line-info.product-price.h5 {
-    margin: 0;
+  margin: 0;
 }
 .product-line-grid-body > .product-line-info span.label.small {
   font-size: 18px;
@@ -3628,7 +3628,7 @@ button.btn.btn-touchspin.js-touchspin.js-decrease-product-quantity.bootstrap-tou
   font-weight: 400;
 }
 .product-line-info.header {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .product-line-grid-body > .product-line-info .value {
   font-weight: 700;
@@ -3812,8 +3812,8 @@ button.btn.btn-touchspin.js-touchspin.js-decrease-product-quantity.bootstrap-tou
 /* end panier  */
 /* Commander en tant */
 .row.commander-row {
-    max-width: 1300px;
-    margin: 0 auto;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 body#checkout section.checkout-step {
   box-shadow: none;
@@ -3824,13 +3824,58 @@ body#checkout section.checkout-step {
   background: #f6f9fe;
 }
 .form-control-valign {
-    padding-top: .5rem;
-    display: flex;
-    justify-content: center;
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: center;
 }
 ul.nav.nav-inline.my-2 {
-    justify-content: center;
-    display: flex;
+  justify-content: center;
+  display: flex;
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  line-height: 1.2;
+  text-align: center;
+  align-items: baseline;
+}
+.page-header .step-title.h3 {
+  font-size: 40px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+  max-width: 550px;
+  margin: auto;
+  margin: 30px auto 70px;
+}
+#content > div.page-header > .img-wrap > img {
+  max-width: 190px;
+  margin: auto;
+}
+#checkout .img-wrap {
+  display: flex;
+  justify-content: center;
+}
+.nav-item .nav-link {
+  font-size: 28px;
+  font-family: "Montserrat";
+  color: rgb(188, 204, 231);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+.nav-item .nav-link.active {
+  font-size: 28px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+body#checkout a:hover {
+  color: #ffd287;
 }
 /*  end commander end tant*/
 @media (min-width: 1460px) {
