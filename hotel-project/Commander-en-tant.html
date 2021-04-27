@@ -655,8 +655,44 @@
     <section id="wrapper">
       <div class="container">
         <section id="content">
-          <div class="row flex-center">
-            <div class="cart-grid-body col-xs-12 col-lg-5">
+          <div class="page-header">
+            <ul class="nav nav-inline my-2" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  data-toggle="tab"
+                  href="https://sarah-et-mael.preprod.center/commande#checkout-guest-form"
+                  role="tab"
+                  aria-controls="checkout-guest-form"
+                  aria-selected="true"
+                  aria-expanded="true"
+                >
+                  Commander en tant qu’invité
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <span class="nav-separator"> ou </span>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-link-action="show-login-form"
+                  data-toggle="tab"
+                  href="https://sarah-et-mael.preprod.center/commande#checkout-login-form"
+                  role="tab"
+                  aria-controls="checkout-login-form"
+                  aria-expanded="false"
+                >
+                  Me connecter
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="row commander-row">
+            <div class="cart-grid-body col-xs-12 col-lg-7">
               <section
                 id="checkout-personal-information-step"
                 class="checkout-step -reachable -clickable -current js-current-step"
@@ -672,40 +708,6 @@
 
                 <div class="content">
                   <div id="js-ps_checkout-express-button-container"></div>
-
-                  <ul class="nav nav-inline my-2" role="tablist">
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active"
-                        data-toggle="tab"
-                        href="https://sarah-et-mael.preprod.center/commande#checkout-guest-form"
-                        role="tab"
-                        aria-controls="checkout-guest-form"
-                        aria-selected="true"
-                        aria-expanded="true"
-                      >
-                        Commander en tant qu'invité
-                      </a>
-                    </li>
-
-                    <li class="nav-item">
-                      <span class="nav-separator"> | </span>
-                    </li>
-
-                    <li class="nav-item">
-                      <a
-                        class="nav-link"
-                        data-link-action="show-login-form"
-                        data-toggle="tab"
-                        href="https://sarah-et-mael.preprod.center/commande#checkout-login-form"
-                        role="tab"
-                        aria-controls="checkout-login-form"
-                        aria-expanded="false"
-                      >
-                        Connexion
-                      </a>
-                    </li>
-                  </ul>
 
                   <div class="tab-content">
                     <div
@@ -758,10 +760,6 @@
                                 placeholder="Prénom"
                                 required=""
                               />
-                              <span class="form-control-comment">
-                                Seules les lettres et le point (.), suivi d'un
-                                espace, sont autorisés.
-                              </span>
                             </div>
                           </div>
 
@@ -775,10 +773,6 @@
                                 placeholder="Nom"
                                 required=""
                               />
-                              <span class="form-control-comment">
-                                Seules les lettres et le point (.), suivi d'un
-                                espace, sont autorisés.
-                              </span>
                             </div>
                           </div>
 
@@ -971,11 +965,9 @@
                   </div>
                 </div>
               </section>
-
-            
             </div>
 
-            <div class="cart-grid-right col-xs-12 col-lg-5">
+            <div class="cart-grid-right col-xs-12 col-lg-4">
               <section
                 id="js-checkout-summary"
                 class="card js-cart"
@@ -1142,38 +1134,35 @@
                   </div>
                 </div>
               </section>
-
-              
-               
             </div>
           </div>
           <div class="row">
-              <section
-                class="checkout-step -unreachable"
-                id="checkout-addresses-step"
-              >
-                <h1 class="step-title h3 not-allowed">
-                  <span class="step-number">2</span> Adresses
-                </h1>
-              </section>
+            <section
+              class="checkout-step -unreachable"
+              id="checkout-addresses-step"
+            >
+              <h1 class="step-title h3 not-allowed">
+                <span class="step-number">2</span> Adresses
+              </h1>
+            </section>
 
-              <section
-                class="checkout-step -unreachable"
-                id="checkout-delivery-step"
-              >
-                <h1 class="step-title h3 not-allowed">
-                  <span class="step-number">3</span> Mode de livraison
-                </h1>
-              </section>
+            <section
+              class="checkout-step -unreachable"
+              id="checkout-delivery-step"
+            >
+              <h1 class="step-title h3 not-allowed">
+                <span class="step-number">3</span> Mode de livraison
+              </h1>
+            </section>
 
-              <section
-                class="checkout-step -unreachable"
-                id="checkout-payment-step"
-              >
-                <h1 class="step-title h3 not-allowed">
-                  <span class="step-number">4</span> Paiement
-                </h1>
-              </section>
+            <section
+              class="checkout-step -unreachable"
+              id="checkout-payment-step"
+            >
+              <h1 class="step-title h3 not-allowed">
+                <span class="step-number">4</span> Paiement
+              </h1>
+            </section>
           </div>
         </section>
       </div>

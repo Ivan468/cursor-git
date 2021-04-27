@@ -3811,9 +3811,26 @@ button.btn.btn-touchspin.js-touchspin.js-decrease-product-quantity.bootstrap-tou
 }
 /* end panier  */
 /* Commander en tant */
-.flex-center {
-  display: flex;
-  justify-content: center;
+.row.commander-row {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+body#checkout section.checkout-step {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+#checkout #wrapper {
+  background: #f6f9fe;
+}
+.form-control-valign {
+    padding-top: .5rem;
+    display: flex;
+    justify-content: center;
+}
+ul.nav.nav-inline.my-2 {
+    justify-content: center;
+    display: flex;
 }
 /*  end commander end tant*/
 @media (min-width: 1460px) {
