@@ -3976,6 +3976,16 @@ body#checkout section.checkout-step {
     margin-top: 112px;
     box-shadow: 0;
 }
+#checkout-personal-information-step .custom-checkbox input[type=checkbox]+span {
+    margin-right: 3px;
+    margin-top: 0;
+    display: inline-block;
+    width: .9375rem;
+    height: .9375rem;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 2px solid #000555;
+}
 /*  end commander end tant*/
 @media (min-width: 1460px) {
   .container {
