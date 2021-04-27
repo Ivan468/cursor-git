@@ -1554,13 +1554,16 @@ i#pass-status {
   text-decoration: underline;
   font-weight: 500;
 }
-.no-account p {
+.no-account p, .no-account {
   margin-top: 35px;
   font-size: 17px;
   font-family: "Montserrat", sans-serif;
   color: rgb(0, 5, 85);
   line-height: 1.2;
   font-weight: 500;
+}
+.de-moi {
+  margin: 10px 0 35px;
 }
 .radio-inp {
   width: auto;
@@ -3812,7 +3815,7 @@ button.btn.btn-touchspin.js-touchspin.js-decrease-product-quantity.bootstrap-tou
 /* end panier  */
 /* Commander en tant */
 .row.commander-row {
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 body#checkout section.checkout-step {
@@ -3851,7 +3854,8 @@ ul.nav.nav-inline.my-2 {
   margin: auto;
   margin: 30px auto 70px;
 }
-#content > div.page-header > .img-wrap > img {
+#checkout #content > div.page-header > .img-wrap > img,
+#checkout div.page-header img {
   max-width: 190px;
   margin: auto;
 }
@@ -3903,7 +3907,8 @@ body#checkout a:hover {
   label.radio-inline:nth-child(1) {
   margin: 0 35px 0 0;
 }
-#checkout #customer-form input.form-control {
+#checkout #customer-form input.form-control,
+#login-form input {
   width: 100%;
   border: 0;
 }
@@ -3942,7 +3947,6 @@ body#checkout label {
 }
 .no-account {
   text-align: center;
-
   font-size: 17px;
   font-family: "Montserrat";
   color: rgb(0, 5, 85);
@@ -3964,27 +3968,30 @@ body#checkout section.checkout-step {
   border-bottom: 1px solid #c5c8dc;
 }
 #checkout .form-group.row.id_gender {
-   margin-bottom: 40px;
- }
- #checkout .input-group .input-group-btn {
-   z-index: 10;
- }
- i#pass-status-conf {
-    margin: 14px;
+  margin-bottom: 40px;
 }
- #checkout .cart-grid-right {
-    margin-top: 112px;
-    box-shadow: 0;
+#checkout .input-group .input-group-btn {
+  z-index: 10;
 }
-#checkout-personal-information-step .custom-checkbox input[type=checkbox]+span {
-    margin-right: 3px;
-    margin-top: 0;
-    display: inline-block;
-    width: .9375rem;
-    height: .9375rem;
-    vertical-align: middle;
-    cursor: pointer;
-    border: 2px solid #000555;
+i#pass-status-conf {
+  margin: 14px;
+}
+#checkout .cart-grid-right {
+  margin-top: 112px;
+  box-shadow: 0;
+}
+#checkout-personal-information-step
+  .custom-checkbox
+  input[type="checkbox"]
+  + span {
+  margin-right: 3px;
+  margin-top: 0;
+  display: inline-block;
+  width: 0.9375rem;
+  height: 0.9375rem;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 2px solid #000555;
 }
 /*  end commander end tant*/
 @media (min-width: 1460px) {

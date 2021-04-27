@@ -11,8 +11,11 @@
     <meta name="keywords" content="" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <!-- add font Awesome eye -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- add font Awesome eye -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
     <!--  -->
     <link
       rel="icon"
@@ -1893,57 +1896,58 @@
     <section id="wrapper">
       <div class="container">
         <section id="content">
-          <div class="row">
-            <div class="cart-grid-body col-xs-12 col-lg-8">
+          <div class="page-header">
+            <div class="img-wrap">
+              <img src="./Commander-en-tant_files/coala-header.svg" alt="" />
+            </div>
+            <h1 class="step-title h3">
+              <span class="step-number">1.</span>
+              Informations personnelles
+              <span class="step-edit text-muted"></span>
+            </h1>
+
+            <ul class="nav nav-inline my-2" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-toggle="tab"
+                  href="https://sarah-et-mael.preprod.center/commande#checkout-guest-form"
+                  role="tab"
+                  aria-controls="checkout-guest-form"
+                  aria-selected="true"
+                  aria-expanded="false"
+                >
+                  Commander en tant qu'invité
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <span class="nav-separator"> ou </span>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  data-link-action="show-login-form"
+                  data-toggle="tab"
+                  href="https://sarah-et-mael.preprod.center/commande#checkout-login-form"
+                  role="tab"
+                  aria-controls="checkout-login-form"
+                  aria-expanded="true"
+                >
+                  Connexion
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="row commander-row">
+            <div class="cart-grid-body col-xs-12 col-lg-7">
               <section
                 id="checkout-personal-information-step"
                 class="checkout-step -reachable -clickable -current js-current-step"
               >
-                <h1 class="step-title h3">
-                  <i class="material-icons rtl-no-flip done"></i>
-                  <span class="step-number">1</span>
-                  Informations personnelles
-                  <span class="step-edit text-muted"
-                    ><i class="material-icons edit">mode_edit</i> Modifier</span
-                  >
-                </h1>
-
                 <div class="content">
                   <div id="js-ps_checkout-express-button-container"></div>
-
-                  <ul class="nav nav-inline my-2" role="tablist">
-                    <li class="nav-item">
-                      <a
-                        class="nav-link"
-                        data-toggle="tab"
-                        href="https://sarah-et-mael.preprod.center/commande#checkout-guest-form"
-                        role="tab"
-                        aria-controls="checkout-guest-form"
-                        aria-selected="true"
-                        aria-expanded="false"
-                      >
-                        Commander en tant qu'invité
-                      </a>
-                    </li>
-
-                    <li class="nav-item">
-                      <span class="nav-separator"> | </span>
-                    </li>
-
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active"
-                        data-link-action="show-login-form"
-                        data-toggle="tab"
-                        href="https://sarah-et-mael.preprod.center/commande#checkout-login-form"
-                        role="tab"
-                        aria-controls="checkout-login-form"
-                        aria-expanded="true"
-                      >
-                        Connexion
-                      </a>
-                    </li>
-                  </ul>
 
                   <div class="tab-content">
                     <div
@@ -2101,7 +2105,7 @@
                           <input type="hidden" name="submitCreate" value="1" />
 
                           <button
-                            class="continue btn btn-primary float-xs-right"
+                            class="continue btn btn-primary"
                             name="continue"
                             data-link-action="register-new-customer"
                             type="submit"
@@ -2147,7 +2151,7 @@
                                 name="email"
                                 type="email"
                                 value=""
-                                placeholder="E-mail"
+                                placeholder="Mon adresse e-mail *"
                                 required=""
                               />
                             </div>
@@ -2162,8 +2166,8 @@
                                   title="Au moins 5 caractères"
                                   type="password"
                                   value=""
-                                  id="password-field"
-                                  placeholder="Mot de passe"
+                                  id="password-field-acaunt"
+                                  placeholder="Mon mot de passe *"
                                   pattern=".{5,}"
                                   required=""
                                 />
@@ -2178,13 +2182,31 @@
                               </div>
                             </div>
                           </div>
+                           <div class="col-md-12 flex de-moi">
+                        <span class="custom-checkbox">
+                          <label>
+                            <input
+                              name="de-moi"
+                              type="checkbox"
+                              value="1"
+                            />
+                            <span
+                              ><i
+                                class="material-icons rtl-no-flip checkbox-checked"
+                                ></i
+                              ></span
+                            >
+                            Se souvenir de moi
+                          </label>
+                        </span>
+                      </div>
                         </section>
-
+                        
                         <footer class="form-footer text-sm-center clearfix">
                           <input type="hidden" name="submitLogin" value="1" />
 
                           <button
-                            class="continue btn btn-primary float-xs-right"
+                            class="continue btn btn-primary"
                             name="continue"
                             data-link-action="sign-in"
                             type="submit"
@@ -2205,40 +2227,14 @@
 
                         <p>Les champs obligatoires sont indiqués avec *</p>
                       </div>
+                     
                     </div>
                   </div>
                 </div>
               </section>
-
-              <section
-                class="checkout-step -unreachable"
-                id="checkout-addresses-step"
-              >
-                <h1 class="step-title h3 not-allowed">
-                  <span class="step-number">2</span> Adresses
-                </h1>
-              </section>
-
-              <section
-                class="checkout-step -unreachable"
-                id="checkout-delivery-step"
-              >
-                <h1 class="step-title h3 not-allowed">
-                  <span class="step-number">3</span> Mode de livraison
-                </h1>
-              </section>
-
-              <section
-                class="checkout-step -unreachable"
-                id="checkout-payment-step"
-              >
-                <h1 class="step-title h3 not-allowed">
-                  <span class="step-number">4</span> Paiement
-                </h1>
-              </section>
             </div>
 
-            <div class="cart-grid-right col-xs-12 col-lg-4">
+            <div class="cart-grid-right col-xs-12 col-lg-5">
               <section
                 id="js-checkout-summary"
                 class="card js-cart"
@@ -2405,93 +2401,35 @@
                   </div>
                 </div>
               </section>
-
-              <h2 class="h2 products-section-title text-uppercase">
-                Pourquoi choisir<br />
-                sarah &amp; maël ?
-              </h2>
-              <div id="block-reassurance">
-                <div class="grid-container">
-                  <div>
-                    <div class="img-wrap-grid">
-                      <img
-                        src="./Connexion_files/thee.svg"
-                        alt="Paiement en 3 fois"
-                      />
-                    </div>
-                    <div>
-                      <h3>Paiement en 3 fois</h3>
-                      <p>Sans frais</p>
-                    </div>
-                  </div>
-
-                  <div>
-                    <div class="img-wrap-grid">
-                      <img
-                        src="./Connexion_files/secure.svg"
-                        alt="Paiement sécurisé"
-                      />
-                    </div>
-                    <div>
-                      <h3>Paiement sécurisé</h3>
-                      <p>3D Secure</p>
-                    </div>
-                  </div>
-
-                  <div>
-                    <div class="img-wrap-grid">
-                      <img
-                        src="./Connexion_files/guarant.svg"
-                        alt="Produits garantis"
-                      />
-                    </div>
-                    <div>
-                      <h3>Produits garantis</h3>
-                      <p>Entre 2 et 8 ans</p>
-                    </div>
-                  </div>
-
-                  <div>
-                    <div class="img-wrap-grid">
-                      <img
-                        src="./Connexion_files/car.svg"
-                        alt="Livraison gratuite"
-                      />
-                    </div>
-                    <div>
-                      <h3>Livraison gratuite</h3>
-                      <p>En France Métropolitaine</p>
-                    </div>
-                  </div>
-
-                  <div>
-                    <div class="img-wrap-grid">
-                      <img
-                        src="./Connexion_files/moon.svg"
-                        alt="100 nuits d’essai"
-                      />
-                    </div>
-                    <div>
-                      <h3>100 nuits d’essai</h3>
-                      <p>Lorem ipsum dolor</p>
-                    </div>
-                  </div>
-
-                  <div>
-                    <div class="img-wrap-grid">
-                      <img
-                        src="./Connexion_files/fab.svg"
-                        alt="Collection française"
-                      />
-                    </div>
-                    <div>
-                      <h3>Collection française</h3>
-                      <p>Fabriquée en Europe</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
+          </div>
+          <div class="row">
+            <section
+              class="checkout-step -unreachable"
+              id="checkout-addresses-step"
+            >
+              <h1 class="step-title h3 not-allowed">
+                <span class="step-number">2</span> Adresses
+              </h1>
+            </section>
+
+            <section
+              class="checkout-step -unreachable"
+              id="checkout-delivery-step"
+            >
+              <h1 class="step-title h3 not-allowed">
+                <span class="step-number">3</span> Mode de livraison
+              </h1>
+            </section>
+
+            <section
+              class="checkout-step -unreachable"
+              id="checkout-payment-step"
+            >
+              <h1 class="step-title h3 not-allowed">
+                <span class="step-number">4</span> Paiement
+              </h1>
+            </section>
           </div>
         </section>
       </div>
@@ -2605,7 +2543,23 @@
       type="text/javascript"
       src="./Connexion_files/custom.js.завантаження"
     ></script>
+    <script>
+      // HIDDEN Password
 
+      function viewPassword() {
+        var passwordInput = document.getElementById("password-field-acaunt");
+        var passStatus = document.getElementById("pass-status");
+
+        if (passwordInput.type == "password") {
+          passwordInput.type = "text";
+          passStatus.className = "fa fa-eye-slash";
+        } else {
+          passwordInput.type = "password";
+          passStatus.className = "fa fa-eye";
+        }
+      }
+      //
+    </script>
     <ul
       class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all"
       id="ui-id-1"
