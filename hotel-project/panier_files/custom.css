@@ -3340,6 +3340,7 @@ header.page-header > h1 {
 }
 .cart-summary-line.border-b-line {
   border-bottom: 1px solid #e5e6ee;
+  padding: 12px 0;
 }
 .cart-summary-line .value {
   font-size: 18px;
@@ -3366,8 +3367,26 @@ header.page-header > h1 {
   line-height: 0.577;
   text-align: left;
 }
-.product-line-info {
-  margin-bottom: 40px;
+.product-line-grid-right.product-line-actions {
+  margin-top: 30px;
+}
+.product-line-info.product-price.h5 {
+    margin: 0;
+}
+.product-line-grid-body > .product-line-info span.label.small {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  line-height: 1.778;
+  text-align: left;
+  font-weight: 400;
+}
+.product-line-info.header {
+    margin-bottom: 20px;
+}
+.product-line-grid-body > .product-line-info .value {
+  font-weight: 700;
+  color: rgb(0, 5, 85);
 }
 .cart-item,
 #cart .card.cart-summary {
@@ -3474,7 +3493,7 @@ button.btn.btn-touchspin.js-touchspin.js-decrease-product-quantity.bootstrap-tou
   padding: 0 60px 0;
 }
 .card-block.checkout {
-   padding: 20px 60px 60px;
+  padding: 20px 60px 60px;
 }
 .currency-fw {
   font-weight: 500;
@@ -3520,13 +3539,13 @@ button.btn.btn-touchspin.js-touchspin.js-decrease-product-quantity.bootstrap-tou
   border-radius: 35px;
   margin-bottom: 120px;
 }
-#cart  .page-header img {
+#cart .page-header img {
   max-width: 200px;
 }
-#cart  .page-header {
+#cart .page-header {
   text-align: center;
 }
-#cart  .page-header h1 {
+#cart .page-header h1 {
   font-size: 40px;
   font-family: "Montserrat";
   color: rgb(0, 5, 85);
@@ -3534,7 +3553,7 @@ button.btn.btn-touchspin.js-touchspin.js-decrease-product-quantity.bootstrap-tou
   text-transform: uppercase;
   line-height: 1;
   text-align: center;
-   margin:  20px auto;
+  margin: 20px auto;
 }
 .descryption-header {
   font-size: 20px;
