@@ -3955,7 +3955,7 @@ h1.step-title.h3.not-allowed {
   font-size: 26px;
   font-family: "Montserrat";
   color: rgb(0, 5, 85);
-  font-weight: bold;
+  font-weight: 800;
   text-transform: uppercase;
   line-height: 1.538;
   text-align: center;
@@ -4017,6 +4017,10 @@ p.articles {
     font-weight: bold;
     line-height: 1.667;
     text-align: right;
+}
+.cart-summary-products i{
+  position: absolute;
+    right: 60px;
 }
 /*  end commander en tant + connexion*/
 @media (min-width: 1460px) {
