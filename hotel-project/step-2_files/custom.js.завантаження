@@ -1,0 +1,109 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.js
+ */
+ const swiper = new Swiper("#index .swiper-container", {
+        // Optional parameters
+        slidesPerView: "auto",
+        // centeredSlides: true,
+        spaceBetween: 25,
+        loop: true,
+
+        // If we need pagination
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+swiper = new Swiper(".product-images .swiper-container", {
+        // Optional parameters
+        slidesPerView: 3,
+        // centeredSlides: true,
+        spaceBetween: 2,
+        loop: false,
+
+        // If we need pagination
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+$(document).ready(function(){
+	
+ $(document).on('click', '.prix-button', function(event) {
+	 event.stopPropagation();
+	 $(".fpp_searchers .searcher-content:not(.bilan-filter) .filter-options-content.price").slideToggle(100);
+ });
+ $(document).on("click", function(event){
+        var $trigger = $(".prix-dropdown");
+        if($trigger !== event.target && !$trigger.has(event.target).length){
+            $(".prix-dropdown .filter-options-content.price").slideUp("fast");
+        }            
+    });
+   $(document).on('click', '#bilan-next', function(e) {
+        var active = $(".active-bilan");
+        var next = active.next('.filter');
+	    var value = parseInt($(".step-opinion strong").text(), 10) + 1;
+    $(".step-opinion strong").text(value);
+	   if ($(".filter-content .filter.active-bilan").is(":first-child")){
+		$('#bilan-prev').show();
+		}
+	      if ($(".filter-content .filter.active-bilan").is(":nth-last-child(2)")){
+		$('.bilan-button').show();
+		$('#bilan-next').hide();
+		}
+
+	    $(".filter-content .filter").removeClass('active-bilan');
+        $(".filter-content .filter:nth-child("+value+")").addClass('active-bilan');
+	
+    });
+  $(document).on('click', '#bilan-prev', function(e) {
+        var active = $(".active-bilan");
+        var prev = active.prev('.filter');
+	   var value = parseInt($(".step-opinion strong").text(), 10)-1;
+    $(".step-opinion strong").text(value);
+	   if ($(".filter-content .filter.active-bilan").is(":nth-child(2)")){
+		   $('#bilan-prev').hide();
+	   }
+	   if ($(".filter-content .filter.active-bilan").is(":last-child")){
+		$('.bilan-button').hide();
+		$('#bilan-next').show();
+		}
+         $(".filter-content .filter").removeClass('active-bilan');
+        $(".filter-content .filter:nth-child("+value+")").addClass('active-bilan');
+    });
+
+	$(document).on('click', '.summary', function () {
+	$(this).parent().toggleClass('open');
+	$(this).parent().find('.faq__content').slideToggle();	
+	});
+});
+
+function viewPassword() {
+  var passwordInput = document.getElementById("password-field");
+  var passStatus = document.getElementById("pass-status");
+
+  if (passwordInput.type == "password") {
+    passwordInput.type = "text";
+    passStatus.className = "fa fa-eye-slash";
+  } else {
+    passwordInput.type = "password";
+    passStatus.className = "fa fa-eye";
+  }
+}
+var default_ecotax=$('.price-ecotax').attr('rel'); function boix_ecotax(){ var this_group="id_attribute_group"; if($('.product-variants .product-variants-item').length > 0){ $('.price-ecotax span').fadeTo(1,0,function(){ $('.product-variants .product-variants-item').each(function(){ $(this).find('select').each(function(){ this_group+="_"+$(this).val(); }); $(this).find('input.input-color:checked').each(function(){ this_group+="_"+$(this).val(); }); }); if($('#'+this_group).val()>0){ $('.price-ecotax span').html($('#'+this_group).val()+" €"); }else{ $('.price-ecotax span').html(default_ecotax); } $('.price-ecotax span').fadeTo(1,1); }); } } prestashop.on( 'updatedProduct', function (event) { boix_ecotax(); console.log("updatedProduct"); }); $(document).ready(function(){ boix_ecotax(); });
+
