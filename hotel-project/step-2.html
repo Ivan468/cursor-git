@@ -2323,81 +2323,86 @@
     <section id="wrapper">
       <div class="container">
         <section id="content">
-            <section
-                id="checkout-personal-information-step"
-                class="checkout-step -reachable -complete -clickable"
-              >
-                <h1 class="step-title h3">
-                  <!-- <i class="material-icons rtl-no-flip done"></i> -->
-                  <span class="step-number">1.</span>
-                  Informations personnelles
-                  <span class="step-edit text-muted"
-                    ><i class="material-icons edit">mode_edit</i> Modifier</span
+          <section
+            id="checkout-personal-information-step"
+            class="checkout-step -reachable -complete -clickable"
+          >
+            <h1 class="step-title h3">
+              <!-- <i class="material-icons rtl-no-flip done"></i> -->
+              <span class="step-number">1.</span>
+              mes informations personnelles
+              <span class="step-edit text-muted">
+                Modifier
+                <img
+                  style="transform: rotate(20deg)"
+                  width="20px"
+                  src="./step-2_files/edit-pen.svg"
+                  alt="pen"
+                />
+              </span>
+            </h1>
+
+            <div class="content">
+              <!-- begin modules/ps_checkout//views/templates/hook/displayPersonalInformationTop.tpl -->
+              <div id="js-ps_checkout-express-button-container"></div>
+
+              <!-- end modules/ps_checkout//views/templates/hook/displayPersonalInformationTop.tpl -->
+
+              <p class="identity">
+                Connecté en tant que
+                <a href="https://sarah-et-mael.preprod.center/identite"
+                  >Іван Петрущак</a
+                >.
+              </p>
+              <p>
+                Ce n'est pas vous ?
+                <a href="https://sarah-et-mael.preprod.center/?mylogout="
+                  >Se déconnecter</a
+                >
+              </p>
+              <p>
+                <small
+                  >Si vous vous déconnectez maintenant, votre panier sera
+                  vidé.</small
+                >
+              </p>
+
+              <div class="clearfix">
+                <form
+                  method="GET"
+                  action="https://sarah-et-mael.preprod.center/commande"
+                >
+                  <button
+                    class="continue btn btn-primary"
+                    name="controller"
+                    type="submit"
+                    value="order"
                   >
-                </h1>
+                    Continuer
+                  </button>
+                </form>
+              </div>
+            </div>
+          </section>
+          <section class="header">
+            <div class="img-mon-compte-wrap">
+              <img src="./mon-compte_files/map.svg" alt="" />
+            </div>
+            <h1 class="step-title h3">
+              <span class="step-number">2. </span>
+              Adresses
+              <p class="mon-compte-header-descr">
+                L'adresse sélectionnée sera utilisée à la fois comme adresse
+                personnelle (pour la facturation) et comme adresse de livraison.
+              </p>
+            </h1>
+          </section>
 
-                <div class="content">
-                  <!-- begin modules/ps_checkout//views/templates/hook/displayPersonalInformationTop.tpl -->
-                  <div id="js-ps_checkout-express-button-container"></div>
-
-                  <!-- end modules/ps_checkout//views/templates/hook/displayPersonalInformationTop.tpl -->
-
-                  <p class="identity">
-                    Connecté en tant que
-                    <a href="https://sarah-et-mael.preprod.center/identite"
-                      >Іван Петрущак</a
-                    >.
-                  </p>
-                  <p>
-                    Ce n'est pas vous ?
-                    <a href="https://sarah-et-mael.preprod.center/?mylogout="
-                      >Se déconnecter</a
-                    >
-                  </p>
-                  <p>
-                    <small
-                      >Si vous vous déconnectez maintenant, votre panier sera
-                      vidé.</small
-                    >
-                  </p>
-
-                  <div class="clearfix">
-                    <form
-                      method="GET"
-                      action="https://sarah-et-mael.preprod.center/commande"
-                    >
-                      <button
-                        class="continue btn btn-primary  "
-                        name="controller"
-                        type="submit"
-                        value="order"
-                      >
-                        Continuer
-                      </button>
-                    </form>
-                  </div>
-                </div>
-              </section>
-              <section>
-                 <h1 class="step-title h3">
-                  
-                  <span class="step-number">2. </span>
-                  Adresses
-                    <p>
-                        L'adresse sélectionnée sera utilisée à la fois comme
-                        adresse personnelle (pour la facturation) et comme
-                        adresse de livraison.
-                      </p>
-                </h1>
-              </section>
-              
           <div class="row commander-row">
             <div class="cart-grid-body col-xs-12 col-lg-7">
               <!-- begin checkout/checkout-process.tpl -->
 
               <!-- begin checkout/_partials/steps/personal-information.tpl -->
-
-            
 
               <!-- end checkout/_partials/steps/personal-information.tpl -->
 
@@ -2407,8 +2412,6 @@
                 id="checkout-addresses-step"
                 class="checkout-step -reachable -clickable -current js-current-step"
               >
-               
-
                 <div class="content">
                   <div class="js-address-form">
                     <form
@@ -2416,8 +2419,6 @@
                       action="https://sarah-et-mael.preprod.center/commande?id_address=0"
                       data-refresh-url="//sarah-et-mael.preprod.center/commande?ajax=1&amp;action=addressForm"
                     >
-                     
-
                       <div id="delivery-address">
                         <!-- begin checkout/_partials/address-form.tpl -->
 
@@ -2441,14 +2442,14 @@
 
                             <!-- begin _partials/form-fields.tpl -->
 
-                            <div class="form-group row alias">
+                            <div class="form-group row name-adres">
                               <div class="col-md-12">
                                 <input
                                   class="form-control"
                                   name="alias"
                                   type="text"
                                   value=""
-                                  placeholder="Alias"
+                                  placeholder="Nom de l’adresse (ex. : Maison, Bureau...) "
                                   maxlength="32"
                                 />
                               </div>
@@ -2464,8 +2465,8 @@
                                   class="form-control"
                                   name="firstname"
                                   type="text"
-                                  value="Іван"
-                                  placeholder="Prénom"
+                                  value=""
+                                  placeholder="Mon prénom"
                                   maxlength="255"
                                   required=""
                                 />
@@ -2482,8 +2483,8 @@
                                   class="form-control"
                                   name="lastname"
                                   type="text"
-                                  value="Петрущак"
-                                  placeholder="Nom"
+                                  value=""
+                                  placeholder="Mon nom"
                                   maxlength="255"
                                   required=""
                                 />
@@ -2494,7 +2495,7 @@
 
                             <!-- begin _partials/form-fields.tpl -->
 
-                            <div class="form-group row company">
+                            <!-- Здається цього блоку немає в макеті <div class="form-group row company">
                               <div class="col-md-12">
                                 <input
                                   class="form-control"
@@ -2505,7 +2506,7 @@
                                   maxlength="255"
                                 />
                               </div>
-                            </div>
+                            </div> -->
 
                             <!-- end _partials/form-fields.tpl -->
 
@@ -2534,7 +2535,7 @@
                                   name="address1"
                                   type="text"
                                   value=""
-                                  placeholder="Adresse"
+                                  placeholder="Mon adresse (numéro et nom de la rue) *"
                                   maxlength="128"
                                   required=""
                                 />
@@ -2552,7 +2553,7 @@
                                   name="address2"
                                   type="text"
                                   value=""
-                                  placeholder="Complément d&#39;adresse"
+                                  placeholder="Complément d’adresse (Bâtiment, étage...)"
                                   maxlength="128"
                                 />
                               </div>
@@ -2569,7 +2570,7 @@
                                   name="postcode"
                                   type="text"
                                   value=""
-                                  placeholder="Code postal"
+                                  placeholder="Code postal *"
                                   maxlength="12"
                                   required=""
                                 />
@@ -2587,7 +2588,7 @@
                                   name="city"
                                   type="text"
                                   value=""
-                                  placeholder="Ville"
+                                  placeholder="Ville *"
                                   maxlength="64"
                                   required=""
                                 />
@@ -2608,7 +2609,9 @@
                                   <option value="" disabled="" selected="">
                                     -- veuillez choisir --
                                   </option>
-                                  <option value="8" selected="">France</option>
+                                  <option value="8" selected="">
+                                    France Métropolitaine
+                                  </option>
                                 </select>
                               </div>
                             </div>
@@ -2624,7 +2627,7 @@
                                   name="phone"
                                   type="tel"
                                   value=""
-                                  placeholder="Téléphone"
+                                  placeholder="Mon téléphone *"
                                   maxlength="32"
                                 />
                               </div>
@@ -2638,7 +2641,7 @@
                               value="delivery"
                             />
                             <div class="form-group row">
-                              <div class="col-md-9 col-md-offset-3">
+                              <div class="col-md-12 text-center">
                                 <input
                                   name="use_same_address"
                                   id="use_same_address"
@@ -2663,12 +2666,16 @@
 
                             <button
                               type="submit"
-                              class="continue btn btn-primary "
+                              class="continue btn btn-primary"
                               name="confirm-addresses"
                               value="1"
                             >
-                              Continuer
+                              Poursuivre ma commande
                             </button>
+
+                            <p class="form-legend">
+                              Les champs obligatoires sont indiqués avec *
+                            </p>
                           </footer>
                         </div>
 
@@ -2682,8 +2689,6 @@
               <!-- end checkout/_partials/steps/addresses.tpl -->
 
               <!-- begin checkout/_partials/steps/unreachable.tpl -->
-
-            
 
               <!-- end checkout/_partials/steps/unreachable.tpl -->
 
@@ -2891,33 +2896,30 @@
 
               <!-- end /home/preprod/sarah-mael/themes/classic/modules/blockreassurance/views/templates/hook/displayBlockProduct.tpl -->
             </div>
-
-         
-
           </div>
-             <div class="row">
-                <section
-                class="checkout-step -unreachable"
-                id="checkout-delivery-step"
-              >
-                <h1 class="step-title h3 not-allowed">
-                  <span class="step-number">3</span> Mode de livraison
-                </h1>
-              </section>
+          <div class="row">
+            <section
+              class="checkout-step -unreachable"
+              id="checkout-delivery-step"
+            >
+              <h1 class="step-title h3 not-allowed">
+                <span class="step-number">3</span> Mode de livraison
+              </h1>
+            </section>
 
-              <!-- end checkout/_partials/steps/unreachable.tpl -->
+            <!-- end checkout/_partials/steps/unreachable.tpl -->
 
-              <!-- begin checkout/_partials/steps/unreachable.tpl -->
+            <!-- begin checkout/_partials/steps/unreachable.tpl -->
 
-              <section
-                class="checkout-step -unreachable"
-                id="checkout-payment-step"
-              >
-                <h1 class="step-title h3 not-allowed">
-                  <span class="step-number">4</span> Paiement
-                </h1>
-              </section>
-            </div>
+            <section
+              class="checkout-step -unreachable"
+              id="checkout-payment-step"
+            >
+              <h1 class="step-title h3 not-allowed">
+                <span class="step-number">4</span> Paiement
+              </h1>
+            </section>
+          </div>
         </section>
       </div>
     </section>
