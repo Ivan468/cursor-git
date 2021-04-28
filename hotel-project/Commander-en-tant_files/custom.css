@@ -4090,7 +4090,7 @@ body#checkout #use_same_address + label {
   color: rgb(0, 5, 85);
   line-height: 1.2;
   text-align: left;
-  margin: 40px auto 40px;
+  margin: 20px auto 20px;
 }
 body#checkout .form-fields .form-group {
   margin-bottom: 20px;
