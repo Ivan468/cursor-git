@@ -4080,6 +4080,7 @@ section.header {
 }
 section.header .img-mon-compte-wrap img {
   max-width: 125px;
+  margin-bottom: 15px;
 }
 section.header .img-mon-compte-wrap {
   text-align: center;
@@ -4145,6 +4146,7 @@ select.form-control.form-control-select.js-country {
   }
 }
 @media (max-width: 767px) {
+  
   .grid-wrap-feed-back {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -4292,6 +4294,11 @@ select.form-control.form-control-select.js-country {
     left: -5.3px;
     height: auto;
   }
+  /* step2 */
+  button.continue.btn.btn-primary {
+    font-size: 15px;
+}
+/* end step -2 */
 }
 @media (max-width: 360px) {
   .bordeaux h2 {
