@@ -4133,11 +4133,21 @@ body#checkout #checkout-payment-step.-unreachable {
 body#checkout #delivery textarea {
   max-width: 100%;
   margin-bottom: 10px;
-  line-height: 1.5;
+  line-height: 2.4;
   border: 0;
   border-radius: 40px;
   padding: 10px 20px;
+  margin-bottom: 25px;
 }
+
+body#checkout #delivery input::-webkit-input-placeholder, body#checkout #delivery textarea::-webkit-input-placeholder {
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: rgb(0, 5, 85);
+    line-height: 1.7;
+    text-align: left;
+}
+
 .order-options h3 {
   font-size: 32px;
   font-family: "Montserrat";
@@ -4146,6 +4156,7 @@ body#checkout #delivery textarea {
   line-height: 1.2;
   text-align: center;
   text-transform: none;
+  margin-top: 60px;
 }
 body#checkout #delivery > label {
   text-align: center;
@@ -4165,7 +4176,45 @@ body#checkout #delivery > label {
   border-radius: 40px;
 }
 section#checkout-delivery-step.-current {
-    margin-top: 50px;
+  margin-top: 50px;
+}
+body#checkout
+  section.checkout-step
+  .delivery-options
+  .delivery-option
+  label
+  .carrier:not(.carrier-hasLogo)
+  > .col-xs-12 {
+  padding-left: inherit;
+}
+body#checkout section.checkout-step .delivery-options .delivery-option img {
+  width: auto;
+  max-width: 100%;
+}
+body#checkout section.checkout-step .delivery-options > .row {
+  border-right: 0 solid #c3c3c3;
+}
+body#checkout section.checkout-step .delivery-options .delivery-option {
+  background: #ffffff;
+  padding: 0.9375rem 0;
+  margin-bottom: 20px;
+  min-height: 90px;
+  border-radius: 15px;
+  color: #000555;
+  font-family: "Montserrat";
+}
+body#checkout section.checkout-step .delivery-options .delivery-option label {
+  color: #000555;
+  font-family: "Montserrat";
+}
+span.carrier-price,
+body#checkout section.checkout-step .carrier-delay,
+body#checkout section.checkout-step .carrier-name {
+  font-weight: bold;
+}
+body#checkout section#checkout-delivery-step {
+    padding-right: 35px;
+    margin-bottom: 115px;
 }
 /* end 3 step */
 @media (min-width: 1460px) {
@@ -4333,7 +4382,7 @@ section#checkout-delivery-step.-current {
   }
   .img-wrap {
     position: relative;
-    margin: 0;
+    margin: auto;
     max-width: 136px;
     text-align: center;
     display: flex;
