@@ -4140,12 +4140,13 @@ body#checkout #delivery textarea {
   margin-bottom: 25px;
 }
 
-body#checkout #delivery input::-webkit-input-placeholder, body#checkout #delivery textarea::-webkit-input-placeholder {
-    font-size: 22px;
-    font-family: "Montserrat";
-    color: rgb(0, 5, 85);
-    line-height: 1.7;
-    text-align: left;
+body#checkout #delivery input::-webkit-input-placeholder,
+body#checkout #delivery textarea::-webkit-input-placeholder {
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  line-height: 1.7;
+  text-align: left;
 }
 
 .order-options h3 {
@@ -4165,6 +4166,8 @@ body#checkout #delivery > label {
   color: rgb(0, 5, 85);
   line-height: 1.2;
   margin: 25px auto 60px;
+  max-width: 700px;
+  display: block;
 }
 .block-promo .promo-input {
   color: #232323;
@@ -4213,8 +4216,8 @@ body#checkout section.checkout-step .carrier-name {
   font-weight: bold;
 }
 body#checkout section#checkout-delivery-step {
-    padding-right: 35px;
-    margin-bottom: 115px;
+  padding-right: 35px;
+  margin-bottom: 115px;
 }
 /* end 3 step */
 @media (min-width: 1460px) {
