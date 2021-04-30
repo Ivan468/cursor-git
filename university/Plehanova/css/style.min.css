@@ -549,6 +549,7 @@ body {
 .section-mba-wrapper {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 .section-mba {
   padding-top: 30px;
@@ -604,7 +605,7 @@ body {
   max-width: 870px;
 }
 .grid-program-container .program-tem {
-  border: double 1px solid #dadada 2px solid #fff;
+  border: 1px solid #dadada;
   font-family: Montserrat;
   padding: 30px;
   box-sizing: border-box;
@@ -828,6 +829,11 @@ body {
     line-height: 48px;
     color: #333333;
     margin-bottom: 30px;
+  }
+  .section-mba .left-bar {
+    max-width: none;
+    margin-right: 0px;
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 530px) {
