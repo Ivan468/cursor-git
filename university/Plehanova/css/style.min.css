@@ -49,9 +49,8 @@
   outline: none;
   text-decoration: none;
 }
-*|*:visited {
-  color: inherit;
-}
+
+
 body {
   width: 100%;
   font-family: "Montserrat";
