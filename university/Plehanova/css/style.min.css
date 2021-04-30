@@ -783,18 +783,18 @@ body {
   margin-right: -20px;
 }
 #direction-page-grid .programs-wrapper {
-    width: 100%;
-    max-width: 1200px;
+  width: 100%;
+  max-width: 1200px;
 }
 #direction-page-grid .grid-program-container {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
 }
-.grid-program-container .program-tem .category path {
+#direction-page-grid .grid-program-container .program-tem .category path {
   transition: 0.3s all;
 }
-.grid-program-container .program-tem:hover .category path {
+#direction-page-grid .grid-program-container .program-tem:hover .category path {
   fill: royalblue;
 }
 /* end direction */
