@@ -49,6 +49,9 @@
   outline: none;
   text-decoration: none;
 }
+*|*:visited {
+  color: inherit;
+}
 body {
   width: 100%;
   font-family: "Montserrat";
@@ -543,6 +546,129 @@ body {
   top: 13px;
   background-image: url("data:image/svg+xml,%3Csvg width='20' height='2' viewBox='0 0 20 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='20' height='2' fill='white'/%3E%3C/svg%3E%0A");
 }
+.section-mba-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-mba {
+  padding-top: 30px;
+}
+.section-mba .left-bar {
+  max-width: 250px;
+  margin-right: 50px;
+}
+.left-bar-item {
+  padding: 20px 10px 20px 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333333;
+  border-bottom: 1px solid #dadada;
+}
+.left-bar-item.active {
+  padding: 20px 10px 20px 37px;
+
+  text-decoration-line: underline;
+
+  color: #333333;
+  border-bottom: 1px solid #4268ed;
+}
+.left-bar-item.active a::before {
+  content: " ";
+  position: relative;
+  display: block;
+  width: 22px;
+  height: 13px;
+  left: -30px;
+  top: 18px;
+  background-image: url("data:image/svg+xml,%3Csvg width='22' height='12' viewBox='0 0 22 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15 0.999902L20 5.8999L15 10.8999' stroke='%234268ED' stroke-width='2' stroke-miterlimit='10'/%3E%3Cpath d='M0 6H18.5' stroke='%234268ED' stroke-width='2'/%3E%3C/svg%3E%0A");
+}
+.grid-program-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(425px, 1fr));
+}
+.time-wrapper-program-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  border-top: 1px solid #dadada;
+  padding-top: 15px;
+  margin-top: 18px;
+}
+.programs-wrapper {
+  width: 100%;
+  max-width: 870px;
+}
+.grid-program-container .program-tem {
+  border: 1px solid #dadada;
+  font-family: Montserrat;
+  padding: 30px;
+}
+.programs-header {
+  display: flex;
+  justify-content: space-between;
+}
+.programs-header h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 48px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+.grid-program-container .program-tem .category {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #4268ed;
+  margin-bottom: 7px;
+}
+.grid-program-container .program-tem .header-program-item {
+  display: flex;
+}
+.grid-program-container .program-tem .header-program-item .img-wrap {
+  width: 77px;
+  height: 77px;
+}
+.grid-program-container .program-tem .header-program-item img {
+  height: 100%;
+}
+.grid-program-container .program-tem .header-program-item h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333333;
+  min-height: 120px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+.grid-program-container .program-tem .text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 30px;
+  color: #333333;
+}
+.grid-program-container .program-tem .cost-num {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333333;
+}
+.grid-program-container .program-tem .item-time {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+}
+.grid-program-container .program-tem .item-time .img-wrap {
+  padding-top: 10px;
+}
 /* end page Programs MBA */
 @media (max-width: 1024px) {
   .header-right__block {
@@ -630,10 +756,24 @@ body {
     width: 40%;
   }
   .grid-two-block {
-  display: grid;
-  gap: 65px;
-  grid-template-columns: 1fr ;
-    }
+    display: grid;
+    gap: 65px;
+    grid-template-columns: 1fr;
+  }
+  .grid-program-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  }
+  .programs-header h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 48px;
+    color: #333333;
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 530px) {
   .adaptive__phone {
