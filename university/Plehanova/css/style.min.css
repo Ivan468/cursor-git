@@ -791,6 +791,12 @@ body {
     gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
 }
+.grid-program-container .program-tem .category path {
+  transition: 0.3s all;
+}
+.grid-program-container .program-tem:hover .category path {
+  fill: royalblue;
+}
 /* end direction */
 @media (max-width: 1024px) {
   .header-right__block {
