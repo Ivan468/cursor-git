@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Подключаем иконки-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-
+    fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG95r"
+      crossorigin="anonymous"
+    />
+
+    <!--Подключаем стили-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="slick/slick.css" />
+
+    <!--Название проекта-->
+    <title>Direction study</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-top">
+        <div class="container">
+          <div class="header-top__inner">
+            <div class="header-top__left">
+              <img src="./img/logo.png" class="header__logo" />
+
+              <div class="header-top__name">
+                Российский экономический университет имени Г.В. Плеханова
+              </div>
+              <!-- /.header-top__name -->
+            </div>
+            <!-- /.header-top__left -->
+
+            <div class="header-top__middle">
+              <img src="./img/search.svg" class="header__search" />
+
+              <input type="text" class="header__input" placeholder="Поиск" />
+            </div>
+            <!-- /.header-top__middle -->
+
+            <div class="header-top__right header-right">
+              <div class="header-right__block">
+                <a href="tel: +7 (495) 135-45-82" class="header__phone"
+                  >+7 (495) 135-45-82</a
+                >
+                <!-- /.header__phone -->
+
+                <div class="btn">
+                  <button class="header__button">Заказать звонок</button>
+                  <!-- /.header__button -->
+                </div>
+              </div>
+              <!-- /.header-right__block -->
+
+              <div class="burger">
+                <div class="burger__line"></div>
+              </div>
+              <!-- /.burger -->
+            </div>
+            <!-- /.header-top__right -->
+
+            <nav class="adaptive-nav">
+              <div class="container">
+                <div class="adaptive-nav__inner">
+                  <div class="adaptive-cross">
+                    <div class="adaptive-cross__icon">
+                      <i class="fas fa-times adaptiveIcon"></i>
+                    </div>
+                  </div>
+
+                  <div class="adaptive-nav__search">
+                    <img src="./img/search.svg" class="adaptive__search" />
+
+                    <input
+                      type="text"
+                      class="adaptive__input"
+                      placeholder="Поиск"
+                    />
+                  </div>
+
+                  <ul class="adaptive-nav__ul">
+                    <li>
+                      <a href="#" class="adaptive-nav__link">О нас</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="adaptive-nav__link">ОБУЧЕНИE</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="adaptive-nav__link"
+                        >Календарь программ</a
+                      >
+                    </li>
+
+                    <li>
+                      <a href="#" class="adaptive-nav__link"
+                        >СЕМИНАРЫ И СЕРТИФИКАЦИЯ</a
+                      >
+                    </li>
+
+                    <li>
+                      <a href="#" class="adaptive-nav__link"
+                        >СТУДЕНТАМ И ШКОЛЬНИКАМ</a
+                      >
+                    </li>
+
+                    <li>
+                      <a href="#" class="adaptive-nav__link">Контакты</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- /.container -->
+            </nav>
+            <!-- /.adaptive-nav -->
+          </div>
+          <!-- /.header-top__inner -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.header-top -->
+
+      <div class="header-nav">
+        <div class="container">
+          <nav class="header-nav__inner">
+            <ul class="header-menu">
+              <li>
+                <a href="#" class="header-nav__link">О нас</a>
+              </li>
+
+              <li>
+                <a href="#" class="header-nav__link">ОБУЧЕНИЕ</a>
+              </li>
+
+              <li>
+                <a href="#" class="header-nav__link">Календарь программ</a>
+              </li>
+
+              <li>
+                <a href="#" class="header-nav__link">СЕМИНАРЫ И СЕРТИФИКАЦИЯ</a>
+              </li>
+
+              <li>
+                <a href="#" class="header-nav__link">СТУДЕНТАМ И ШКОЛЬНИКАМ</a>
+              </li>
+
+              <li>
+                <a href="#" class="header-nav__link">Контакты</a>
+              </li>
+            </ul>
+            <!-- /.header-menu -->
+          </nav>
+          <!-- /.header-nav -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.header-nav -->
+    </header>
+    <!-- /.header -->
+
+    <section id="direction-page" class="after-header-block">
+      <div class="container">
+        <div class="grid-two-block">
+          <div class="left">
+            <h1>Направления обучения</h1>
+            <p>
+              Направления обучения в Российском экономическом университете имени
+              Г.В. Плеханова
+            </p>
+          </div>
+          <div class="right">
+
+            <div class="sum-curses-circle">
+                <div class="left-text">Более</div> 
+                <div class="center">1200</div>
+                <div class="right-text"> Курсов </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="direction-page-grid" class="section-mba">
+      <div class="container">
+        <div class="section-mba-wrapper">
+        
+          <div class="programs-wrapper">
+            <div class="programs-header">
+              <h2>Программы MBA</h2>
+              <div class="items-sum-number"><b>12</b> программ</div>
+            </div>
+
+            <div class="grid-program-container">
+              <div class="program-tem">
+                <div class="category">Маркетинг и продажи</div>
+                <div class="header-program-item">
+                  <a href="#"
+                    ><h5>
+                      Программы МВА Плехановской школы бизнеса «Integral»
+                    </h5></a
+                  >
+                  <div class="img-wrap">
+                    <img src="./img/programs-img.png" alt="" />
+                  </div>
+                </div>
+                <div class="cost-wrap">
+                  <div>
+                    <div class="text">Стоимость</div>
+                    <div class="cost-num">490000 - 630000 руб.</div>
+                  </div>
+                  <div class="arrow">
+                    <a href="#"> <img src="./img/arrow.svg" alt="arrow" /></a>
+                  </div>
+                </div>
+
+                <div class="time-wrapper-program-item">
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/calendar.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Начало обучения</p>
+                      <p>Октябрь 2021</p>
+                    </div>
+                  </div>
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/clock.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Длительность</p>
+                      <p>2 года</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="program-tem">
+                <div class="category">Маркетинг и продажи</div>
+                <div class="header-program-item">
+                  <a href="#"
+                    ><h5>
+                      Программы МВА Плехановской школы бизнеса «Integral»
+                    </h5></a
+                  >
+                  <div class="img-wrap">
+                    <img src="./img/programs-img.png" alt="" />
+                  </div>
+                </div>
+                <div class="cost-wrap">
+                  <div>
+                    <div class="text">Стоимость</div>
+                    <div class="cost-num">490000 - 630000 руб.</div>
+                  </div>
+                  <div class="arrow">
+                    <a href="#"> <img src="./img/arrow.svg" alt="arrow" /></a>
+                  </div>
+                </div>
+
+                <div class="time-wrapper-program-item">
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/calendar.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Начало обучения</p>
+                      <p>Октябрь 2021</p>
+                    </div>
+                  </div>
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/clock.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Длительность</p>
+                      <p>2 года</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="program-tem">
+                <div class="category">Маркетинг и продажи</div>
+                <div class="header-program-item">
+                  <a href="#"
+                    ><h5>
+                      Программы МВА Плехановской школы бизнеса «Integral»
+                    </h5></a
+                  >
+                  <div class="img-wrap">
+                    <img src="./img/programs-img.png" alt="" />
+                  </div>
+                </div>
+                <div class="cost-wrap">
+                  <div>
+                    <div class="text">Стоимость</div>
+                    <div class="cost-num">490000 - 630000 руб.</div>
+                  </div>
+                  <div class="arrow">
+                    <a href="#"> <img src="./img/arrow.svg" alt="arrow" /></a>
+                  </div>
+                </div>
+
+                <div class="time-wrapper-program-item">
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/calendar.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Начало обучения</p>
+                      <p>Октябрь 2021</p>
+                    </div>
+                  </div>
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/clock.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Длительность</p>
+                      <p>2 года</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="program-tem">
+                <div class="category">Маркетинг и продажи</div>
+                <div class="header-program-item">
+                  <a href="#"
+                    ><h5>
+                      Программы МВА Плехановской школы бизнеса «Integral»
+                    </h5></a
+                  >
+                  <div class="img-wrap">
+                    <img src="./img/programs-img.png" alt="" />
+                  </div>
+                </div>
+                <div class="cost-wrap">
+                  <div>
+                    <div class="text">Стоимость</div>
+                    <div class="cost-num">490000 - 630000 руб.</div>
+                  </div>
+                  <div class="arrow">
+                    <a href="#"> <img src="./img/arrow.svg" alt="arrow" /></a>
+                  </div>
+                </div>
+
+                <div class="time-wrapper-program-item">
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/calendar.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Начало обучения</p>
+                      <p>Октябрь 2021</p>
+                    </div>
+                  </div>
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/clock.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Длительность</p>
+                      <p>2 года</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="program-tem">
+                <div class="category">Маркетинг и продажи</div>
+                <div class="header-program-item">
+                  <a href="#"
+                    ><h5>
+                      Программы МВА Плехановской школы бизнеса «Integral»
+                    </h5></a
+                  >
+                  <div class="img-wrap">
+                    <img src="./img/programs-img.png" alt="" />
+                  </div>
+                </div>
+                <div class="cost-wrap">
+                  <div>
+                    <div class="text">Стоимость</div>
+                    <div class="cost-num">490000 - 630000 руб.</div>
+                  </div>
+                  <div class="arrow">
+                    <a href="#"> <img src="./img/arrow.svg" alt="arrow" /></a>
+                  </div>
+                </div>
+
+                <div class="time-wrapper-program-item">
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/calendar.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Начало обучения</p>
+                      <p>Октябрь 2021</p>
+                    </div>
+                  </div>
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/clock.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Длительность</p>
+                      <p>2 года</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="program-tem">
+                <div class="category">Маркетинг и продажи</div>
+                <div class="header-program-item">
+                  <a href="#"
+                    ><h5>
+                      Программы МВА Плехановской школы бизнеса «Integral»
+                    </h5></a
+                  >
+                  <div class="img-wrap">
+                    <img src="./img/programs-img.png" alt="" />
+                  </div>
+                </div>
+                <div class="cost-wrap">
+                  <div>
+                    <div class="text">Стоимость</div>
+                    <div class="cost-num">490000 - 630000 руб.</div>
+                  </div>
+                  <div class="arrow">
+                    <a href="#"> <img src="./img/arrow.svg" alt="arrow" /></a>
+                  </div>
+                </div>
+
+                <div class="time-wrapper-program-item">
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/calendar.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Начало обучения</p>
+                      <p>Октябрь 2021</p>
+                    </div>
+                  </div>
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/clock.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Длительность</p>
+                      <p>2 года</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="program-tem">
+                <div class="category">Маркетинг и продажи</div>
+                <div class="header-program-item">
+                  <a href="#"
+                    ><h5>
+                      Программы МВА Плехановской школы бизнеса «Integral»
+                    </h5></a
+                  >
+                  <div class="img-wrap">
+                    <img src="./img/programs-img.png" alt="" />
+                  </div>
+                </div>
+                <div class="cost-wrap">
+                  <div>
+                    <div class="text">Стоимость</div>
+                    <div class="cost-num">490000 - 630000 руб.</div>
+                  </div>
+                  <div class="arrow">
+                    <a href="#"> <img src="./img/arrow.svg" alt="arrow" /></a>
+                  </div>
+                </div>
+
+                <div class="time-wrapper-program-item">
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/calendar.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Начало обучения</p>
+                      <p>Октябрь 2021</p>
+                    </div>
+                  </div>
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/clock.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Длительность</p>
+                      <p>2 года</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="program-tem">
+                <div class="category">Маркетинг и продажи</div>
+                <div class="header-program-item">
+                  <a href="#"
+                    ><h5>
+                      Программы МВА Плехановской школы бизнеса «Integral»
+                    </h5></a
+                  >
+                  <div class="img-wrap">
+                    <img src="./img/programs-img.png" alt="" />
+                  </div>
+                </div>
+                <div class="cost-wrap">
+                  <div>
+                    <div class="text">Стоимость</div>
+                    <div class="cost-num">490000 - 630000 руб.</div>
+                  </div>
+                  <div class="arrow">
+                    <a href="#"> <img src="./img/arrow.svg" alt="arrow" /></a>
+                  </div>
+                </div>
+
+                <div class="time-wrapper-program-item">
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/calendar.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Начало обучения</p>
+                      <p>Октябрь 2021</p>
+                    </div>
+                  </div>
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/clock.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Длительность</p>
+                      <p>2 года</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="program-tem">
+                <div class="category">Маркетинг и продажи</div>
+                <div class="header-program-item">
+                  <a href="#"
+                    ><h5>
+                      Программы МВА Плехановской школы бизнеса «Integral»
+                    </h5></a
+                  >
+                  <div class="img-wrap">
+                    <img src="./img/programs-img.png" alt="" />
+                  </div>
+                </div>
+                <div class="cost-wrap">
+                  <div>
+                    <div class="text">Стоимость</div>
+                    <div class="cost-num">490000 - 630000 руб.</div>
+                  </div>
+                  <div class="arrow">
+                    <a href="#"> <img src="./img/arrow.svg" alt="arrow" /></a>
+                  </div>
+                </div>
+
+                <div class="time-wrapper-program-item">
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/calendar.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Начало обучения</p>
+                      <p>Октябрь 2021</p>
+                    </div>
+                  </div>
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/clock.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Длительность</p>
+                      <p>2 года</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="program-tem">
+                <div class="category">Маркетинг и продажи</div>
+                <div class="header-program-item">
+                  <a href="#"
+                    ><h5>
+                      Программы МВА Плехановской школы бизнеса «Integral»
+                    </h5></a
+                  >
+                  <div class="img-wrap">
+                    <img src="./img/programs-img.png" alt="" />
+                  </div>
+                </div>
+                <div class="cost-wrap">
+                  <div>
+                    <div class="text">Стоимость</div>
+                    <div class="cost-num">490000 - 630000 руб.</div>
+                  </div>
+                  <div class="arrow">
+                    <a href="#"> <img src="./img/arrow.svg" alt="arrow" /></a>
+                  </div>
+                </div>
+
+                <div class="time-wrapper-program-item">
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/calendar.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Начало обучения</p>
+                      <p>Октябрь 2021</p>
+                    </div>
+                  </div>
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/clock.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Длительность</p>
+                      <p>2 года</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="program-tem">
+                <div class="category">Маркетинг и продажи</div>
+                <div class="header-program-item">
+                  <a href="#"
+                    ><h5>
+                      Программы МВА Плехановской школы бизнеса «Integral»
+                    </h5></a
+                  >
+                  <div class="img-wrap">
+                    <img src="./img/programs-img.png" alt="" />
+                  </div>
+                </div>
+                <div class="cost-wrap">
+                  <div>
+                    <div class="text">Стоимость</div>
+                    <div class="cost-num">490000 - 630000 руб.</div>
+                  </div>
+                  <div class="arrow">
+                    <a href="#"> <img src="./img/arrow.svg" alt="arrow" /></a>
+                  </div>
+                </div>
+
+                <div class="time-wrapper-program-item">
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/calendar.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Начало обучения</p>
+                      <p>Октябрь 2021</p>
+                    </div>
+                  </div>
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/clock.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Длительность</p>
+                      <p>2 года</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="program-tem">
+                <div class="category">Маркетинг и продажи</div>
+                <div class="header-program-item">
+                  <a href="#"
+                    ><h5>
+                      Программы МВА Плехановской школы бизнеса «Integral»
+                    </h5></a
+                  >
+                  <div class="img-wrap">
+                    <img src="./img/programs-img.png" alt="" />
+                  </div>
+                </div>
+                <div class="cost-wrap">
+                  <div>
+                    <div class="text">Стоимость</div>
+                    <div class="cost-num">490000 - 630000 руб.</div>
+                  </div>
+                  <div class="arrow">
+                    <a href="#"> <img src="./img/arrow.svg" alt="arrow" /></a>
+                  </div>
+                </div>
+
+                <div class="time-wrapper-program-item">
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/calendar.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Начало обучения</p>
+                      <p>Октябрь 2021</p>
+                    </div>
+                  </div>
+                  <div class="item-time">
+                    <div class="img-wrap">
+                      <img src="./img/clock.svg" alt="" />
+                    </div>
+                    <div class="text-time">
+                      <p class="text">Длительность</p>
+                      <p>2 года</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ask">
+      <div class="container">
+        <div class="ask-inner">
+          <div class="head">
+            <div class="head__block">
+              <div class="head__line"></div>
+
+              <div class="ask-head__block">
+                <div class="head__text">Остались вопросы?</div>
+
+                <div class="ask__text">
+                  Вы можете написать нам письмо или позвонить:
+                </div>
+              </div>
+              <!-- /.ask-head__block -->
+            </div>
+          </div>
+          <!-- /.head -->
+
+          <div class="ask-row">
+            <div class="ask-row__block">
+              <div class="ask-phone__block">
+                <img src="./img/call.svg" class="ask-phone__img" />
+
+                <a href="tel: +7 (495) 135-45-82 " class="ask__tel"
+                  >+7 (495) 135-45-82</a
+                >
+              </div>
+
+              <div class="btn">
+                <button class="ask__button">Заказать звонок</button>
+              </div>
+            </div>
+            <!-- /.ask-row__block -->
+
+            <div class="ask-row__block">
+              <div class="ask-phone__block">
+                <img src="./img/letter.svg" class="ask-phone__img" />
+
+                <a href="#" class="ask__mail">crdpo@rea.ru</a>
+              </div>
+
+              <div class="btn">
+                <button class="ask__button">Заказать звонок</button>
+              </div>
+            </div>
+            <!-- /.ask-row__block -->
+          </div>
+          <!-- /.ask__row -->
+        </div>
+        <!-- /.ask-inner -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.ask -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer__text">
+            Федеральное государственное бюджетное образовательное учреждение
+            высшего образования «Российский экономический университет имени Г.В.
+            Плеханова» Россия, г. Москва, Стремянный переулок д. 36
+          </div>
+
+          <div class="footer__date">© 2010- 2021</div>
+
+          <nav class="footer-nav">
+            <li>
+              <a href="#" class="footer__link">О нас</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer__link">Новости и мероприятия</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer__link">Политика конфиденциальности</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer__link">Реквизиты</a>
+            </li>
+          </nav>
+          <!-- /.footer-nav -->
+
+          <div class="footer-media">
+            <a href="#" class="footer-media__icon">
+              <i class="fab fa-facebook-f footer__icon"></i>
+            </a>
+            <!-- /.footer-media__icon -->
+
+            <a href="#" class="footer-media__icon">
+              <i class="fab fa-vk footer__icon"></i>
+            </a>
+            <!-- /.footer-media__icon -->
+
+            <a href="#" class="footer-media__icon">
+              <i class="fab fa-twitter footer__icon"></i>
+            </a>
+            <!-- /.footer-media__icon -->
+          </div>
+          <!-- /.footer-media -->
+        </div>
+        <!-- /.footer-inner -->
+      </div>
+      <!-- /.container -->
+    </footer>
+    <!-- /.footer -->
+
+    <div class="call">
+      <div class="call__body">
+        <div class="call__block">
+          <div class="call__close">
+            <i class="fas fa-times call__icon"></i>
+          </div>
+          <!-- /.call__close -->
+
+          <div class="call__title">
+            Оставьте свой номер телефона и мы вам обязательно перезвоним:
+          </div>
+
+          <div class="call-form__block">
+            <input type="tel" class="call__input" placeholder="Номер" />
+
+            <button class="call__button">Жду звонка</button>
+            <!-- /.call__button -->
+          </div>
+          <!-- /.call-form__block -->
+        </div>
+        <!-- /.call__block -->
+      </div>
+      <!-- /.call__body -->
+    </div>
+    <!-- /.call -->
+
+    <!--Подключаем скрипты-->
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

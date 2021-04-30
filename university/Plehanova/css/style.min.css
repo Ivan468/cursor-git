@@ -50,7 +50,6 @@
   text-decoration: none;
 }
 
-
 body {
   width: 100%;
   font-family: "Montserrat";
@@ -725,6 +724,74 @@ body {
   padding-top: 10px;
 }
 /* end page Programs MBA */
+/* Direction sudy */
+#direction-page .grid-two-block {
+  display: grid;
+  gap: 95px;
+  grid-template-columns: 5fr 1fr;
+}
+#direction-page .grid-two-block .left p::before {
+  display: none;
+}
+#direction-page .grid-two-block .left p {
+  padding-left: 0;
+}
+#direction-page .after-header-block {
+  font-family: Montserrat;
+  padding: 90px 0 80px;
+}
+.sum-curses-circle {
+  font-family: Montserrat;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  width: 131px;
+  height: 131px;
+  justify-content: space-evenly;
+}
+.sum-curses-circle .center {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 22px;
+  text-align: center;
+  margin: 8px;
+}
+.sum-curses-circle .left-text {
+  text-align: left;
+  background: #3559da;
+  font-style: normal;
+  font-weight: normal;
+  width: 75px;
+  font-size: 20px;
+  line-height: 22px;
+  display: flex;
+  margin-left: -20px;
+}
+.sum-curses-circle .right-text {
+  text-align: right;
+  background: #3559da;
+  font-style: normal;
+  font-weight: normal;
+  width: 75px;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-self: flex-end;
+  margin-right: -20px;
+}
+#direction-page-grid .programs-wrapper {
+    width: 100%;
+    max-width: 1200px;
+}
+#direction-page-grid .grid-program-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+}
+/* end direction */
 @media (max-width: 1024px) {
   .header-right__block {
     -webkit-box-orient: vertical;
