@@ -4557,6 +4557,10 @@ body#checkout #footer {
   line-height: 1.2;
   text-align: left;
 }
+#identity .form-group.row.newsletter {
+  text-align: center;
+  margin-top: 40px;
+}
 #identity span.custom-checkbox label {
   font-size: 20px;
   font-family: "Montserrat";
@@ -4568,6 +4572,39 @@ body#checkout #footer {
   margin-top: 20px;
   display: block;
 }
+#identity button.btn.btn-primary.form-control-submit.retour {
+  max-width: none;
+  width: auto;
+}
+#identity button.btn.btn-primary.form-control-submit.retour.one {
+  margin-right: 20px;
+  background-color: white;
+  color: #000555;
+  border: 2px solid #dee7f6;
+}
+#identity button.btn.btn-primary.form-control-submit.retour.one:hover {
+  background-color: #000555;
+  color: white;
+  border: 2px solid #000555;
+}
+#identity footer.form-footer.clearfix {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#identity .no-account p {
+  max-width: 967px;
+  margin: 0 auto;
+}
+#identity .form-control.bold::placeholder, #identity .form-control.bold {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+}
+
 /* end identite */
 @media (min-width: 1460px) {
   .container {

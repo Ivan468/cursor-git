@@ -16,7 +16,10 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
     <link
       rel="icon"
       type="image/vnd.microsoft.icon"
@@ -1174,70 +1177,59 @@
                   method="post"
                 >
                   <section>
-                      <div class="form-group row id_gender">
-                          <div class="col-md-12 form-control-valign">
-                            <label class="radio-inline">
-                              <span class="custom-radio">
-                                <input
-                                  name="id_gender"
-                                  type="radio"
-                                  value="1"
-                                />
-                                <span></span>
-                              </span>
-                              Madame
-                            </label>
-                            <label class="radio-inline">
-                              <span class="custom-radio">
-                                <input
-                                  name="id_gender"
-                                  type="radio"
-                                  value="2"
-                                />
-                                <span></span>
-                              </span>
-                              Monsieur
-                            </label>
-                          </div>
-                        </div>
+                    <div class="form-group row id_gender">
+                      <div class="col-md-12 form-control-valign">
+                        <label class="radio-inline">
+                          <span class="custom-radio">
+                            <input name="id_gender" type="radio" value="1" />
+                            <span></span>
+                          </span>
+                          Madame
+                        </label>
+                        <label class="radio-inline">
+                          <span class="custom-radio">
+                            <input name="id_gender" type="radio" value="2" />
+                            <span></span>
+                          </span>
+                          Monsieur
+                        </label>
+                      </div>
+                    </div>
                     <div class="row">
                       <div class="col-md-6">
-                      
                         <div class="form-group row firstname">
                           <div class="col-md-12">
-                            <input
-                              class="form-control"
+                            <input 
+                              class="form-control bold"
                               name="firstname"
                               type="text"
-                              value="Іван"
+                              value="Lisa"
                               placeholder="Mon prénom *"
                               required=""
                             />
-                             
                           </div>
                         </div>
 
                         <div class="form-group row lastname">
                           <div class="col-md-12">
                             <input
-                              class="form-control"
+                              class="form-control bold"
                               name="lastname"
                               type="text"
-                              value="Петрущак"
+                              value="Dupont"
                               placeholder="Nom"
                               required=""
                             />
-                            
                           </div>
                         </div>
 
                         <div class="form-group row email">
                           <div class="col-md-12">
                             <input
-                              class="form-control"
+                              class="form-control bold"
                               name="email"
                               type="email"
-                              value="pig1995z@gmail.com"
+                              value="example@gmail.com"
                               placeholder="E-mail"
                               required=""
                             />
@@ -1307,7 +1299,6 @@
                           value=""
                           placeholder="Date de naissance"
                         />
-                         
                       </div>
                     </div>
 
@@ -1326,7 +1317,7 @@
                                 ></i
                               ></span
                             >
-                            Recevoir notre newsletter 
+                            Recevoir notre newsletter
                           </label>
                         </span>
                       </div>
@@ -1344,7 +1335,8 @@
                                 ></i
                               ></span
                             >
-                           J'accepte les conditions générales et la <a href="http://#">politique de confidentialité</a> 
+                            J'accepte les conditions générales et la
+                            <a href="http://#">politique de confidentialité</a>
                           </label>
                         </span>
                       </div>
@@ -1353,30 +1345,32 @@
 
                   <footer class="form-footer clearfix">
                     <input type="hidden" name="submitCreate" value="1" />
-
                     <button
-                      class="btn btn-primary form-control-submit"
+                      class="btn btn-primary form-control-submit retour one"
                       data-link-action="save-customer"
                       type="submit"
                     >
-                      Enregistrer
+                      Retour au tableau de bord
+                    </button>
+                    <button
+                      class="btn btn-primary form-control-submit retour"
+                      data-link-action="save-customer"
+                      type="submit"
+                    >
+                      Enregistrer les modifications
                     </button>
                   </footer>
                 </form>
                 <div class="no-account">
-                  <p>Les champs obligatoires sont indiqués avec *</p>
                   <p>
-                    Vos données personnelles seront utilisées pour vous
-                    accompagner au cours de votre visite du site web, gérer
-                    l’accès à votre compte, et pour d’autres raisons décrites
-                    dans
-                    <a href="https://sarah-et-mael.preprod.center/identite#"
-                      >notre politique de confidentialité.</a
-                    >
+                    Conformément aux dispositions de la loi du n°78-17 du 6
+                    janvier 1978, vous disposez d'un droit d'accès, de
+                    rectification et d'opposition sur les données nominatives
+                    vous concernant.
                   </p>
                 </div>
               </section>
-
+<!-- 
               <footer class="page-footer">
                 <a
                   href="https://sarah-et-mael.preprod.center/mon-compte"
@@ -1392,7 +1386,7 @@
                   <i class="material-icons"></i>
                   <span>Accueil</span>
                 </a>
-              </footer>
+              </footer> -->
             </section>
           </div>
         </div>
