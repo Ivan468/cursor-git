@@ -1046,12 +1046,13 @@ body {
   color: #4268ed;
   visibility: visible;
 }
-.icon-item-time { 
-  width: 20px; 
+.icon-item-time {
+  width: 20px;
   height: 20px;
 }
 .arrow-img {
- width: 48px;height: 29px;
+  width: 48px;
+  height: 29px;
 }
 @media (max-width: 1199px) {
   .section-mba .left-bar {
@@ -2026,5 +2027,8 @@ body {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-}
+  }
+  .grid-two-block h1 {
+    font-size: 33px;
+  }
 }
