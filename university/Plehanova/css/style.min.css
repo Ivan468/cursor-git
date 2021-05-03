@@ -568,9 +568,7 @@ body {
 }
 .left-bar-item.active {
   padding: 20px 10px 20px 37px;
-
   text-decoration-line: underline;
-
   color: #333333;
   border-bottom: 1px solid #4268ed;
 }
@@ -906,6 +904,11 @@ body {
     margin-right: 0px;
     margin-bottom: 20px;
   }
+  #direction-page-grid .grid-program-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+}
 }
 @media (max-width: 530px) {
   .adaptive__phone {
@@ -947,6 +950,11 @@ body {
     line-height: 20px;
     color: #333333;
   }
+  #direction-page-grid .grid-program-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
 }
 .study-inner {
   padding-top: 30px;
@@ -1136,6 +1144,13 @@ body {
   .head__text {
     font-size: 20px;
   }
+  #direction-page .grid-two-block {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    place-content: center;
+    place-items: center;
+}
 }
 @media (max-width: 530px) {
   .head__line {
@@ -2124,6 +2139,11 @@ body {
   .icon-item-time {
   width: 14px;
   height: 20px;
+}
+#direction-page-grid .grid-program-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
 }
 }
 @media (max-width: 320px) {
