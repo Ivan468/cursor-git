@@ -550,7 +550,7 @@ body {
   margin-bottom: 100px;
 }
 .section-mba {
-  padding-top: 30px;
+  padding-top: 60px;
 }
 .section-mba .left-bar {
   max-width: 250px;
@@ -744,6 +744,9 @@ body {
 #administration-section .grid-two-block {
   display: flex;
   gap: 0;
+}
+#administrators-main-section .programs-header h2 {
+  margin-bottom: 20px;
 }
 .info-administrat {
   max-width: 670px;
@@ -1529,6 +1532,16 @@ body {
 }
 .program-tem.administr-card {
   display: flex;
+}
+.program-tem.administr-card .img-wrap img {
+  overflow: hidden;
+  width: 100%;
+}
+.program-tem.administr-card .img-wrap {
+  max-width: 68px;
+  max-height: 68px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 .text-adm {
   margin-left: 20px;
@@ -2319,6 +2332,16 @@ body {
   color: #333;
   margin-bottom: 30px;
   line-height: 48px;
+}
+#administrators-main-section .layout-item-title,
+.section-mba .layout-item-title {
+  position: relative;
+  padding-left: 65px;
+  margin-bottom: 0;
+}
+#administrators-main-section .layout-item-title:before,
+.section-mba .layout-item-title:before {
+  top: 20px;
 }
 
 .layout-item-title:before {
