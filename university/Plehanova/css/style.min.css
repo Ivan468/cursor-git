@@ -1668,6 +1668,7 @@ body {
   .program-tem.administr-card .category,
   .program-tem.administr-card .header-adm-item h5 {
     text-align: center;
+    margin: 0 auto;
   }
   .program-tem.administr-card .text-adm {
     margin-left: 0;
