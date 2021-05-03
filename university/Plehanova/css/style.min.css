@@ -1606,6 +1606,12 @@ body {
     transition: 0.9s all;
     position: relative;
   }
+  .icon {
+    width: 37px;
+    height: 35px;
+    margin: 0.5em;
+    fill: #333333;
+}
 }
 .univercity {
   width: 100%;
