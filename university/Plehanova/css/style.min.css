@@ -1564,6 +1564,16 @@ body {
   .univercity__row {
     margin-top: 20px;
   }
+  .grid-program-container .program-tem .header-program-item h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333333;
+  min-height: auto;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
 }
 @media (max-width: 768px) {
   .univercity__row {
@@ -2101,6 +2111,9 @@ body {
     gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   }
+  .grid-two-block h1 {
+    line-height: 39px;
+  }
 }
 @media (max-width: 320px) {
   .grid-program-container {
@@ -2115,5 +2128,22 @@ body {
     box-sizing: border-box;
     transition: 0.9s all;
     position: relative;
+  }
+  .grid-program-container .program-tem .header-program-item .img-wrap {
+    width: 65px;
+    height: 56px;
+  }
+  .arrow-img {
+    width: 33px;
+    height: 29px;
+  }
+  .grid-two-block p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 26px;
+  }
+  .grid-two-block h1 {
+    line-height: 39px;
   }
 }
