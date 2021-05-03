@@ -1575,6 +1575,17 @@ body {
   .sliderReviews .slick-list {
     width: 100%;
   }
+
+  #administrators-main-section .info-administrat {
+    max-width: 670px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    color: #333333;
+}
+
   .sliderReviews {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1635,6 +1646,18 @@ body {
 @media (max-width: 475px) {
   .sliderReviews .slick-dots {
     bottom: -6%;
+  }
+  .program-tem.administr-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .program-tem.administr-card .img-wrap,
+  .program-tem.administr-card .category,
+  .program-tem.administr-card .header-adm-item h5 {
+    text-align: center;
+  }
+    .program-tem.administr-card .text-adm {
+    margin-left: 0;
   }
   .grid-program-container .program-tem {
     border: 1px solid #dadada;
