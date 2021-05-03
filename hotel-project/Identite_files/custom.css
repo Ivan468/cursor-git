@@ -4584,6 +4584,10 @@ body#checkout #footer {
   color: rgb(0, 5, 85);
   line-height: 1.2;
   text-align: center;
+  font-weight: 300;
+}
+#identity span.custom-checkbox label a {
+  text-decoration: underline;
 }
 #identity span.custom-checkbox em {
   margin-top: 20px;
