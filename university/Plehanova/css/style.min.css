@@ -1052,6 +1052,7 @@ body {
     margin-right: 0px;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 20px;
   }
   .programs-wrapper {
     width: 100%;
@@ -1067,7 +1068,7 @@ body {
     grid-template-columns: 1fr;
   }
   .left-bar-item.active {
-    padding: 5px 10px 5px 20px;
+    padding: 0px;
     text-decoration-line: none;
     color: #333333;
     margin: 10px;
@@ -1075,7 +1076,7 @@ body {
   }
   .left-bar-item {
     margin: 10px;
-    padding: 5px 10px 5px 20px;
+    padding: 0px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
