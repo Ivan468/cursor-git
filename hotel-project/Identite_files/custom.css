@@ -1501,7 +1501,7 @@ input.form-control.js-child-focus.js-visible-password {
 }
 
 input {
-  width: 250px;
+  width: auto;
   padding: 15px 12px;
   font-size: 22px;
 }
@@ -4062,6 +4062,7 @@ body#checkout section.checkout-step {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 ul.nav.nav-inline.my-2 {
   justify-content: center;
@@ -4501,9 +4502,16 @@ body#checkout #footer {
 #identity .page-header .img-mon-compte-wrap img {
   max-height: 120px;
 }
+#identity .input-group.js-parent-focus {
+  margin-bottom: 0px;
+}
 #identity header.page-header > h1 {
   font-weight: 800;
   max-width: 450px;
+}
+#identity .form-group {
+  margin-bottom: 20px;
+  height: 58px;
 }
 #identity.page-customer-account #content {
   box-shadow: none;
@@ -4541,6 +4549,9 @@ body#checkout #footer {
   line-height: 1.6;
   padding: 10px 10px 10px 35px;
   position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 #identity .form-group input#password-field {
   position: absolute;
@@ -4559,7 +4570,13 @@ body#checkout #footer {
 }
 #identity .form-group.row.newsletter {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 22px;
+}
+#identity #main {
+  padding-bottom: 140px;
+}
+#identity .id_gender {
+  margin-bottom: 40px;
 }
 #identity span.custom-checkbox label {
   font-size: 20px;
@@ -4587,16 +4604,22 @@ body#checkout #footer {
   color: white;
   border: 2px solid #000555;
 }
-#identity footer.form-footer.clearfix {
+#identity footer.form-footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
+  padding-top: 30px;
 }
 #identity .no-account p {
   max-width: 967px;
   margin: 0 auto;
 }
-#identity .form-control.bold::placeholder, #identity .form-control.bold {
+#identity.page-customer-account #content .no-account {
+    margin-top: 48px;
+}
+#identity .form-control.bold::placeholder,
+#identity .form-control.bold {
   font-size: 20px;
   font-family: "Montserrat";
   color: rgb(0, 5, 85);
@@ -4769,6 +4792,13 @@ body#checkout #footer {
   .swiper-slide.one.news {
     width: 100%;
   }
+  #identity button.btn.btn-primary.form-control-submit.retour.one {
+    margin-right: 0px;
+    background-color: white;
+    color: #000555;
+    margin-bottom: 10px;
+    border: 2px solid #dee7f6;
+  }
   .swiper-container.news-sw .news img {
     height: 36vw;
     min-height: unset;
@@ -4798,7 +4828,14 @@ body#checkout #footer {
     right: 5px !important;
     bottom: 15px !important;
   }
-
+  #identity header.page-header > h1 {
+    font-weight: 800;
+    max-width: 450px;
+    font-size: 25px;
+  }
+  #identity footer.form-footer {
+    padding-top: 40px;
+  }
   .lSSlideOuter .lSPager.lSpg {
     display: block;
   }
@@ -5265,10 +5302,29 @@ body#checkout #footer {
     font-size: 13px;
     margin-bottom: 15px;
   }
+  #identity button.btn.btn-primary.form-control-submit.retour.one {
+    margin-right: 0px;
+    background-color: white;
+    color: #000555;
+    margin-bottom: 10px;
+    border: 2px solid #dee7f6;
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  button.btn.btn-primary.form-control-submit.retour {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
 }
 @media (max-width: 360px) {
   .bordeaux h2 {
     font-size: 20px;
+  }
+  #customer-form
+    section
+    div.form-group.row.id_gender
+    label.radio-inline:nth-child(1) {
+    margin: 0 10px 10px 0;
   }
   div.ressuranse-block:nth-child(1) > div:nth-child(1) > img:nth-child(1) {
     max-width: 100px;
