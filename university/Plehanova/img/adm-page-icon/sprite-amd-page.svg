@@ -1,0 +1,13 @@
+<svg width="0" height="0" class="hidden">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 18" id="mail">
+    <path stroke="#333" stroke-width="2" d="M1 1h20v16H1z"></path>
+    <path d="M5 5l6 5.546L17 5" stroke="#333" stroke-width="2"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 27" id="map-pick">
+    <path d="M20 10.5c0 5.799-9.5 14.5-9.5 14.5S1 16.299 1 10.5C1 4.701 5.701 1 10.5 1S20 4.701 20 10.5z" stroke="#333" stroke-width="2"></path>
+    <circle cx="10.5" cy="9.5" r="3.5" stroke="#333" stroke-width="2"></circle>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 24" id="tel">
+    <path stroke="#333" stroke-width="2" d="M1 1h18v22H1zm6 16h5.5"></path>
+  </symbol>
+</svg>
