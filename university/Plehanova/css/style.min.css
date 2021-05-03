@@ -2022,4 +2022,9 @@ body {
   .call__input::placeholder {
     font-size: 18px;
   }
+  .grid-program-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
 }
