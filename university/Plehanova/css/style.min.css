@@ -729,15 +729,21 @@ body {
   gap: 95px;
   grid-template-columns: 5fr 1fr;
 }
-#direction-page .grid-two-block .left p::before {
+#direction-page .grid-two-block .left p::before,
+#administration-section .grid-two-block .left p::before {
   display: none;
 }
-#direction-page .grid-two-block .left p {
+#direction-page .grid-two-block .left p,
+#administration-section .grid-two-block .left p {
   padding-left: 0;
 }
 #direction-page .after-header-block {
   font-family: Montserrat;
   padding: 90px 0 80px;
+}
+#administration-section .grid-two-block{
+  display: flex;
+  gap: 0;
 }
 .sum-curses-circle {
   font-family: Montserrat;
