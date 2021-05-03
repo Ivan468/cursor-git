@@ -1046,6 +1046,13 @@ body {
   color: #4268ed;
   visibility: visible;
 }
+.icon-item-time { 
+  width: 20px; 
+  height: 20px;
+}
+.arrow-img {
+ width: 48px;height: 29px;
+}
 @media (max-width: 1199px) {
   .section-mba .left-bar {
     max-width: none;
