@@ -1,0 +1,75 @@
+/**
+ * PrestaShop module created by VEKIA, a guy from official PrestaShop community ;-)
+ *
+ * @author    VEKIA https://www.prestashop.com/forums/user/132608-vekia/
+ * @copyright 2010-2020 VEKIA
+ * @license   This program is not free software and you can't resell and redistribute it
+ *
+ * CONTACT WITH DEVELOPER http://mypresta.eu
+ * support@mypresta.eu
+ */
+
+.hppCarouselBlock {
+    position: relative;
+}
+
+ul.homefeaturedslider.product_list.grid > li.first-in-line, ul.homefeaturedslider.product_list.grid > li.first-item-of-tablet-line {
+    clear: none;
+}
+
+.hppContainerBlockMainDiv h4::after {
+    display: none !important;
+}
+
+.hppColumnBlock .hppback, .hppCarouselBlock .hppback {
+    font-size: 36px;
+    color: #c0c0c0;
+    cursor: pointer;
+    position: absolute;
+    right: 55px;
+}
+
+
+.hppColumnBlock .hppforward, .hppCarouselBlock .hppforward {
+    font-size: 36px;
+    color: #c0c0c0;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+
+.hppColumnBlock .hppforward:hover, .hppCarouselBlock .hppforward:hover {
+    color: #333;
+}
+
+
+.hppColumnBlock .hppback:hover, .hppCarouselBlock .hppback:hover {
+    color: #333;
+}
+
+.templatemela_hpp.homefeaturedslider li {
+    padding: 5px!important;
+    margin: 5px!important;
+}
+
+.homefeaturedslider article {
+    padding: 5px;
+    margin: 5px!important;
+}
+
+
+.templatemela_hpp.homefeaturedslider article {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+.hppColumnBlock.templatemela_hpp.homefeaturedslider .product_list li {
+    padding: 0px!important;
+    margin: 5px!important;
+}
+
+@media (max-width:479px) {
+    .homefeaturedslider .thumbnail-container {
+        margin:auto;
+    }
+}
