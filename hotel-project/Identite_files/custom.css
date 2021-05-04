@@ -4704,7 +4704,6 @@ body#checkout #footer {
   color: #000555;
   background: white;
   border: 2px solid #dee7f6;
-  align-self: flex-end;
   border-radius: 30px;
   display: flex;
   align-items: center;
@@ -4715,6 +4714,8 @@ body#checkout #footer {
   line-height: 1.2;
   text-align: center;
   height: 58px;
+  padding: 8px 50px;
+  place-self: self-end;
 }
 .page-addresses .addresses-footer a.left:hover {
   background: #000555;
@@ -4732,6 +4733,7 @@ body#checkout #footer {
   font-weight: 500;
   line-height: 1.2;
   text-align: center;
+  place-self: self-start;
 }
 .page-addresses .addresses-footer a.right:hover {
   color: #000555;
@@ -4902,6 +4904,9 @@ body#checkout #footer {
   .swiper-slide.news,
   .swiper-slide.one.news {
     width: 100%;
+  }
+  .page-addresses .addresses-footer a.left {
+    padding: 8px 12px;
   }
   #identity button.btn.btn-primary.form-control-submit.retour.one {
     margin-right: 0px;
