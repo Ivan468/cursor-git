@@ -63,7 +63,19 @@ a, a:hover {
   width: 100%;
   z-index: 1;
 }
-
+img.img-fluid.grayscale {
+    filter: grayscale(1);
+}
+img.img-fluid.invert {
+  filter: grayscale(1) invert(1);
+}
+.owl-carousel .owl-item {
+  text-align: center;
+      display: flex;
+    align-items: center;
+    min-height: 123px;
+    justify-content: center;
+}
 @media (max-width: 991.98px) {
   .unslate_co--site-inner {
     margin-bottom: auto !important;
