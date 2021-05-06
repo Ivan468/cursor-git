@@ -4768,9 +4768,37 @@ body#checkout #footer {
 }
 .page-customer-account button.btn.btn-primary.form-control-submit.two {
   place-self: self-start;
+  max-width: none;
 }
 .page-customer-account select.form-control.form-control-select.js-country {
   margin-bottom: 0;
+}
+.adresse_de_facturation label {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(0, 5, 85);
+  line-height: 1.2;
+  text-align: left;
+}
+.adresse_de_facturation  .form-control-valign {
+  justify-content: space-around;
+}
+
+.adresse_de_facturation  .form-control-valign .custom-radio {
+ margin-right: 5px;
+}
+.page-customer-account section.form-fields {
+  margin-bottom: 40px;
+}
+.page-customer-account  .img-mon-compte-wrap {
+    max-width: 124px;
+    margin: 0 auto;
+}
+.page-customer-account input.form-control {
+  font-weight: 800;
+}
+.page-customer-account input.form-control::placeholder {
+  font-weight: 400;
 }
 /* end adrese modfier */
 @media (min-width: 1460px) {
@@ -4967,7 +4995,8 @@ body#checkout #footer {
   .logo-wraper-foot img {
     width: 100%;
   }
-  .page-addresses .addresses-footer {
+  .page-addresses .addresses-footer,
+  .page-customer-account .form-footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -4985,7 +5014,16 @@ body#checkout #footer {
     bottom: 15px !important;
   }
   .page-addresses .addresses-footer a.left,
-  .page-addresses .addresses-footer a.right {
+  .page-addresses .addresses-footer a.right,
+  .adresse_de_facturation label,
+  input::placeholder,
+  textarea::placeholder,
+  .form-control::placeholder,
+  .page-customer-account button.btn.btn-primary.form-control-submit.two,
+  input.form-control,
+  .form-group .form-control,
+  .input-group .input-group-btn > .btn,
+  .page-customer-account select.form-control.form-control-select.js-country {
     font-size: 14px;
   }
   #identity header.page-header > h1 {
