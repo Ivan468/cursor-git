@@ -688,7 +688,7 @@ body {
   max-height: 77px;
   max-width: 77px;
   width: 100%;
-   min-height: 77px;
+  min-height: 77px;
 }
 .grid-program-container .program-tem .header-program-item img {
   border-radius: 50%;
@@ -1818,7 +1818,7 @@ body {
   .grid-program-container .program-tem .header-program-item .img-wrap {
     max-width: 66px;
     max-height: 66px;
-     min-height: 66px;
+    min-height: 66px;
     width: 100%;
   }
   #administrators-main-section .layout-item-title,
@@ -2467,11 +2467,10 @@ body {
     position: relative;
   }
   .grid-program-container .program-tem .header-program-item .img-wrap {
-  
     max-width: 50px;
     max-height: 50px;
     width: 100%;
-     min-height: 50px;
+    min-height: 50px;
   }
   .arrow-img {
     width: 33px;
