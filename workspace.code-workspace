@@ -36,6 +36,6 @@
   ],
   "settings": {
     "px-to-vw.viewportWidth": 1440,
-    "liveServer.settings.multiRootWorkspaceName": "project"
+    "liveServer.settings.multiRootWorkspaceName": "js"
   }
 }
