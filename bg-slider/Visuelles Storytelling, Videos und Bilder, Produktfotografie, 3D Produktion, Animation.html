@@ -627,16 +627,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</header>
     <!--/Header -->
 	
-<div class="container-slider parallax-hero full-screen bg-slideshow-wrapper">
-  
-  <div class=" bg-slideshow elemnt"><span class="text-span">Text 1</span></div>
-  <div class=" bg-slideshow elemnt1"><span class="text-span">Tex 2</span></div>
-  <div class=" bg-slideshow elemnt2"><span class="text-span">Tex 3</span></div>
-  <div class=" bg-slideshow elemnt3"><span class="text-span">Te  4</span></div>
-  
+ 
+
+<div class="parallax-hero full-screen bg-slideshow-wrapper" >
+  <div class="bg-slideshow bg-slide-1"></div>
+  <div class="bg-slideshow bg-slide-2"></div>
+  <div class="bg-slideshow bg-slide-3"></div>
+  <div class="bg-slideshow bg-slide-4"></div>
 </div>
-
-
 	
     <!-- Page Content -->
         <div id="page-content">
@@ -755,13 +753,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
 <style>
-    
-.container-slider 
-{
-width:100%;
-height:100%;
+ /*=============================================
+=             Background Slideshow            =
+=============================================*/
+
+.full-screen {
+    height: 100vh;
+    width: 100%;
 }
- 
+
 .parallax-hero  {
     position: absolute;
     top: 0;
@@ -771,19 +771,13 @@ height:100%;
     background-size: cover;
 }
 
-.full-screen {
-    height: 100vh;
+ 
+
+.bg-slideshow-wrapper {
+    position: absolute;
     width: 100%;
-}
-.elemnt,.elemnt1,.elemnt2,.elemnt3 {
-position: absolute;
-left: 0;
-width: 100%;
-background-repeat: no-repeat;
-background-size: cover;
-height: 100%;
-display: inline-block;
-text-align: center;
+    height: 100%;
+    overflow: hidden;
 }
 
 .bg-slideshow {
@@ -797,36 +791,36 @@ text-align: center;
     -webkit-animation: slideShow 24s linear infinite 0s;
     animation: slideShow 24s linear infinite 0s;
 }
-.bg-slideshow-wrapper {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+
+.bg-slide-1 {
+    opacity: 1;
+    background: url(./images-slider/1.jpg) no-repeat center center;
+    background-size: cover;
 }
-.text-span{
-  border: 1px solid #000;
-  border-radius: 3px;
-  box-shadow: 0 0 5px 0 hsla(0,0%,30%, .3);
-  font-size:4em;
-  background-color:#fff
+
+.bg-slide-2 {
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+    background: url(./images-slider/2.jpg) no-repeat center center;
+    background-size: cover;
 }
-.elemnt {
-   animation-delay: 0s;background-size: cover;
-  background-image: url('./images-slider/4.jpg');
+
+.bg-slide-3 {
+    -webkit-animation-delay: 16s;
+    animation-delay: 16s;
+    background: url(./images-slider/3.jpg) no-repeat center center;
+    background-size: cover;
 }
-.elemnt1 {
-  background-size: cover;
-  background-image: url('./images-slider/1.jpg');
-  animation-delay: 8s;
+
+.bg-slide-4 {
+    -webkit-animation-delay: 24s;
+    animation-delay: 24s;
+    background: url(./images-slider/4.jpg) no-repeat center center;
+    background-size: cover;
 }
-.elemnt2 {
-  animation-delay: 16s;background-size: cover;
-  background-image: url('./images-slider/2.jpg');
-}
-.elemnt3 {
-  animation-delay: 24s;background-size: cover;
-  background-image: url('./images-slider/3.jpg');
-}
+
+/* keyframes*/
+  
 @keyframes slideShow {
     0% {
         opacity: 0;
