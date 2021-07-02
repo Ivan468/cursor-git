@@ -1,0 +1,10 @@
+				@font-face {
+					font-family: 'permanentmarker';
+					src: url('/wp-content/uploads/useanyfont/1513PermanentMarker.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/1513PermanentMarker.woff') format('woff');
+					font-display: auto;
+				}
+
+				.permanentmarker{font-family: 'permanentmarker' !important;}
+
+		
