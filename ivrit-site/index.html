@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./fonts/font.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <title>Test</title>
+  </head>
+  <body>
+    <div class="wrapper-body">
+      <main>
+        <div class="logo">
+          <div class="bold-text">BEING</div>
+          <div class="text-logo">WELL</div>
+        </div>
+        <div class="menu-wrap">
+          <!-- lang -->
+          <div class="lang-swish">
+            <div class="text-lang">HE</div>
+          </div>
+          <menu>
+            <div>
+              <a href="about"> about us</a>
+            </div>
+            <div>
+              <a href="about"> the team</a>
+            </div>
+            <div>
+              <a href="about">contact us</a>
+            </div>
+          </menu>
+        </div>
+      </main>
+    </div>
+    <div class="swiper-wrap">
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-left-text">
+              BE <br />
+              COMPLETE.
+            </div>
+            <img src="./img/Screenshot_15.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-left-text">
+              BE <br />
+              TEST.
+            </div>
+            <img src="./img/Screenshot_15.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <div class="wid-wrap">
+      <div class="video">
+        <iframe
+          width="100%"
+          height="550"
+          src="https://www.youtube.com/embed/4eJ8sJGh5dA"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <div class="about-as">
+      <h3>about as</h3>
+      <div class="flex about-as-text">
+        <div class="left block">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+          quaerat omnis distinctio fugiat, autem architecto eveniet vero tempora
+          debitis amet, impedit dolores. Incidunt laboriosam ipsam labore
+          repellat minus earum debitis!
+        </div>
+        <div class="right block">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+          quaerat omnis distinctio fugiat, autem architecto eveniet vero tempora
+          debitis amet, impedit dolores. Incidunt laboriosam ipsam labore
+          repellat minus earum debitis!
+        </div>
+      </div>
+    </div>
+    <div class="the-theam">
+      <div class="wrapper">
+        <h3>the team</h3>
+        <div class="flex about-as-theam">
+          <div class="block-img-ava">
+            <div class="img-wrap">
+              <img src="./img/avataaars.png" alt="img" />
+            </div>
+            <div class="ava-text">text</div>
+          </div>
+          <div class="block-img-ava">
+            <div class="img-wrap">
+              <img src="./img/avataaars.png" alt="img" />
+            </div>
+            <div class="ava-text">text</div>
+          </div>
+          <div class="block-img-ava">
+            <div class="img-wrap">
+              <img src="./img/avataaars.png" alt="img" />
+            </div>
+            <div class="ava-text">text</div>
+          </div>
+          <div class="block-img-ava">
+            <div class="img-wrap">
+              <img src="./img/avataaars.png" alt="img" />
+            </div>
+            <div class="ava-text">text</div>
+          </div>
+          <div class="block-img-ava">
+            <div class="img-wrap">
+              <img src="./img/avataaars.png" alt="img" />
+            </div>
+            <div class="ava-text">text</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+</html>

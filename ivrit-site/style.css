@@ -1,0 +1,297 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+html {
+  font-family: "Futura Round";
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: #ecd3d0;
+}
+menu {
+  display: flex;
+  justify-content: space-around;
+}
+.menu-wrap {
+  flex-grow: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.video {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+.wid-wrap {
+  padding: 5% 0;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5% 0;
+}
+.wrapper-body {
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Futura Round";
+  font-size: 16px;
+}
+.wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Futura Round";
+  font-size: 16px;
+}
+
+.logo {
+  font-size: 50px;
+  color: #b8977d;
+}
+.logo .bold-text {
+  font-weight: 800;
+}
+a {
+  color: #b8977d;
+  text-decoration: none;
+  font-size: 25px;
+}
+menu a {
+  font-size: 40px;
+  margin: 0%;
+}
+menu div {
+  display: flex;
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}
+.flex {
+  display: flex;
+}
+.about-as h3 {
+  font-size: 39px;
+  color: #b8977d;
+  margin: 20px 0px;
+}
+.about-as {
+  background: white;
+  padding: 5% 10%;
+}
+.flex.about-as-theam {
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-left: 8%;
+}
+
+.about-as-text .block {
+  max-width: 50%;
+  color: #13486a;
+  font-size: 32px;
+}
+.block-img-ava {
+  max-width: 200px;
+}
+.block-img-ava img {
+  max-width: 100%;
+  height: auto;
+}
+.lang-swish {
+  display: flex;
+  justify-content: flex-end;
+
+  color: white;
+}
+.lang-swish .text-lang {
+  background: #c19e83;
+  width: 44px;
+  border-radius: 50%;
+  height: 44px;
+  display: flex;
+  font-size: 23px;
+  align-items: center;
+  justify-content: center;
+}
+.block-img-ava .ava-text {
+  font-size: 37px;
+  text-align: center;
+}
+.the-theam h3 {
+  font-size: 45px;
+  color: #b8977d;
+}
+.the-theam {
+  padding: 100px 0px;
+}
+.swiper-left-text {
+  background: #d9eee9;
+  font-size: 80px;
+  padding: 10% 10%;
+  color: #b8977d;
+  max-width: 40%;
+  text-align: left;
+}
+/* swipe */
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  max-height: 758px;
+  background: #d9eee9;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* end swiper */
