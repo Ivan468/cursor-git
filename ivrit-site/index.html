@@ -14,11 +14,45 @@
     <title>Test</title>
   </head>
   <body>
+    <input
+      id="page-nav-toggle"
+      class="main-navigation-toggle"
+      type="checkbox"
+    />
+    <label for="page-nav-toggle">
+      <svg class="icon--menu-toggle" viewBox="0 0 60 30">
+        <g class="icon-group">
+          <g class="icon--menu">
+            <path d="M 6 0 L 54 0" />
+            <path d="M 6 15 L 54 15" />
+            <path d="M 6 30 L 54 30" />
+          </g>
+          <g class="icon--close">
+            <path d="M 15 0 L 45 30" />
+            <path d="M 15 30 L 45 0" />
+          </g>
+        </g>
+      </svg>
+    </label>
+
+    <nav class="main-navigation">
+      <ul>
+        <li><a href="#0">Home</a></li>
+        <li><a href="#0">About</a></li>
+        <li><a href="#0">Contact</a></li>
+      </ul>
+    </nav>
+
     <div class="wrapper-body">
       <main>
         <div class="logo">
-          <div class="bold-text">BEING</div>
-          <div class="text-logo">WELL</div>
+          <a
+            href="http://
+            "
+          >
+            <div class="bold-text">BEING</div>
+            <div class="text-logo">WELL</div></a
+          >
         </div>
         <div class="menu-wrap">
           <!-- lang -->
@@ -27,13 +61,13 @@
           </div>
           <menu>
             <div>
-              <a href="about"> about us</a>
+              <a href="#about"> about us</a>
             </div>
             <div>
-              <a href="about"> the team</a>
+              <a href="#team"> the team</a>
             </div>
             <div>
-              <a href="about">contact us</a>
+              <a href="#contact">contact us</a>
             </div>
           </menu>
         </div>
@@ -81,24 +115,26 @@
       </div>
     </div>
 
-    <div class="about-as">
-      <h3>about as</h3>
-      <div class="flex about-as-text">
-        <div class="left block">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
-          quaerat omnis distinctio fugiat, autem architecto eveniet vero tempora
-          debitis amet, impedit dolores. Incidunt laboriosam ipsam labore
-          repellat minus earum debitis!
-        </div>
-        <div class="right block">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
-          quaerat omnis distinctio fugiat, autem architecto eveniet vero tempora
-          debitis amet, impedit dolores. Incidunt laboriosam ipsam labore
-          repellat minus earum debitis!
+    <div class="about-as" id="about">
+      <div class="wrapper">
+        <h3>about as</h3>
+        <div class="flex about-as-text">
+          <div class="left block">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+            quaerat omnis distinctio fugiat, autem architecto eveniet vero
+            tempora debitis amet, impedit dolores. Incidunt laboriosam ipsam
+            labore repellat minus earum debitis!
+          </div>
+          <div class="right block">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+            quaerat omnis distinctio fugiat, autem architecto eveniet vero
+            tempora debitis amet, impedit dolores. Incidunt laboriosam ipsam
+            labore repellat minus earum debitis!
+          </div>
         </div>
       </div>
     </div>
-    <div class="the-theam">
+    <div class="the-theam" id="team">
       <div class="wrapper">
         <h3>the team</h3>
         <div class="flex about-as-theam">
@@ -133,6 +169,41 @@
             <div class="ava-text">text</div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="contact-form" id="contact">
+      <div class="wrapper">
+        <div class="flex">
+          <div class="form-box">
+            <h3>contact us</h3>
+            <form action="send">
+              <input
+                type="text"
+                name="name"
+                placeholder="name"
+                id="name"
+                size="35"
+              />
+              <input
+                type="email"
+                name="name"
+                placeholder="email"
+                id="email"
+                size="35"
+              />
+              <textarea
+                placeholder="Your message:"
+                rows="7"
+                cols="35"
+                name="message"
+                class="form-control"
+              ></textarea>
+              <button>send</button>
+            </form>
+          </div>
+        </div>
+
+        <footer>© 2021 Being. All rights reserved</footer>
       </div>
     </div>
   </body>
