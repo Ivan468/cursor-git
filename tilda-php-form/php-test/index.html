@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>uniMail</title>
+  </head>
+  <body>
+    <form method="POST" id="feedback-form">
+      Как к Вам обращаться:
+      <input
+        type="text"
+        name="nameFF"
+        required
+        placeholder="фамилия имя отчество"
+        x-autocompletetype="name"
+      />
+      Email для связи:
+      <input
+        type="email"
+        name="contactFF"
+        required
+        placeholder="адрес электронной почты"
+        x-autocompletetype="email"
+      />
+      Ваше сообщение:
+      <textarea name="messageFF" required rows="5"></textarea>
+      <input type="submit" value="отправить" />
+    </form>
+    <script language="javascript">
+      document.getElementById("feedback-form").onsubmit = function () {
+        var http = new XMLHttpRequest();
+        http.open("POST", "contacts.php", true);
+        http.setRequestHeader(
+          "Content-Type",
+          "application/x-www-form-urlencoded"
+        );
+        http.send(
+          "nameFF=" +
+            this.nameFF.value +
+            "&contactFF=" +
+            this.contactFF.value +
+            "&messageFF=" +
+            this.messageFF.value
+        );
+        http.onreadystatechange = function () {
+          if (http.readyState == 4 && http.status == 200) {
+            alert(
+              http.responseText +
+                ", Ваше сообщение получено. Наши специалисты ответят Вам в течение 2-х дней. Благодарим за интерес к нашей фирме!"
+            );
+          }
+        };
+        http.onerror = function () {
+          alert("Извините, данные не были переданы");
+        };
+        return false;
+      };
+    </script>
+  </body>
+</html>
