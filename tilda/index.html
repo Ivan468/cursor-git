@@ -135,7 +135,7 @@
     <script src="js/hammer.min.js" charset="utf-8" async=""></script>
     <script src="js/tilda-zoom-2.0.min.js" charset="utf-8" async=""></script>
     <script src="js/tilda-forms-1.0.min.js" charset="utf-8" async=""></script>
-
+    <script type="text/javascript" async="" id="t-phonemask-script" src="https://static.tildacdn.com/js/tilda-phone-mask-1.1.min.js"></script>
     <script type="text/javascript">
       if (
         /bot|google|yandex|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|spider|robot|crawling|facebook/i.test(
@@ -7320,7 +7320,7 @@
                           <input
                             type="tel"
                             class="t-input t-input-phonemask"
-                            name="Телефон"
+                            name="Телефон_без_кода"
                             value=""
                             placeholder="(99) 999-99-99"
                             data-phonemask-code="+380"
@@ -7336,7 +7336,7 @@
                             type="hidden"
                             class="js-phonemask-result js-tilda-rule"
                             data-tilda-rule="phone"
-                            name="Hidden"
+                            name="Телефон"
                             value=""
                             data-tilda-req="1"
                             tabindex="-1"

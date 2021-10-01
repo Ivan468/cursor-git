@@ -8,7 +8,9 @@ $(
         "https://script.google.com/macros/s/AKfycbxooaxsrIj8fbqZDYARFv8mdPxdgDqqXolob0-d0imfXZFzGeWzgSAhali3yTFTqu1I/exec";
 
       // Сообщение при успешной отправке данных
-      let successRespond = "Сообщение успешно отправлено.";  //Посмотрите результат <a target="_blank" href="https://docs.google.com/spreadsheets/d/1LC1EcXIlDyojRJqDlEhHG1OQ2ReSSvxGyo4pAm2lqLs/edit?usp=sharing">тут</a>';
+      let successRespond = function newLocation() {
+        window.location.href = "../pages/thanks.html";
+      };  //Посмотрите результат <a target="_blank" href="https://docs.google.com/spreadsheets/d/1LC1EcXIlDyojRJqDlEhHG1OQ2ReSSvxGyo4pAm2lqLs/edit?usp=sharing">тут</a>';
 
       // Сообщение при ошибке в отправке данных
       let errorRespond =
