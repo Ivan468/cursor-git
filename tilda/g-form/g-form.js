@@ -5,7 +5,7 @@ $(
 
       // Ссылка, которую получили на этапе публикации приложения
       let appLink =
-        "https://script.google.com/macros/s/AKfycbztynmea4gY7Z5qo4_l3yManQjrzE0WEwqpFdEoltbUN4zlHpA9b7rupfdoBo1-EKQn/exec";
+        "https://script.google.com/macros/s/AKfycbxya265UqSTSokyTu-ioRX94cEC1YxhPCYSRLUPGucwW6aHLOI0MqtAeJuYVF7NsY8/exec";
 
       // Сообщение при успешной отправке данных
       let successRespond = function newLocation() {
