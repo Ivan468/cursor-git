@@ -14,7 +14,7 @@ $(
 
       // Сообщение при ошибке в отправке данных
       let errorRespond =
-        'Не удалось отправить сообщение. Cвяжитесь с администратором сайта по адресу <a href="mailto:pig1995z@gmail.com">pig1995z@gmail.com</a>';
+        'Не удалось отправить сообщение. Cвяжитесь с администратором сайта по адресу <a href="mailto:genadiy.cvah@gmail.com">genadiy.cvah@gmail.com</a>';
 
       // Id текущей формы
       let form = $("#" + $(this).attr("id"))[0];
