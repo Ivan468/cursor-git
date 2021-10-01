@@ -1180,7 +1180,7 @@
                 t774__col_mobile-grid
               "
             >
-              <div class="t774__wrapper" style="background-color: #451E22 ">
+              <div class="t774__wrapper" style="background-color: #451e22">
                 <a href="#popup:myform">
                   <div
                     class="t774__imgwrapper"
@@ -1242,7 +1242,7 @@
                 t774__col_mobile-grid
               "
             >
-              <div class="t774__wrapper" style="background-color: #451E22 ">
+              <div class="t774__wrapper" style="background-color: #451e22">
                 <a href="#popup:myform">
                   <div
                     class="t774__imgwrapper"
@@ -1490,11 +1490,7 @@
                     class="
                       t-slds__arrow t-slds__arrow-left t-slds__arrow-withbg
                     "
-                    style="
-                      width: 30px;
-                      height: 30px;
-                      background-color: #975422;
-                    "
+                    style="width: 30px; height: 30px; background-color: #975422"
                   >
                     <div
                       class="t-slds__arrow_body t-slds__arrow_body-left"
@@ -1530,7 +1526,7 @@
                     style="
                       width: 30px;
                       height: 30px;
-                      background-color: #975422;;
+                      background-color: #975422; ;
                     "
                   >
                     <div
@@ -3260,6 +3256,7 @@
                         class="g-form__input g-form__input_name"
                         id="name"
                         name="Имя"
+                        required
                         placeholder="Введите ваше имя"
                         required
                       />
@@ -3269,15 +3266,18 @@
                       <input
                         class="g-form__input g-form__input_tel"
                         id="tel"
+                        required
                         name="Телефон"
+                        type="tel"
                         placeholder="Введите ваш телефон"
                       />
                     </fieldset>
 
-                       <fieldset class="g-form__input-wrapper">
+                    <fieldset class="g-form__input-wrapper">
                       <input
                         id="arbitrary-field"
                         name="Страна"
+                        required
                         placeholder="Ваша страна"
                       />
                     </fieldset>
@@ -3285,19 +3285,21 @@
                     <fieldset class="g-form__input-wrapper">
                       <input
                         id="email"
+                        required
                         name="Возраст"
-                       type="number"
+                        type="number"
+                        max="99"
+                        min="10"
                         value=""
                         required
                         placeholder="Введите ваш возраст"
                       />
                     </fieldset>
 
-                 
-
                     <fieldset class="g-form__input-wrapper">
                       <textarea
                         id="message"
+                        required
                         name="Сообщение"
                         rows="10"
                         placeholder="Опишите Вашу проблему"
