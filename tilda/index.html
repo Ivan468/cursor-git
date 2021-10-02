@@ -164,7 +164,7 @@
       }
     </script>
   </head>
-  <body class="t-body" style="margin: 0">
+  <body class="t-body t702_oupened" style="margin: 0">
     <!--allrecords-->
     <div
       id="allrecords"
@@ -8712,16 +8712,15 @@
     <script>
       $(window).scroll(function () {
         if (
-          $(window).scrollTop() + $(window).height() ==
-          $(document).height() + $(".t-body").hasClass("t702_oupened") // додає клас щоб другий раз не спрацьовувало
+             ($(window).scrollTop() + $(window).height() > $(document).height() - 200) && $(".t-body").hasClass("t702_oupened") // додає клас щоб другий раз не спрацьовувало
         ) {
           $(".t-popup").addClass("t-popup_show").css({ display: "block" });
           $(".t-width_7").addClass(
             "t-popup__container-static t-popup__container-animated"
           );
           $(".t-body").addClass(
-            "t-body_popupshowed t702__body_popupshowed  t702__body_popupshowed t702_oupened "
-          ); // додає клас щоб другий раз не спрацьовувало
+            "t-body_popupshowed t702__body_popupshowed  t702__body_popupshowed"
+          ).removeClass('t702_oupened'); // додає клас щоб другий раз не спрацьовувало
           $(".t702__img").addClass("loaded");
         }
       });
