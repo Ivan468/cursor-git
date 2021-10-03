@@ -931,6 +931,98 @@
         style="padding-top: 75px"
         data-record-type="544"
       >
+      <style>
+        .t-btn-tel{
+            position: fixed;
+            display: flex;
+            align-items:center;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: 6vh;
+    z-index: 800;
+    right: 6vw;
+    width: 55px;
+    height: 55px;
+    text-decoration: none;
+    border-radius: 50%;
+    transition-duration: 0.4s;
+    opacity: 1;
+    -webkit-animation:hoverWave linear 1s infinite;
+        animation:hoverWave linear 1s infinite;
+        }
+        #t-btn-tel-svg {
+          width: 100%;
+          height: 30px;
+          fill: #ffffff;
+        }
+
+
+        @-webkit-keyframes hoverWave {
+        0% {
+        box-shadow:0 8px 10px rgba(192,56,97,0.3),0 0 0 0 rgba(192,56,97,0.2),0 0 0 0 rgba(192,56,97,0.2)
+}
+40% {
+        box-shadow:0 8px 10px rgba(192,56,97,0.3),0 0 0 15px rgba(192,56,97,0.2),0 0 0 0 rgba(192,56,97,0.2)
+}
+80% {
+        box-shadow:0 8px 10px rgba(192,56,97,0.3),0 0 0 30px rgba(192,56,97,0),0 0 0 26.7px rgba(192,56,97,0.067)
+}
+100% {
+        box-shadow:0 8px 10px rgba(192,56,97,0.3),0 0 0 30px rgba(192,56,97,0),0 0 0 40px rgba(192,56,97,0.0)
+}
+}@keyframes hoverWave {
+        0% {
+        box-shadow:0 8px 10px rgba(192,56,97,0.3),0 0 0 0 rgba(192,56,97,0.2),0 0 0 0 rgba(192,56,97,0.2)
+}
+40% {
+        box-shadow:0 8px 10px rgba(192,56,97,0.3),0 0 0 15px rgba(192,56,97,0.2),0 0 0 0 rgba(192,56,97,0.2)
+}
+80% {
+        box-shadow:0 8px 10px rgba(192,56,97,0.3),0 0 0 30px rgba(192,56,97,0),0 0 0 26.7px rgba(192,56,97,0.067)
+}
+100% {
+        box-shadow:0 8px 10px rgba(192,56,97,0.3),0 0 0 30px rgba(192,56,97,0),0 0 0 40px rgba(192,56,97,0.0)
+}
+}
+      </style>
+      <a
+                        href="#popup:myform"
+                        target=""
+                        class="t-btn-tel"
+                        style="
+                          color: #ffffff;
+                          background-color: #38248e;
+                      
+                          
+                        "
+                        > 
+                           
+                             <svg version="1.1" id="t-btn-tel-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M498.808,377.784l-63.633-63.647c-16.978-16.978-46.641-17.007-63.647,0l-10.611,10.611l127.284,127.277l10.607-10.607
+			C516.427,423.798,516.368,395.314,498.808,377.784z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M339.116,345.37c-13.39,10.373-32.492,9.959-44.727-2.303L168.572,217.163c-12.263-12.263-12.676-31.379-2.303-44.736
+			L39.278,45.443c-54.631,63.68-52.495,159.633,7.8,219.928l199.103,199.19c57.86,57.858,152.635,65.532,219.932,7.797
+			L339.116,345.37z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M197.503,76.391L133.87,12.744c-16.978-16.978-46.641-17.007-63.647,0L59.612,23.355l127.284,127.277l10.607-10.608
+			C215.121,122.406,215.063,93.922,197.503,76.391z"/>
+	</g>
+</g>
+ 
+</svg> 
+                          
+                         </a
+                      >
         <!-- T544 -->
         <div style="width: 0; height: 0; overflow: hidden">
           <div
@@ -3281,13 +3373,7 @@
                     Оставьте Ваш телефон и я свяжусь с Вами
                   </div>
                 </div>
-                <!-- start FORM       class="
-                    t-form
-                    js-form-proccess
-                    t-form_inputs-total_7 t-form_bbonly
-                  "
-             -->
-
+                <!-- start FORM class="  t-form js-form-proccess  t-form_inputs-total_7 t-form_bbonly"-->
                 <form
                   id="form355526543"
                   class="g-form"
@@ -3310,16 +3396,6 @@
                         required
                       />
                     </fieldset>
-
-                    <!-- 
-
-                        <input 
-                        class="t-input t-input-phonemask"
-                         name="tildaspec-phone-part[]" 
-                         value="" placeholder="(99) 999-99-99"
-                          data-phonemask-code="+380" data-phonemask-mask="+380(99) 999-99-99"
-                           maxlength="14" data-phonemask-without-code="(99) 999-99-99" style="color: rgb(0, 0, 0); font-size: 16px; font-weight: 400;">
-                       -->
                     <div
                       class="t-input-group t-input-group_ph"
                       data-input-lid="1631455076690"
@@ -7446,7 +7522,6 @@
                         <div class="t-input-error"></div>
                       </div>
                     </div>
-
                     <fieldset class="g-form__input-wrapper">
                       <input
                         id="arbitrary-field"
@@ -7468,12 +7543,7 @@
                         "
                       />
                     </fieldset>
-
                     <fieldset class="g-form__input-wrapper">
-                      <!--
-                         type="text" 
-                         name="Age"
-                           placeholder="Ваш возраст" data-tilda-req="1" -->
                       <input
                         id="email"
                         required
@@ -7495,7 +7565,6 @@
                         "
                       />
                     </fieldset>
-
                     <fieldset class="g-form__input-wrapper">
                       <textarea
                         id="message"
@@ -7518,7 +7587,6 @@
                         placeholder="Опишите Вашу проблему"
                       ></textarea>
                     </fieldset>
-
                     <fieldset
                       class="g-form__input-wrapper g-form__input-wrapper_hidden"
                     >
@@ -7533,13 +7601,11 @@
                         value=""
                       />
                     </fieldset>
-
                     <div class="g-form__button-wrapper">
                       <button class="g-form__button">ЗАКАЗАТЬ ЗВОНОК</button>
                     </div>
                   </div>
                 </form>
-
                 <!-- end form -->
                 <style>
                   .g-form {
