@@ -163,6 +163,46 @@
         });
       }
     </script>
+    <meta
+      name="facebook-domain-verification"
+      content="y6hbqi23y7yy84ufuwpimb5cgj53w4"
+    />
+    <!-- Facebook Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "1472414349788356");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=1472414349788356&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
   </head>
   <body class="t-body t702_oupened" style="margin: 0">
     <!--allrecords-->
@@ -1051,67 +1091,98 @@
             style="height: 560px"
           ></div>
         </div>
-        <div class="t544">
-          <div class="t-container img-flex-rev">
-            <div class="t544__top t544__col t-col t-col_6">
-              <div class="t544__textwrapper t-align_left" style="height: 560px">
-                <div class="t544__content t-valign_middle">
-                  <div class="t544__title t-heading t-heading_xs" field="title">
-                    Джулия Ванг
-                  </div>
-                  <div class="t544__descr t-descr t-descr_xxs" field="descr">
-                    Ведьма из Риги. Победительница XV сезона Битвы Экстрасенсов.
-                  </div>
-                  <div
-                    class="t544__line"
-                    style="background-color: #38248e"
-                  ></div>
-
-                  <div class="t544__text t-text t-text_sm" field="text">
-                    Экстрасенс из Риги. Открыла дар чувствовать и слышать духов.
-                    Победитель шоу «Битва Экстрасенсов». Медиум из Риги, Латвия.
-                    Открыла дар чувствовать и слышать духов в юности. Её
-                    экстрасенсорные способности поразили всех на известном шоу
-                    «Битва экстрасенсов», в начале передачи она не казалось
-                    фаворитом, однако смогла с легкостью пройти все испытания и
-                    победить. Славится своими силами в снятии порчи,
-                    восстановлении семьи и исправлении финансовых потоков. За
-                    время своих практик помогла тысячам людей с их проблемами.Я
-                    обязательно помогу вам! Звоните и получите помощь уже
-                    сегодня! Боритесь за своё личное счастье! Семинар «Сила
-                    мысли»Марафон «Защита от тёмных сил»
-                  </div>
-                </div>
-              </div>
+        <div class="container-grid-dj">
+          <div class="title-julia">
+            <div class="t544__title t-heading t-heading_xs" field="title">
+              Джулия Ванг
             </div>
-            <div class="t544__col t-col t-col_6">
-              <div
-                class="t544__blockimg t-bgimg"
-                bgimgfield="img"
-                data-original="./img/wang-j.jpg"
-                style="background-image: url('./img/wang-j.jpg'); height: 560px"
-              ></div>
+            <div class="t544__descr t-descr t-descr_xxs" field="descr">
+              Ведьма из Риги. Победительница XV сезона Битвы Экстрасенсов.
+            </div>
+            <div class="t544__line" style="background-color: #38248e"></div>
+          </div>
+          <div class="decs-djulia">
+            <div class="t544__text t-text t-text_sm" field="text">
+              Экстрасенс из Риги. Открыла дар чувствовать и слышать духов.
+              Победитель шоу «Битва Экстрасенсов». Медиум из Риги, Латвия.
+              Открыла дар чувствовать и слышать духов в юности. Её
+              экстрасенсорные способности поразили всех на известном шоу «Битва
+              экстрасенсов», в начале передачи она не казалось фаворитом, однако
+              смогла с легкостью пройти все испытания и победить. Славится
+              своими силами в снятии порчи, восстановлении семьи и исправлении
+              финансовых потоков. За время своих практик помогла тысячам людей с
+              их проблемами.Я обязательно помогу вам! Звоните и получите помощь
+              уже сегодня! Боритесь за своё личное счастье! Семинар «Сила
+              мысли»Марафон «Защита от тёмных сил»
             </div>
           </div>
+          <div class="img-djul">
+            <div
+              class="t544__blockimg t-bgimg"
+              bgimgfield="img"
+              data-original="./img/wang-j.jpg"
+              style="background-image: url('./img/wang-j.jpg'); height: 560px"
+            ></div>
+          </div>
         </div>
-        <script>
-          $(window).resize(function () {
-            if (
-              typeof window.noAdaptive != "undefined" &&
-              window.noAdaptive == true &&
-              $isMobile
-            ) {
-              return;
+        <style>
+          .container-grid-dj {
+            display: grid;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 15px 15px;
+            grid-auto-flow: row;
+            grid-template-areas:
+              "title-julia img-djul"
+              "decs-djulia img-djul"
+              "decs-djulia img-djul";
+          }
+          sf .title-julia {
+            grid-area: title-julia;
+          }
+
+          .decs-djulia {
+            grid-area: decs-djulia;
+          }
+
+          .img-djul {
+            grid-area: img-djul;
+          }
+
+          .img-djul {
+            order: 3;
+          }
+          .decs-djulia {
+            order: 2;
+          }
+
+          @media screen and (max-width: 960px) {
+            .container-grid-dj {
+              display: flex;
+              padding: 20px;
+              flex-direction: column;
             }
-            t544_setHeight("355511676");
-          });
-          $(".t544").bind("displayChanged", function () {
-            t544_setHeight("355511676");
-          });
-          $(document).ready(function () {
-            t544_setHeight("355511676");
-          });
-        </script>
+            .img-djul {
+              order: 1;
+              margin-top: 15px;
+            }
+
+            .decs-djulia {
+              order: 2;
+            }
+          }
+          @media screen and (max-width: 660px) {
+            .img-djul .t544__blockimg {
+              max-height: 360px;
+            }
+            #rec355512804 .t189__wrapper {
+              margin-top: 138px;
+            }
+          }
+        </style>
       </div>
       <div
         id="rec355656230"
