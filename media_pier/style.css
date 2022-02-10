@@ -1,20 +1,47 @@
 body {
-    padding-top: 15vh;
+  padding-top: 15vh;
+  font-family: "Interstate Regular";
 }
 
 main {
-    min-height: 100vh;
-    width: 100%;
-    background: center / cover no-repeat url(./img/unsplash_bearb.jpg) ;
+  min-height: 100vh;
+  width: 100%;
+  background: center / cover no-repeat url(./img/unsplash_bearb.jpg);
 }
 
 .logo img {
-    
-   height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
 }
 .logo {
-    display: flex;
-    max-width: 800px;
- margin: 0 auto;
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.left-main-kontakt {
+  padding: 120px 20px 120px 20px;
+  max-width: 378px;
+  background-color: #00acde;
+  border-radius: 0 20px 20px 0;
+line-height: 26px;
+color: white;
+font-size: 16px;
+}
+.left-main-kontakt a {
+  color: inherit;
+  text-decoration: none;
+  
+  transition: all 0.3s;
+}
+.left-main-kontakt a:hover {
+  color: rgb(87, 87, 87);
+}
+h2 {
+  margin-bottom: 20px;
+  font-family: "Interstate Bold";
+  color: white;
+}
+
+.contact-text {
+  font-family: "Interstate Light";
 }
