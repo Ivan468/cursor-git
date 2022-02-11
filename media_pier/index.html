@@ -21,6 +21,7 @@
           </div>
 
           <div class="hidden left-main-kontakt">
+               <div class="close">  </div>
             <h3>MEDIApier HAMBURG GMBH</h3>
             <div class="contact-text">
               <p>Sitz: Amtsgericht Hamburg HRB 143287</p>
@@ -41,6 +42,7 @@
                 >
               </p>
             </div>
+         
           </div>
         </div>
         <div class="right-date">
@@ -49,6 +51,9 @@
           </div>
           <div class="right-main-date hidden-right">
             <div class="date-text">
+              <div class="close-r">
+               
+              </div>
               <p>
                 <b>
                   § 1 Information über die Erhebung personenbezogener Daten</b
@@ -102,9 +107,11 @@
                 Datenschutz-Aufsichtsbehörde über die Verarbeitung Ihrer
                 personenbezogenen Daten durch uns zu beschweren.
               </p>
-              <p> <b>  § 3 Erhebung personenbezogener Daten bei Besuch unserer
-                Internetseite</b>
-              
+              <p>
+                <b>
+                  § 3 Erhebung personenbezogener Daten bei Besuch unserer
+                  Internetseite</b
+                >
               </p>
 
               <p>
@@ -316,6 +323,12 @@
     <script>
       $(".left-h2").on("click", function () {
         $(".left-main-kontakt").toggleClass("hidden");
+      });
+       $(".close").on("click", function () {
+        $(".left-main-kontakt").toggleClass("hidden");
+      });
+       $(".close-r").on("click", function () {
+        $(".right-main-date").toggleClass("hidden-right");
       });
       $(".right-h2").on("click", function () {
         $(".right-main-date").toggleClass("hidden-right");
