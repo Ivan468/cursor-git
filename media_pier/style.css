@@ -50,8 +50,8 @@ main {
   position: absolute;
   /* right: -100%; */
   right: 0%;
-  padding: 40px 80px;
-  background: white;
+  display: flex;
+  flex-direction: row-reverse;
 }
 h3 {
   margin-bottom: 20px;
@@ -73,6 +73,37 @@ h3 {
   text-transform: uppercase;
   border-radius: 00px 20px 20px 00px;
 }
+.right-h2 {
+  text-transform: uppercase;
+  cursor: pointer;
+  transform: rotate(-90deg);
+  padding: 20px;
+  text-align: center;
+  max-width: 100%;
+  display: flex;
+  width: 360px;
+  justify-content: center;
+  background-color: white;
+  color: #00acde;
+  font-size: 30px;
+  border-radius: 20px 20px 0px 0px;
+  top: 167px;
+  right: -166px;
+  position: relative;
+  border: 1px solid black;
+}
+.right-main-date {
+  padding: 40px 80px;
+  background: white;
+  border-radius: 20px 0px 0px 20px;
+  transform: translate(0%);
+   transition: .5s all;
+     z-index: 1;
+}
+.js-btn-text {
+  position: absolute;
+  z-index: 2;
+}
 .js-btn {
   z-index: 2;
 }
@@ -85,11 +116,12 @@ b {
 }
 
 .date-text {
-  max-height: 600px;
+  max-height: 333px;
   overflow-y: scroll;
   max-width: 70vw;
   background: white;
   font-family: "Interstate Light";
+  padding: 0 40px 0 0;
 }
 .date-text p {
   margin-bottom: 20px;
@@ -97,4 +129,8 @@ b {
 
 .hidden {
   transform: translate(-100%);
+}
+
+.hidden-right {
+  transform: translate(100%);
 }

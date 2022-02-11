@@ -46,6 +46,11 @@
           </div>
         </div>
         <div class="right-date">
+            <div class="js-btn-text">
+                <h2 class="right-h2">
+                    Datenschutz
+                </h2>
+            </div>
              <div class="right-main-date">
                  <div class="date-text">
 
@@ -124,6 +129,9 @@ Weitergehende Informationen sowie die geltenden Datenschutzbestimmungen von Goog
     <script>
         $('.left-h2').on('click', function() {
   $('.left-main-kontakt').toggleClass('hidden');
+});
+$('.right-h2').on('click', function() {
+  $('.right-main-date').toggleClass('hidden-right');
 });
     </script>
   </body>
