@@ -93,12 +93,12 @@ h3 {
   border: 1px solid black;
 }
 .right-main-date {
-  padding: 40px 80px;
+  padding: 40px 15% 40px 10%;
   background: white;
   border-radius: 20px 0px 0px 20px;
   transform: translate(0%);
-   transition: .5s all;
-     z-index: 1;
+  transition: 0.5s all;
+  z-index: 1;
 }
 .js-btn-text {
   position: absolute;
@@ -133,4 +133,20 @@ b {
 
 .hidden-right {
   transform: translate(100%);
+}
+.date-text::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.date-text::-webkit-scrollbar-track {
+  outline: 1px solid #c9c9c9;
+  border-radius: 20px;
+}
+
+.date-text::-webkit-scrollbar-thumb {
+  background-color: #c9c9c9;
+  border-radius: 20px;
+  outline: 1px solid #c9c9c9;
 }
