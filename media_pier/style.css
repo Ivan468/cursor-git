@@ -59,6 +59,7 @@ h3 {
   color: white;
 }
 .left-h2 {
+  cursor: pointer;
   writing-mode: vertical-rl;
   padding: 20px;
   text-align: center;
@@ -96,5 +97,4 @@ b {
 
 .hidden {
   transform: translate(-100%);
-
 }
