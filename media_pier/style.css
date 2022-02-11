@@ -116,7 +116,7 @@ b {
 }
 
 .date-text {
-  max-height: 333px;
+  max-height: 324px;
   overflow-y: scroll;
   max-width: 70vw;
   background: white;
