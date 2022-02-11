@@ -50,8 +50,7 @@ main {
   position: absolute;
   /* right: -100%; */
   right: 0%;
-  padding: 20px;
-  padding-right: 80px;
+  padding: 40px 80px;
   background: white;
 }
 h3 {
