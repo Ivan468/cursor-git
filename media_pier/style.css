@@ -21,7 +21,7 @@ main {
   margin-bottom: 80px;
 }
 .left-main-kontakt {
-  padding: 120px 20px 120px 20px;
+  padding: 120px 20px 40px 20px;
   max-width: 378px;
   background-color: #00acde;
   border-radius: 0 20px 20px 0;
@@ -105,10 +105,10 @@ h3 {
 }
 .js-btn-text {
   position: absolute;
- 
 }
 .js-btn {
   z-index: 2;
+  max-width: 70px;
 }
 
 b {
@@ -131,7 +131,7 @@ b {
 }
 
 .hidden {
-  transform: translate(-100%);
+  transform: translate(-120%);
 }
 
 .hidden-right {
@@ -173,14 +173,13 @@ b {
   z-index: 6;
 }
 .logo {
-    padding: 10px 20px;
-  }
+  padding: 10px 20px;
+}
 @media screen and (max-width: 650px) {
   .right-main-date {
     padding: 40px 80px 40px 40px;
     max-width: 350px;
   }
-  
 }
 @media screen and (max-width: 526px) {
   .right-h2 {
