@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <meta charset="utf-8" />
     <meta name="title" content="Test AVIF format" />
     <meta name="description" content="Test avi Format" />
     <meta name="keywords" content="AVIF, new format, " />
@@ -12,35 +13,60 @@
         max-width: 100%;
         height: auto;
       }
+      .icons {
+        display: flex;
+      }
+       .icons img {
+         max-height: 166px;
+       }
     </style>
   </head>
   <body>
-    <meta charset="utf-8" />
-    <h1>Test Awif format</h1>
-    <p>309 kb</p>
-    <picture>
-      <source srcset="./6681_20160109.avif" type="image/avif" />
-      <!-- Test Awif -->
+    <div class="icons">
+      <!-- <img src="./ecopro/Artboard 1-fr.png" alt="" /> -->
+      <img src="./ecopro/d_bpi copy-fr.png" alt="">
+      <img src="./ecopro/d_bpi-fr.png" alt="">
+      <img src="./ecopro/d_landfill-fr.png" alt="">
+      <img src="./ecopro/d_recyclable-fr.png" alt="">
+    </div>
+       <div class="icons">
+      <!-- <img src="./ecopro/Artboard 1-fr.png" alt="" /> -->
+      <img src="./eco2/d_bpi copy-fr.png" alt="">
+      <img src="./eco2/d_bpi-fr.png" alt="">
+      <img src="./eco2/d_landfill-fr.png" alt="">
+      <img src="./eco2/d_recyclable-fr.png" alt="">
+      <img src="./eco2/m_pla7-fr.png" alt="">
+      <img src="./eco2/m_sugarcane-fr.png" alt="">
+    </div>
 
-      <img
-        class="img"
-        loading="lazy"
-        src="./6681_20160109.JPG"
-        alt="description of example image JPG"
-      />
-    </picture>
-    <h1>jpg</h1>
-    <p>2 511 kb</p>
-    <picture>
-      <source srcset="./6681_20160109.JPG" />
+    <div class="avif-wr">
+      <h1>Test Awif format</h1>
+      <p>309 kb</p>
+      <picture>
+        <source srcset="./6681_20160109.avif" type="image/avif" />
+        <!-- Test Awif -->
 
-      <img
-        class="img"
-        loading="lazy"
-        src="./6681_20160109.JPG"
-        alt="description of example image JPG"
-      />
-    </picture>
+        <img
+          class="img"
+          loading="lazy"
+          src="./6681_20160109.JPG"
+          alt="description of example image JPG"
+        />
+      </picture>
+
+      <h1>jpg</h1>
+      <p>2 511 kb</p>
+      <picture>
+        <source srcset="./6681_20160109.JPG" />
+
+        <img
+          class="img"
+          loading="lazy"
+          src="./6681_20160109.JPG"
+          alt="description of example image JPG"
+        />
+      </picture>
+    </div>
     <h2>GIT commands</h2>
     <section>
       <div class="subsection">
